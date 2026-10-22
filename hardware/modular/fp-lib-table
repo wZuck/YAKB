@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "YAKB") (type "KiCad") (uri "${KIPRJMOD}/../YAKB.pretty") (options "") (descr "A0 module footprint")) (lib (name "YAKB_MOD") (type "KiCad") (uri "${KIPRJMOD}/YAKB_MOD.pretty") (options "") (descr "B1 interposer")))

@@ -1,0 +1,5 @@
+YAKB B1 CUSTOM SINGLE-SIDED FLEX - ENGINEERING PROTOTYPE
+Do not use the default rigid FR4 / two-layer stack. B.Cu is the only physical copper layer.
+Read FLEX-STACKUP.json and docs/modular/README.md before quoting.
+STOP full-flex manufacture until the connector mating coupon is qualified.
+0.30 mm stiffened ends, exposed finger dimensions and contact elevation remain unqualified.

@@ -1,10 +1,12 @@
 # YAKB — Yet Another KeyBoard
 
 
-> **外壳 USB 尚未完成装配验证：** 左后开口与右前主控不直接对齐，内部延长线与固定结构仍待接口改版，详见[接口状态](docs/assembly-interface.zh-CN.md)。
+> **当前推荐：B1 独立主控方案。** 主控移到后左独立载板，USB 从左侧直接插入；原主板 U1 只装无源转接板。请先看 [B1 结构、PCB、FPC 与验证边界](docs/modular/README.zh-CN.md) 和 [B1 焊接工作台](hardware/soldering/b1/index.html)。下方 A0 图表保留作基础设计参考。
+
+![YAKB B1](assets/modular/B1-closed.png)
 
 
-[打开离线交互焊接工作台](hardware/soldering/index.html)：18 步高亮定位图、元件筛选、完成度保存、图片放大与打印。
+[A0 历史版焊接工作台](hardware/soldering/index.html)：18 步高亮定位图、元件筛选、完成度保存、图片放大与打印。
 
 [English](README.md) · [中文设计说明](docs/design.zh-CN.md) · [焊接与装配顺序](docs/soldering-guide.zh-CN.md) · [兼容性](docs/compatibility.zh-CN.md)
 
@@ -23,7 +25,7 @@ NiZ 静电容机构、60 键 HHKB 配列、6u 空格、蓝牙 / USB、内置电�
 | 主控 | 可更换 nice!nano v2；通过 2.54 mm 通孔焊接；无需手焊 nRF52840、晶振或射频匹配 |
 | 模拟前端 | 2 × CD74HC4051M96、1 × OPA350UA、1 × AO3401A；阻容采用 0805 手焊焊盘 |
 | 电池 | 带保护 1S LiPo，1000 mAh 为计算基准；包含保护板及线出口后的外包络 ≤ 60 × 35 × 5.5 mm |
-| USB | 成品 USB 2.0 数据延长组件接主控 USB-C；不是仅充电线，也不是裸露的 Type-C CC 转接板 |
+| USB | B1 直接连接后左独立主控；A0 内部延长线方案保留为历史参考 |
 | 自有打印壳 | 299 × 108.6 mm；底壳、HHKB 上框、STEP / STL、总装 STEP；约 1.95° 浅楔形底面，R8 圆角与内收下裙 |
 | 其他外壳 | GH60 / Poker 托盘体系为兼容目标；PH60 HHKB 6u 为打印壳复用候选；均须核对实际型号 |
 

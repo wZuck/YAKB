@@ -1,5 +1,7 @@
 # YAKB 电气、干扰与功耗分析
 
+> **B1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
+
 [English](electrical-analysis.md) · [计算数据](../reports/electrical-analysis.json) · [多电池研究](battery-options.zh-CN.md)
 
 结论：支持 USB HID 和 BLE HID；已修复可确定的连接、封装和固件问题，但本版还没有实板噪声、射频或电流测量，不能把 ERC/DRC 通过当成抗干扰认证。下面明确区分原生文件测量、器件资料和计算假设。

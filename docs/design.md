@@ -1,5 +1,7 @@
 # YAKB A0 design
 
+> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+
 [简体中文完整说明](design.zh-CN.md). Date: 2026-10-22. **YAKB — Yet Another KeyBoard** is an engineering prototype with editable electrical and mechanical sources. The reports distinguish file-level checks from physical validation.
 
 ![Generated assembly with simplified keycap envelopes](../assets/assembly-render.png)

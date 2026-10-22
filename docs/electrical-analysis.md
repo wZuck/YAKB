@@ -1,5 +1,7 @@
 # Electrical integrity, interference and power budget
 
+> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+
 [简体中文](electrical-analysis.zh-CN.md) · [Calculated data](../reports/electrical-analysis.json) · [Battery options](battery-options.md)
 
 USB HID and BLE HID are both enabled in both actual builds. Fn+5 selects USB, Fn+6 selects BLE, and Fn+1/2/3 selects BLE profiles. USB is initially preferred; manual selection persists. One endpoint receives reports at a time. USB data works with the battery disconnected; select BLE to type wirelessly while USB powers the board. The battery switch must be on for charging. [ZMK output behavior](https://zmk.dev/docs/keymaps/behaviors/outputs)

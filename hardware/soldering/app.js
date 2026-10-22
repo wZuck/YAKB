@@ -4,7 +4,7 @@
   if (!data) return;
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const key = 'yakb-a0-soldering-v1';
+  const key = data.storageKey || 'yakb-a0-soldering-v1';
   let checked = new Set(), phase = '', ascending = true;
   try { checked = new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch { /* private/local mode */ }
   const valid = new Set(data.steps.map(s=>s.id));

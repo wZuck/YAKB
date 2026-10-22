@@ -1,0 +1,25 @@
+Carrier_JF1_pin,Interposer_JF1_pin,System_net,Contact_rule
+1,24,GND,bottom contact both ends; connector B rotated 180 degrees
+2,23,VCC,bottom contact both ends; connector B rotated 180 degrees
+3,22,GND,bottom contact both ends; connector B rotated 180 degrees
+4,21,ROW_DRV0,bottom contact both ends; connector B rotated 180 degrees
+5,20,ROW_DRV1,bottom contact both ends; connector B rotated 180 degrees
+6,19,ROW_DRV2,bottom contact both ends; connector B rotated 180 degrees
+7,18,ROW_DRV3,bottom contact both ends; connector B rotated 180 degrees
+8,17,ROW_DRV4,bottom contact both ends; connector B rotated 180 degrees
+9,16,GND,bottom contact both ends; connector B rotated 180 degrees
+10,15,MUX_A,bottom contact both ends; connector B rotated 180 degrees
+11,14,MUX_B,bottom contact both ends; connector B rotated 180 degrees
+12,13,MUX_C,bottom contact both ends; connector B rotated 180 degrees
+13,12,MUX0_INH,bottom contact both ends; connector B rotated 180 degrees
+14,11,MUX1_INH,bottom contact both ends; connector B rotated 180 degrees
+15,10,DRAIN,bottom contact both ends; connector B rotated 180 degrees
+16,9,AFE_ON_N,bottom contact both ends; connector B rotated 180 degrees
+17,8,GND,bottom contact both ends; connector B rotated 180 degrees
+18,7,ADC_FLEX,bottom contact both ends; connector B rotated 180 degrees
+19,6,GND,bottom contact both ends; connector B rotated 180 degrees
+20,5,RESET,bottom contact both ends; connector B rotated 180 degrees
+21,4,GND,bottom contact both ends; connector B rotated 180 degrees
+22,3,BAT_SW,bottom contact both ends; connector B rotated 180 degrees
+23,2,BAT_SW,bottom contact both ends; connector B rotated 180 degrees
+24,1,GND,bottom contact both ends; connector B rotated 180 degrees

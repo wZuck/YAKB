@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/wzy/workspace/YAKB/hardware/modular/YAKB-controller-B1.kicad_sch</source>
+    <date>2026-10-23T03:16:43</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>YAKB-controller-B1 ENGINEERING PROTOTYPE</title>
+        <company/>
+        <rev>B1</rev>
+        <date/>
+        <source>YAKB-controller-B1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1nF_C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-controller-B1_C1" description=""/>
+      <property name="Sheetname" value="YAKB-controller-B1"/>
+      <property name="Sheetfile" value="YAKB-controller-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d82e13-e6e4-53d8-9d19-14e700b98279</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-controller-B1_C2" description=""/>
+      <property name="Sheetname" value="YAKB-controller-B1"/>
+      <property name="Sheetfile" value="YAKB-controller-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12954e1f-e9a5-5264-b909-8c5329102e30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JF1">
+      <value>Molex 200528-0240</value>
+      <footprint>Connector_FFC-FPC:Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_FFC-FPC:Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-controller-B1_JF1" description=""/>
+      <property name="Sheetname" value="YAKB-controller-B1"/>
+      <property name="Sheetfile" value="YAKB-controller-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a132557-bec3-5242-9d79-ded75e984732</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>nice!nano_v2</value>
+      <footprint>YAKB:nice_nano</footprint>
+      <fields>
+        <field name="Footprint">YAKB:nice_nano</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-controller-B1_U1" description=""/>
+      <property name="Sheetname" value="YAKB-controller-B1"/>
+      <property name="Sheetfile" value="YAKB-controller-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47b0460c-5cc1-53c9-9232-12608e00053e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="YAKB_B1" part="YAKB-controller-B1_C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">1nF_C0G</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADC_FLEX" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB_B1" part="YAKB-controller-B1_C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB_B1" part="YAKB-controller-B1_JF1">
+      <fields>
+        <field name="Reference">JF1</field>
+        <field name="Value">Molex 200528-0240</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="ROW_DRV0" type="passive"/>
+        <pin num="5" name="ROW_DRV1" type="passive"/>
+        <pin num="6" name="ROW_DRV2" type="passive"/>
+        <pin num="7" name="ROW_DRV3" type="passive"/>
+        <pin num="8" name="ROW_DRV4" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="MUX_A" type="passive"/>
+        <pin num="11" name="MUX_B" type="passive"/>
+        <pin num="12" name="MUX_C" type="passive"/>
+        <pin num="13" name="MUX0_INH" type="passive"/>
+        <pin num="14" name="MUX1_INH" type="passive"/>
+        <pin num="15" name="DRAIN" type="passive"/>
+        <pin num="16" name="AFE_ON_N" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="ADC_FLEX" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="RESET" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="BAT_SW" type="passive"/>
+        <pin num="23" name="BAT_SW" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="MP" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB_B1" part="YAKB-controller-B1_U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">nice!nano_v2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV1" type="passive"/>
+        <pin num="2" name="ROW_DRV0" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ROW_DRV2" type="passive"/>
+        <pin num="6" name="ROW_DRV3" type="passive"/>
+        <pin num="7" name="ROW_DRV4" type="passive"/>
+        <pin num="8" name="MUX_A" type="passive"/>
+        <pin num="9" name="MUX_B" type="passive"/>
+        <pin num="10" name="MUX_C" type="passive"/>
+        <pin num="11" name="MUX0_INH" type="passive"/>
+        <pin num="12" name="MUX1_INH" type="passive"/>
+        <pin num="13" name="DRAIN" type="passive"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="AFE_ON_N" type="passive"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="ADC_FLEX" type="passive"/>
+        <pin num="19" name="NC" type="passive"/>
+        <pin num="20" name="NC" type="passive"/>
+        <pin num="21" name="VCC" type="passive"/>
+        <pin num="22" name="RESET" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="BAT_SW" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="YAKB_B1">
+      <uri>${KIPRJMOD}/YAKB_B1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC_FLEX" class="Default">
+      <node ref="C1" pin="1" pinfunction="ADC_FLEX_1" pintype="passive"/>
+      <node ref="JF1" pin="18" pinfunction="ADC_FLEX_18" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="ADC_FLEX_18" pintype="passive"/>
+    </net>
+    <net code="2" name="AFE_ON_N" class="Default">
+      <node ref="JF1" pin="16" pinfunction="AFE_ON_N_16" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="AFE_ON_N_16" pintype="passive"/>
+    </net>
+    <net code="3" name="BAT_SW" class="Default">
+      <node ref="JF1" pin="22" pinfunction="BAT_SW_22" pintype="passive"/>
+      <node ref="JF1" pin="23" pinfunction="BAT_SW_23" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="BAT_SW_24" pintype="passive"/>
+    </net>
+    <net code="4" name="DRAIN" class="Default">
+      <node ref="JF1" pin="15" pinfunction="DRAIN_15" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="DRAIN_13" pintype="passive"/>
+    </net>
+    <net code="5" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="JF1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="JF1" pin="17" pinfunction="GND_17" pintype="passive"/>
+      <node ref="JF1" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="JF1" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="JF1" pin="24" pinfunction="GND_24" pintype="passive"/>
+      <node ref="JF1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="JF1" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="JF1" pin="MP" pinfunction="GND_MP" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="6" name="MUX0_INH" class="Default">
+      <node ref="JF1" pin="13" pinfunction="MUX0_INH_13" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="MUX0_INH_11" pintype="passive"/>
+    </net>
+    <net code="7" name="MUX1_INH" class="Default">
+      <node ref="JF1" pin="14" pinfunction="MUX1_INH_14" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="MUX1_INH_12" pintype="passive"/>
+    </net>
+    <net code="8" name="MUX_A" class="Default">
+      <node ref="JF1" pin="10" pinfunction="MUX_A_10" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="MUX_A_8" pintype="passive"/>
+    </net>
+    <net code="9" name="MUX_B" class="Default">
+      <node ref="JF1" pin="11" pinfunction="MUX_B_11" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="MUX_B_9" pintype="passive"/>
+    </net>
+    <net code="10" name="MUX_C" class="Default">
+      <node ref="JF1" pin="12" pinfunction="MUX_C_12" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="MUX_C_10" pintype="passive"/>
+    </net>
+    <net code="11" name="RESET" class="Default">
+      <node ref="JF1" pin="20" pinfunction="RESET_20" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="RESET_22" pintype="passive"/>
+    </net>
+    <net code="12" name="ROW_DRV0" class="Default">
+      <node ref="JF1" pin="4" pinfunction="ROW_DRV0_4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="ROW_DRV0_2" pintype="passive"/>
+    </net>
+    <net code="13" name="ROW_DRV1" class="Default">
+      <node ref="JF1" pin="5" pinfunction="ROW_DRV1_5" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ROW_DRV1_1" pintype="passive"/>
+    </net>
+    <net code="14" name="ROW_DRV2" class="Default">
+      <node ref="JF1" pin="6" pinfunction="ROW_DRV2_6" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="ROW_DRV2_5" pintype="passive"/>
+    </net>
+    <net code="15" name="ROW_DRV3" class="Default">
+      <node ref="JF1" pin="7" pinfunction="ROW_DRV3_7" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="ROW_DRV3_6" pintype="passive"/>
+    </net>
+    <net code="16" name="ROW_DRV4" class="Default">
+      <node ref="JF1" pin="8" pinfunction="ROW_DRV4_8" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="ROW_DRV4_7" pintype="passive"/>
+    </net>
+    <net code="17" name="VCC" class="Default">
+      <node ref="C2" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="JF1" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC_21" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U1-NC-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-NC-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-NC-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="NC_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-NC-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="NC_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-NC-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="NC_20" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

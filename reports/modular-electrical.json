@@ -1,0 +1,65 @@
+{
+  "status": "unmeasured engineering estimates; equal-return-current assumption",
+  "native_conductor_lengths_mm": {
+    "LINE01_GND": 228.95838770373916,
+    "LINE02_VCC": 228.9583877037391,
+    "LINE03_GND": 228.9583877037391,
+    "LINE04_ROW_DRV0": 228.95838770373916,
+    "LINE05_ROW_DRV1": 228.9583877037392,
+    "LINE06_ROW_DRV2": 228.95838770373922,
+    "LINE07_ROW_DRV3": 228.9583877037391,
+    "LINE08_ROW_DRV4": 228.95838770373916,
+    "LINE09_GND": 228.95838770373925,
+    "LINE10_MUX_A": 228.95838770373916,
+    "LINE11_MUX_B": 228.9583877037391,
+    "LINE12_MUX_C": 228.958387703739,
+    "LINE13_MUX0_INH": 228.95838770373916,
+    "LINE14_MUX1_INH": 228.95838770373905,
+    "LINE15_DRAIN": 228.95838770373916,
+    "LINE16_AFE_ON_N": 228.95838770373916,
+    "LINE17_GND": 228.95838770373913,
+    "LINE18_ADC_FLEX": 228.95838770373913,
+    "LINE19_GND": 228.95838770373916,
+    "LINE20_RESET": 228.95838770373922,
+    "LINE21_GND": 228.95838770373908,
+    "LINE22_BAT_SW": 228.95838770373913,
+    "LINE23_BAT_SW": 228.95838770373908,
+    "LINE24_GND": 228.9583877037392
+  },
+  "copper_resistivity_ohm_mm2_per_m": 0.01724,
+  "nominal_cross_section_mm2": 0.00525,
+  "max_conductor_resistance_ohm": 0.7518557340976122,
+  "battery_loop_ohm_ideal": 0.4833358290627507,
+  "charge_current_A": 0.1,
+  "charge_loop_drop_V": 0.04833358290627507,
+  "charge_loop_loss_W": 0.004833358290627508,
+  "charge_ground_offset_V_ideal": 0.010740796201394462,
+  "ADC_filter_time_constant_s": 4.7751855734097614e-08,
+  "ADC_ideal_full_step_half_LSB_settle_s": 4.302878341917352e-07,
+  "ADC_ideal_cutoff_Hz": 3332958.282880919,
+  "assumed_extra_digital_current_A": [
+    1.9799999999999997e-06,
+    1.9799999999999997e-05
+  ],
+  "assumptions": [
+    "35um copper and 0.15mm traces; contact/pin/rigid trace resistance excluded.",
+    "Ground current is assumed equal across seven conductors; real sharing and switching loops differ.",
+    "Capacitive load 10..100pF per twelve digital lines and effective 5kHz charging are hypothetical.",
+    "RC settling excludes amplifier/distributed cable behaviour and interrupt scheduling.",
+    "No RF/EMC simulation, charge-temperature, analog-noise or runtime measurements."
+  ],
+  "assumed_ADC_filter_full_swing_current_A": 2.8285714285714284e-05,
+  "assumed_activity_current_A": [
+    0.004060265714285714,
+    0.004078085714285714
+  ],
+  "assumed_1000mAh_80pct_activity_hours": [
+    197.03143988465217,
+    196.17047214028992
+  ],
+  "sources": {
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "e4793718e7b85eb553804b6853e27962e97755742ff9664c37500449c7fec9cd",
+    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
+    "scripts/analyze_modular.py": "312bab31912d55daadd698ae76324c0d5ec0fbe896e22a466bd4805c29126ae7"
+  }
+}

@@ -12,3 +12,6 @@ hardware/*.ses
 hardware/router-full.*
 
 .render-cache/
+
+hardware/modular/*.dsn
+hardware/modular/*.ses

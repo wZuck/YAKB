@@ -1,5 +1,7 @@
 # 外壳方向与 USB 连接状态
 
+> **B1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
+
 [English](assembly-interface.md)
 
 ## HHKB 上框方向修复

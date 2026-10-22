@@ -1,5 +1,7 @@
 # YAKB A0 compatibility
 
+> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+
 [简体中文](compatibility.zh-CN.md). The default interface is the GH60/Poker tray family using measured Lot60 hole/slot coordinates. No commercial case model has been physically tested.
 
 | Part | Status / requirement |

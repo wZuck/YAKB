@@ -1,0 +1,186 @@
+{
+  "revision": "B1-modular-prototype",
+  "status": "engineering prototype; sample fit, EMC and charging measurements required",
+  "mainboard": "hardware/YAKB.kicad_pcb; U1 not populated in B1",
+  "connector": "Molex 200528-0240",
+  "connector_footprint": "Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal",
+  "connector_height_mm": 1.9,
+  "fpc_pinout": [
+    "GND",
+    "VCC",
+    "GND",
+    "ROW_DRV0",
+    "ROW_DRV1",
+    "ROW_DRV2",
+    "ROW_DRV3",
+    "ROW_DRV4",
+    "GND",
+    "MUX_A",
+    "MUX_B",
+    "MUX_C",
+    "MUX0_INH",
+    "MUX1_INH",
+    "DRAIN",
+    "AFE_ON_N",
+    "GND",
+    "ADC_FLEX",
+    "GND",
+    "RESET",
+    "GND",
+    "BAT_SW",
+    "BAT_SW",
+    "GND"
+  ],
+  "carrier": {
+    "size": [
+      82,
+      24
+    ],
+    "world_origin": [
+      0,
+      -28,
+      -5.2
+    ],
+    "module_footprint_center": [
+      18.27,
+      12.5
+    ],
+    "module_center": [
+      17,
+      12.5
+    ],
+    "fpc_center": [
+      61,
+      12.5
+    ],
+    "mounts": [
+      [
+        48,
+        2
+      ],
+      [
+        79,
+        2
+      ],
+      [
+        48,
+        21
+      ],
+      [
+        79,
+        18
+      ]
+    ],
+    "antenna_keepout": [
+      26.27,
+      6.5,
+      43.27,
+      18.5
+    ]
+  },
+  "interposer": {
+    "size": [
+      40,
+      19
+    ],
+    "world_origin": [
+      240,
+      75.5,
+      -5.2
+    ],
+    "header_center": [
+      20,
+      9.5
+    ],
+    "fpc_center": [
+      20,
+      8.0
+    ]
+  },
+  "flex": {
+    "width_mm": 26,
+    "thickness_mm": 0.2,
+    "copper_um": 35,
+    "trace_width_mm": 0.15,
+    "world_z": -3.25,
+    "controls": [
+      [
+        61,
+        -10.5
+      ],
+      [
+        66,
+        20
+      ],
+      [
+        260,
+        40
+      ],
+      [
+        260,
+        77.8
+      ]
+    ],
+    "ends_stiffened_thickness_mm": 0.3,
+    "terminal_width_mm": 24,
+    "contacts": [
+      [
+        61,
+        -13
+      ],
+      [
+        260,
+        80.3
+      ]
+    ]
+  },
+  "usb": {
+    "direction": "left, at rear corner",
+    "opening_center": [
+      -7,
+      -15.5,
+      -0.95
+    ],
+    "opening_size_yz": [
+      12,
+      8
+    ],
+    "insertion_envelope_origin": [
+      -28,
+      -19.5,
+      -3.7
+    ],
+    "insertion_envelope_size": [
+      28,
+      8,
+      5.5
+    ]
+  },
+  "pod": {
+    "outer": [
+      -7,
+      -35,
+      96,
+      34.4
+    ],
+    "lid_bottom_z": 3.5,
+    "lid_thickness": 2.4,
+    "wall_mm": 2.5,
+    "lid_screws": [
+      [
+        48,
+        -31
+      ],
+      [
+        83,
+        -31
+      ]
+    ]
+  },
+  "charge_limit_mA": 100,
+  "notes": [
+    "FPC is a custom shaped circuit, not a generic straight FFC. Connector B is rotated 180 degrees; cable maps A:n to B:25-n. Contact side and continuity must be checked on samples.",
+    "nice!nano remains the MCU/USB/RF/charger assembly; no bare QFN assembly.",
+    "The rear pod extends the custom case rear-left envelope; this is not a drop-in addition to every GH60 enclosure."
+  ]
+}

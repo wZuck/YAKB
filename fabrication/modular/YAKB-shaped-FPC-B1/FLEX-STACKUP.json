@@ -1,0 +1,12 @@
+{
+  "status": "ENGINEERING PROTOTYPE - mating drawing/sample qualification required",
+  "physical_copper_layers": 1,
+  "copper_file": "B_Cu.gbl",
+  "copper_um": 35,
+  "nominal_finished_flex_thickness_mm": 0.2,
+  "substrate": "polyimide; supplier-engineered dielectric/adhesive/coverlay stack",
+  "coverlay": "B.Mask defines exposed contact windows; use flexible coverlay",
+  "stiffened_terminal_thickness_mm": 0.3,
+  "terminal_status": "UNQUALIFIED: thickness, face, length, insertion depth and finish must be confirmed with Molex 200528-0240 mating drawing/samples",
+  "static_installation": true
+}

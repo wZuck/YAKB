@@ -1,10 +1,12 @@
 # YAKB — Yet Another KeyBoard
 
 
-> **Case USB assembly is not yet validated:** the rear-left opening does not align with the front-right controller; a complete extension and retention design remain pending. See [interface status](docs/assembly-interface.md).
+> **Current variant: B1 modular controller.** The rear-left carrier accepts USB directly from the left side; the original U1 position takes a passive interposer. Start with the [B1 PCB, FPC, case and qualification notes](docs/modular/README.md) and [B1 soldering workbench](hardware/soldering/b1/index.html). A0 drawings below remain the baseline reference.
+
+![YAKB B1](assets/modular/B1-closed.png)
 
 
-[Open the offline soldering workbench](hardware/soldering/index.html): 18 illustrated steps, searchable references, saved progress, zoom and print.
+[A0 reference soldering workbench](hardware/soldering/index.html): 18 illustrated steps, searchable references, saved progress, zoom and print.
 
 [简体中文](README.zh-CN.md) · [Design](docs/design.md) · [Soldering order](docs/soldering-guide.md) · [Compatibility](docs/compatibility.md)
 
@@ -23,7 +25,7 @@ A NiZ electrocapacitive keyboard with a fixed 60-key HHKB layout, centered-stem 
 | Controller | Socketable nice!nano v2 using 2.54 mm through holes; RF, clocks, MCU and charger already assembled |
 | Analog | Two CD74HC4051M96, one OPA350UA, one AO3401A; 0805 hand-solder passives |
 | Cell | Protected 1S LiPo; 1000 mAh calculation basis; complete cell/PCM/lead envelope ≤60 × 35 × 5.5 mm |
-| USB | Complete USB 2.0 data extension connected to the module's USB-C receptacle |
+| USB | B1 connects directly to its rear-left carrier; the A0 extension arrangement is retained as historical reference |
 | Printed case | Original 299 × 108.6 mm coved wedge case, HHKB bezel, STEP/STL and assembly STEP |
 | Case reuse | GH60/Poker tray family is a compatibility target; PH60 HHKB 6u is a reuse candidate requiring adaptation |
 

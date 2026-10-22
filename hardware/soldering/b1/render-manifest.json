@@ -1,0 +1,24 @@
+{
+  "renderer": "Matplotlib native KiCad pad and route extraction",
+  "sources": {
+    "hardware/modular/YAKB-controller-B1.kicad_pcb": "f6ee8fc0bfd107fa05ba717c50611d65bd777d96301d1d6726248cfa821e5bdf",
+    "hardware/modular/YAKB-interposer-B1.kicad_pcb": "67a6c8224abb854e965f181f5ad877f8ade4cc903ee3ab281a82dbb301a0882b",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "e4793718e7b85eb553804b6853e27962e97755742ff9664c37500449c7fec9cd",
+    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
+    "scripts/generate_modular_guide.py": "7b6e72e90ab81bfc1bc4f6c8971d726f52d3eda91d9acd06606d8775d550d3bb",
+    "scripts/modular_common.py": "6fea64d6b61cf6831db15bc70d8710dc0b1e4083831ac9e8b4f52d9a1f19eb2f",
+    "hardware/soldering/data.js": "e6a77d9b32696fa7adef050e61f08da5b052d8b73513cc68c035cf66ee6f766f",
+    "hardware/soldering/index.html": "61ac4b0776a5bd3bd0035611487e66b2833ecd9ec3a0df4ff8b5e7dbf31150a1",
+    "hardware/soldering/app.js": "d990c8ae5effd450a189f2adccf29f45a9c5ce060e7605ef6034eb06c82ce7fa",
+    "hardware/soldering/styles.css": "c0476229b1434d6bae625838f1756acfc97251434787c81616dfe23fb3f080e0",
+    "scripts/verify_modular.py": "0195e256ed1f52942792e31eff0580cb79cc0c807de4e7d0d9223fc39ee516ce"
+  },
+  "images": {
+    "hardware/soldering/b1/index.html": "b5af7d213c776840c79be88f9179712ebd7a09b1a26b1a7fe630b8bf9c75e1a1",
+    "hardware/soldering/b1/data.js": "7bff5ba5c907c3ef98d4c425558ef3ae48a05cf1c2c20a0ddac3d6b6a0814fe8",
+    "hardware/soldering/b1/placement-checklist.csv": "6aad1fbfa1f1f7b0a55e54af3c1c0cdb206e00475f7b4e1c22b34a376f598b22",
+    "assets/modular/B1-shaped-FPC-plan.png": "347301d3e631ef0cc66f1804d91b0f9e546cd6e00e6504fc2b1b56965485b979",
+    "assets/modular/B1-controller-plan.png": "1aad2f36a80d5941b07852ee3e58201429b1073553053e8af4e69f5a6c9f5fb4",
+    "assets/modular/B1-interposer-plan.png": "c406ac425af7a7b7009db84825296bfbc14ba2b9dc540beca0a75f807dd62605"
+  }
+}

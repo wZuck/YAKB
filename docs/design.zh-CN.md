@@ -1,5 +1,7 @@
 # YAKB A0 设计说明
 
+> **B1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
+
 日期：2026-10-22。名称：**YAKB — Yet Another KeyBoard**。这是一份包含可编辑电气与结构文件的工程原型设计；任何未完成的验证以检查报告为准，不以 CAD 外观判断可量产。
 
 ![从实际 STEP 生成的装配层次](../assets/exploded-render.png)

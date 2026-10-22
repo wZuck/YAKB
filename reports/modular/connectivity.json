@@ -1,0 +1,197 @@
+{
+  "native_pad_paths": [
+    {
+      "A0_U1_pad": "1",
+      "A0_net": "ROW_DRV1",
+      "carrier_net": "ROW_DRV1",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "2",
+      "A0_net": "ROW_DRV0",
+      "carrier_net": "ROW_DRV0",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "3",
+      "A0_net": "GND",
+      "carrier_net": "GND",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "4",
+      "A0_net": "GND",
+      "carrier_net": "GND",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "5",
+      "A0_net": "ROW_DRV2",
+      "carrier_net": "ROW_DRV2",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "6",
+      "A0_net": "ROW_DRV3",
+      "carrier_net": "ROW_DRV3",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "7",
+      "A0_net": "ROW_DRV4",
+      "carrier_net": "ROW_DRV4",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "8",
+      "A0_net": "MUX_A",
+      "carrier_net": "MUX_A",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "9",
+      "A0_net": "MUX_B",
+      "carrier_net": "MUX_B",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "10",
+      "A0_net": "MUX_C",
+      "carrier_net": "MUX_C",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "11",
+      "A0_net": "MUX0_INH",
+      "carrier_net": "MUX0_INH",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "12",
+      "A0_net": "MUX1_INH",
+      "carrier_net": "MUX1_INH",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "13",
+      "A0_net": "DRAIN",
+      "carrier_net": "DRAIN",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "16",
+      "A0_net": "AFE_ON_N",
+      "carrier_net": "AFE_ON_N",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "18",
+      "A0_net": "ADC",
+      "carrier_net": "ADC_FLEX",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "21",
+      "A0_net": "VCC",
+      "carrier_net": "VCC",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "22",
+      "A0_net": "RESET",
+      "carrier_net": "RESET",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "23",
+      "A0_net": "GND",
+      "carrier_net": "GND",
+      "hole_alignment_error_mm": 0.0
+    },
+    {
+      "A0_U1_pad": "24",
+      "A0_net": "BAT_SW",
+      "carrier_net": "BAT_SW",
+      "hole_alignment_error_mm": 0.0
+    }
+  ],
+  "FPC_contacts_verified": 24,
+  "mapping": "A:n -> B:25-n",
+  "native_DRC_ERC_parity_unconnected": 0,
+  "sources": {
+    "hardware/YAKB.kicad_pcb": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
+    "hardware/modular/YAKB-controller-B1.kicad_pcb": "f6ee8fc0bfd107fa05ba717c50611d65bd777d96301d1d6726248cfa821e5bdf",
+    "hardware/modular/YAKB-interposer-B1.kicad_pcb": "67a6c8224abb854e965f181f5ad877f8ade4cc903ee3ab281a82dbb301a0882b",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "e4793718e7b85eb553804b6853e27962e97755742ff9664c37500449c7fec9cd",
+    "scripts/verify_modular.py": "0195e256ed1f52942792e31eff0580cb79cc0c807de4e7d0d9223fc39ee516ce",
+    "scripts/export_modular.py": "8428eb2bb6d5fe4359d2cff8d706529bca46ace272dd5e821494d016d5700227",
+    "scripts/modular_common.py": "6fea64d6b61cf6831db15bc70d8710dc0b1e4083831ac9e8b4f52d9a1f19eb2f",
+    "hardware/modular/YAKB_B1.kicad_sym": "02b252f195ce4a2b78ec1fc734f90301b2dd342e86affc7b6c9ab5a7f5f53e8f",
+    "hardware/modular/fp-lib-table": "ea74af2436cbb38d1f4f3973952c5ab9d5fcb7c2eca857fbe920b04291f69d41",
+    "hardware/modular/sym-lib-table": "6556c03f1ecbee5003df2e44f03b0a7e438948b7ab88620f7312e032bba6b13e",
+    "hardware/modular/YAKB_MOD.pretty/A0_U1_socket_adapter.kicad_mod": "b26841ba182aa78c0ed20304f04917dc06a828e5ea2df6f1a8250242fd2941ae",
+    "hardware/modular/YAKB-controller-B1.kicad_sch": "9d9f6e393bef1c21a60ba5a2ce652969a902779379c0d76f80edb219dab3c600",
+    "hardware/modular/YAKB-controller-B1.kicad_pro": "203de6a8b16ac4674eedbe9e89c20344aa9c95792f3bdf962411e5c7477ea929",
+    "hardware/modular/YAKB-interposer-B1.kicad_sch": "99131433dd1601ffe4bdebf661731d282f701926e349b7541c48ae82d2619055",
+    "hardware/modular/YAKB-interposer-B1.kicad_pro": "032e8abb1bb6d15621b742a6224fd6d95f37a802961e5b11b18a785117d24e31",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_sch": "df98c2cb92037c214a80832693d0d38fff9f576fc1d2c21f942018b3e31c8ff7",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pro": "f6268cb054b2be716678ab87d2b525b953944c7a34ad5121428bff241aac873e"
+  },
+  "limits": [
+    "Electrical rule checks do not model RF, charging transients or ADC noise.",
+    "All modular schematics use passive physical-pin symbols; they check connectivity, not internal nice!nano circuitry."
+  ],
+  "outputs": {
+    "reports/modular/YAKB-shaped-FPC-B1-erc.json": "fc9009458c6ddb2a1f0ab8cb48860f5cac43690b9c196fdc16cad54472536460",
+    "reports/modular/YAKB-controller-B1-erc.json": "d599e75b15302190125574f024b0ddc67e3848ffe3ccb683f17c44ce3248747b",
+    "reports/modular/YAKB-interposer-B1-erc.json": "c7ed54ba780fe540b06d030b82088e2a8bb41d2a24fd2838da176198c526c411",
+    "reports/modular/YAKB-shaped-FPC-B1-drc.json": "c6504e1085fce6f68bea0bbaa155bb000b33a90bf1ec66036092d73d1e41a374",
+    "reports/modular/YAKB-controller-B1-drc.json": "a9b3e7cc2b25ee007b035bb08e28fb1881fbcb1f2b60f19850cc6bfb90e7707e",
+    "reports/modular/YAKB-interposer-B1-drc.json": "2ee6632e6daf22a1c050bb32a902392a9569ab398b756ea2cb2d9851339bb8b4",
+    "reports/modular/YAKB-controller-B1-net.xml": "a9974839ce7961995397959e70fc0a72f60de27557c51d483c7369b1846c459c",
+    "reports/modular/YAKB-interposer-B1-net.xml": "b542e5e0fa3e7f7bcbb5e8f109b0b49b8bca82407fccae21f81f14e8b48fc761",
+    "reports/modular/YAKB-shaped-FPC-B1-net.xml": "cd5f10b7638d874741f592eaee1b4eb7f416205e10ec0415c8d8ca82c3b0d60c",
+    "hardware/modular/YAKB-controller-B1.pdf": "c233c69008384f633cdb9259b96abd1a8acaf5ecb43cc9edae8177cde578252d",
+    "hardware/modular/YAKB-interposer-B1.pdf": "d850247c0a4473aa3db2efe01d72052514e21fec01c007665d4069b6adeb5a95",
+    "hardware/modular/YAKB-shaped-FPC-B1.pdf": "59c5d26e59fc22c8a9f77c98331847065f30293c2d5c4950ad826dcc370c0144",
+    "mechanical/modular/YAKB-interposer-B1.glb": "d35ef3db0b07fe6a678ca09433ea53b57239084d356970c4ce4acfc13826af00",
+    "mechanical/modular/YAKB-shaped-FPC-B1.glb": "48e45b6df9c7dc88f7821fd2ab13445f84d36c69dd6d00cd9dfcce3ded5a4e1e",
+    "mechanical/modular/YAKB-controller-B1.glb": "050cda1df23402c0d63dcfb901de6041d41835014939486416ecd74e44cb5af3",
+    "mechanical/modular/YAKB-controller-B1-native.step": "86b8498bb9cceda3de0d8164a33f455c27008b8e5faab4f5e5b5872da0aa450c",
+    "mechanical/modular/YAKB-interposer-B1-native.step": "ccc66677513b6c8288baf49d900c13c9e7d026302076232a66e0d9c27b4d8d92",
+    "mechanical/modular/YAKB-shaped-FPC-B1-native.step": "f88c94da38cd4b7a463aed2cfdd56c1bdcd89d6e9b472b0b6f93db5982088916",
+    "fabrication/modular/YAKB-shaped-FPC-B1.zip": "d1fea3b14e245a3c8b43855a630c9378e723e56be59ce345340e57ade9015aa1",
+    "fabrication/modular/YAKB-interposer-B1.zip": "d24a7a221834b42a45f8b95f7cd1f6bb0d16d4ac9c3d682afbb4aa7e4969cfac",
+    "fabrication/modular/YAKB-controller-B1.zip": "899bce091dac6e53eac362c37f3d7bf5908efd38e54a1e3dab027a089dd958d1",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Mask.gts": "64d6f13fef4e37963fc44c04b26cf83c4867445bbe1ebb497e3a455ed47e5380",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-PTH.drl": "4c22e824bb9f6ef15abb54aa810b56761c884bf39f5e2b122ecba28a05c1b33e",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Paste.gbp": "5d23f67f2c50cffbff699abf61bb0ba95f6773396b5376a0addc840a4c87cc9e",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-job.gbrjob": "b6163364d80bd199294dcba4604f43956c2445409e09c518faa25c6f5598a745",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Paste.gtp": "f9115f9a6d024790a4126482cfacad81c1a4d8421308e9d53b2b1727652128b7",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Cu.gbl": "16ab8c8d156cc1faed655e0a146ebf5734ec8e6d0ca78a4340ec3dabb373d149",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-Edge_Cuts.gm1": "286818f75d3cabd1c16b2c03b881f47530abcc9b603826bb78a0f725931d5a49",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-NPTH.drl": "2fc8504cb7fabfb13a4151f5b6fd1f44ea57c698800ee143f5d4f45d30f6f705",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Cu.gtl": "91401ca19e448df5ceaa83e6f588a0cf8f6c798834ab67659aa1c1642b0b15e3",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Silkscreen.gto": "a239d2d0b338a1de377b242423f8d409fe9d4e485da7410f3de6c4597219a5a5",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Silkscreen.gbo": "56188beb76d3e303c49667bacf2834840e47412a99c3a5bcff92079c9aef20ca",
+    "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Mask.gbs": "ed4a11a6a038d13b59f3d470d996f3399f6235244b460feec9c5dbb4639f53a0",
+    "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-Edge_Cuts.gm1": "8a1e03c78fb184ddcf7e0e5a68ff758107f4481ac8062adc9480c822706e37e1",
+    "fabrication/modular/YAKB-shaped-FPC-B1/FLEX-STACKUP.json": "5de1ff82e37db1d22e14cf39dba26fef43eaa8130a8c8ac1c42e10d52eb3003f",
+    "fabrication/modular/YAKB-shaped-FPC-B1/FABRICATION-NOTES.txt": "01474e33e2124f1b4ac369e691e2cbb81c6dcd9cd9997577bcba867c7d6c8f41",
+    "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-B_Cu.gbl": "3934eaacffa8606201b486514f9ddb736e01312795375eb67d7b9eebf3ca3426",
+    "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-B_Mask.gbs": "214b371ffa8150b124e1b7171146d55080e7e2865964f2e212853768145893ea",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-PTH.drl": "6f6fbbe034c0887f6fbbd5e537e459a6e474a45d813076d6abc2911d45ac89c4",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Paste.gbp": "c09e77c24c056020f997fea553902b1cb202d00f166aadbe442b28b575c793c6",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Mask.gbs": "487841d86d76a73735d8b36f2ba0ef0efe78558c464575b67e840147fc6402a4",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-Edge_Cuts.gm1": "449983b51103d19d7faaacb3bb6f2a15e5df8c7984732591c28c071c619ac1bd",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-job.gbrjob": "15f3cd3ffe885c89adc583f59e28f7b6673004bde32d222801b2cb296085832f",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Mask.gts": "be296fea15621047e47b18d84b0399c03c56c8690a345378eedc24b4e3c6ea99",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Cu.gbl": "29ba8f35b2dda8a00931e85a002a6a21a9992797f632386c239aae4a8c507f54",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Paste.gtp": "1f1fcdb0484545873074d3e3beef773c1f3fd9f4f422ca965fba3ffabdde13bc",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Cu.gtl": "810493fbc5fdc9427d21072e64011e437c52113434eff81fb46955a290500c49",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Silkscreen.gbo": "8aa1d3d2cc5497db1f97271f9ab89e03ceb615171e5b9bef07376c5730e5323a",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-NPTH.drl": "615e4f8a1ab0679e7a6f6b1152aaf9bdc9aa923854aa0c00ae85f94de7c4308d",
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Silkscreen.gto": "c913f9cd992b5455ed8c05e3b5cebec5c07b5138484db42adfd258efc6c8438c"
+  }
+}

@@ -1,5 +1,7 @@
 # Case orientation and USB connection status
 
+> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+
 [简体中文](assembly-interface.zh-CN.md)
 
 The bottom row starts at 1.5u and ends at 12.5u in a 15u layout, giving a 1.5u left blocker and 2.5u right blocker around a centered-stem 6u spacebar.
