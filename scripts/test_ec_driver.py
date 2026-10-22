@@ -5,14 +5,70 @@ This tests event timing/filtering, not physical ADC settling or BLE latency.
 import argparse, hashlib, json, re, subprocess, tempfile
 from pathlib import Path
 from common import ROOT
+from verify_adc_allocation import check as check_adc_allocation
 
 def function(source,name):
-    hit=re.search(r'(?:static )?(?:void|uint16_t|struct sample_results) '+name+r'\([^;]+?\)\s*\{',source)
+    hit=re.search(r'(?:static )?(?:void|int|uint16_t|struct sample_results) '+name+r'\([^;]+?\)\s*\{',source)
     assert hit,name
     end=hit.end();depth=1
     while depth:
         depth += (source[end]=='{')-(source[end]=='}');end+=1
     return source[hit.start():end]
+
+
+def test_adc_allocation(workspace):
+    allocation=check_adc_allocation(workspace,'yakb')
+    assert check_adc_allocation(workspace,'yakb-calibrator')==allocation
+    battery=(workspace/'zmk/app/module/drivers/sensor/battery/battery_nrf_vddh.c').read_text()
+    header=r'''
+#include <assert.h>
+#include <errno.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#define BIT(n) (1U<<(n))
+#define CONFIG_ADC_NRFX_SAADC 1
+#define ADC_GAIN_1_2 2
+#define ADC_REF_INTERNAL 0
+#define ADC_ACQ_TIME_MICROSECONDS 0
+#define ADC_ACQ_TIME(unit,n) (n)
+#define SAADC_CH_PSELN_PSELN_VDDHDIV5 99
+#define LOG_ERR(...) ((void)0)
+#define LOG_DBG(...) ((void)0)
+struct device {void *data;};
+struct adc_channel_cfg {int channel_id,gain,reference,acquisition_time,input_positive;};
+struct adc_sequence {unsigned channels;void *buffer;unsigned buffer_size;int oversampling,calibrate,resolution;};
+struct battery_value {int16_t adc_raw;};
+struct vddh_data {struct adc_channel_cfg acc;struct adc_sequence as;struct battery_value value;};
+static const struct device adc_dev={0};
+static const struct device *adc=&adc_dev;
+static int configured[8];
+static bool device_is_ready(const struct device*d){return true;}
+static int adc_channel_setup(const struct device*d,const struct adc_channel_cfg*c){assert(c->channel_id>=0&&c->channel_id<8);configured[c->channel_id]=c->input_positive;return 0;}
+'''
+    code=header+function(battery,'vddh_init')+r'''
+static bool independent(int ec_channel,int battery_first){
+ for(int i=0;i<8;i++)configured[i]=-1;
+ struct vddh_data data={0};struct device dev={.data=&data};
+ struct adc_channel_cfg ec={.channel_id=ec_channel,.input_positive=1};
+ if(battery_first){assert(vddh_init(&dev)==0);adc_channel_setup(adc,&ec);}
+ else {adc_channel_setup(adc,&ec);assert(vddh_init(&dev)==0);}
+ assert(data.as.channels==BIT(0));
+ return configured[0]==SAADC_CH_PSELN_PSELN_VDDHDIV5&&configured[ec_channel]==1;
+}
+int main(void){
+ for(int order=0;order<2;order++){
+  assert(independent(EC_CHANNEL,order));
+  assert(!independent(0,order)); /* Old allocation must reproduce the collision. */
+ }
+ puts("Actual battery initializer: distinct EC input in both init orders; old channel 0 collision reproduced: PASS");
+}
+'''
+    with tempfile.TemporaryDirectory(prefix='yakb-adc-test-') as temp:
+        c=Path(temp)/'test.c';exe=Path(temp)/'test';c.write_text(code)
+        subprocess.run(['cc','-std=c11','-DEC_CHANNEL='+str(allocation['ec_logical_channel']),str(c),'-o',str(exe)],check=True)
+        subprocess.run([str(exe)],check=True)
+    return allocation
 
 
 def test_constant_adc(workspace, source):
@@ -142,11 +198,13 @@ int main(void){
         subprocess.run(['cc','-std=c11','-O2',str(c),'-o',str(exe)],check=True)
         result=subprocess.run([str(exe)],check=True,capture_output=True,text=True)
     test_constant_adc(args.workspace,source)
+    allocation=test_adc_allocation(args.workspace)
     conf=(args.workspace/'build/yakb/zephyr/.config').read_text()
     value=lambda n:int(re.search(r'^'+n+r'=(-?\d+)$',conf,re.M)[1])
     priority=value('CONFIG_ZMK_KSCAN_EC_MATRIX_THREAD_PRIORITY');coop=value('CONFIG_NUM_COOP_PRIORITIES');actual=-(coop-priority)
     assert -coop<=actual<0 and 'CONFIG_ASSERT=y' in conf
     report=dict(result=result.stdout.strip(),phase_frame_cases=960,constant_adc_calibration_passed=True,maximum_modelled_first_press_latency_ms=28,frame_overhead_range_ms=[0,6],cooperative_priority=actual,assertions_enabled=True,driver_sha256=hashlib.sha256(driver.read_bytes()).hexdigest(),limitations=['ADC mocked; no physical sampling, BLE timing or current measurement.'])
+    report.update(adc_allocation=allocation,battery_init_order_regression_passed=True)
     (ROOT/'reports/firmware-regression.json').write_text(json.dumps(report,indent=2)+'\n');print(result.stdout,report)
 
 if __name__=='__main__':main()

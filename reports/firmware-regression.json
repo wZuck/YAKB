@@ -12,5 +12,12 @@
   "driver_sha256": "5a805e4d79a07f8ccf2bfc4511f8c6935e2cb8f7608509a3274d30bd6615ed89",
   "limitations": [
     "ADC mocked; no physical sampling, BLE timing or current measurement."
-  ]
+  ],
+  "adc_allocation": {
+    "ec_logical_channel": 1,
+    "battery_logical_channel": 0,
+    "ec_physical_input": "AIN0/P0.02",
+    "battery_physical_input": "VDDHDIV5"
+  },
+  "battery_init_order_regression_passed": true
 }

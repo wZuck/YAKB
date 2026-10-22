@@ -44,7 +44,7 @@ def main():
         input-gpios = '''+', '.join(f'<&mux{c//8} {c%8} GPIO_ACTIVE_HIGH>' for c in range(15))+''';
         drain-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
         power-gpios = <&pro_micro 15 GPIO_ACTIVE_LOW>;
-        io-channels = <&adc 0>;
+        io-channels = <&adc 1>; /* logical channel 0 is reserved by the ZMK battery driver */
         strobe-input-masks = <'''+ ' '.join(hex(m) for m in masks)+'''>;
         matrix-warm-up-us = <200>;
         matrix-relax-us = <10>;
@@ -63,8 +63,8 @@ def main():
     status = "okay";
     #address-cells = <1>;
     #size-cells = <0>;
-    channel@0 {
-        reg = <0>;
+    channel@1 {
+        reg = <1>;
         zephyr,gain = "ADC_GAIN_1_6";
         zephyr,reference = "ADC_REF_INTERNAL";
         zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 10)>;

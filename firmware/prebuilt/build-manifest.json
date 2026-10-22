@@ -6,23 +6,23 @@
     "firmware/config/boards/shields/yakb/yakb.keymap": "32b1ff78c61ad5b827850d103274621b23c5243a359f1ae8645fbf85efaf361a",
     "firmware/config/boards/shields/yakb/Kconfig.shield": "0e609a97891b939a4a841e44d1fa939b7fce2cef2af6dc14d353ef8038a0601c",
     "firmware/config/boards/shields/yakb/Kconfig.defconfig": "922ed2bce3a85e0e36d0d9fe1d7f13e952f4ca6d6dc70adb6a590667072c2b87",
-    "firmware/config/boards/shields/yakb/yakb.overlay": "e9009aae8e9dcf182e8828efb77a6621315a8153ebdfaedeae9a25c1d44eafb7",
+    "firmware/config/boards/shields/yakb/yakb.overlay": "48ff86a936e92a9b34711e02c3df0aeeeeb38ead13c47df061a566202a42463b",
     "firmware/patches/0001-ec-wake-on-raw-transition.patch": "793d324718eedcb2b7f2a8e8e56ed5d4b2e982e6cbde77388f8b83b2f895bf42"
   },
   "builds": {
     "normal": {
-      "uf2_sha256": "720e989ce1fdf0a8d5054467eb3ae4ef02748336395e7062b311071cf032486c",
-      "elf_sha256": "434f91032f377c61c67324a01887c9a73ac655904c4477eb50b3146f0b5dd82e",
-      "ec_object_sha256": "97c1d5d4dd0fdea31fe053209c9cf0d178f7dced94221606edb4e062a80b695c",
+      "uf2_sha256": "250fc9e7e405d6d28cdbf48f39d3a63d0365def198dae8018f30ba019e25c3ca",
+      "elf_sha256": "6a384105bcb893607e168e1cad97064dedeaa76138d3ed1f949191bbb6e71ef2",
+      "ec_object_sha256": "ef64611109404ef4ca0de57a79139b9b58b4e0158b9e074e39592db63d447830",
       "config_sha256": "528085066a1be5dce4ae8b7add2549403d9cf7531b3a00428ada34495af946c1",
-      "dts_sha256": "23bedcc169e21a383bc9add6f68887757038656acd6b9b1c76f792441edb4365"
+      "dts_sha256": "4d3b5dad6c590bfcfe438b8ae0767e4db08ab25d89606324f912d0d06b82b1f0"
     },
     "calibrator": {
-      "uf2_sha256": "75fd0e523866fba8f7327b2dca0ae0901b1dd59bcb3dd030df5746fb18de8634",
-      "elf_sha256": "9ae7de5acdace007351bddac0a8ee11c8fee028ff5710ab834bef2e854dcb1fd",
-      "ec_object_sha256": "73ea1dc53d1dd4d08df62b53456c1175ceccdbac6ad12a774a16110455858656",
+      "uf2_sha256": "8f50848503caf1e074bb0de389b4e4333eec7cff5bfe69f75e3cec50beae9dae",
+      "elf_sha256": "ef2c4e3e6728d753371071f4ba88ec27d75e1a5b296d80e290b0106b2c8c0308",
+      "ec_object_sha256": "c7eaa37928cb0a1709e9250262c7208787ddbf163eaee7288e301ca47b0b3788",
       "config_sha256": "3abe6c4e2581e36c18769cad6ace927c194acae6fd3197aae8448082896192a0",
-      "dts_sha256": "e5a5861da830cad6de3097a6c6b85fabce3be726ee02a5cd4a40e396ed2a553e"
+      "dts_sha256": "11077789ef3b47968bff19f96368490e706eabb8a36bcc199cd470c1a6ff70fa"
     }
   },
   "driver_sha256": "5a805e4d79a07f8ccf2bfc4511f8c6935e2cb8f7608509a3274d30bd6615ed89"

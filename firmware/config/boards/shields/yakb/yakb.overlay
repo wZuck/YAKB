@@ -39,7 +39,7 @@
         input-gpios = <&mux0 0 GPIO_ACTIVE_HIGH>, <&mux0 1 GPIO_ACTIVE_HIGH>, <&mux0 2 GPIO_ACTIVE_HIGH>, <&mux0 3 GPIO_ACTIVE_HIGH>, <&mux0 4 GPIO_ACTIVE_HIGH>, <&mux0 5 GPIO_ACTIVE_HIGH>, <&mux0 6 GPIO_ACTIVE_HIGH>, <&mux0 7 GPIO_ACTIVE_HIGH>, <&mux1 0 GPIO_ACTIVE_HIGH>, <&mux1 1 GPIO_ACTIVE_HIGH>, <&mux1 2 GPIO_ACTIVE_HIGH>, <&mux1 3 GPIO_ACTIVE_HIGH>, <&mux1 4 GPIO_ACTIVE_HIGH>, <&mux1 5 GPIO_ACTIVE_HIGH>, <&mux1 6 GPIO_ACTIVE_HIGH>;
         drain-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
         power-gpios = <&pro_micro 15 GPIO_ACTIVE_LOW>;
-        io-channels = <&adc 0>;
+        io-channels = <&adc 1>; /* logical channel 0 is reserved by the ZMK battery driver */
         strobe-input-masks = <0x0 0x2 0x4002 0x1001 0x6b73>;
         matrix-warm-up-us = <200>;
         matrix-relax-us = <10>;
@@ -58,8 +58,8 @@
     status = "okay";
     #address-cells = <1>;
     #size-cells = <0>;
-    channel@0 {
-        reg = <0>;
+    channel@1 {
+        reg = <1>;
         zephyr,gain = "ADC_GAIN_1_6";
         zephyr,reference = "ADC_REF_INTERNAL";
         zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 10)>;

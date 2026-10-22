@@ -2,6 +2,7 @@
 import argparse,hashlib,json,re,shutil,struct
 from pathlib import Path
 from common import ROOT
+from verify_adc_allocation import check as check_adc_allocation
 
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -23,6 +24,7 @@ def main():
     inputs.update({str(p.relative_to(ROOT)):sha(p) for p in (ROOT/'firmware/patches').glob('*.patch')})
     report=json.loads((ROOT/'reports/firmware.json').read_text());builds={}
     for name,dest,label in [('yakb','yakb-a0.uf2','normal'),('yakb-calibrator','yakb-a0-calibrator.uf2','calibrator')]:
+        allocation=check_adc_allocation(work,name)
         folder=work/'build'/name;base=folder/'zephyr';conf=(base/'.config').read_text();dts=(base/'zephyr.dts').read_text()
         value=lambda key:int(re.search(r'^'+key+r'=(-?\d+)$',conf,re.M)[1])
         actual_priority=-(value('CONFIG_NUM_COOP_PRIORITIES')-value('CONFIG_ZMK_KSCAN_EC_MATRIX_THREAD_PRIORITY'))
@@ -52,7 +54,7 @@ def main():
         report[label]=dict(flash_bytes=max(p[3]+p[4] for p in flash)-min(p[3] for p in flash),ram_bytes=max(p[2]+p[5] for p in ram)-0x20000000)
         builds[label]=dict(uf2_sha256=sha(uf2),elf_sha256=sha(elf),ec_object_sha256=sha(obj),config_sha256=sha(base/'.config'),dts_sha256=sha(base/'zephyr.dts'))
         shutil.copyfile(uf2,ROOT/'firmware/prebuilt'/dest)
-    report.update(patch_sha256=metadata['patch_sha256'],driver_sha256=sha(driver),assertions_enabled=True,cooperative_priority=actual_priority,polling_wait_intervals_ms=waits,usb_hid=True,ble_hid=True)
+    report.update(patch_sha256=metadata['patch_sha256'],driver_sha256=sha(driver),assertions_enabled=True,cooperative_priority=actual_priority,polling_wait_intervals_ms=waits,usb_hid=True,ble_hid=True,adc_allocation=allocation)
     (ROOT/'reports/firmware.json').write_text(json.dumps(report,indent=2)+'\n')
     (ROOT/'firmware/prebuilt/build-manifest.json').write_text(json.dumps(dict(inputs=inputs,builds=builds,driver_sha256=sha(driver)),indent=2)+'\n')
     files=sorted((ROOT/'firmware/prebuilt').glob('*.uf2'))

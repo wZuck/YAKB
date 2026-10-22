@@ -1,9 +1,9 @@
 name: Build and exercise EC firmware
 on:
   push:
-    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', '.github/workflows/firmware.yml']
+    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', 'scripts/verify_adc_allocation.py', '.github/workflows/firmware.yml']
   pull_request:
-    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', '.github/workflows/firmware.yml']
+    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', 'scripts/verify_adc_allocation.py', '.github/workflows/firmware.yml']
   workflow_dispatch:
 permissions:
   contents: read

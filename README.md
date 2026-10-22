@@ -43,3 +43,5 @@ Native checks: **0 ERC violations, 0 DRC violations, 0 airwires, 0 schematic par
 The case now fastens from below with no visible top screw holes. Drawings use the current PCB/STEP/DXF. USB and BLE are compiled in; Fn+5 / Fn+6 selects output.
 
 [Battery options and actual three-bay case](docs/battery-options.md).
+
+[Inventory review and purchasing](docs/inventory-review.md).

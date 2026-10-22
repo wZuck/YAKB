@@ -24,5 +24,11 @@
     12
   ],
   "usb_hid": true,
-  "ble_hid": true
+  "ble_hid": true,
+  "adc_allocation": {
+    "ec_logical_channel": 1,
+    "battery_logical_channel": 0,
+    "ec_physical_input": "AIN0/P0.02",
+    "battery_physical_input": "VDDHDIV5"
+  }
 }

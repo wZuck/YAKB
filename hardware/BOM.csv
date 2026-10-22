@@ -1,7 +1,7 @@
 Reference,Value,Footprint,Side,X_mm,Y_mm,Status
 U1,nice!nano_v2,YAKB:nice_nano,B,260.0,85.0,selection; verify procurement
-U2,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,105,84,selection; verify procurement
-U3,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,170,84,selection; verify procurement
+U2,CD74HC4051M96,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,105,84,selection; verify procurement
+U3,CD74HC4051M96,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,170,84,selection; verify procurement
 U4,OPA350UA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,B,217,84,selection; verify procurement
 Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,B,207,84,selection; verify procurement
 R1,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,40,78,selection; verify procurement

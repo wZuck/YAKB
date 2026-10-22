@@ -47,3 +47,5 @@ NiZ 静电容机构、60 键 HHKB 配列、6u 空格、蓝牙 / USB、内置电�
 外壳现为底部隐藏螺丝，正面无开孔；全部设计图来自当前 PCB/STEP/DXF。USB 与 BLE 均已编译启用，Fn+5 / Fn+6 选择输出。
 
 [多电池选型与实际三仓底壳](docs/battery-options.zh-CN.md).
+
+[库存对照与采购建议](docs/inventory-review.zh-CN.md)。
