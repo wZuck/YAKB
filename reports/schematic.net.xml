@@ -1,0 +1,4248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/wzy/workspace/YAKB/hardware/YAKB.kicad_sch</source>
+    <date>2026-10-22T11:26:56</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>YAKB A0 - ENGINEERING DESIGN</title>
+        <company/>
+        <rev>A0 - NOT FOR FAB</rev>
+        <date>2026-10-22</date>
+        <source>YAKB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="C1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3ccc7f9-ef51-517e-9d0b-bcce05162b01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="C2" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bc364fd-3887-5db4-a121-0499ff3ee769</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="C3" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2add1d0-eb77-5a0f-b5a4-9d6037f7b30f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>220p_C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="C4" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13ba8186-f553-5e4a-8162-9dd6116efd02</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="C5" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92dd6764-65ab-563e-9956-c61e43268c6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC1">
+      <value>Esc</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9791de2-4526-595a-af4c-0a8026e18e5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC2">
+      <value>1</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC2" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bd4a898-932e-51c5-89f6-5ca046982030</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC3">
+      <value>2</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC3" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67db2773-045a-572a-b8ff-66fe6a9d9b59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC4">
+      <value>3</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC4" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7082543-ba46-5978-af8d-8fef22a72435</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC5">
+      <value>4</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC5" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd0057cb-310c-5a86-9eb1-2f7ac0570545</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC6">
+      <value>5</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC6" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ca61c10-3d3c-5097-b281-7971c026187f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC7">
+      <value>6</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC7" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>041eb437-070a-5db6-8923-c62fa8a2cc45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC8">
+      <value>7</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC8" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d60f9886-a183-5f5c-904b-1aff48c95759</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC9">
+      <value>8</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC9" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>946af1ca-2c31-561d-919a-714fd6d4d72a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC10">
+      <value>9</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC10" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d42815a-1a6c-5295-a24c-83d29e9fe46e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC11">
+      <value>0</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC11" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53a47973-618b-50a5-a2a6-95fab68fdca7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC12">
+      <value>-</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC12" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a132fdc9-35d4-5ebb-b7be-3300f4622c94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC13">
+      <value>=</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC13" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99e97af1-1213-57d8-aaa1-6877aea20130</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC14">
+      <value>\</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC14" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>137adb79-415e-5f13-9e5a-c303b8cdc869</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC15">
+      <value>`</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC15" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f980cab7-ec97-5bc2-9c10-74aadfc4b13a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC16">
+      <value>Tab</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC16" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26ee70dd-62d8-527e-a7f0-c8480b893a4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC17">
+      <value>Q</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC17" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04327da5-96d8-502f-969d-ef8890ac0f4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC18">
+      <value>W</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC18" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79dfac75-c479-534e-81c0-b0f4bf9bd3ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC19">
+      <value>E</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC19" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fe8c6a8-34dd-5e3c-b330-3e47e39caef0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC20">
+      <value>R</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC20" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe9aaaa4-683a-5faf-bcf2-dadd42a75a5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC21">
+      <value>T</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC21" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c5ea545-f002-5969-ba7f-4382987f7ba9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC22">
+      <value>Y</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC22" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44757fdb-3913-5f1a-9db8-28087ca40cac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC23">
+      <value>U</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC23" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6388af49-e99c-55a2-a4c7-3df326bc1bd3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC24">
+      <value>I</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC24" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>364e6f2e-934b-57fe-81c4-f458de9b7ea6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC25">
+      <value>O</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC25" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49b48851-2357-5c2d-a2be-7e5badde1417</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC26">
+      <value>P</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC26" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>338a0656-66de-5952-818a-fec843329866</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC27">
+      <value>[</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC27" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>952dc786-1d94-5d3c-8df4-553cfeebd034</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC28">
+      <value>]</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC28" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>856fa500-6dc8-596b-8f25-a5f0a370defb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC29">
+      <value>Backspace</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC29" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc4a49f5-1613-5b09-ad6f-a5edd80207d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC30">
+      <value>Control</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC30" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cad8ba9-5cef-5146-828c-c31f0066b371</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC31">
+      <value>A</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC31" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>665e2498-06a5-5d3a-9f75-fc67201532f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC32">
+      <value>S</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC32" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>966a8e49-38a7-5f41-8709-f6f00893c9e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC33">
+      <value>D</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC33" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a9f4c30-b3c8-5785-8d3c-d49f92a8ffbc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC34">
+      <value>F</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC34" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae1b717-8115-5225-8bc5-58b0a28785e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC35">
+      <value>G</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC35" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c42c8a45-83ce-5959-9292-9e7adb425c9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC36">
+      <value>H</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC36" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52553b85-2017-54c8-b108-a9e94fb9b0c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC37">
+      <value>J</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC37" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09fe28a1-b65a-5b96-a1c4-c3c83fdf3911</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC38">
+      <value>K</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC38" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8928a30-f2f3-53f9-bb2c-3449dbe21799</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC39">
+      <value>L</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC39" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bccc534-6dee-5013-93e2-cd395e71aa8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC40">
+      <value>;</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC40" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0540826e-908e-545d-bbc9-fc29d1378932</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC41">
+      <value>'</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC41" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f552fce4-7693-5838-b107-7edb62cf6bda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC42">
+      <value>Enter</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC42" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae618b74-5a78-5aab-9bc5-bd60e71405c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC43">
+      <value>Shift</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC43" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4e11c9b-1f23-5ba8-b395-7debc8d826f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC44">
+      <value>Z</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC44" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9afd202b-7e5f-524c-ae1c-9d803bbed821</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC45">
+      <value>X</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC45" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>473829f1-511b-5170-a5a0-085420e7c0c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC46">
+      <value>C</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC46" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23d2cba2-1850-5774-8f9b-a0676a58f60d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC47">
+      <value>V</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC47" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a6de926-c703-5f07-9085-2030c4fede20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC48">
+      <value>B</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC48" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>644e56b5-086e-5c73-96d6-a2419046f883</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC49">
+      <value>N</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC49" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>939f7184-7402-5919-8dc5-cd188efd3b8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC50">
+      <value>M</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC50" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb29b074-ae1e-53c8-afc3-ad6e7f8d797e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC51">
+      <value>,</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC51" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9f3bcf8-1f08-5ba4-ad7a-fdc4bba6d862</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC52">
+      <value>.</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC52" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdd7e4e1-e03a-5cf1-8105-fb33b00f659e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC53">
+      <value>/</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC53" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80643f3a-a8a6-5081-8029-a28b85d87720</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC54">
+      <value>RShift</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC54" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e806b72-0ee5-56e6-9441-7ad5d0c18427</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC55">
+      <value>Fn</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC55" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11724665-0a4f-5259-8542-a357b36708ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC56">
+      <value>LGUI</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC56" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42db2124-013d-5e0f-afd3-449afdc3c4f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC57">
+      <value>LAlt</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC57" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8942c90-bd0f-5f28-a445-b7789acdef55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC58">
+      <value>Space</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC58" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff8362be-698a-5e2f-aa75-e59cd4a535e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC59">
+      <value>RAlt</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC59" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>589bb6a1-9a86-5b9b-8d52-b996930353fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC60">
+      <value>RGUI</value>
+      <footprint>YAKB:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">YAKB:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="EC60" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eb3ecce-aa9e-56f2-92d9-02b58cbf69e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Battery_PH2.0</value>
+      <footprint>YAKB:Battery_PH2</footprint>
+      <fields>
+        <field name="Footprint">YAKB:Battery_PH2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="J1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7d4fd24-2b9d-5762-a4a4-225454db0d87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="Q1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa94b4d1-69db-5cf1-b0f8-e6b5a48843fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19e933c8-d1ad-5def-8768-cf5593ec7a93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R2" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4b4e48b-34ee-5f6d-a96b-db7659a791cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R3" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d7e6d9b-97c1-5423-9476-477f0e2491ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R4" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22b67de7-1481-58c3-a501-844385ad89f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R5" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a275646-998c-56d6-a9eb-5dda50f4b91d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R10" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14ac13ca-25ce-50ad-88c7-755d3f3f83f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R11" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3132ec9-d179-52c7-93fa-7bef7cf52649</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R12" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5b441b-c41c-5091-a8d9-6b22a7e32cb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R13" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3b5251-c8e1-5072-8c90-c4d4709529a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R14" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e85dbc-6fcf-5814-9195-f070364c1377</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R15" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46a15405-3fc0-5142-8ce5-12fc2e5a2674</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R16" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59e1b474-bd40-5cd9-9d75-6f4e18224cc2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R17" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630fd195-2a54-5fc3-a4fc-037edcfe1643</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R18" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbe3187b-4103-53e0-93ad-325cedbe16d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R19" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>267248ef-55e9-5334-8c41-0b652cd44bc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R20" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ac25fb9-f883-52db-bc25-64e706d4cdfe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R21" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b59c99f-9cbe-57b1-af24-4a6d127f76cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R22" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda31909-5cbb-5624-a8ba-9c1916482921</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R23" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e78a895f-7f1a-5d65-a688-2a4bf6df0bbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R24" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6956ecf-dabe-5d64-8145-122efe6915bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R30" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fddf1ef5-1454-59f3-b55d-7e7281242fa0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R31" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82082074-ed21-5263-9bcd-67382f2d2c3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R32" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b160286a-5bd1-5208-bb52-6978324badfc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R33" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>284f4e5d-007e-5c8a-b2b2-26e12bbafe1c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R34" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>218ec1aa-d3d8-5966-9ad6-b0075a3dddad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R35" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8acea23-cc5b-5c9c-baac-a31dc8f41c17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="R36" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ffd7dd-0dfb-5376-8680-9b240acadb0d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>Battery_switch_pigtail</value>
+      <footprint>YAKB:SPST_PIGTAIL_2.54</footprint>
+      <fields>
+        <field name="Footprint">YAKB:SPST_PIGTAIL_2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="SW1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>136e6130-1ac0-524f-bf6c-de160b38b8b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>Reset_NO</value>
+      <footprint>YAKB:RESET_2.54_TH</footprint>
+      <fields>
+        <field name="Footprint">YAKB:RESET_2.54_TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="SW2" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50d98feb-20f8-5ab2-af4f-dc8475b6e09d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>nice!nano_v2</value>
+      <footprint>YAKB:nice_nano</footprint>
+      <fields>
+        <field name="Footprint">YAKB:nice_nano</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="U1" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4b4469f-9849-5ba1-9290-bd72271fa4b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>SN74HC4051D</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="U2" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9a84971-9a92-5964-9200-1745d27f0ba2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SN74HC4051D</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="U3" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a40271e-523c-5d79-afbe-aff9f9ebdde7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>OPA350UA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB" part="U4" description=""/>
+      <property name="Sheetname" value="YAKB"/>
+      <property name="Sheetfile" value="YAKB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2a1117-7ceb-5494-9d0d-188cbc581de0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="YAKB" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">220p_C0G</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC1">
+      <fields>
+        <field name="Reference">EC1</field>
+        <field name="Value">Esc</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC10">
+      <fields>
+        <field name="Reference">EC10</field>
+        <field name="Value">9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC11">
+      <fields>
+        <field name="Reference">EC11</field>
+        <field name="Value">0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC12">
+      <fields>
+        <field name="Reference">EC12</field>
+        <field name="Value">-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC13">
+      <fields>
+        <field name="Reference">EC13</field>
+        <field name="Value">=</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC14">
+      <fields>
+        <field name="Reference">EC14</field>
+        <field name="Value">\</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC15">
+      <fields>
+        <field name="Reference">EC15</field>
+        <field name="Value">`</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC16">
+      <fields>
+        <field name="Reference">EC16</field>
+        <field name="Value">Tab</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC17">
+      <fields>
+        <field name="Reference">EC17</field>
+        <field name="Value">Q</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC18">
+      <fields>
+        <field name="Reference">EC18</field>
+        <field name="Value">W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC19">
+      <fields>
+        <field name="Reference">EC19</field>
+        <field name="Value">E</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC2">
+      <fields>
+        <field name="Reference">EC2</field>
+        <field name="Value">1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC20">
+      <fields>
+        <field name="Reference">EC20</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC21">
+      <fields>
+        <field name="Reference">EC21</field>
+        <field name="Value">T</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC22">
+      <fields>
+        <field name="Reference">EC22</field>
+        <field name="Value">Y</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC23">
+      <fields>
+        <field name="Reference">EC23</field>
+        <field name="Value">U</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC24">
+      <fields>
+        <field name="Reference">EC24</field>
+        <field name="Value">I</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC25">
+      <fields>
+        <field name="Reference">EC25</field>
+        <field name="Value">O</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC26">
+      <fields>
+        <field name="Reference">EC26</field>
+        <field name="Value">P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC27">
+      <fields>
+        <field name="Reference">EC27</field>
+        <field name="Value">[</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC28">
+      <fields>
+        <field name="Reference">EC28</field>
+        <field name="Value">]</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC29">
+      <fields>
+        <field name="Reference">EC29</field>
+        <field name="Value">Backspace</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC3">
+      <fields>
+        <field name="Reference">EC3</field>
+        <field name="Value">2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC30">
+      <fields>
+        <field name="Reference">EC30</field>
+        <field name="Value">Control</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC31">
+      <fields>
+        <field name="Reference">EC31</field>
+        <field name="Value">A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC32">
+      <fields>
+        <field name="Reference">EC32</field>
+        <field name="Value">S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC33">
+      <fields>
+        <field name="Reference">EC33</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC34">
+      <fields>
+        <field name="Reference">EC34</field>
+        <field name="Value">F</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC35">
+      <fields>
+        <field name="Reference">EC35</field>
+        <field name="Value">G</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC36">
+      <fields>
+        <field name="Reference">EC36</field>
+        <field name="Value">H</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC37">
+      <fields>
+        <field name="Reference">EC37</field>
+        <field name="Value">J</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC38">
+      <fields>
+        <field name="Reference">EC38</field>
+        <field name="Value">K</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC39">
+      <fields>
+        <field name="Reference">EC39</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC4">
+      <fields>
+        <field name="Reference">EC4</field>
+        <field name="Value">3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC40">
+      <fields>
+        <field name="Reference">EC40</field>
+        <field name="Value">;</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC41">
+      <fields>
+        <field name="Reference">EC41</field>
+        <field name="Value">'</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC42">
+      <fields>
+        <field name="Reference">EC42</field>
+        <field name="Value">Enter</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC43">
+      <fields>
+        <field name="Reference">EC43</field>
+        <field name="Value">Shift</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC44">
+      <fields>
+        <field name="Reference">EC44</field>
+        <field name="Value">Z</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC45">
+      <fields>
+        <field name="Reference">EC45</field>
+        <field name="Value">X</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC46">
+      <fields>
+        <field name="Reference">EC46</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC47">
+      <fields>
+        <field name="Reference">EC47</field>
+        <field name="Value">V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC48">
+      <fields>
+        <field name="Reference">EC48</field>
+        <field name="Value">B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC49">
+      <fields>
+        <field name="Reference">EC49</field>
+        <field name="Value">N</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC5">
+      <fields>
+        <field name="Reference">EC5</field>
+        <field name="Value">4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC50">
+      <fields>
+        <field name="Reference">EC50</field>
+        <field name="Value">M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC51">
+      <fields>
+        <field name="Reference">EC51</field>
+        <field name="Value">,</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC52">
+      <fields>
+        <field name="Reference">EC52</field>
+        <field name="Value">.</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC53">
+      <fields>
+        <field name="Reference">EC53</field>
+        <field name="Value">/</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC54">
+      <fields>
+        <field name="Reference">EC54</field>
+        <field name="Value">RShift</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC55">
+      <fields>
+        <field name="Reference">EC55</field>
+        <field name="Value">Fn</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC56">
+      <fields>
+        <field name="Reference">EC56</field>
+        <field name="Value">LGUI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC57">
+      <fields>
+        <field name="Reference">EC57</field>
+        <field name="Value">LAlt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC58">
+      <fields>
+        <field name="Reference">EC58</field>
+        <field name="Value">Space</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC59">
+      <fields>
+        <field name="Reference">EC59</field>
+        <field name="Value">RAlt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC6">
+      <fields>
+        <field name="Reference">EC6</field>
+        <field name="Value">5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC60">
+      <fields>
+        <field name="Reference">EC60</field>
+        <field name="Value">RGUI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC7">
+      <fields>
+        <field name="Reference">EC7</field>
+        <field name="Value">6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC8">
+      <fields>
+        <field name="Reference">EC8</field>
+        <field name="Value">7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="EC9">
+      <fields>
+        <field name="Reference">EC9</field>
+        <field name="Value">8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Battery_PH2.0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_RAW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV0" type="passive"/>
+        <pin num="2" name="ROW0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL0" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL2" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL4" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL6" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL7" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL8" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL9" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV1" type="passive"/>
+        <pin num="2" name="ROW1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL10" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL11" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL12" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL13" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R24">
+      <fields>
+        <field name="Reference">R24</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL14" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV2" type="passive"/>
+        <pin num="2" name="ROW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R30">
+      <fields>
+        <field name="Reference">R30</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADC" type="passive"/>
+        <pin num="2" name="FB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R31">
+      <fields>
+        <field name="Reference">R31</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R32">
+      <fields>
+        <field name="Reference">R32</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRAIN" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R33">
+      <fields>
+        <field name="Reference">R33</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MUX0_INH" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R34">
+      <fields>
+        <field name="Reference">R34</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MUX1_INH" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R35">
+      <fields>
+        <field name="Reference">R35</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_GATE" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R36">
+      <fields>
+        <field name="Reference">R36</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_ON_N" type="passive"/>
+        <pin num="2" name="AFE_GATE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV3" type="passive"/>
+        <pin num="2" name="ROW3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV4" type="passive"/>
+        <pin num="2" name="ROW4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">Battery_switch_pigtail</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_RAW" type="passive"/>
+        <pin num="2" name="BAT_SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">Reset_NO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">nice!nano_v2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/P0.06" type="output"/>
+        <pin num="2" name="D0/P0.08" type="output"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D2/P0.17" type="output"/>
+        <pin num="6" name="D3/P0.20" type="output"/>
+        <pin num="7" name="D4/P0.22" type="output"/>
+        <pin num="8" name="D5/P0.24" type="output"/>
+        <pin num="9" name="D6/P1.00" type="output"/>
+        <pin num="10" name="D7/P0.11" type="output"/>
+        <pin num="11" name="D8/P1.04" type="output"/>
+        <pin num="12" name="D9/P1.06" type="output"/>
+        <pin num="13" name="D10/P0.09" type="passive"/>
+        <pin num="14" name="D16/P0.10" type="passive"/>
+        <pin num="15" name="D14/P1.11" type="passive"/>
+        <pin num="16" name="D15/P1.13" type="output"/>
+        <pin num="17" name="D18/P1.15" type="passive"/>
+        <pin num="18" name="D19/P0.02/AIN0" type="input"/>
+        <pin num="19" name="D20/P0.29" type="passive"/>
+        <pin num="20" name="D21/P0.31" type="passive"/>
+        <pin num="21" name="VCC_3.3V" type="power_out"/>
+        <pin num="22" name="RESET" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="BATTERY+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">SN74HC4051D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="passive"/>
+        <pin num="2" name="X6" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="X7" type="passive"/>
+        <pin num="5" name="X5" type="passive"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="passive"/>
+        <pin num="13" name="X0" type="passive"/>
+        <pin num="14" name="X1" type="passive"/>
+        <pin num="15" name="X2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SN74HC4051D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="passive"/>
+        <pin num="2" name="X6" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="X7" type="passive"/>
+        <pin num="5" name="X5" type="passive"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="passive"/>
+        <pin num="13" name="X0" type="passive"/>
+        <pin num="14" name="X1" type="passive"/>
+        <pin num="15" name="X2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">OPA350UA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="YAKB">
+      <uri>${KIPRJMOD}/YAKB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC" class="Default">
+      <node ref="R30" pin="1" pinfunction="ADC_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="D19/P0.02/AIN0_18" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="OUT_6" pintype="output"/>
+    </net>
+    <net code="2" name="AFE_3V3" class="Default">
+      <node ref="C3" pin="1" pinfunction="AFE_3V3_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="power_out"/>
+      <node ref="U4" pin="7" pinfunction="V+_7" pintype="power_in"/>
+    </net>
+    <net code="3" name="AFE_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="AFE_GATE_1" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="AFE_GATE_2" pintype="passive"/>
+    </net>
+    <net code="4" name="AFE_ON_N" class="Default">
+      <node ref="R36" pin="1" pinfunction="AFE_ON_N_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="D15/P1.13_16" pintype="output"/>
+    </net>
+    <net code="5" name="BAT_RAW" class="Default">
+      <node ref="J1" pin="1" pinfunction="BAT_RAW_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="BAT_RAW_1" pintype="passive"/>
+    </net>
+    <net code="6" name="BAT_SW" class="Default">
+      <node ref="SW1" pin="2" pinfunction="BAT_SW_2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="BATTERY+_24" pintype="passive"/>
+    </net>
+    <net code="7" name="COL0" class="Default">
+      <node ref="EC1" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC16" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC30" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="COL0_1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="X0_13" pintype="passive"/>
+    </net>
+    <net code="8" name="COL1" class="Default">
+      <node ref="EC2" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC43" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="COL1_1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="X1_14" pintype="passive"/>
+    </net>
+    <net code="9" name="COL2" class="Default">
+      <node ref="EC17" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC3" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC31" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC44" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC56" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="COL2_1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="X2_15" pintype="passive"/>
+    </net>
+    <net code="10" name="COL3" class="Default">
+      <node ref="EC18" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC32" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC4" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC45" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC57" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="COL3_1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="X3_12" pintype="passive"/>
+    </net>
+    <net code="11" name="COL4" class="Default">
+      <node ref="EC19" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC33" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC46" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC5" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="COL4_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="X4_1" pintype="passive"/>
+    </net>
+    <net code="12" name="COL5" class="Default">
+      <node ref="EC20" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC34" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC47" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC6" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="COL5_1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="X5_5" pintype="passive"/>
+    </net>
+    <net code="13" name="COL6" class="Default">
+      <node ref="EC21" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC35" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC48" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC7" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="COL6_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="X6_2" pintype="passive"/>
+    </net>
+    <net code="14" name="COL7" class="Default">
+      <node ref="EC22" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC36" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC49" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC58" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC8" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="COL7_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="X7_4" pintype="passive"/>
+    </net>
+    <net code="15" name="COL8" class="Default">
+      <node ref="EC23" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC37" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC50" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC9" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="COL8_1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="X0_13" pintype="passive"/>
+    </net>
+    <net code="16" name="COL9" class="Default">
+      <node ref="EC10" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC24" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC38" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC51" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="COL9_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="X1_14" pintype="passive"/>
+    </net>
+    <net code="17" name="COL10" class="Default">
+      <node ref="EC11" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC25" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC39" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC52" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC59" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="COL10_1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="X2_15" pintype="passive"/>
+    </net>
+    <net code="18" name="COL11" class="Default">
+      <node ref="EC12" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC26" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC40" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC53" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="COL11_1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="X3_12" pintype="passive"/>
+    </net>
+    <net code="19" name="COL12" class="Default">
+      <node ref="EC13" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC27" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC41" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC60" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="COL12_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="X4_1" pintype="passive"/>
+    </net>
+    <net code="20" name="COL13" class="Default">
+      <node ref="EC14" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC28" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC42" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC54" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="COL13_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="X5_5" pintype="passive"/>
+    </net>
+    <net code="21" name="COL14" class="Default">
+      <node ref="EC15" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC29" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC55" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="COL14_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="X6_2" pintype="passive"/>
+    </net>
+    <net code="22" name="DRAIN" class="Default">
+      <node ref="R32" pin="1" pinfunction="DRAIN_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="D10/P0.09_13" pintype="passive"/>
+    </net>
+    <net code="23" name="FB" class="Default">
+      <node ref="R30" pin="2" pinfunction="FB_2" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="FB_1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IN-_2" pintype="input"/>
+    </net>
+    <net code="24" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="EC1" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC10" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC11" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC12" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC13" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC14" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC15" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC16" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC17" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC18" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC19" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC2" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC20" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC21" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC22" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC23" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC24" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC25" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC26" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC27" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC28" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC29" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC3" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC30" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC31" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC32" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC33" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC34" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC35" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC36" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC37" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC38" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC39" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC4" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC40" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC41" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC42" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC43" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC44" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC45" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC46" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC47" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC48" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC49" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC5" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC50" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC51" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC52" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC53" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC54" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC55" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC56" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC57" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC58" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC59" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC6" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC60" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC7" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC8" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC9" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="power_out"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="VEE_7" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="X7_4" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VEE_7" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-_4" pintype="power_in"/>
+    </net>
+    <net code="25" name="MUX0_INH" class="Default">
+      <node ref="R33" pin="1" pinfunction="MUX0_INH_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D8/P1.04_11" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="INH_6" pintype="input"/>
+    </net>
+    <net code="26" name="MUX1_INH" class="Default">
+      <node ref="R34" pin="1" pinfunction="MUX1_INH_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="D9/P1.06_12" pintype="output"/>
+      <node ref="U3" pin="6" pinfunction="INH_6" pintype="input"/>
+    </net>
+    <net code="27" name="MUX_A" class="Default">
+      <node ref="U1" pin="8" pinfunction="D5/P0.24_8" pintype="output"/>
+      <node ref="U2" pin="11" pinfunction="A_11" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="A_11" pintype="input"/>
+    </net>
+    <net code="28" name="MUX_B" class="Default">
+      <node ref="U1" pin="9" pinfunction="D6/P1.00_9" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="B_10" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="B_10" pintype="input"/>
+    </net>
+    <net code="29" name="MUX_C" class="Default">
+      <node ref="U1" pin="10" pinfunction="D7/P0.11_10" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="C_9" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="C_9" pintype="input"/>
+    </net>
+    <net code="30" name="RESET" class="Default">
+      <node ref="SW2" pin="1" pinfunction="RESET_1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="RESET_22" pintype="passive"/>
+    </net>
+    <net code="31" name="ROW0" class="Default">
+      <node ref="EC1" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC10" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC11" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC12" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC13" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC14" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC15" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC2" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC3" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC4" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC5" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC6" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC7" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC8" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC9" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="ROW0_2" pintype="passive"/>
+    </net>
+    <net code="32" name="ROW1" class="Default">
+      <node ref="EC16" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC17" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC18" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC19" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC20" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC21" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC22" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC23" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC24" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC25" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC26" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC27" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC28" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC29" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="ROW1_2" pintype="passive"/>
+    </net>
+    <net code="33" name="ROW2" class="Default">
+      <node ref="EC30" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC31" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC32" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC33" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC34" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC35" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC36" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC37" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC38" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC39" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC40" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC41" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC42" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="ROW2_2" pintype="passive"/>
+    </net>
+    <net code="34" name="ROW3" class="Default">
+      <node ref="EC43" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC44" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC45" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC46" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC47" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC48" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC49" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC50" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC51" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC52" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC53" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC54" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC55" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="ROW3_2" pintype="passive"/>
+    </net>
+    <net code="35" name="ROW4" class="Default">
+      <node ref="EC56" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC57" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC58" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC59" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC60" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="ROW4_2" pintype="passive"/>
+    </net>
+    <net code="36" name="ROW_DRV0" class="Default">
+      <node ref="R1" pin="1" pinfunction="ROW_DRV0_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D0/P0.08_2" pintype="output"/>
+    </net>
+    <net code="37" name="ROW_DRV1" class="Default">
+      <node ref="R2" pin="1" pinfunction="ROW_DRV1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="D1/P0.06_1" pintype="output"/>
+    </net>
+    <net code="38" name="ROW_DRV2" class="Default">
+      <node ref="R3" pin="1" pinfunction="ROW_DRV2_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D2/P0.17_5" pintype="output"/>
+    </net>
+    <net code="39" name="ROW_DRV3" class="Default">
+      <node ref="R4" pin="1" pinfunction="ROW_DRV3_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D3/P0.20_6" pintype="output"/>
+    </net>
+    <net code="40" name="ROW_DRV4" class="Default">
+      <node ref="R5" pin="1" pinfunction="ROW_DRV4_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4/P0.22_7" pintype="output"/>
+    </net>
+    <net code="41" name="SENSE" class="Default">
+      <node ref="C4" pin="1" pinfunction="SENSE_1" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="IN+_3" pintype="input"/>
+    </net>
+    <net code="42" name="VCC" class="Default">
+      <node ref="C1" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC_3.3V_21" pintype="power_out"/>
+      <node ref="U2" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+    </net>
+    <net code="43" name="unconnected-(U1-D14/P1.11-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="D14/P1.11_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-D16/P0.10-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="D16/P0.10_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-D18/P1.15-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="D18/P1.15_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-D20/P0.29-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="D20/P0.29_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-D21/P0.31-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="D21/P0.31_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U4-NC-Pad1)" class="Default">
+      <node ref="U4" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U4-NC-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U4-NC-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="NC_8" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

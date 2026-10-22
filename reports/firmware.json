@@ -1,0 +1,17 @@
+{
+  "zmk_revision": "4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85",
+  "ec_module_revision": "bcb61bdee0a548976bea8f376f8cdec6b4ffd5fe",
+  "board": "nice_nano@2.0.0/nrf52840/zmk",
+  "shield": "yakb",
+  "sdk": "0.16.9",
+  "gcc": "12.2",
+  "normal": {
+    "flash_bytes": 198432,
+    "ram_bytes": 47772
+  },
+  "calibrator": {
+    "flash_bytes": 225624,
+    "ram_bytes": 56108
+  },
+  "hardware_tested": false
+}

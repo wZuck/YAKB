@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.kicad_prl
+*-backups/
+.DS_Store
+en/
+*.lck
+hardware/router-proxy.*
+hardware/*.dsn
+hardware/*.ses
+hardware/router-full.*

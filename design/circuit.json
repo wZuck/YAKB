@@ -1,0 +1,1419 @@
+[
+  {
+    "ref": "U1",
+    "value": "nice!nano_v2",
+    "footprint": "YAKB:nice_nano",
+    "pins": {
+      "1": "ROW_DRV1",
+      "2": "ROW_DRV0",
+      "5": "ROW_DRV2",
+      "6": "ROW_DRV3",
+      "7": "ROW_DRV4",
+      "8": "MUX_A",
+      "9": "MUX_B",
+      "10": "MUX_C",
+      "11": "MUX0_INH",
+      "12": "MUX1_INH",
+      "13": "DRAIN",
+      "14": "",
+      "15": "",
+      "16": "AFE_ON_N",
+      "17": "",
+      "18": "ADC",
+      "19": "",
+      "20": "",
+      "3": "GND",
+      "4": "GND",
+      "21": "VCC",
+      "22": "RESET",
+      "23": "GND",
+      "24": "BAT_SW"
+    },
+    "x": 260,
+    "y": 85,
+    "kind": "MODULE",
+    "side": "B"
+  },
+  {
+    "ref": "U2",
+    "value": "SN74HC4051D",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "pins": {
+      "3": "SENSE",
+      "6": "MUX0_INH",
+      "7": "GND",
+      "8": "GND",
+      "9": "MUX_C",
+      "10": "MUX_B",
+      "11": "MUX_A",
+      "16": "VCC",
+      "13": "COL0",
+      "14": "COL1",
+      "15": "COL2",
+      "12": "COL3",
+      "1": "COL4",
+      "5": "COL5",
+      "2": "COL6",
+      "4": "COL7"
+    },
+    "x": 105,
+    "y": 84,
+    "kind": "IC",
+    "side": "B"
+  },
+  {
+    "ref": "U3",
+    "value": "SN74HC4051D",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "pins": {
+      "3": "SENSE",
+      "6": "MUX1_INH",
+      "7": "GND",
+      "8": "GND",
+      "9": "MUX_C",
+      "10": "MUX_B",
+      "11": "MUX_A",
+      "16": "VCC",
+      "13": "COL8",
+      "14": "COL9",
+      "15": "COL10",
+      "12": "COL11",
+      "1": "COL12",
+      "5": "COL13",
+      "2": "COL14",
+      "4": "GND"
+    },
+    "x": 170,
+    "y": 84,
+    "kind": "IC",
+    "side": "B"
+  },
+  {
+    "ref": "U4",
+    "value": "OPA350UA",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "",
+      "2": "FB",
+      "3": "SENSE",
+      "4": "GND",
+      "5": "",
+      "6": "ADC",
+      "7": "AFE_3V3",
+      "8": ""
+    },
+    "x": 223,
+    "y": 84,
+    "kind": "IC",
+    "side": "B"
+  },
+  {
+    "ref": "Q1",
+    "value": "AO3401A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "pins": {
+      "1": "AFE_GATE",
+      "2": "VCC",
+      "3": "AFE_3V3"
+    },
+    "x": 207,
+    "y": 84,
+    "kind": "IC",
+    "side": "B"
+  },
+  {
+    "ref": "R1",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ROW_DRV0",
+      "2": "ROW0"
+    },
+    "x": 40,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R2",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ROW_DRV1",
+      "2": "ROW1"
+    },
+    "x": 46,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R3",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ROW_DRV2",
+      "2": "ROW2"
+    },
+    "x": 52,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R4",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ROW_DRV3",
+      "2": "ROW3"
+    },
+    "x": 58,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R5",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ROW_DRV4",
+      "2": "ROW4"
+    },
+    "x": 64,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R10",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL0",
+      "2": "GND"
+    },
+    "x": 119,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R11",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL1",
+      "2": "GND"
+    },
+    "x": 126,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R12",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL2",
+      "2": "GND"
+    },
+    "x": 133,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL3",
+      "2": "GND"
+    },
+    "x": 140,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R14",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL4",
+      "2": "GND"
+    },
+    "x": 147,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R15",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL5",
+      "2": "GND"
+    },
+    "x": 119,
+    "y": 84,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R16",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL6",
+      "2": "GND"
+    },
+    "x": 126,
+    "y": 84,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R17",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL7",
+      "2": "GND"
+    },
+    "x": 133,
+    "y": 84,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R18",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL8",
+      "2": "GND"
+    },
+    "x": 140,
+    "y": 84,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R19",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL9",
+      "2": "GND"
+    },
+    "x": 147,
+    "y": 84,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R20",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL10",
+      "2": "GND"
+    },
+    "x": 119,
+    "y": 90,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R21",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL11",
+      "2": "GND"
+    },
+    "x": 126,
+    "y": 90,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL12",
+      "2": "GND"
+    },
+    "x": 133,
+    "y": 90,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R23",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL13",
+      "2": "GND"
+    },
+    "x": 140,
+    "y": 90,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R24",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "COL14",
+      "2": "GND"
+    },
+    "x": 147,
+    "y": 90,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R30",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "ADC",
+      "2": "FB"
+    },
+    "x": 219,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R31",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "FB",
+      "2": "GND"
+    },
+    "x": 219,
+    "y": 91,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R32",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "DRAIN",
+      "2": "SENSE"
+    },
+    "x": 232,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R33",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "MUX0_INH",
+      "2": "VCC"
+    },
+    "x": 99,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R34",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "MUX1_INH",
+      "2": "VCC"
+    },
+    "x": 164,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R35",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "AFE_GATE",
+      "2": "VCC"
+    },
+    "x": 200,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "R36",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "pins": {
+      "1": "AFE_ON_N",
+      "2": "AFE_GATE"
+    },
+    "x": 207,
+    "y": 78,
+    "kind": "R",
+    "side": "B"
+  },
+  {
+    "ref": "C1",
+    "value": "100n",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "pins": {
+      "1": "VCC",
+      "2": "GND"
+    },
+    "x": 99,
+    "y": 91,
+    "kind": "C",
+    "side": "B"
+  },
+  {
+    "ref": "C2",
+    "value": "100n",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "pins": {
+      "1": "VCC",
+      "2": "GND"
+    },
+    "x": 164,
+    "y": 91,
+    "kind": "C",
+    "side": "B"
+  },
+  {
+    "ref": "C3",
+    "value": "100n",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "pins": {
+      "1": "AFE_3V3",
+      "2": "GND"
+    },
+    "x": 232,
+    "y": 91,
+    "kind": "C",
+    "side": "B"
+  },
+  {
+    "ref": "C4",
+    "value": "220p_C0G",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "pins": {
+      "1": "SENSE",
+      "2": "GND"
+    },
+    "x": 239,
+    "y": 78,
+    "kind": "C",
+    "side": "B"
+  },
+  {
+    "ref": "C5",
+    "value": "1u",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "pins": {
+      "1": "VCC",
+      "2": "GND"
+    },
+    "x": 193,
+    "y": 78,
+    "kind": "C",
+    "side": "B"
+  },
+  {
+    "ref": "J1",
+    "value": "Battery_PH2.0",
+    "footprint": "YAKB:Battery_PH2",
+    "pins": {
+      "1": "BAT_RAW",
+      "2": "GND"
+    },
+    "x": 20,
+    "y": 84,
+    "kind": "CONN",
+    "side": "B"
+  },
+  {
+    "ref": "SW1",
+    "value": "Battery_switch_pigtail",
+    "footprint": "YAKB:SPST_PIGTAIL_2.54",
+    "pins": {
+      "1": "BAT_RAW",
+      "2": "BAT_SW"
+    },
+    "x": 10,
+    "y": 85,
+    "kind": "SW",
+    "side": "B"
+  },
+  {
+    "ref": "SW2",
+    "value": "Reset_NO",
+    "footprint": "YAKB:RESET_2.54_TH",
+    "pins": {
+      "1": "RESET",
+      "2": "GND"
+    },
+    "x": 238,
+    "y": 91,
+    "kind": "SW",
+    "side": "B"
+  },
+  {
+    "ref": "EC1",
+    "value": "Esc",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL0",
+      "3": "GND"
+    },
+    "x": 9.15,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC2",
+    "value": "1",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL1",
+      "3": "GND"
+    },
+    "x": 28.200000000000003,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC3",
+    "value": "2",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL2",
+      "3": "GND"
+    },
+    "x": 47.25,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC4",
+    "value": "3",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL3",
+      "3": "GND"
+    },
+    "x": 66.30000000000001,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC5",
+    "value": "4",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL4",
+      "3": "GND"
+    },
+    "x": 85.35000000000001,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC6",
+    "value": "5",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL5",
+      "3": "GND"
+    },
+    "x": 104.4,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC7",
+    "value": "6",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL6",
+      "3": "GND"
+    },
+    "x": 123.45000000000002,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC8",
+    "value": "7",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL7",
+      "3": "GND"
+    },
+    "x": 142.5,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC9",
+    "value": "8",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL8",
+      "3": "GND"
+    },
+    "x": 161.55,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC10",
+    "value": "9",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL9",
+      "3": "GND"
+    },
+    "x": 180.60000000000002,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC11",
+    "value": "0",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL10",
+      "3": "GND"
+    },
+    "x": 199.65,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC12",
+    "value": "-",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL11",
+      "3": "GND"
+    },
+    "x": 218.70000000000002,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC13",
+    "value": "=",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL12",
+      "3": "GND"
+    },
+    "x": 237.75000000000003,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC14",
+    "value": "\\",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL13",
+      "3": "GND"
+    },
+    "x": 256.8,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC15",
+    "value": "`",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW0",
+      "2": "COL14",
+      "3": "GND"
+    },
+    "x": 275.84999999999997,
+    "y": 9.2,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC16",
+    "value": "Tab",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL0",
+      "3": "GND"
+    },
+    "x": 13.912500000000001,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC17",
+    "value": "Q",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL2",
+      "3": "GND"
+    },
+    "x": 37.725,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC18",
+    "value": "W",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL3",
+      "3": "GND"
+    },
+    "x": 56.775,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC19",
+    "value": "E",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL4",
+      "3": "GND"
+    },
+    "x": 75.825,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC20",
+    "value": "R",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL5",
+      "3": "GND"
+    },
+    "x": 94.87500000000001,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC21",
+    "value": "T",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL6",
+      "3": "GND"
+    },
+    "x": 113.92500000000001,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC22",
+    "value": "Y",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL7",
+      "3": "GND"
+    },
+    "x": 132.975,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC23",
+    "value": "U",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL8",
+      "3": "GND"
+    },
+    "x": 152.025,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC24",
+    "value": "I",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL9",
+      "3": "GND"
+    },
+    "x": 171.07500000000002,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC25",
+    "value": "O",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL10",
+      "3": "GND"
+    },
+    "x": 190.125,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC26",
+    "value": "P",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL11",
+      "3": "GND"
+    },
+    "x": 209.175,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC27",
+    "value": "[",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL12",
+      "3": "GND"
+    },
+    "x": 228.22500000000002,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC28",
+    "value": "]",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL13",
+      "3": "GND"
+    },
+    "x": 247.275,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC29",
+    "value": "Backspace",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW1",
+      "2": "COL14",
+      "3": "GND"
+    },
+    "x": 271.0875,
+    "y": 28.25,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC30",
+    "value": "Control",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL0",
+      "3": "GND"
+    },
+    "x": 16.293750000000003,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC31",
+    "value": "A",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL2",
+      "3": "GND"
+    },
+    "x": 42.4875,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC32",
+    "value": "S",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL3",
+      "3": "GND"
+    },
+    "x": 61.5375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC33",
+    "value": "D",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL4",
+      "3": "GND"
+    },
+    "x": 80.5875,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC34",
+    "value": "F",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL5",
+      "3": "GND"
+    },
+    "x": 99.6375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC35",
+    "value": "G",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL6",
+      "3": "GND"
+    },
+    "x": 118.68750000000001,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC36",
+    "value": "H",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL7",
+      "3": "GND"
+    },
+    "x": 137.7375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC37",
+    "value": "J",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL8",
+      "3": "GND"
+    },
+    "x": 156.78750000000002,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC38",
+    "value": "K",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL9",
+      "3": "GND"
+    },
+    "x": 175.8375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC39",
+    "value": "L",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL10",
+      "3": "GND"
+    },
+    "x": 194.88750000000002,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC40",
+    "value": ";",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL11",
+      "3": "GND"
+    },
+    "x": 213.9375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC41",
+    "value": "'",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL12",
+      "3": "GND"
+    },
+    "x": 232.9875,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC42",
+    "value": "Enter",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW2",
+      "2": "COL13",
+      "3": "GND"
+    },
+    "x": 263.94375,
+    "y": 47.3,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC43",
+    "value": "Shift",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL1",
+      "3": "GND"
+    },
+    "x": 21.05625,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC44",
+    "value": "Z",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL2",
+      "3": "GND"
+    },
+    "x": 52.0125,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC45",
+    "value": "X",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL3",
+      "3": "GND"
+    },
+    "x": 71.0625,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC46",
+    "value": "C",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL4",
+      "3": "GND"
+    },
+    "x": 90.11250000000001,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC47",
+    "value": "V",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL5",
+      "3": "GND"
+    },
+    "x": 109.16250000000001,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC48",
+    "value": "B",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL6",
+      "3": "GND"
+    },
+    "x": 128.2125,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC49",
+    "value": "N",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL7",
+      "3": "GND"
+    },
+    "x": 147.26250000000002,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC50",
+    "value": "M",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL8",
+      "3": "GND"
+    },
+    "x": 166.3125,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC51",
+    "value": ",",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL9",
+      "3": "GND"
+    },
+    "x": 185.3625,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC52",
+    "value": ".",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL10",
+      "3": "GND"
+    },
+    "x": 204.41250000000002,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC53",
+    "value": "/",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL11",
+      "3": "GND"
+    },
+    "x": 223.4625,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC54",
+    "value": "RShift",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL13",
+      "3": "GND"
+    },
+    "x": 249.65625000000003,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC55",
+    "value": "Fn",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW3",
+      "2": "COL14",
+      "3": "GND"
+    },
+    "x": 275.84999999999997,
+    "y": 66.35000000000001,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC56",
+    "value": "LGUI",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW4",
+      "2": "COL2",
+      "3": "GND"
+    },
+    "x": 37.725,
+    "y": 85.4,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC57",
+    "value": "LAlt",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW4",
+      "2": "COL3",
+      "3": "GND"
+    },
+    "x": 61.5375,
+    "y": 85.4,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC58",
+    "value": "Space",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW4",
+      "2": "COL7",
+      "3": "GND"
+    },
+    "x": 132.975,
+    "y": 85.4,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC59",
+    "value": "RAlt",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW4",
+      "2": "COL10",
+      "3": "GND"
+    },
+    "x": 204.41250000000002,
+    "y": 85.4,
+    "kind": "EC",
+    "side": "F"
+  },
+  {
+    "ref": "EC60",
+    "value": "RGUI",
+    "footprint": "YAKB:ecs_pad_1U_no_ring",
+    "pins": {
+      "1": "ROW4",
+      "2": "COL12",
+      "3": "GND"
+    },
+    "x": 228.22500000000002,
+    "y": 85.4,
+    "kind": "EC",
+    "side": "F"
+  }
+]

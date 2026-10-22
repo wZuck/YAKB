@@ -1,0 +1,101 @@
+Reference,Value,Footprint,Side,X_mm,Y_mm,Status
+U1,nice!nano_v2,YAKB:nice_nano,B,260,85,selection; verify procurement
+U2,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,105,84,selection; verify procurement
+U3,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,170,84,selection; verify procurement
+U4,OPA350UA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,B,223,84,selection; verify procurement
+Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,B,207,84,selection; verify procurement
+R1,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,40,78,selection; verify procurement
+R2,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,46,78,selection; verify procurement
+R3,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,52,78,selection; verify procurement
+R4,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,58,78,selection; verify procurement
+R5,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,64,78,selection; verify procurement
+R10,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,119,78,selection; verify procurement
+R11,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,126,78,selection; verify procurement
+R12,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,133,78,selection; verify procurement
+R13,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,140,78,selection; verify procurement
+R14,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,147,78,selection; verify procurement
+R15,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,119,84,selection; verify procurement
+R16,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,126,84,selection; verify procurement
+R17,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,133,84,selection; verify procurement
+R18,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,140,84,selection; verify procurement
+R19,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,147,84,selection; verify procurement
+R20,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,119,90,selection; verify procurement
+R21,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,126,90,selection; verify procurement
+R22,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,133,90,selection; verify procurement
+R23,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,140,90,selection; verify procurement
+R24,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,147,90,selection; verify procurement
+R30,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,219,78,selection; verify procurement
+R31,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,219,91,selection; verify procurement
+R32,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,232,78,selection; verify procurement
+R33,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,99,78,selection; verify procurement
+R34,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,164,78,selection; verify procurement
+R35,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,200,78,selection; verify procurement
+R36,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,207,78,selection; verify procurement
+C1,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,99,91,selection; verify procurement
+C2,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,164,91,selection; verify procurement
+C3,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,232,91,selection; verify procurement
+C4,220p_C0G,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,239,78,selection; verify procurement
+C5,1u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,193,78,selection; verify procurement
+J1,Battery_PH2.0,YAKB:Battery_PH2,B,20,84,selection; verify procurement
+SW1,Battery_switch_pigtail,YAKB:SPST_PIGTAIL_2.54,B,10,85,selection; verify procurement
+SW2,Reset_NO,YAKB:RESET_2.54_TH,B,238,91,selection; verify procurement
+EC1,Esc,YAKB:ecs_pad_1U_no_ring,F,9.15,9.2,EC electrode
+EC2,1,YAKB:ecs_pad_1U_no_ring,F,28.200000000000003,9.2,EC electrode
+EC3,2,YAKB:ecs_pad_1U_no_ring,F,47.25,9.2,EC electrode
+EC4,3,YAKB:ecs_pad_1U_no_ring,F,66.30000000000001,9.2,EC electrode
+EC5,4,YAKB:ecs_pad_1U_no_ring,F,85.35000000000001,9.2,EC electrode
+EC6,5,YAKB:ecs_pad_1U_no_ring,F,104.4,9.2,EC electrode
+EC7,6,YAKB:ecs_pad_1U_no_ring,F,123.45000000000002,9.2,EC electrode
+EC8,7,YAKB:ecs_pad_1U_no_ring,F,142.5,9.2,EC electrode
+EC9,8,YAKB:ecs_pad_1U_no_ring,F,161.55,9.2,EC electrode
+EC10,9,YAKB:ecs_pad_1U_no_ring,F,180.60000000000002,9.2,EC electrode
+EC11,0,YAKB:ecs_pad_1U_no_ring,F,199.65,9.2,EC electrode
+EC12,-,YAKB:ecs_pad_1U_no_ring,F,218.70000000000002,9.2,EC electrode
+EC13,=,YAKB:ecs_pad_1U_no_ring,F,237.75000000000003,9.2,EC electrode
+EC14,\,YAKB:ecs_pad_1U_no_ring,F,256.8,9.2,EC electrode
+EC15,`,YAKB:ecs_pad_1U_no_ring,F,275.84999999999997,9.2,EC electrode
+EC16,Tab,YAKB:ecs_pad_1U_no_ring,F,13.912500000000001,28.25,EC electrode
+EC17,Q,YAKB:ecs_pad_1U_no_ring,F,37.725,28.25,EC electrode
+EC18,W,YAKB:ecs_pad_1U_no_ring,F,56.775,28.25,EC electrode
+EC19,E,YAKB:ecs_pad_1U_no_ring,F,75.825,28.25,EC electrode
+EC20,R,YAKB:ecs_pad_1U_no_ring,F,94.87500000000001,28.25,EC electrode
+EC21,T,YAKB:ecs_pad_1U_no_ring,F,113.92500000000001,28.25,EC electrode
+EC22,Y,YAKB:ecs_pad_1U_no_ring,F,132.975,28.25,EC electrode
+EC23,U,YAKB:ecs_pad_1U_no_ring,F,152.025,28.25,EC electrode
+EC24,I,YAKB:ecs_pad_1U_no_ring,F,171.07500000000002,28.25,EC electrode
+EC25,O,YAKB:ecs_pad_1U_no_ring,F,190.125,28.25,EC electrode
+EC26,P,YAKB:ecs_pad_1U_no_ring,F,209.175,28.25,EC electrode
+EC27,[,YAKB:ecs_pad_1U_no_ring,F,228.22500000000002,28.25,EC electrode
+EC28,],YAKB:ecs_pad_1U_no_ring,F,247.275,28.25,EC electrode
+EC29,Backspace,YAKB:ecs_pad_1U_no_ring,F,271.0875,28.25,EC electrode
+EC30,Control,YAKB:ecs_pad_1U_no_ring,F,16.293750000000003,47.3,EC electrode
+EC31,A,YAKB:ecs_pad_1U_no_ring,F,42.4875,47.3,EC electrode
+EC32,S,YAKB:ecs_pad_1U_no_ring,F,61.5375,47.3,EC electrode
+EC33,D,YAKB:ecs_pad_1U_no_ring,F,80.5875,47.3,EC electrode
+EC34,F,YAKB:ecs_pad_1U_no_ring,F,99.6375,47.3,EC electrode
+EC35,G,YAKB:ecs_pad_1U_no_ring,F,118.68750000000001,47.3,EC electrode
+EC36,H,YAKB:ecs_pad_1U_no_ring,F,137.7375,47.3,EC electrode
+EC37,J,YAKB:ecs_pad_1U_no_ring,F,156.78750000000002,47.3,EC electrode
+EC38,K,YAKB:ecs_pad_1U_no_ring,F,175.8375,47.3,EC electrode
+EC39,L,YAKB:ecs_pad_1U_no_ring,F,194.88750000000002,47.3,EC electrode
+EC40,;,YAKB:ecs_pad_1U_no_ring,F,213.9375,47.3,EC electrode
+EC41,',YAKB:ecs_pad_1U_no_ring,F,232.9875,47.3,EC electrode
+EC42,Enter,YAKB:ecs_pad_1U_no_ring,F,263.94375,47.3,EC electrode
+EC43,Shift,YAKB:ecs_pad_1U_no_ring,F,21.05625,66.35000000000001,EC electrode
+EC44,Z,YAKB:ecs_pad_1U_no_ring,F,52.0125,66.35000000000001,EC electrode
+EC45,X,YAKB:ecs_pad_1U_no_ring,F,71.0625,66.35000000000001,EC electrode
+EC46,C,YAKB:ecs_pad_1U_no_ring,F,90.11250000000001,66.35000000000001,EC electrode
+EC47,V,YAKB:ecs_pad_1U_no_ring,F,109.16250000000001,66.35000000000001,EC electrode
+EC48,B,YAKB:ecs_pad_1U_no_ring,F,128.2125,66.35000000000001,EC electrode
+EC49,N,YAKB:ecs_pad_1U_no_ring,F,147.26250000000002,66.35000000000001,EC electrode
+EC50,M,YAKB:ecs_pad_1U_no_ring,F,166.3125,66.35000000000001,EC electrode
+EC51,",",YAKB:ecs_pad_1U_no_ring,F,185.3625,66.35000000000001,EC electrode
+EC52,.,YAKB:ecs_pad_1U_no_ring,F,204.41250000000002,66.35000000000001,EC electrode
+EC53,/,YAKB:ecs_pad_1U_no_ring,F,223.4625,66.35000000000001,EC electrode
+EC54,RShift,YAKB:ecs_pad_1U_no_ring,F,249.65625000000003,66.35000000000001,EC electrode
+EC55,Fn,YAKB:ecs_pad_1U_no_ring,F,275.84999999999997,66.35000000000001,EC electrode
+EC56,LGUI,YAKB:ecs_pad_1U_no_ring,F,37.725,85.4,EC electrode
+EC57,LAlt,YAKB:ecs_pad_1U_no_ring,F,61.5375,85.4,EC electrode
+EC58,Space,YAKB:ecs_pad_1U_no_ring,F,132.975,85.4,EC electrode
+EC59,RAlt,YAKB:ecs_pad_1U_no_ring,F,204.41250000000002,85.4,EC electrode
+EC60,RGUI,YAKB:ecs_pad_1U_no_ring,F,228.22500000000002,85.4,EC electrode

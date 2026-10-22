@@ -1,0 +1,50 @@
+{
+  "name": "YAKB - Yet Another KeyBoard",
+  "key_count": 60,
+  "row_counts": [
+    15,
+    14,
+    13,
+    13,
+    5
+  ],
+  "components": 100,
+  "physical_components_excluding_electrodes": 40,
+  "schematic_pins_checked": 309,
+  "schematic_matches_design": true,
+  "pcb_pins_match_schematic": true,
+  "copper_layers": 4,
+  "drc_errors_warnings": 0,
+  "unconnected": 0,
+  "erc_errors_warnings": 0,
+  "pcb_sha256": "2e7ac4351f136bff03574ebb0c00738f64da10063ba9b8645cf6ad6fcc79bfdd",
+  "firmware_transform_matches_layout": true,
+  "mechanical_envelopes_clear": true,
+  "electrode_mount_gaps": [
+    {
+      "mount": "left",
+      "radius7_disk_to_capsule_edge_gap_mm": 7.34
+    },
+    {
+      "mount": "upper_left",
+      "radius7_disk_to_capsule_edge_gap_mm": 3.042
+    },
+    {
+      "mount": "center",
+      "radius7_disk_to_capsule_edge_gap_mm": 0.016
+    },
+    {
+      "mount": "lower_center",
+      "radius7_disk_to_capsule_edge_gap_mm": 4.415
+    },
+    {
+      "mount": "right",
+      "radius7_disk_to_capsule_edge_gap_mm": 3.002
+    }
+  ],
+  "limitations": [
+    "No physical NiZ/plate/stabilizer/case fit verified.",
+    "Continuity and noise require a built PCB.",
+    "Cross-file checks do not prove analog performance."
+  ]
+}

@@ -1,0 +1,11 @@
+manifest:
+  projects:
+    - name: zmk
+      url: https://github.com/zmkfirmware/zmk
+      revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85
+      import: app/west.yml
+    - name: ec-support-zmk-module
+      url: https://github.com/petejohanson/ec-support-zmk-module
+      revision: bcb61bdee0a548976bea8f376f8cdec6b4ffd5fe
+  self:
+    path: config

@@ -1,0 +1,5326 @@
+[
+  {
+    "ref": "EC19",
+    "value": "E",
+    "x": 75.825,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 74.825,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 76.825,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL4"
+      },
+      {
+        "number": "3",
+        "x": 75.825,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 75.825,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC52",
+    "value": ".",
+    "x": 204.4125,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 203.4125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 205.4125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL10"
+      },
+      {
+        "number": "3",
+        "x": 204.4125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 204.4125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC8",
+    "value": "7",
+    "x": 142.5,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 141.5,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 143.5,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL7"
+      },
+      {
+        "number": "3",
+        "x": 142.5,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 142.5,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC53",
+    "value": "/",
+    "x": 223.4625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 222.4625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 224.4625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL11"
+      },
+      {
+        "number": "3",
+        "x": 223.4625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 223.4625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC51",
+    "value": ",",
+    "x": 185.3625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 184.3625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 186.3625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL9"
+      },
+      {
+        "number": "3",
+        "x": 185.3625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 185.3625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC47",
+    "value": "V",
+    "x": 109.1625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 108.1625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 110.1625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL5"
+      },
+      {
+        "number": "3",
+        "x": 109.1625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 109.1625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC43",
+    "value": "Shift",
+    "x": 21.05625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 20.05625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 22.05625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL1"
+      },
+      {
+        "number": "3",
+        "x": 21.05625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 21.05625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC20",
+    "value": "R",
+    "x": 94.875,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 93.875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 95.875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL5"
+      },
+      {
+        "number": "3",
+        "x": 94.875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 94.875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC9",
+    "value": "8",
+    "x": 161.55,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 160.55,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 162.55,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL8"
+      },
+      {
+        "number": "3",
+        "x": 161.55,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 161.55,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC34",
+    "value": "F",
+    "x": 99.6375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 98.6375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 100.6375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL5"
+      },
+      {
+        "number": "3",
+        "x": 99.6375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 99.6375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC18",
+    "value": "W",
+    "x": 56.775,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 55.775,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 57.775,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL3"
+      },
+      {
+        "number": "3",
+        "x": 56.775,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 56.775,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC29",
+    "value": "Backspace",
+    "x": 271.0875,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 270.0875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 272.0875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL14"
+      },
+      {
+        "number": "3",
+        "x": 271.0875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 271.0875,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC3",
+    "value": "2",
+    "x": 47.25,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 46.25,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 48.25,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL2"
+      },
+      {
+        "number": "3",
+        "x": 47.25,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 47.25,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC24",
+    "value": "I",
+    "x": 171.075,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 170.075,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 172.075,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL9"
+      },
+      {
+        "number": "3",
+        "x": 171.075,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 171.075,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC10",
+    "value": "9",
+    "x": 180.6,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 179.6,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 181.6,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL9"
+      },
+      {
+        "number": "3",
+        "x": 180.6,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 180.6,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC50",
+    "value": "M",
+    "x": 166.3125,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 165.3125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 167.3125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL8"
+      },
+      {
+        "number": "3",
+        "x": 166.3125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 166.3125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC16",
+    "value": "Tab",
+    "x": 13.9125,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 12.9125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 14.9125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL0"
+      },
+      {
+        "number": "3",
+        "x": 13.9125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 13.9125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC42",
+    "value": "Enter",
+    "x": 263.94375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 262.94375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 264.94375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL13"
+      },
+      {
+        "number": "3",
+        "x": 263.94375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 263.94375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC5",
+    "value": "4",
+    "x": 85.35,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 84.35,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 86.35,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL4"
+      },
+      {
+        "number": "3",
+        "x": 85.35,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 85.35,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC12",
+    "value": "-",
+    "x": 218.7,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 217.7,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 219.7,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL11"
+      },
+      {
+        "number": "3",
+        "x": 218.7,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 218.7,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC30",
+    "value": "Control",
+    "x": 16.29375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 15.29375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 17.29375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL0"
+      },
+      {
+        "number": "3",
+        "x": 16.29375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 16.29375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC60",
+    "value": "RGUI",
+    "x": 228.225,
+    "y": 85.4,
+    "pads": [
+      {
+        "number": "1",
+        "x": 227.225,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW4"
+      },
+      {
+        "number": "2",
+        "x": 229.225,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL12"
+      },
+      {
+        "number": "3",
+        "x": 228.225,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 228.225,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC33",
+    "value": "D",
+    "x": 80.5875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 79.5875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 81.5875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL4"
+      },
+      {
+        "number": "3",
+        "x": 80.5875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 80.5875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC2",
+    "value": "1",
+    "x": 28.2,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 27.2,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 29.2,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL1"
+      },
+      {
+        "number": "3",
+        "x": 28.2,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 28.2,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC15",
+    "value": "`",
+    "x": 275.85,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 274.85,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 276.85,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL14"
+      },
+      {
+        "number": "3",
+        "x": 275.85,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 275.85,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC7",
+    "value": "6",
+    "x": 123.45,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 122.45,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 124.45,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL6"
+      },
+      {
+        "number": "3",
+        "x": 123.45,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 123.45,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC49",
+    "value": "N",
+    "x": 147.2625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 146.2625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 148.2625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL7"
+      },
+      {
+        "number": "3",
+        "x": 147.2625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 147.2625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC56",
+    "value": "LGUI",
+    "x": 37.725,
+    "y": 85.4,
+    "pads": [
+      {
+        "number": "1",
+        "x": 36.725,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW4"
+      },
+      {
+        "number": "2",
+        "x": 38.725,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL2"
+      },
+      {
+        "number": "3",
+        "x": 37.725,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 37.725,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC35",
+    "value": "G",
+    "x": 118.6875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 117.6875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 119.6875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL6"
+      },
+      {
+        "number": "3",
+        "x": 118.6875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 118.6875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC38",
+    "value": "K",
+    "x": 175.8375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 174.8375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 176.8375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL9"
+      },
+      {
+        "number": "3",
+        "x": 175.8375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 175.8375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC55",
+    "value": "Fn",
+    "x": 275.85,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 274.85,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 276.85,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL14"
+      },
+      {
+        "number": "3",
+        "x": 275.85,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 275.85,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC31",
+    "value": "A",
+    "x": 42.4875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 41.4875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 43.4875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL2"
+      },
+      {
+        "number": "3",
+        "x": 42.4875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 42.4875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC17",
+    "value": "Q",
+    "x": 37.725,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 36.725,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 38.725,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL2"
+      },
+      {
+        "number": "3",
+        "x": 37.725,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 37.725,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC14",
+    "value": "\\",
+    "x": 256.8,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 255.8,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 257.8,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL13"
+      },
+      {
+        "number": "3",
+        "x": 256.8,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 256.8,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC23",
+    "value": "U",
+    "x": 152.025,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 151.025,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 153.025,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL8"
+      },
+      {
+        "number": "3",
+        "x": 152.025,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 152.025,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC22",
+    "value": "Y",
+    "x": 132.975,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 131.975,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 133.975,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL7"
+      },
+      {
+        "number": "3",
+        "x": 132.975,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 132.975,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC13",
+    "value": "=",
+    "x": 237.75,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 236.75,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 238.75,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL12"
+      },
+      {
+        "number": "3",
+        "x": 237.75,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 237.75,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC46",
+    "value": "C",
+    "x": 90.1125,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 89.1125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 91.1125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL4"
+      },
+      {
+        "number": "3",
+        "x": 90.1125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 90.1125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC48",
+    "value": "B",
+    "x": 128.2125,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 127.2125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 129.2125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL6"
+      },
+      {
+        "number": "3",
+        "x": 128.2125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 128.2125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC41",
+    "value": "'",
+    "x": 232.9875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 231.9875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 233.9875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL12"
+      },
+      {
+        "number": "3",
+        "x": 232.9875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 232.9875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC27",
+    "value": "[",
+    "x": 228.225,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 227.225,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 229.225,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL12"
+      },
+      {
+        "number": "3",
+        "x": 228.225,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 228.225,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC11",
+    "value": "0",
+    "x": 199.65,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 198.65,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 200.65,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL10"
+      },
+      {
+        "number": "3",
+        "x": 199.65,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 199.65,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC37",
+    "value": "J",
+    "x": 156.7875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 155.7875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 157.7875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL8"
+      },
+      {
+        "number": "3",
+        "x": 156.7875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 156.7875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC4",
+    "value": "3",
+    "x": 66.3,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 65.3,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 67.3,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL3"
+      },
+      {
+        "number": "3",
+        "x": 66.3,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 66.3,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC40",
+    "value": ";",
+    "x": 213.9375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 212.9375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 214.9375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL11"
+      },
+      {
+        "number": "3",
+        "x": 213.9375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 213.9375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC6",
+    "value": "5",
+    "x": 104.4,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 103.4,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 105.4,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL5"
+      },
+      {
+        "number": "3",
+        "x": 104.4,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 104.4,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC59",
+    "value": "RAlt",
+    "x": 204.4125,
+    "y": 85.4,
+    "pads": [
+      {
+        "number": "1",
+        "x": 203.4125,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW4"
+      },
+      {
+        "number": "2",
+        "x": 205.4125,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL10"
+      },
+      {
+        "number": "3",
+        "x": 204.4125,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 204.4125,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC58",
+    "value": "Space",
+    "x": 132.975,
+    "y": 85.4,
+    "pads": [
+      {
+        "number": "1",
+        "x": 131.975,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW4"
+      },
+      {
+        "number": "2",
+        "x": 133.975,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL7"
+      },
+      {
+        "number": "3",
+        "x": 132.975,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 132.975,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC39",
+    "value": "L",
+    "x": 194.8875,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 193.8875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 195.8875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL10"
+      },
+      {
+        "number": "3",
+        "x": 194.8875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 194.8875,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC32",
+    "value": "S",
+    "x": 61.5375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 60.5375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 62.5375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL3"
+      },
+      {
+        "number": "3",
+        "x": 61.5375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 61.5375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC57",
+    "value": "LAlt",
+    "x": 61.5375,
+    "y": 85.4,
+    "pads": [
+      {
+        "number": "1",
+        "x": 60.5375,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW4"
+      },
+      {
+        "number": "2",
+        "x": 62.5375,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL3"
+      },
+      {
+        "number": "3",
+        "x": 61.5375,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 61.5375,
+        "y": 85.4,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC21",
+    "value": "T",
+    "x": 113.925,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 112.925,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 114.925,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL6"
+      },
+      {
+        "number": "3",
+        "x": 113.925,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 113.925,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC1",
+    "value": "Esc",
+    "x": 9.15,
+    "y": 9.2,
+    "pads": [
+      {
+        "number": "1",
+        "x": 8.15,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW0"
+      },
+      {
+        "number": "2",
+        "x": 10.15,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL0"
+      },
+      {
+        "number": "3",
+        "x": 9.15,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 9.15,
+        "y": 9.2,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC54",
+    "value": "RShift",
+    "x": 249.65625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 248.65625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 250.65625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL13"
+      },
+      {
+        "number": "3",
+        "x": 249.65625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 249.65625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC26",
+    "value": "P",
+    "x": 209.175,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 208.175,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 210.175,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL11"
+      },
+      {
+        "number": "3",
+        "x": 209.175,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 209.175,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC44",
+    "value": "Z",
+    "x": 52.0125,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 51.0125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 53.0125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL2"
+      },
+      {
+        "number": "3",
+        "x": 52.0125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 52.0125,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC25",
+    "value": "O",
+    "x": 190.125,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 189.125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 191.125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL10"
+      },
+      {
+        "number": "3",
+        "x": 190.125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 190.125,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC45",
+    "value": "X",
+    "x": 71.0625,
+    "y": 66.35,
+    "pads": [
+      {
+        "number": "1",
+        "x": 70.0625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW3"
+      },
+      {
+        "number": "2",
+        "x": 72.0625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL3"
+      },
+      {
+        "number": "3",
+        "x": 71.0625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 71.0625,
+        "y": 66.35,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC28",
+    "value": "]",
+    "x": 247.275,
+    "y": 28.25,
+    "pads": [
+      {
+        "number": "1",
+        "x": 246.275,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW1"
+      },
+      {
+        "number": "2",
+        "x": 248.275,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL13"
+      },
+      {
+        "number": "3",
+        "x": 247.275,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 247.275,
+        "y": 28.25,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "EC36",
+    "value": "H",
+    "x": 137.7375,
+    "y": 47.3,
+    "pads": [
+      {
+        "number": "1",
+        "x": 136.7375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "ROW2"
+      },
+      {
+        "number": "2",
+        "x": 138.7375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 180.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "COL7"
+      },
+      {
+        "number": "3",
+        "x": 137.7375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": true,
+        "back": false,
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 137.7375,
+        "y": 47.3,
+        "width": 0.4,
+        "height": 0.4,
+        "angle": 0.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R16",
+    "value": "100k",
+    "x": 126.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 127.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL6"
+      },
+      {
+        "number": "2",
+        "x": 125.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "C1",
+    "value": "100n",
+    "x": 99.0,
+    "y": 91.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 100.0375,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      },
+      {
+        "number": "2",
+        "x": 97.9625,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R23",
+    "value": "100k",
+    "x": 140.0,
+    "y": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 141.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL13"
+      },
+      {
+        "number": "2",
+        "x": 139.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "x": 133.0,
+    "y": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 134.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL12"
+      },
+      {
+        "number": "2",
+        "x": 132.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "U1",
+    "value": "nice!nano_v2",
+    "x": 260.0,
+    "y": 85.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 273.97,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ROW_DRV1"
+      },
+      {
+        "number": "2",
+        "x": 271.43,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ROW_DRV0"
+      },
+      {
+        "number": "3",
+        "x": 268.89,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "4",
+        "x": 266.35,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "5",
+        "x": 263.81,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ROW_DRV2"
+      },
+      {
+        "number": "6",
+        "x": 261.27,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ROW_DRV3"
+      },
+      {
+        "number": "7",
+        "x": 258.73,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ROW_DRV4"
+      },
+      {
+        "number": "8",
+        "x": 256.19,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "MUX_A"
+      },
+      {
+        "number": "9",
+        "x": 253.65,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "MUX_B"
+      },
+      {
+        "number": "10",
+        "x": 251.11,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "MUX_C"
+      },
+      {
+        "number": "11",
+        "x": 248.57,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "MUX0_INH"
+      },
+      {
+        "number": "12",
+        "x": 246.03,
+        "y": 92.62,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "MUX1_INH"
+      },
+      {
+        "number": "13",
+        "x": 246.03,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "DRAIN"
+      },
+      {
+        "number": "14",
+        "x": 248.57,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "unconnected-(U1-D16{slash}P0.10-Pad14)"
+      },
+      {
+        "number": "15",
+        "x": 251.11,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "unconnected-(U1-D14{slash}P1.11-Pad15)"
+      },
+      {
+        "number": "16",
+        "x": 253.65,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "AFE_ON_N"
+      },
+      {
+        "number": "17",
+        "x": 256.19,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "unconnected-(U1-D18{slash}P1.15-Pad17)"
+      },
+      {
+        "number": "18",
+        "x": 258.73,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "ADC"
+      },
+      {
+        "number": "19",
+        "x": 261.27,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "unconnected-(U1-D20{slash}P0.29-Pad19)"
+      },
+      {
+        "number": "20",
+        "x": 263.81,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "unconnected-(U1-D21{slash}P0.31-Pad20)"
+      },
+      {
+        "number": "21",
+        "x": 266.35,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "VCC"
+      },
+      {
+        "number": "22",
+        "x": 268.89,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "RESET"
+      },
+      {
+        "number": "23",
+        "x": 271.43,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "24",
+        "x": 273.97,
+        "y": 77.38,
+        "width": 1.7526,
+        "height": 1.7526,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "BAT_SW"
+      }
+    ]
+  },
+  {
+    "ref": "U2",
+    "value": "SN74HC4051D",
+    "x": 105.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 107.475,
+        "y": 79.555,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL4"
+      },
+      {
+        "number": "2",
+        "x": 107.475,
+        "y": 80.825,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL6"
+      },
+      {
+        "number": "3",
+        "x": 107.475,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "SENSE"
+      },
+      {
+        "number": "4",
+        "x": 107.475,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL7"
+      },
+      {
+        "number": "5",
+        "x": 107.475,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL5"
+      },
+      {
+        "number": "6",
+        "x": 107.475,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX0_INH"
+      },
+      {
+        "number": "7",
+        "x": 107.475,
+        "y": 87.175,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "8",
+        "x": 107.475,
+        "y": 88.445,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "9",
+        "x": 102.525,
+        "y": 88.445,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_C"
+      },
+      {
+        "number": "10",
+        "x": 102.525,
+        "y": 87.175,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_B"
+      },
+      {
+        "number": "11",
+        "x": 102.525,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_A"
+      },
+      {
+        "number": "12",
+        "x": 102.525,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL3"
+      },
+      {
+        "number": "13",
+        "x": 102.525,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL0"
+      },
+      {
+        "number": "14",
+        "x": 102.525,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL1"
+      },
+      {
+        "number": "15",
+        "x": 102.525,
+        "y": 80.825,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL2"
+      },
+      {
+        "number": "16",
+        "x": 102.525,
+        "y": 79.555,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "value": "100",
+    "x": 64.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 65.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW_DRV4"
+      },
+      {
+        "number": "2",
+        "x": 63.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW4"
+      }
+    ]
+  },
+  {
+    "ref": "R19",
+    "value": "100k",
+    "x": 147.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 148.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL9"
+      },
+      {
+        "number": "2",
+        "x": 146.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R24",
+    "value": "100k",
+    "x": 147.0,
+    "y": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 148.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL14"
+      },
+      {
+        "number": "2",
+        "x": 146.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R12",
+    "value": "100k",
+    "x": 133.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 134.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL2"
+      },
+      {
+        "number": "2",
+        "x": 132.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "value": "100",
+    "x": 52.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 53.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW_DRV2"
+      },
+      {
+        "number": "2",
+        "x": 51.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW2"
+      }
+    ]
+  },
+  {
+    "ref": "U4",
+    "value": "OPA350UA",
+    "x": 223.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 225.475,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "unconnected-(U4-NC-Pad1)"
+      },
+      {
+        "number": "2",
+        "x": 225.475,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "FB"
+      },
+      {
+        "number": "3",
+        "x": 225.475,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "SENSE"
+      },
+      {
+        "number": "4",
+        "x": 225.475,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "5",
+        "x": 220.525,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "unconnected-(U4-NC-Pad5)"
+      },
+      {
+        "number": "6",
+        "x": 220.525,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ADC"
+      },
+      {
+        "number": "7",
+        "x": 220.525,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_3V3"
+      },
+      {
+        "number": "8",
+        "x": 220.525,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "unconnected-(U4-NC-Pad8)"
+      }
+    ]
+  },
+  {
+    "ref": "R18",
+    "value": "100k",
+    "x": 140.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 141.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL8"
+      },
+      {
+        "number": "2",
+        "x": 139.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "x": 140.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 141.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL3"
+      },
+      {
+        "number": "2",
+        "x": 139.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R34",
+    "value": "100k",
+    "x": 164.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 165.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX1_INH"
+      },
+      {
+        "number": "2",
+        "x": 163.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      }
+    ]
+  },
+  {
+    "ref": "R21",
+    "value": "100k",
+    "x": 126.0,
+    "y": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 127.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL11"
+      },
+      {
+        "number": "2",
+        "x": 125.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R30",
+    "value": "100k",
+    "x": 219.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 220.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ADC"
+      },
+      {
+        "number": "2",
+        "x": 218.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "FB"
+      }
+    ]
+  },
+  {
+    "ref": "R20",
+    "value": "100k",
+    "x": 119.0,
+    "y": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 120.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL10"
+      },
+      {
+        "number": "2",
+        "x": 118.0,
+        "y": 90.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R11",
+    "value": "100k",
+    "x": 126.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 127.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL1"
+      },
+      {
+        "number": "2",
+        "x": 125.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "value": "1u",
+    "x": 193.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 194.0375,
+        "y": 78.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      },
+      {
+        "number": "2",
+        "x": 191.9625,
+        "y": 78.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R4",
+    "value": "100",
+    "x": 58.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 59.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW_DRV3"
+      },
+      {
+        "number": "2",
+        "x": 57.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW3"
+      }
+    ]
+  },
+  {
+    "ref": "R17",
+    "value": "100k",
+    "x": 133.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 134.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL7"
+      },
+      {
+        "number": "2",
+        "x": 132.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "Q1",
+    "value": "AO3401A",
+    "x": 207.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 207.9375,
+        "y": 83.05,
+        "width": 1.475,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_GATE"
+      },
+      {
+        "number": "2",
+        "x": 207.9375,
+        "y": 84.95,
+        "width": 1.475,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      },
+      {
+        "number": "3",
+        "x": 206.0625,
+        "y": 84.0,
+        "width": 1.475,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_3V3"
+      }
+    ]
+  },
+  {
+    "ref": "SW1",
+    "value": "Battery_switch_pigtail",
+    "x": 10.0,
+    "y": 85.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 11.27,
+        "y": 85.0,
+        "width": 1.8,
+        "height": 1.8,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "BAT_RAW"
+      },
+      {
+        "number": "2",
+        "x": 8.73,
+        "y": 85.0,
+        "width": 1.8,
+        "height": 1.8,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "BAT_SW"
+      }
+    ]
+  },
+  {
+    "ref": "R32",
+    "value": "1k",
+    "x": 232.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 233.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "DRAIN"
+      },
+      {
+        "number": "2",
+        "x": 231.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "SENSE"
+      }
+    ]
+  },
+  {
+    "ref": "R15",
+    "value": "100k",
+    "x": 119.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 120.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL5"
+      },
+      {
+        "number": "2",
+        "x": 118.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R33",
+    "value": "100k",
+    "x": 99.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 100.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX0_INH"
+      },
+      {
+        "number": "2",
+        "x": 98.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      }
+    ]
+  },
+  {
+    "ref": "R14",
+    "value": "100k",
+    "x": 147.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 148.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL4"
+      },
+      {
+        "number": "2",
+        "x": 146.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R10",
+    "value": "100k",
+    "x": 119.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 120.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL0"
+      },
+      {
+        "number": "2",
+        "x": 118.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "C4",
+    "value": "220p_C0G",
+    "x": 239.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 240.0375,
+        "y": 78.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "SENSE"
+      },
+      {
+        "number": "2",
+        "x": 237.9625,
+        "y": 78.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "value": "100",
+    "x": 40.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 41.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW_DRV0"
+      },
+      {
+        "number": "2",
+        "x": 39.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW0"
+      }
+    ]
+  },
+  {
+    "ref": "R36",
+    "value": "1k",
+    "x": 207.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 208.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_ON_N"
+      },
+      {
+        "number": "2",
+        "x": 206.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_GATE"
+      }
+    ]
+  },
+  {
+    "ref": "U3",
+    "value": "SN74HC4051D",
+    "x": 170.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 172.475,
+        "y": 79.555,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL12"
+      },
+      {
+        "number": "2",
+        "x": 172.475,
+        "y": 80.825,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL14"
+      },
+      {
+        "number": "3",
+        "x": 172.475,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "SENSE"
+      },
+      {
+        "number": "4",
+        "x": 172.475,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "5",
+        "x": 172.475,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL13"
+      },
+      {
+        "number": "6",
+        "x": 172.475,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX1_INH"
+      },
+      {
+        "number": "7",
+        "x": 172.475,
+        "y": 87.175,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "8",
+        "x": 172.475,
+        "y": 88.445,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      },
+      {
+        "number": "9",
+        "x": 167.525,
+        "y": 88.445,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_C"
+      },
+      {
+        "number": "10",
+        "x": 167.525,
+        "y": 87.175,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_B"
+      },
+      {
+        "number": "11",
+        "x": 167.525,
+        "y": 85.905,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "MUX_A"
+      },
+      {
+        "number": "12",
+        "x": 167.525,
+        "y": 84.635,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL11"
+      },
+      {
+        "number": "13",
+        "x": 167.525,
+        "y": 83.365,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL8"
+      },
+      {
+        "number": "14",
+        "x": 167.525,
+        "y": 82.095,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL9"
+      },
+      {
+        "number": "15",
+        "x": 167.525,
+        "y": 80.825,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "COL10"
+      },
+      {
+        "number": "16",
+        "x": 167.525,
+        "y": 79.555,
+        "width": 1.95,
+        "height": 0.6,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      }
+    ]
+  },
+  {
+    "ref": "R35",
+    "value": "100k",
+    "x": 200.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 201.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_GATE"
+      },
+      {
+        "number": "2",
+        "x": 199.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      }
+    ]
+  },
+  {
+    "ref": "R31",
+    "value": "1k",
+    "x": 219.0,
+    "y": 91.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 220.0,
+        "y": 91.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "FB"
+      },
+      {
+        "number": "2",
+        "x": 218.0,
+        "y": 91.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "J1",
+    "value": "Battery_PH2.0",
+    "x": 20.0,
+    "y": 84.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 20.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.75,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "BAT_RAW"
+      },
+      {
+        "number": "2",
+        "x": 18.0,
+        "y": 84.0,
+        "width": 1.2,
+        "height": 1.75,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "C3",
+    "value": "100n",
+    "x": 232.0,
+    "y": 91.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 233.0375,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "AFE_3V3"
+      },
+      {
+        "number": "2",
+        "x": 230.9625,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "value": "100",
+    "x": 46.0,
+    "y": 78.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 47.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW_DRV1"
+      },
+      {
+        "number": "2",
+        "x": 45.0,
+        "y": 78.0,
+        "width": 1.2,
+        "height": 1.4,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "ROW1"
+      }
+    ]
+  },
+  {
+    "ref": "SW2",
+    "value": "Reset_NO",
+    "x": 238.0,
+    "y": 91.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 239.27,
+        "y": 91.0,
+        "width": 1.8,
+        "height": 1.8,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "RESET"
+      },
+      {
+        "number": "2",
+        "x": 236.73,
+        "y": 91.0,
+        "width": 1.8,
+        "height": 1.8,
+        "angle": 180.0,
+        "through": true,
+        "front": true,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "ref": "C2",
+    "value": "100n",
+    "x": 164.0,
+    "y": 91.0,
+    "pads": [
+      {
+        "number": "1",
+        "x": 165.0375,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "VCC"
+      },
+      {
+        "number": "2",
+        "x": 162.9625,
+        "y": 91.0,
+        "width": 1.175,
+        "height": 1.45,
+        "angle": 180.0,
+        "through": false,
+        "front": false,
+        "back": true,
+        "net": "GND"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# Current pinned ZMK uses the board revision/qualifier naming scheme.
+# This target was compiled for A0; see reports/firmware-build.log.
+include:
+  - board: nice_nano@2.0.0/nrf52840/zmk
+    shield: yakb

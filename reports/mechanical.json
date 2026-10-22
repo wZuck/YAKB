@@ -1,0 +1,114 @@
+{
+  "pcb_envelope": {
+    "bounds": [
+      0.0,
+      0.0,
+      -1.6,
+      285.0,
+      94.6,
+      0.0
+    ],
+    "volume_mm3": 42867.413,
+    "valid": true
+  },
+  "plate_case": {
+    "bounds": [
+      -5.0,
+      -5.0,
+      6.0,
+      290.0,
+      99.6,
+      7.6
+    ],
+    "volume_mm3": 29686.595,
+    "valid": true
+  },
+  "plate_tray": {
+    "bounds": [
+      0.0,
+      0.0,
+      6.0,
+      285.0,
+      94.6,
+      7.6
+    ],
+    "volume_mm3": 23501.652,
+    "valid": true
+  },
+  "case_base": {
+    "bounds": [
+      -7.0,
+      -7.0,
+      -14.3877,
+      292.0,
+      101.6,
+      7.6
+    ],
+    "volume_mm3": 151446.086,
+    "valid": true
+  },
+  "case_bezel": {
+    "bounds": [
+      -7.0061,
+      -7.0061,
+      7.5944,
+      292.0061,
+      101.6061,
+      10.6061
+    ],
+    "volume_mm3": 18787.836,
+    "valid": true
+  },
+  "niz_fit_coupon": {
+    "bounds": [
+      -0.0,
+      -0.0,
+      -0.0003,
+      80.0,
+      32.0,
+      1.6003
+    ],
+    "volume_mm3": 3017.022,
+    "valid": true
+  },
+  "envelope_intersections_mm3": {
+    "base_battery": 0.0,
+    "pcb_battery": 0.0,
+    "plate_bezel": 0.0,
+    "pcb_module": 0.0,
+    "base_module": 0.0,
+    "base_usbplug": 0.0
+  },
+  "minimum_clearance_mm": {
+    "base_battery": 0.526,
+    "pcb_battery": 2.8557,
+    "base_module": 0.5586,
+    "base_usbplug": 0.7289
+  },
+  "case_profile": {
+    "outer_plan_mm": [
+      299.0,
+      108.6
+    ],
+    "corner_radius_mm": 8,
+    "typing_angle_deg": 1.951,
+    "front_wall_height_mm": 21.4,
+    "rear_wall_height_mm": 25.1,
+    "lower_skirt_inset_mm": 3.5,
+    "floor_thickness_mm": 2.4,
+    "base_stl_orientation": "bottom plane on z=0; STEP retains PCB datum"
+  },
+  "battery_world_bounds": [
+    114.0,
+    5.4165,
+    -11.1443,
+    174.0,
+    40.5835,
+    -4.4557
+  ],
+  "limitations": [
+    "No real NiZ housing, dome, keycap, stabilizer, USB extension or RF model; physical fit remains open.",
+    "Plate R0.5/14mm and 6mm stack are reference starting dimensions, not measured vendor tolerances.",
+    "Tray plate needs case-specific retention; it is not a universal drop-in assembly."
+  ]
+}
