@@ -1,8 +1,8 @@
 Reference,Value,Footprint,Side,X_mm,Y_mm,Status
-U1,nice!nano_v2,YAKB:nice_nano,B,260,85,selection; verify procurement
+U1,nice!nano_v2,YAKB:nice_nano,B,260.0,85.0,selection; verify procurement
 U2,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,105,84,selection; verify procurement
 U3,SN74HC4051D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,B,170,84,selection; verify procurement
-U4,OPA350UA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,B,223,84,selection; verify procurement
+U4,OPA350UA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,B,217,84,selection; verify procurement
 Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,B,207,84,selection; verify procurement
 R1,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,40,78,selection; verify procurement
 R2,100,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,46,78,selection; verify procurement
@@ -33,10 +33,10 @@ R35,100k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,200,78,selec
 R36,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,B,207,78,selection; verify procurement
 C1,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,99,91,selection; verify procurement
 C2,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,164,91,selection; verify procurement
-C3,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,232,91,selection; verify procurement
+C3,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,220,88,selection; verify procurement
 C4,220p_C0G,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,239,78,selection; verify procurement
 C5,1u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,193,78,selection; verify procurement
-J1,Battery_PH2.0,YAKB:Battery_PH2,B,20,84,selection; verify procurement
+J1,JST_S2B-PH-K,YAKB:Battery_PH2,B,20,84,selection; verify procurement
 SW1,Battery_switch_pigtail,YAKB:SPST_PIGTAIL_2.54,B,10,85,selection; verify procurement
 SW2,Reset_NO,YAKB:RESET_2.54_TH,B,238,91,selection; verify procurement
 EC1,Esc,YAKB:ecs_pad_1U_no_ring,F,9.15,9.2,EC electrode

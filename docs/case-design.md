@@ -9,11 +9,11 @@ The first case was a straight-sided, 25.1 mm constant-height box. The actual CAD
 | Item | First design | Current design |
 | --- | --- | --- |
 | Plan envelope | 301×110.6 mm | 299×108.6 mm |
-| Nominal shell front height, no feet/caps | 25.1 mm | 21.4 mm, 3.7 mm / about 15% lower |
+| Nominal shell front height, no feet/caps | 25.1 mm | 21.0 mm, 3.7 mm / about 15% lower |
 | Nominal rear height | 25.1 mm | 25.1 mm |
 | Floor | Flat | 1.95° slope |
 | Plan corners | R5 | R8 |
-| Lower skirt | Straight | Approximately 3.5 mm inset with sloping transitions |
+| Lower skirt | Straight | Approximately 1.0 mm inset with sloping transitions |
 | Bezel edge | Sharp | 0.7 mm round-over |
 | Cell | Horizontal deep cavity | Parallel to the sloping inside floor |
 | Plate edge | Exposed layer gap | Stepped pocket with 0.3 mm edge clearance |
@@ -32,3 +32,5 @@ References:
 - [ECneko60](https://github.com/mattyintegrals/ecneko60): a real NiZ/EC60 build in the open Bakeneko case, including necessary modifications. It is evidence of an adaptation path rather than universal compatibility.
 
 The YAKB case is independently generated; see [source/license boundaries](sources.md). STEP files retain assembly coordinates. `case_base.stl` is deliberately rotated with its bottom flat on z=0 for slicing and therefore differs from the assembly frame. The one-piece base needs a 320 mm-class bed or print service. Print insert, switch and stabilizer coupons first. Selected clearances and intersections are in `reports/mechanical.json`; actual cables, fasteners and switches remain first-article checks.
+
+Hidden-fastener update: eight screws now enter from below into blind bezel inserts, leaving the top face uninterrupted. The plate clears the bosses and antenna. Counterbore wall thickness limits skirt inset to 1.0 mm. See the mechanical report for 16 clear assembly intersections and the [soldering guide](soldering-guide.md) for fastener lengths.

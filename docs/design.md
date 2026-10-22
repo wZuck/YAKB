@@ -8,7 +8,7 @@
 
 Use a socketable nice!nano v2/nRF52840 for BLE HID, USB HID and charging. This removes MCU, RF, clock and USB fine-pitch assembly from the user's soldering work. PH60 informs printed-case/battery design, Lot60 provides the GH60-style mounting reference, HSKB informs the true 6u HHKB layout, and Tako/EC60 inform the sensing mechanism. The Lot60 nRF52810 + CH554 circuit is not reused.
 
-Five row outputs drive the 60 sensing cells through 100Ω resistors. Two SOIC-16 SN74HC4051D devices select 15 columns; they share A/B/C and SENSE, with mutually exclusive active-low inhibits. The unused channel is grounded. Each column has a 100k bleed resistor. SENSE has 220pF C0G to ground, a 1k drain connection and an OPA350UA non-inverting amplifier with 100k/1k feedback (gain 101). The output goes to SAADC AIN0 through **D19/P0.02**, not Arduino-style D18/A0.
+Five row outputs drive the 60 sensing cells through 100Ω resistors. Two SOIC-16 CD74HC4051M96 devices select 15 columns; they share A/B/C and SENSE, with mutually exclusive active-low inhibits. The unused channel is grounded. Each column has a 100k bleed resistor. SENSE has 220pF C0G to ground, a 1k drain connection and an OPA350UA non-inverting amplifier with 100k/1k feedback (gain 101). The output goes to SAADC AIN0 through **D19/P0.02**, not Arduino-style D18/A0.
 
 The amplifier, muxes and sensing values follow a proven starting topology, but the gain, capacitor, noise margin and timing require an actual PCB. Target ADC swing is 0–3.3V, internal reference, 1/6 gain, 12-bit conversion. Do not infer calibrated travel in millimeters or Rapid Trigger support from ADC counts.
 
@@ -41,7 +41,7 @@ The PCB rear-left frame corner is (0,0), x points right, y toward the typist, an
 
 The 6 mm PCB-to-plate gap is an initial reference requiring real NiZ/dome measurement. The original case independently supports the PCB and plate; central tray posts must first be checked against housings and domes. Use them only as supports if a screw head would interfere. Do not bend the PCB or add arbitrary foam to compensate for wrong stack height.
 
-The own-case plate uses eight M2 mounting holes, M2 insert bores in the base, and recessed bezel screw heads. M2×6 bezel screws provide about 3.2 mm base engagement with the modeled counterbores. Select actual insert outside diameter and length with a printed test; the nominal bore is 3.3 mm, with 4.8 mm outer-frame depth. PCB post insert bores are 3.3 × 4.5 mm. The large lower-left tray clearance is bridged below rather than given a post that cannot contact the PCB. A 320 mm-class bed or print service is needed for the one-piece 299 mm case.
+The case uses eight bottom-up screws into blind M2 bezel inserts: three M2×20 rear, two M2×18 side, three M2×16 front. Bezel insert bores are Ø3.0 × 3 mm with a separate screw-tip relief and 1.5 mm top skin; test nominal OD3.2 × L3 inserts. The plate has open edge reliefs for these bosses. PCB support insert bores remain Ø3.3 × 4.5 mm. The lower-left tray clearance is bridged below with R33/C1 reliefs. The one-piece 299 mm case requires a sufficiently large bed or print service.
 
 ![Actual generated STEP assembly layers](../assets/exploded-render.png)
 
@@ -57,7 +57,7 @@ A complete USB 2.0 data extension connects the module's left-facing USB-C to the
 
 OPA350 typically draws about 5.2 mA; choosing ZMK alone does not make EC consumption comparable to a passive mechanical matrix. Q1 gates only the amplifier. The mux supply stays on to prevent address-pin backfeeding. Before amplifier-off, rows go low, both muxes disable and SENSE discharges. Keep the module's VCC enabled during EC polling.
 
-Initial waits are 4/50/200 ms for active/idle/long-idle operation, with 200µs amplifier warm-up, 10µs discharge settling and 5µs pre-ADC settling. These intervals do not guarantee a 250 Hz frame rate or a particular BLE latency. Measure complete frames under radio activity. Slow polling can miss a short first tap. Deep sleep is disabled until a separate reliable wake path exists.
+Initial waits are 4/8/12 ms for active/idle/long-idle operation, with 200µs amplifier warm-up, 10µs discharge settling and 5µs pre-ADC settling. These intervals do not guarantee a 250 Hz frame rate or a particular BLE latency. Measure complete frames under radio activity. The reviewed patch restores fast polling on the first raw transition while retaining the two-frame press filter; pulses shorter than a frame interval can still be missed. Deep sleep is disabled until a separate reliable wake path exists.
 
 At an assumed 80% usable capacity, a 1000 mAh pack gives 100/800/5333 hours for **assumed average currents** of 8/1/0.15 mA. These are mathematical scenarios, not measured typing/standby runtime. Measure at the cell under USB, charging, BLE, typing, idle and slow-scan conditions.
 
@@ -65,6 +65,10 @@ ZMK and the EC module are pinned; see the frozen west manifest, prebuilt UF2 fil
 
 See the [soldering workbench](../hardware/soldering/index.html), [soldering order](soldering-guide.md), [compatibility](compatibility.md) and [reproduction](reproduce.md). No physical fit, RF, thermal or battery-life pass is claimed without a first-article record.
 
-The revised original case uses R8 corners, a recessed lower skirt and a 1.95° wedge floor. Nominal shell front height falls from 25.1 to 21.4 mm; rear remains 25.1 mm. The cell follows the floor slope. The base STL is rotated flat for printing; STEP retains the shared PCB datum. See [case design](case-design.md).
+The revised original case uses R8 corners, a recessed lower skirt and a 1.95° wedge floor. Nominal shell front height falls from 25.1 to 21.0 mm; rear remains 25.1 mm. The cell follows the floor slope. The base STL is rotated flat for printing; STEP retains the shared PCB datum. See [case design](case-design.md).
 
 The PCB uses four copper layers to retain 40 hand-solder positions and generous component spacing. Ordinary traces are 0.2 mm with 0.15 mm minimum necks and 0.2 mm clearance. Inner routing and pours are excluded within a 6 mm radius of each sensing center; existing through vias are permitted. The RF keepout covers every copper layer. No solid inner power/ground planes are added. Thickness stays 1.6 mm; noise and dynamic range require hardware measurements.
+
+## Reviewed revision
+
+37 native library component models now participate in 16 collision checks, all clear. Fixes cover the R33/C1 bridge, USB plug/U4 collision, U1 orientation and all 30 through-hole mask openings. J1 is horizontal S2B-PH-K; U2/U3 are TI CD74HC4051M96. The plate has a 21×16 mm RF window beneath the right blocker; prefer copper-free FR4/G10 and retain the window even with a metal plate. Bottom screws leave the top face uninterrupted; the skirt inset is now 1.0 mm to preserve counterbore wall thickness. See the [fix record](review-fixes.md) and [electrical, interference and power analysis](electrical-analysis.md).

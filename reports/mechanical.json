@@ -20,7 +20,7 @@
       99.6,
       7.6
     ],
-    "volume_mm3": 29686.595,
+    "volume_mm3": 28928.413,
     "valid": true
   },
   "plate_tray": {
@@ -32,31 +32,31 @@
       94.6,
       7.6
     ],
-    "volume_mm3": 23501.652,
+    "volume_mm3": 23015.947,
     "valid": true
   },
   "case_base": {
     "bounds": [
       -7.0,
       -7.0,
-      -14.3877,
+      -14.4678,
       292.0,
       101.6,
       7.6
     ],
-    "volume_mm3": 151446.086,
+    "volume_mm3": 159493.28,
     "valid": true
   },
   "case_bezel": {
     "bounds": [
       -7.0061,
       -7.0061,
-      7.5944,
+      4.5984,
       292.0061,
       101.6061,
       10.6061
     ],
-    "volume_mm3": 18787.836,
+    "volume_mm3": 19192.967,
     "valid": true
   },
   "niz_fit_coupon": {
@@ -71,13 +71,83 @@
     "volume_mm3": 3017.022,
     "valid": true
   },
+  "case_screw_envelopes": {
+    "bounds": [
+      -4.4,
+      -4.4,
+      -13.4,
+      289.4,
+      99.0,
+      8.6
+    ],
+    "volume_mm3": 633.848,
+    "valid": true
+  },
+  "keycap_envelopes": {
+    "bounds": [
+      0.025,
+      0.075,
+      10.8,
+      284.975,
+      94.525,
+      20.5
+    ],
+    "volume_mm3": 191883.932,
+    "valid": true
+  },
+  "battery_envelope": {
+    "bounds": [
+      114.0,
+      5.4165,
+      -11.1443,
+      174.0,
+      40.5835,
+      -4.4557
+    ],
+    "volume_mm3": 11550.0,
+    "valid": true
+  },
+  "module_envelope": {
+    "bounds": [
+      241.98,
+      76.0,
+      -8.1,
+      275.48,
+      94.0,
+      -1.6
+    ],
+    "volume_mm3": 3919.5,
+    "valid": true
+  },
+  "usb_plug_envelope": {
+    "bounds": [
+      222.5,
+      81.0,
+      -8.1,
+      242.5,
+      89.0,
+      -2.6
+    ],
+    "volume_mm3": 880.0,
+    "valid": true
+  },
   "envelope_intersections_mm3": {
     "base_battery": 0.0,
     "pcb_battery": 0.0,
     "plate_bezel": 0.0,
     "pcb_module": 0.0,
     "base_module": 0.0,
-    "base_usbplug": 0.0
+    "base_usbplug": 0.0,
+    "base_populated_components": 0.0,
+    "base_pcb": 0.0,
+    "module_components": 0.0,
+    "usbplug_components": 0.0,
+    "base_bezel": 0.0,
+    "screws_base": 0.0,
+    "screws_bezel": 0.0,
+    "screws_plate": 0.0,
+    "screws_pcb": 0.0,
+    "screws_components": 0.0
   },
   "minimum_clearance_mm": {
     "base_battery": 0.526,
@@ -94,10 +164,76 @@
     "typing_angle_deg": 1.951,
     "front_wall_height_mm": 21.4,
     "rear_wall_height_mm": 25.1,
-    "lower_skirt_inset_mm": 3.5,
+    "lower_skirt_inset_mm": 1.0,
     "floor_thickness_mm": 2.4,
     "base_stl_orientation": "bottom plane on z=0; STEP retains PCB datum"
   },
+  "hidden_fasteners": [
+    {
+      "x": 40,
+      "y": -2.5,
+      "length_mm": 20,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 0.947
+    },
+    {
+      "x": 142.5,
+      "y": -2.5,
+      "length_mm": 20,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 0.947
+    },
+    {
+      "x": 245,
+      "y": -2.5,
+      "length_mm": 20,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 0.947
+    },
+    {
+      "x": 40,
+      "y": 97.1,
+      "length_mm": 16,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 1.553
+    },
+    {
+      "x": 142.5,
+      "y": 97.1,
+      "length_mm": 16,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 1.553
+    },
+    {
+      "x": 245,
+      "y": 97.1,
+      "length_mm": 16,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 1.553
+    },
+    {
+      "x": -2.5,
+      "y": 47.3,
+      "length_mm": 18,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 1.25
+    },
+    {
+      "x": 287.5,
+      "y": 47.3,
+      "length_mm": 18,
+      "engagement_mm": 3.0,
+      "top_skin_mm": 1.5,
+      "head_recess_mm": 1.25
+    }
+  ],
   "battery_world_bounds": [
     114.0,
     5.4165,

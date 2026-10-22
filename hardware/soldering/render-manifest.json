@@ -1,0 +1,30 @@
+{
+  "renderer": "Matplotlib native copper polygons and routed PCB",
+  "sources": {
+    "hardware/YAKB.kicad_pcb": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+    "design/pad-map.json": "38cd6bd43b9b3be3cb247895d681c3ddccc67ee40125035f55d98637a65c6b5b",
+    "design/pcb-scene.json": "c1afb5bdf31864a3ad5e76b3bd33d24082b6f9286f43d0d8845d1a2d3d2b925a",
+    "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
+    "scripts/circuit.py": "fb963c831e63353a6a6355126d415951b3d60b9d7b5cddbbf92bfd251749df5b",
+    "scripts/generate_soldering.py": "3810b313f844c01540ef4546546f53bb92bd9ab5c88aafd7cdda0ed229f580f7",
+    "scripts/render_plan.py": "fa3e184f7d31c85776230c541453837cec2ce6a3a3facc3fd9fbf07c18124043"
+  },
+  "images": {
+    "hardware/soldering/step-01.png": "c4a44681b749355e3f1afc5190fdbd749876731528ef4d421a43877120a0cfbf",
+    "hardware/soldering/step-02.png": "e5b7ee71a85fc4efa4a9be036a70721683459613710b41c8506c6ca67bb17d66",
+    "hardware/soldering/step-03.png": "e6f3388240a7b791a0824f97a56ac00b0cc0fd5d5c16bd0a546bfc9c3a788164",
+    "hardware/soldering/step-04.png": "a5410663c829da4d30f2c56b4d5f821e3e0cdeb67477ad5d137117ef2ce682d0",
+    "hardware/soldering/step-05.png": "39054bb9834cc70310118c0d6e0dcc0eb0f65dac349c33ac6e72c3f96f5d5134",
+    "hardware/soldering/step-06.png": "82be9368446ad4f33451f56fcb5cb94811d090b4161b46a5787888c157fc965a",
+    "hardware/soldering/step-07.png": "889588a212a6b51890618a225b523d6f58a20cd443b7c34966d54638174b998b",
+    "hardware/soldering/step-08.png": "4471b10e651b5aea73c727dc484806dafed1a0131bb1cb874a4c73247a32b631",
+    "hardware/soldering/step-09.png": "663c12b5952a1a88eb2c4db45acb27aae786304571b81af0ccc1c1df47a57252",
+    "hardware/soldering/step-10.png": "aa91fbcb87ca4c94bdbb11594dae486ad0efdae5dbfa0cab7365f1209e75aa76",
+    "hardware/soldering/step-11.png": "dd0585fd7bed5d3ea688a560949112ad4e07a2c217e87c45443a01e689b01d46",
+    "hardware/soldering/step-12.png": "3f14cf23e106f55061cd14afe57911031dd947f49d197cfaf1092c5c59d34663",
+    "hardware/soldering/step-13.png": "63e17c29dd656827d90bda63f40dd81c8a8872c150c819a6e444f61529306320",
+    "hardware/soldering/step-14.png": "30e9ba35ebd6a56e90c119c4e182986f7961dbf5e3415e4a59374bc404f59483",
+    "hardware/soldering/step-15.png": "368bd32022cf638dec0524d240fdfc08f58978ad7fb5336eed98a8b8e6b82098",
+    "hardware/soldering/step-16.png": "bd14cd7f2d5cc06b2a30d2263d58800a9cf45e020b5ac4e9ecfdca2be50cd1f4"
+  }
+}

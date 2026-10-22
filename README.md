@@ -18,7 +18,7 @@ A NiZ electrocapacitive keyboard with a fixed 60-key HHKB layout, centered-stem 
 | PCB | 285.0 × 94.6 × 1.6 mm, four copper layers, Lot60 / GH60 reference mounting clearances |
 | Plate | 1.6 mm; initial 14.0 mm R0.5 cutouts; 13.9 / 14.0 / 14.1 mm fit coupon supplied |
 | Controller | Socketable nice!nano v2 using 2.54 mm through holes; RF, clocks, MCU and charger already assembled |
-| Analog | Two SN74HC4051D, one OPA350UA, one AO3401A; 0805 hand-solder passives |
+| Analog | Two CD74HC4051M96, one OPA350UA, one AO3401A; 0805 hand-solder passives |
 | Cell | Protected 1S LiPo; 1000 mAh calculation basis; complete cell/PCM/lead envelope ≤60 × 35 × 5.5 mm |
 | USB | Complete USB 2.0 data extension connected to the module's USB-C receptacle |
 | Printed case | Original 299 × 108.6 mm coved wedge case, HHKB bezel, STEP/STL and assembly STEP |
@@ -37,3 +37,9 @@ There are 60 sensing cells and 40 populated modules/components/harness positions
 [![Offline soldering workbench](assets/soldering-workbench.png)](hardware/soldering/index.html)
 
 Native checks: **0 ERC violations, 0 DRC violations, 0 airwires, 0 schematic parity differences**. The normal and calibration firmware builds succeeded. [Fabrication files](fabrication/) · [case redesign](docs/case-design.md) · [KiCad library license](licenses/KiCad-library-notice.md).
+
+[Review and fixes](docs/review-fixes.md) · [Electrical, RF and power budget](docs/electrical-analysis.md)
+
+The case now fastens from below with no visible top screw holes. Drawings use the current PCB/STEP/DXF. USB and BLE are compiled in; Fn+5 / Fn+6 selects output.
+
+[Battery options and actual three-bay case](docs/battery-options.md).

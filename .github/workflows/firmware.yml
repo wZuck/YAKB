@@ -1,0 +1,43 @@
+name: Build and exercise EC firmware
+on:
+  push:
+    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', '.github/workflows/firmware.yml']
+  pull_request:
+    paths: ['firmware/**', 'scripts/prepare_firmware.py', 'scripts/test_ec_driver.py', '.github/workflows/firmware.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  firmware:
+    runs-on: ubuntu-latest
+    container: zmkfirmware/zmk-build-arm@sha256:edb1c953438c6f720ddb79c3762f3972013b7fbbaf4fff3592fc869983e7afc5
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch frozen workspace
+        shell: bash
+        run: |
+          mkdir -p /tmp/yakb-work/config
+          cp -R firmware/config/. /tmp/yakb-work/config/
+          cp firmware/west-lock.yml /tmp/yakb-work/config/west.yml
+          cd /tmp/yakb-work
+          west init -l config
+          west update
+      - name: Apply exact reviewed driver patch
+        run: python3 scripts/prepare_firmware.py --workspace /tmp/yakb-work
+      - name: Build normal and calibration images
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd /tmp/yakb-work
+          west build -p always -s zmk/app -d build/yakb -b nice_nano@2.0.0/nrf52840/zmk -- -DZephyr_DIR=/tmp/yakb-work/zephyr/share/zephyr-package/cmake -DZMK_CONFIG=/tmp/yakb-work/config -DSHIELD=yakb
+          west build -p always -s zmk/app -d build/yakb-calibrator -b nice_nano@2.0.0/nrf52840/zmk -S enable_ec_calibrator -- -DZephyr_DIR=/tmp/yakb-work/zephyr/share/zephyr-package/cmake -DZMK_CONFIG=/tmp/yakb-work/config -DSHIELD=yakb
+      - name: Exercise actual patched scan logic
+        run: python3 scripts/test_ec_driver.py --workspace /tmp/yakb-work
+      - uses: actions/upload-artifact@v4
+        with:
+          name: YAKB-EC-firmware
+          path: |
+            /tmp/yakb-work/build/yakb/zephyr/zmk.uf2
+            /tmp/yakb-work/build/yakb-calibrator/zephyr/zmk.uf2
+            reports/firmware-regression.json

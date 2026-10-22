@@ -46,8 +46,8 @@
         adc-read-settle-us = <5>;
         trigger-percentage = <50>;
         active-polling-interval-ms = <4>;
-        idle-polling-interval-ms = <50>;
-        sleep-polling-interval-ms = <200>;
+        idle-polling-interval-ms = <8>;
+        sleep-polling-interval-ms = <12>;
         idle-after-secs = <5>;
         sleep-after-secs = <300>;
         dynamic-polling-interval;

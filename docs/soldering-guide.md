@@ -13,7 +13,7 @@ This is the first-article procedure for an engineering prototype. No physical so
 
 Use a temperature-controlled iron, flux, fine solder, tweezers, magnification, braid, multimeter and current-limited USB data source. EC debugging also needs an oscilloscope; a current profiler is useful for battery measurements. Set soldering temperature from the solder/component requirements and avoid prolonged heating.
 
-Electrodes are on F.Cu; most electronics are on B.Cu. View the underside directly rather than mirroring a back-view image again. U1 is in the bottom-right blank area with USB pointing left. A complete internal USB data extension takes that port to the case opening.
+Electrodes are on F.Cu; most electronics are on B.Cu. View the underside directly rather than mirroring a back-view image again. In PCB front coordinates, U1 is in the bottom-right blank area with USB pointing left; in the already mirrored underside images, U1 is on the left and USB points right. A complete internal USB data extension takes that port to the case opening.
 
 Keep the battery, domes, housings and keycaps away from soldering and cleaning. NiZ springs are **not soldered to the electrodes**. Do not tin the sensing copper or remove its solder mask.
 
@@ -44,7 +44,7 @@ Tack one pad, place the part, align it, then solder the other pad. Finish and in
 
 ## 5. Solder the ICs and MOSFET
 
-Fit U2/U3 SN74HC4051D, U4 OPA350UA, then Q1 AO3401A. Tack diagonal pins, verify orientation and flatness, then finish all pins with flux and magnification.
+Fit U2/U3 CD74HC4051M96, U4 OPA350UA, then Q1 AO3401A. Tack diagonal pins, verify orientation and flatness, then finish all pins with flux and magnification.
 
 - U2/U3: 16=VCC, 8=GND, 7=VEE tied to GND, 6=INH, 3=COM.
 - U4: 7=AFE supply, 4=GND, 3=SENSE/IN+, 2=FB/IN−, 6=ADC output; 1/5/8 remain NC.
@@ -54,11 +54,11 @@ Inspect adjacent leads and check suspected bridges against the actual netlist. S
 
 ## 6. Add through-hole connections and sockets
 
-J1 is JST-PH 2.0, pin 1 positive BAT_RAW and pin 2 GND. Plug polarity varies between battery vendors.
+J1 is the horizontal JST S2B-PH-K, 2.0 mm pitch, pin 1 positive BAT_RAW and pin 2 GND. Plug polarity varies between battery vendors.
 
 SW1 is a two-hole 2.54 mm **harness** connection for a SPST switch, not a manufacturer-specific slide-switch footprint. Connect BAT_RAW to BAT_SW through the switch; retain the switch near the bottom service window with strain relief. SW2 connects a normally-open reset button between RESET and GND.
 
-Align two low-profile 12-pin sockets with an unpowered module or jig. Tack corners, finish, remove the module and inspect. Trim leads. The complete module/socket protrusion must stay within the 6.5 mm envelope. RF, clocks, charging and the module's USB-C connector need no user soldering. Leave BOOST open. Do not connect the battery yet.
+Align two low-profile 12-pin sockets with an unpowered module or jig. Tack corners, finish, remove the module and inspect. Trim leads. The amplifier ADC escape uses a 0.25 mm drilled via near a lead pad; inspect for solder wicking and reflow the fillet if needed. The complete module/socket protrusion must stay within the 6.5 mm envelope. RF, clocks, charging and the module's USB-C connector need no user soldering. Leave BOOST open. Do not connect the battery yet.
 
 ## 7. Clean, dry and recheck without power
 
@@ -98,3 +98,7 @@ Connect the cell, switch on, measure rail/current and check BLE. Then validate U
 Disconnect both supplies again. Clip housings into the validated plate, align domes and clean conical sensing springs with their electrode centers, and fit the proven stabilizers/6u cap. Close the assembly gently at its designed height; do not bend the PCB or squeeze the domes to compensate for bad dimensions. Treat central tray posts as supports until housing/head clearance has been checked.
 
 Check BLE with and without the bezel, route the USB extension without side-loading the module socket, retain the cell and perform complete calibration. Record coupon size, stabilizer/cap specification, stack height, cable, cell, calibration, temperature, working-state currents, first-tap response, USB/BLE switching and release events. Only observed results may be marked passed.
+
+## Hidden case fasteners
+
+Install eight M2 inserts (nominal OD 3.2 × L3 mm, test in the supplied 3.0 mm bores) from the underside of the bezel. Keep the top surface intact. Use M2 socket heads no larger than Ø3.8 × 2 mm: three M2×20 at the rear, two M2×18 at the sides, and three M2×16 at the front. Insert all screws from below. The model gives 3 mm engagement and at least 0.94 mm head recession; do not substitute longer screws. The plate edge notches clear the bezel bosses. PCB support insert holes remain a separate 3.3 mm system. Keep cables, foil and metal tape out of the antenna window.

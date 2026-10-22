@@ -1,0 +1,96 @@
+{
+  "pcb_sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+  "measured": false,
+  "trace_length_mm": {
+    "SENSE": 162.105,
+    "ADC": 58.656,
+    "FB": 21.034,
+    "AFE_3V3": 25.215,
+    "VCC": 238.019,
+    "GND": 2458.236,
+    "MUX_A": 173.867,
+    "MUX_B": 199.418,
+    "MUX_C": 181.268
+  },
+  "note": "Lengths sum routed segments including branches; not point-to-point distances, extracted capacitance or impedance.",
+  "gain": 101,
+  "adc_lsb_mV": 0.87890625,
+  "input_referred_lsb_uV": 8.702042079207922,
+  "fixed_busy_wait_lower_bound_ms": 1.0999999999999999,
+  "adc_acquisition_only_addition_ms": 0.6,
+  "rf_plate_overlap_mm3": 0.0,
+  "scenarios": {
+    "active": {
+      "wait_ms": 4,
+      "current_mA": [
+        2.888,
+        4.026,
+        8.733
+      ],
+      "runtime_1000mAh_80pct_hours": [
+        91.6,
+        198.7,
+        277.0
+      ]
+    },
+    "idle": {
+      "wait_ms": 8,
+      "current_mA": [
+        1.773,
+        2.653,
+        6.409
+      ],
+      "runtime_1000mAh_80pct_hours": [
+        124.8,
+        301.6,
+        451.2
+      ]
+    },
+    "long_idle": {
+      "wait_ms": 12,
+      "current_mA": [
+        1.295,
+        2.012,
+        5.118
+      ],
+      "runtime_1000mAh_80pct_hours": [
+        156.3,
+        397.6,
+        617.8
+      ]
+    }
+  },
+  "mixed_8h_active_16h_idle_nominal_days": 12.4,
+  "model": {
+    "scan_frame_ms": [
+      2,
+      3,
+      6
+    ],
+    "active_total_mA": [
+      8.2,
+      8.7,
+      13.5
+    ],
+    "background_mA": [
+      0.1,
+      0.25,
+      0.6
+    ],
+    "switched_cap_uF": 0.1,
+    "battery_capacity_mAh": 1000,
+    "usable_fraction": 0.8,
+    "equation": "I = Ibackground + Iactive*tframe/(tframe+twait) + Cswitched[uF]*3.3/(tframe+twait)[ms]",
+    "limitations": [
+      "First-order battery-current budget, assuming approximate unity input/output current for gated VCC; regulator losses and radio duty require measurement.",
+      "The 2..6 ms frame and current ranges are scenarios, not guaranteed bounds.",
+      "No deep sleep or months-long standby claim."
+    ]
+  },
+  "risks": [
+    "162 mm class branched SENSE net: board parasitic capacitance and digital coupling remain unmeasured.",
+    "Sparse ground routing instead of continuous planes: return impedance and charging noise need oscilloscope tests.",
+    "GPIO/ADC critical sections may delay BLE servicing; test under radio traffic.",
+    "RF window removes metal directly over antenna only; metal cases, cables, cell foil and hands can still detune it."
+  ]
+}

@@ -22,7 +22,14 @@
     "cutout": 14.0,
     "cutout_radius": 0.5,
     "pcb_top_to_plate_bottom": 6.0,
-    "custom_case_border": 5.0
+    "custom_case_border": 5.0,
+    "rf_window": {
+      "x": 266,
+      "y": 77,
+      "width": 21,
+      "height": 16,
+      "radius": 1
+    }
   },
   "mounts": [
     {
@@ -87,7 +94,26 @@
     "profile": "coved wedge",
     "floor_rear_z": -14.5,
     "floor_front_z": -10.8,
-    "floor_thickness": 2.4
+    "floor_thickness": 2.4,
+    "fastening": {
+      "direction": "bottom-up",
+      "axis_outside_pcb_mm": 2.5,
+      "bezel_boss_radius_mm": 2.25,
+      "bezel_boss_bottom_z": 4.6,
+      "insert_bore_diameter_mm": 3.0,
+      "insert_length_mm": 3.0,
+      "insert_bore_top_z": 7.6,
+      "screw_tip_z": 8.6,
+      "head_diameter_max_mm": 3.8,
+      "head_height_max_mm": 2.0,
+      "head_recess_diameter_mm": 4.2,
+      "screw_clearance_diameter_mm": 2.3,
+      "rear_screw_length_mm": 20,
+      "side_screw_length_mm": 18,
+      "front_screw_length_mm": 16,
+      "minimum_skirt_margin_mm": 6.0,
+      "tip_clearance_top_z": 9.1
+    }
   },
   "battery": {
     "capacity_design_mah": 1000,
@@ -112,7 +138,7 @@
   "module": {
     "type": "nice!nano v2",
     "center": [
-      260.0,
+      258.73,
       85.0
     ],
     "envelope": [
@@ -127,7 +153,24 @@
       79.0,
       285.0,
       91.0
-    ]
+    ],
+    "footprint_center": [
+      260.0,
+      85.0
+    ],
+    "pcb_rotation_deg": 0,
+    "usb_plug": {
+      "origin": [
+        222.5,
+        81.0,
+        -8.1
+      ],
+      "size": [
+        20.0,
+        8.0,
+        5.5
+      ]
+    }
   },
   "rows": [
     {

@@ -18,7 +18,7 @@ NiZ 静电容机构、60 键 HHKB 配列、6u 空格、蓝牙 / USB、内置电�
 | PCB | 285.0 × 94.6 × 1.6 mm；GH60 / Lot60 参考安装孔槽；四层感应板 |
 | 定位板 | 14.0 mm、R0.5 起始开孔；1.6 mm 厚；另附 13.9 / 14.0 / 14.1 mm 试片 |
 | 主控 | 可更换 nice!nano v2；通过 2.54 mm 通孔焊接；无需手焊 nRF52840、晶振或射频匹配 |
-| 模拟前端 | 2 × SN74HC4051D、1 × OPA350UA、1 × AO3401A；阻容采用 0805 手焊焊盘 |
+| 模拟前端 | 2 × CD74HC4051M96、1 × OPA350UA、1 × AO3401A；阻容采用 0805 手焊焊盘 |
 | 电池 | 带保护 1S LiPo，1000 mAh 为计算基准；包含保护板及线出口后的外包络 ≤ 60 × 35 × 5.5 mm |
 | USB | 成品 USB 2.0 数据延长组件接主控 USB-C；不是仅充电线，也不是裸露的 Type-C CC 转接板 |
 | 自有打印壳 | 299 × 108.6 mm；底壳、HHKB 上框、STEP / STL、总装 STEP；约 1.95° 浅楔形底面，R8 圆角与内收下裙 |
@@ -41,3 +41,9 @@ NiZ 静电容机构、60 键 HHKB 配列、6u 空格、蓝牙 / USB、内置电�
 [![焊接工作台界面](assets/soldering-workbench.png)](hardware/soldering/index.html)
 
 原生检查结果：**ERC 0 项、DRC 0 项、未连接网络 0 项、原理图/PCB 一致性差异 0 项**。普通版和校准版固件均已编译。见[加工文件](fabrication/)、[外壳改版记录](docs/case-design.zh-CN.md)及 [KiCad 封装许可](licenses/KiCad-library-notice.md)。
+
+[复核与修复记录](docs/review-fixes.zh-CN.md) · [电气、蓝牙干扰和功耗估算](docs/electrical-analysis.zh-CN.md)
+
+外壳现为底部隐藏螺丝，正面无开孔；全部设计图来自当前 PCB/STEP/DXF。USB 与 BLE 均已编译启用，Fn+5 / Fn+6 选择输出。
+
+[多电池选型与实际三仓底壳](docs/battery-options.zh-CN.md).

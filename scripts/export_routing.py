@@ -6,6 +6,7 @@ from circuit import components
 
 def geometry_hash():
  payload={k:SPEC[k] for k in ['pcb','pitch','rows','mounts']};payload['components']=components()
+ payload['antenna_keepout']=SPEC['module']['antenna_keepout']
  return hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()
 def main():
  app=wx.App(False);b=p.LoadBoard(str(ROOT/'hardware/YAKB.kicad_pcb'));tracks=[]

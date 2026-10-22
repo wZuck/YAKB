@@ -1,5 +1,5 @@
 Drill report for YAKB.kicad_pcb
-Created on 2026-10-22T11:32:48
+Created on 2026-10-22T16:17:43
 
 Copper Layer Stackup:
     =============================================================
@@ -12,13 +12,13 @@ Copper Layer Stackup:
 Drill file 'YAKB-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.250mm  0.0098"  (1 hole)
-    T2  0.300mm  0.0118"  (230 holes))
+    T1  0.250mm  0.0098"  (2 holes))
+    T2  0.300mm  0.0118"  (243 holes))
     T3  0.750mm  0.0295"  (2 holes))
     T4  1.000mm  0.0394"  (4 holes))
     T5  1.092mm  0.0430"  (24 holes))
 
-    Total plated holes count 261
+    Total plated holes count 275
 
 
 Drill file 'YAKB-NPTH.drl' contains

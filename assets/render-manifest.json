@@ -1,0 +1,155 @@
+{
+  "renderer": "Blender Cycles 4.5 LTS",
+  "samples": 96,
+  "width": 3200,
+  "tessellation_mm": 0.04,
+  "sources": {
+    "mechanical/case_base.step": {
+      "sha256": "923f3e9779712f0aabec9d1d7a1ae8474aa9d53c3be771739f42ed6ba3b86bc1",
+      "bounds_mm": [
+        -7.600000100000002,
+        -7.379666925345453,
+        -14.756397665374994,
+        292.6000001,
+        102.20000009999998,
+        7.601218538748933
+      ]
+    },
+    "mechanical/case_bezel.step": {
+      "sha256": "b75f0ef9ee48ba6b8c42820fddc003d4749d860a641e7002c72d60540245e883",
+      "bounds_mm": [
+        -7.001325109960027,
+        -7.001325109960043,
+        4.599657214101854,
+        292.0013251099601,
+        101.60132510996006,
+        10.601325109960062
+      ]
+    },
+    "mechanical/plate_case.step": {
+      "sha256": "a3a933ba7a46b7d165296b5ff9db8ead5fc9b76fc5f47102cdd556d5d4c7a433",
+      "bounds_mm": [
+        -5.000396370947524,
+        -5.00039637094805,
+        5.9996036290505455,
+        290.00039637094943,
+        99.60039637094945,
+        7.600396370949454
+      ]
+    },
+    "mechanical/plate_tray.step": {
+      "sha256": "692d1f926f32aa6fd17d0fb08adecf5ac6f8f14ce98d313a38dab70633d9b932",
+      "bounds_mm": [
+        -0.0003047096872321293,
+        -0.0003047096872835958,
+        5.999695290312716,
+        285.00030470968727,
+        94.60030470968722,
+        7.6003047096872836
+      ]
+    },
+    "mechanical/keycap_envelopes.step": {
+      "sha256": "e0e163fdd61e81b1bdab088cccbdcf34b57500498314ee1fc5f9b876a47e0eaf",
+      "bounds_mm": [
+        -0.9625001000000113,
+        -0.7750001000000227,
+        9.81249989999999,
+        285.96250010000006,
+        95.37500010000001,
+        21.487500100000013
+      ]
+    },
+    "mechanical/battery_envelope.step": {
+      "sha256": "fbc02bb648a2ebf716bdab1a7771c3f801a6eae73bb9c58bb83194b59f3ca5d9",
+      "bounds_mm": [
+        113.99999989999692,
+        5.416509629053592,
+        -11.144284378833072,
+        174.00000010000306,
+        40.58349037094907,
+        -4.455715621165592
+      ]
+    },
+    "mechanical/module_envelope.step": {
+      "sha256": "b95d2fa675ac1662387c771e6be5d7ac957c90663f5091703921dc20e5731cdb",
+      "bounds_mm": [
+        241.9799999,
+        75.9999999,
+        -8.1000001,
+        275.48000010000004,
+        94.0000001,
+        -1.5999998999999991
+      ]
+    },
+    "mechanical/usb_plug_envelope.step": {
+      "sha256": "b3148eb344731479b3a3847064f3b55253d1244a291a854605ad8d445b64d160",
+      "bounds_mm": [
+        222.4999999,
+        80.9999999,
+        -8.1000001,
+        242.5000001,
+        89.0000001,
+        -2.5999998999999994
+      ]
+    },
+    "mechanical/case_screw_envelopes.step": {
+      "sha256": "787e9b2815d003d7a8b74e357c0d7e422eeb5ce26ccdf8c2b259e4e7c69a703f",
+      "bounds_mm": [
+        -4.400289479202864,
+        -4.400289479202888,
+        -13.400289479202888,
+        289.40028947920285,
+        99.00028947920289,
+        8.600152404843673
+      ]
+    },
+    "mechanical/case_base_three_bay.step": {
+      "sha256": "829794b4c3f97a919a25cdee61618f235cf821c97adbd18a669bbc44fbae5e49",
+      "bounds_mm": [
+        -7.600000100000002,
+        -7.379666925345453,
+        -14.756397665374994,
+        292.6000001,
+        102.20000009999998,
+        7.601218538748933
+      ]
+    },
+    "mechanical/battery_pack_envelopes.step": {
+      "sha256": "1a4b51367c86c886576cbfc5123ba85d3b095eb70f0a2ad2c19cc0981f64ff54",
+      "bounds_mm": [
+        31.999999899996926,
+        5.416509629053592,
+        -11.144284378833072,
+        256.0000001000031,
+        58.0000001,
+        -4.455715621165592
+      ]
+    },
+    "hardware/YAKB.kicad_pcb": {
+      "sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03"
+    },
+    "mechanical/YAKB-populated.glb": {
+      "sha256": "1e4ea7d826ba75f85c2452bd93491d023e498fb0ed16266aa7c831c7546bcfba"
+    },
+    "design/yakb.json": {
+      "sha256": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076"
+    },
+    "scripts/render_cad.py": {
+      "sha256": "01212dd414c90fc6f8446dc4c7aa2a9ce3a4147d305d083b8ec3a3527189b8b1"
+    },
+    "scripts/render_blender.py": {
+      "sha256": "e8bd764640bd83531d1fcfeca80b19bbc9e034fca211cf574ea284b4743fd015"
+    }
+  },
+  "images": {
+    "assets/assembly-render.png": "27bb092246a82a813bbc6ac75998cdd389d37830ff88313400860a879fde512e",
+    "assets/exploded-render.png": "908bcfa16f480c6915016775b3549bb9e069ef61e5a027b5d0d795e6b35f1171",
+    "assets/case-interior-render.png": "42e947b0e61469f43ff212b9ad6e7b7e2f5ffde5edb4726a7a0d9b35475aba9d",
+    "assets/case-side-render.png": "5a62e369268e60392d2ed8100add2fb2058193c887fc72995b3ee7f8067085ae",
+    "assets/plate-render.png": "c351132ec71ffd9af1e01f4027b968a18847da98ddd2f059bd21da75c118b167",
+    "assets/pcb-top.png": "500ee564d15ed17ede534bd0c1771f8bdb9483a630b7e45d00a4da32d3625581",
+    "assets/case-bottom-render.png": "42e70ff972f47459d92383ddb58eafe473b36e8d92e850c940fc6e9ef8d56bd8",
+    "assets/battery-study-render.png": "d96bc9c86d2c68ca6a7508e5760b7b1c48a197aeaddb89ab171277e4cceed67a",
+    "assets/pcb-bottom.png": "4e908faf42697bfc490827e9f6915ba1cb9bee02883ffb9ffa794f897b03379e"
+  }
+}

@@ -17,4 +17,10 @@ A few installed sensing cells are useful for waveform/noise checks; complete cal
 
 Fn+1/2/3 selects BLE profiles, Fn+4 clears the current profile, Fn+H/J/K/L are arrows, and Fn+Esc enters the bootloader. See `yakb.keymap`.
 
-ADC uses D19/P0.02/AIN0, not D18. The active-low power GPIO gates only the amplifier. Mux and controller VCC remain enabled while polling. Initial waits are 4/50/200 ms; measure actual frames, first-tap reliability and current. Deep sleep is disabled because no independent reliable wake circuit is present. Compilation does not validate analog range, RF, runtime or temperature.
+ADC uses D19/P0.02/AIN0, not D18. The active-low power GPIO gates only the amplifier. Mux and controller VCC remain enabled while polling. Initial waits are 4/8/12 ms; measure actual frames, first-tap reliability and current. Deep sleep is disabled because no independent reliable wake circuit is present. Compilation does not validate analog range, RF, runtime or temperature.
+
+## Reviewed fixes and dual transport
+
+Before building, run `scripts/prepare_firmware.py` to apply the [hash-checked driver patch](patches/README.md). It fixes first taps after idle, invalid calibration endpoints and division by zero during constant-ADC calibration. The cooperative priority parameter is 15 (actual -1); kernel assertions are enabled. 960 first-tap logic scenarios and the actual constant-ADC calibration routine pass; these are not hardware latency measurements.
+
+USB HID and BLE HID are both enabled. Fn+5 selects USB; Fn+6 selects BLE. Fn+1/2/3 selects BLE profiles. USB is initially preferred, and manual output selection persists. One selected endpoint receives reports at a time. A data cable supports wired use without a connected battery. Select BLE to type wirelessly while USB supplies power; the battery switch must be on for charging.

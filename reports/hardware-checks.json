@@ -1,0 +1,21 @@
+{
+  "pcb_sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+  "plated_pads_with_two_sided_mask_openings": 30,
+  "sensor_copper_masked": true,
+  "shared_mask_unmodified": true,
+  "usb_points_left": true,
+  "library_component_models": 37,
+  "unmodelled_populated_positions": [
+    "SW1",
+    "SW2",
+    "U1"
+  ],
+  "gerber_pth_openings": {
+    "front": 30,
+    "back": 30
+  },
+  "native_pad_map_matches": true,
+  "limitations": [
+    "NiZ and mating cable/socket samples require physical measurement."
+  ]
+}

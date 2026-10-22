@@ -230,7 +230,7 @@ window.YAKB_GUIDE = {
         "U2",
         "U3"
       ],
-      "summary": "两个SN74HC4051D选择15个有效列，共用SENSE。",
+      "summary": "两个CD74HC4051M96选择15个有效列，共用SENSE。",
       "instructions": [
         "核对1脚，先固定对角脚再逐脚焊。",
         "16脚VCC、8脚GND、7脚VEE接地；6脚为INH。",
@@ -302,7 +302,7 @@ window.YAKB_GUIDE = {
       "phaseTitle": "通孔与模块",
       "color": "#174b3a",
       "title": "电池插座",
-      "subtitle": "JST-PH · 2.0mm",
+      "subtitle": "S2B-PH-K horizontal · 2.0mm",
       "refs": [
         "J1"
       ],
@@ -381,7 +381,7 @@ window.YAKB_GUIDE = {
       ],
       "summary": "对齐低矮插座后再安装成品主控。",
       "instructions": [
-        "主控USB朝左，天线朝右下角空白区域。",
+        "按PCB正面坐标USB朝左、天线朝右；本背面图已镜像，USB显示在右侧。",
         "用未通电模块作夹具，先焊插座四角。",
         "取下模块检查桥连；模块与插座总下凸≤6.5mm。",
         "BOOST不桥接；无需重焊模块内部晶振、射频或MCU。"
@@ -517,7 +517,8 @@ window.YAKB_GUIDE = {
       "instructions": [
         "重新断电，再装全部胶碗、锥簧、轴壳与卫星轴。",
         "6u空格为中心十字、95.25mm卫星轴间距。",
-        "检查板间距、中央柱、螺丝头、USB线和电池绝缘。",
+        "先在上框底面安装8颗M2嵌件；底部锁入：后侧3颗M2×20、两侧2颗M2×18、前侧3颗M2×16，勿混用长度。",
+        "检查板间距、中央柱、USB线和电池绝缘；可选三仓底壳仅配工厂成组的带保护1S2P/1S3P电池包，单路接J1。",
         "冷启动复核校准、BLE切换、快速首键及大键回弹。"
       ],
       "checkpoint": "文件检查不能替代真实轴体、天线、充电和续航试验。",
@@ -537,17 +538,17 @@ window.YAKB_GUIDE = {
       "value": "nice!nano_v2",
       "footprint": "nice_nano",
       "side": "背面 / 通孔",
-      "x": 260,
-      "y": 85,
-      "note": "USB朝左；D19为ADC；BOOST不桥接",
+      "x": 260.0,
+      "y": 85.0,
+      "note": "正面坐标USB朝左（背面图朝右）；D19=ADC；BOOST不桥接",
       "type": "populate",
-      "nets": "ROW_DRV1 ROW_DRV0 ROW_DRV2 ROW_DRV3 ROW_DRV4 MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN   AFE_ON_N  ADC   GND GND VCC RESET GND BAT_SW"
+      "nets": "ROW_DRV1 ROW_DRV0 ROW_DRV2 ROW_DRV3 ROW_DRV4 MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N ADC GND GND VCC RESET GND BAT_SW"
     },
     {
       "ref": "U2",
       "step": "07",
       "phase": "P2",
-      "value": "SN74HC4051D",
+      "value": "CD74HC4051M96",
       "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
       "side": "背面 / 通孔",
       "x": 105,
@@ -560,7 +561,7 @@ window.YAKB_GUIDE = {
       "ref": "U3",
       "step": "07",
       "phase": "P2",
-      "value": "SN74HC4051D",
+      "value": "CD74HC4051M96",
       "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
       "side": "背面 / 通孔",
       "x": 170,
@@ -576,11 +577,11 @@ window.YAKB_GUIDE = {
       "value": "OPA350UA",
       "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
       "side": "背面 / 通孔",
-      "x": 223,
+      "x": 217,
       "y": 84,
       "note": "核对1脚和型号",
       "type": "populate",
-      "nets": " FB SENSE GND  ADC AFE_3V3 "
+      "nets": "FB SENSE GND ADC AFE_3V3"
     },
     {
       "ref": "Q1",
@@ -979,8 +980,8 @@ window.YAKB_GUIDE = {
       "value": "100n",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
       "side": "背面 / 通孔",
-      "x": 232,
-      "y": 91,
+      "x": 220,
+      "y": 88,
       "note": "无极性；核对数值",
       "type": "populate",
       "nets": "AFE_3V3 GND"
@@ -1015,12 +1016,12 @@ window.YAKB_GUIDE = {
       "ref": "J1",
       "step": "10",
       "phase": "P3",
-      "value": "Battery_PH2.0",
+      "value": "JST_S2B-PH-K",
       "footprint": "Battery_PH2",
       "side": "背面 / 通孔",
       "x": 20,
       "y": 84,
-      "note": "1=电池正极，2=GND；先测线序",
+      "note": "水平S2B-PH-K；1=电池正极，2=GND；先测线序",
       "type": "populate",
       "nets": "BAT_RAW GND"
     },

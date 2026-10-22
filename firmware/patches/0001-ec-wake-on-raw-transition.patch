@@ -1,0 +1,60 @@
+diff --git a/drivers/kscan/zmk_kscan_ec_matrix.c b/drivers/kscan/zmk_kscan_ec_matrix.c
+index 77b15b6..eacad0c 100644
+--- a/drivers/kscan/zmk_kscan_ec_matrix.c
++++ b/drivers/kscan/zmk_kscan_ec_matrix.c
+@@ -277,6 +277,10 @@ struct sample_results sample(const struct device *dev, int s, int i) {
+ }
+ 
+ uint16_t normalize(uint16_t val, uint16_t avg_low, uint16_t avg_high) {
++    // Reject incomplete/corrupt calibration instead of dividing by zero.
++    if (avg_high <= avg_low) {
++        return 0;
++    }
+     val = MAX(val, avg_low);
+     val = MIN(val, avg_high);
+ 
+@@ -381,8 +385,12 @@ void calibrate(const struct device *dev) {
+                 struct sample_results high_res = sample(dev, s, i);
+ 
+                 // Rough approximation of SNR by using avg difference + noise over noise
+-                uint16_t snr =
+-                    (high_res.avg - calibration->avg_low + calibration->noise) / calibration->noise;
++                // Constant ADC samples legitimately have zero measured noise.
++                // Floor only the SNR estimate denominator to one ADC count.
++                uint16_t noise_floor = MAX(calibration->noise, 1);
++                uint16_t signal = high_res.avg > calibration->avg_low
++                                      ? high_res.avg - calibration->avg_low : 0;
++                uint16_t snr = (signal + (uint32_t)noise_floor) / noise_floor;
+                 LOG_DBG("High avg for %d,%d is %d. SNR %d", s, i, high_res.avg, snr);
+ 
+                 calibration->avg_high = high_res.avg;
+@@ -485,7 +493,7 @@ static void kscan_ec_matrix_read(const struct device *dev) {
+             struct zmk_kscan_ec_matrix_calibration_entry *calibration =
+                 calibration_entry_for_strobe_input(dev, s, r);
+ 
+-            if (!calibration || calibration->avg_high == 0) {
++            if (!calibration || calibration->avg_high <= calibration->avg_low) {
+                 continue;
+             }
+ 
+@@ -534,6 +542,11 @@ static void kscan_ec_matrix_read(const struct device *dev) {
+     uint64_t diffs[cfg->strobes_len];
+     for (int s = 0; s < cfg->strobes_len; s++) {
+         diffs[s] = rows[s] & data->matrix_state[s];
++#if IS_ENABLED(CONFIG_ZMK_KSCAN_EC_MATRIX_DYNAMIC_POLL_RATE)
++        // Wake on the first raw transition, before the two-frame press filter.
++        // A transient that disappears before confirmation must restart idle time.
++        have_change = have_change || rows[s] != data->matrix_state[s];
++#endif
+         if (rows[s] && rows[s] != data->matrix_state[s]) {
+             LOG_DBG("Initial press detected for %d/%lld", s, rows[s] ^ data->matrix_state[s]);
+         }
+@@ -561,7 +574,7 @@ static void kscan_ec_matrix_read(const struct device *dev) {
+         data->reported_matrix_state[s] = diff;
+ 
+ #if IS_ENABLED(CONFIG_ZMK_KSCAN_EC_MATRIX_DYNAMIC_POLL_RATE)
+-        have_keys = have_keys || diff != 0;
++        have_keys = have_keys || rows[s] != 0;
+ #endif // IS_ENABLED(CONFIG_ZMK_KSCAN_EC_MATRIX_DYNAMIC_POLL_RATE)
+     }
+ 

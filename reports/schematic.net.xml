@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/wzy/workspace/YAKB/hardware/YAKB.kicad_sch</source>
-    <date>2026-10-22T11:26:56</date>
+    <date>2026-10-22T16:17:34</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1575,7 +1575,7 @@
       </units>
     </comp>
     <comp ref="J1">
-      <value>Battery_PH2.0</value>
+      <value>JST_S2B-PH-K</value>
       <footprint>YAKB:Battery_PH2</footprint>
       <fields>
         <field name="Footprint">YAKB:Battery_PH2</field>
@@ -2302,7 +2302,7 @@
       </units>
     </comp>
     <comp ref="U2">
-      <value>SN74HC4051D</value>
+      <value>CD74HC4051M96</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <fields>
         <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
@@ -2338,7 +2338,7 @@
       </units>
     </comp>
     <comp ref="U3">
-      <value>SN74HC4051D</value>
+      <value>CD74HC4051M96</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <fields>
         <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
@@ -3311,7 +3311,7 @@
     <libpart lib="YAKB" part="J1">
       <fields>
         <field name="Reference">J1</field>
-        <field name="Value">Battery_PH2.0</field>
+        <field name="Value">JST_S2B-PH-K</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -3750,7 +3750,7 @@
     <libpart lib="YAKB" part="U2">
       <fields>
         <field name="Reference">U2</field>
-        <field name="Value">SN74HC4051D</field>
+        <field name="Value">CD74HC4051M96</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -3777,7 +3777,7 @@
     <libpart lib="YAKB" part="U3">
       <fields>
         <field name="Reference">U3</field>
-        <field name="Value">SN74HC4051D</field>
+        <field name="Value">CD74HC4051M96</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>

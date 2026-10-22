@@ -1547,8 +1547,8 @@
       "net": "AFE_3V3"
     }
   ],
-  "track_count": 1691,
-  "via_count": 231,
+  "track_count": 1995,
+  "via_count": 245,
   "min_width_mm": 0.15,
   "min_via_mm": 0.45,
   "min_drill_mm": 0.25

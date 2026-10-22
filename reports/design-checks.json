@@ -17,7 +17,7 @@
   "drc_errors_warnings": 0,
   "unconnected": 0,
   "erc_errors_warnings": 0,
-  "pcb_sha256": "2e7ac4351f136bff03574ebb0c00738f64da10063ba9b8645cf6ad6fcc79bfdd",
+  "pcb_sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
   "firmware_transform_matches_layout": true,
   "mechanical_envelopes_clear": true,
   "electrode_mount_gaps": [

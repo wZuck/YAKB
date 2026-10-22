@@ -1,0 +1,21 @@
+{
+  "renderer": "Matplotlib vector DXF / native PCB / STEP section",
+  "sources": {
+    "hardware/YAKB.kicad_pcb": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+    "design/pad-map.json": "38cd6bd43b9b3be3cb247895d681c3ddccc67ee40125035f55d98637a65c6b5b",
+    "design/pcb-scene.json": "c1afb5bdf31864a3ad5e76b3bd33d24082b6f9286f43d0d8845d1a2d3d2b925a",
+    "mechanical/plate_case.dxf": "ea632e494c804f1523952786abbe55c93c30bcefba05a60998b3a61eee561f23",
+    "reports/mechanical.json": "dc0aaf3b2541929a8023da408676c9ce358c6b8322e71bbf62fd0b24910bb624",
+    "scripts/render_design.py": "732d7656d5408fe90dca2ab4eb0ac8bbaf9d850ab526a012886c55f301017489",
+    "scripts/render_plan.py": "fa3e184f7d31c85776230c541453837cec2ce6a3a3facc3fd9fbf07c18124043",
+    "mechanical/case_base.step": "923f3e9779712f0aabec9d1d7a1ae8474aa9d53c3be771739f42ed6ba3b86bc1",
+    "mechanical/case_bezel.step": "b75f0ef9ee48ba6b8c42820fddc003d4749d860a641e7002c72d60540245e883",
+    "mechanical/plate_case.step": "a3a933ba7a46b7d165296b5ff9db8ead5fc9b76fc5f47102cdd556d5d4c7a433",
+    "mechanical/pcb_envelope.step": "ea58ee9d787c8db4c8a7cdf6ddf3eaf00b409bef0d76659b6f01f3d4e984e33e",
+    "mechanical/battery_envelope.step": "fbc02bb648a2ebf716bdab1a7771c3f801a6eae73bb9c58bb83194b59f3ca5d9"
+  },
+  "images": {
+    "assets/design-overview.png": "91d890bca1bb2fb6f0f024791fd683063fa6e054439fa044b5ab43bfee3787d4",
+    "assets/design-overview.svg": "18599370742b56a9939f3c93adc5a66c91d9140e46f70a867da211b731aacce3"
+  }
+}

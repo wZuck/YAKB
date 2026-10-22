@@ -19,4 +19,10 @@ def keys():
     return result
 
 def case_screws():
-    return [(x,y) for y in [-3, SPEC["pcb"]["height"]+3] for x in [40,142.5,245]] + [(-3,47.3),(288,47.3)]
+    a=SPEC['case']['fastening']['axis_outside_pcb_mm']
+    return [(x,y) for y in [-a, SPEC['pcb']['height']+a] for x in [40,142.5,245]] + [(-a,47.3),(SPEC['pcb']['width']+a,47.3)]
+
+
+def normalize_text(path):
+    """Canonical LF / no trailing whitespace for generated text artifacts."""
+    path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')

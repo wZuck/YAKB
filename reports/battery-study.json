@@ -1,0 +1,113 @@
+{
+  "bays": [
+    {
+      "center_mm": [
+        62,
+        23,
+        -7.8
+      ],
+      "max_pouch_envelope_mm": [
+        60.0,
+        35.0,
+        5.5
+      ],
+      "intersections_mm3": {
+        "base": 0.0,
+        "pcb_envelope": 0.0,
+        "components": 0.0,
+        "module_envelope": 0.0,
+        "usb_plug_envelope": 0.0,
+        "case_screw_envelopes": 0.0
+      },
+      "minimum_base_gap_mm": 0.526,
+      "pcb_gap_mm": 2.856
+    },
+    {
+      "center_mm": [
+        144,
+        23,
+        -7.8
+      ],
+      "max_pouch_envelope_mm": [
+        60.0,
+        35.0,
+        5.5
+      ],
+      "intersections_mm3": {
+        "base": 0.0,
+        "pcb_envelope": 0.0,
+        "components": 0.0,
+        "module_envelope": 0.0,
+        "usb_plug_envelope": 0.0,
+        "case_screw_envelopes": 0.0
+      },
+      "minimum_base_gap_mm": 0.526,
+      "pcb_gap_mm": 2.856
+    },
+    {
+      "center_mm": [
+        226,
+        23,
+        -7.8
+      ],
+      "max_pouch_envelope_mm": [
+        60.0,
+        35.0,
+        5.5
+      ],
+      "intersections_mm3": {
+        "base": 0.0,
+        "pcb_envelope": 0.0,
+        "components": 0.0,
+        "module_envelope": 0.0,
+        "usb_plug_envelope": 0.0,
+        "case_screw_envelopes": 0.0
+      },
+      "minimum_base_gap_mm": 0.526,
+      "pcb_gap_mm": 2.856
+    }
+  ],
+  "shared_pcm_envelope_mm": [
+    25,
+    12,
+    3
+  ],
+  "shared_pcm_origin_mm": [
+    49.5,
+    46,
+    -8.5
+  ],
+  "chemistry": "Factory assembled protected 1S2P or 1S3P, 3.7 V nominal / 4.2 V full; one output to J1",
+  "options": [
+    {
+      "pouches": 1,
+      "nominal_capacity_mAh": 1000,
+      "nominal_mixed_runtime_days": 12.4,
+      "ideal_100mA_charge_lower_bound_hours": 10
+    },
+    {
+      "pouches": 2,
+      "nominal_capacity_mAh": 2000,
+      "nominal_mixed_runtime_days": 24.8,
+      "ideal_100mA_charge_lower_bound_hours": 20
+    },
+    {
+      "pouches": 3,
+      "nominal_capacity_mAh": 3000,
+      "nominal_mixed_runtime_days": 37.2,
+      "ideal_100mA_charge_lower_bound_hours": 30
+    }
+  ],
+  "assumptions": [
+    "1000 mAh per pouch is a capacity target, not a verified cell model. Entire pouch including seams/wrapping/leads must fit the envelope.",
+    "Pack manufacturer must provide matched cells, protection and suitable branch fault protection; no parallel JST headers or DIY cell splicing.",
+    "Keep existing 100 mA charging setting; real charging exceeds the ideal bound because of load and CV taper.",
+    "Shared protection board and wiring envelopes require the selected pack drawing. Adhesive insulation must fit the measured remaining gap.",
+    "RF/EC noise and cell temperature need retesting with multiple conductive pouches."
+  ],
+  "sources": {
+    "mechanical/case_base.step": "923f3e9779712f0aabec9d1d7a1ae8474aa9d53c3be771739f42ed6ba3b86bc1",
+    "mechanical/components.step": "9682225b2ff453b71d7316dac05a08c0063b3757a756eb16d946bd227b527ad7",
+    "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076"
+  }
+}

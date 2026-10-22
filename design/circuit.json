@@ -29,10 +29,11 @@
       "23": "GND",
       "24": "BAT_SW"
     },
-    "x": 260,
-    "y": 85,
+    "x": 260.0,
+    "y": 85.0,
     "kind": "MODULE",
-    "side": "B"
+    "side": "B",
+    "rotation": 0
   },
   {
     "ref": "U2",
@@ -102,7 +103,7 @@
       "7": "AFE_3V3",
       "8": ""
     },
-    "x": 223,
+    "x": 217,
     "y": 84,
     "kind": "IC",
     "side": "B"
@@ -506,8 +507,8 @@
       "1": "AFE_3V3",
       "2": "GND"
     },
-    "x": 232,
-    "y": 91,
+    "x": 220,
+    "y": 88,
     "kind": "C",
     "side": "B"
   },
@@ -539,7 +540,7 @@
   },
   {
     "ref": "J1",
-    "value": "Battery_PH2.0",
+    "value": "JST_S2B-PH-K",
     "footprint": "YAKB:Battery_PH2",
     "pins": {
       "1": "BAT_RAW",

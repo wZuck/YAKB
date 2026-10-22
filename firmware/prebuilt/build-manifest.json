@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "firmware/config/boards/.DS_Store": "f0778828930a5cbc9cd2e3845f6bb31e83d4416bf247d2f497c68f97b4a10141",
+    "firmware/config/boards/shields/.DS_Store": "c5ed7ed8b633d514bb3daf3e1dddc6d682a8002d289a91718d18e2f6bc0a6a13",
+    "firmware/config/boards/shields/yakb/yakb.conf": "ee7310af507406f2b2c362cecddac90dfeb7a15bd5e459736d51fd4dacff54ed",
+    "firmware/config/boards/shields/yakb/yakb.keymap": "32b1ff78c61ad5b827850d103274621b23c5243a359f1ae8645fbf85efaf361a",
+    "firmware/config/boards/shields/yakb/Kconfig.shield": "0e609a97891b939a4a841e44d1fa939b7fce2cef2af6dc14d353ef8038a0601c",
+    "firmware/config/boards/shields/yakb/Kconfig.defconfig": "922ed2bce3a85e0e36d0d9fe1d7f13e952f4ca6d6dc70adb6a590667072c2b87",
+    "firmware/config/boards/shields/yakb/yakb.overlay": "e9009aae8e9dcf182e8828efb77a6621315a8153ebdfaedeae9a25c1d44eafb7",
+    "firmware/patches/0001-ec-wake-on-raw-transition.patch": "793d324718eedcb2b7f2a8e8e56ed5d4b2e982e6cbde77388f8b83b2f895bf42"
+  },
+  "builds": {
+    "normal": {
+      "uf2_sha256": "720e989ce1fdf0a8d5054467eb3ae4ef02748336395e7062b311071cf032486c",
+      "elf_sha256": "434f91032f377c61c67324a01887c9a73ac655904c4477eb50b3146f0b5dd82e",
+      "ec_object_sha256": "97c1d5d4dd0fdea31fe053209c9cf0d178f7dced94221606edb4e062a80b695c",
+      "config_sha256": "528085066a1be5dce4ae8b7add2549403d9cf7531b3a00428ada34495af946c1",
+      "dts_sha256": "23bedcc169e21a383bc9add6f68887757038656acd6b9b1c76f792441edb4365"
+    },
+    "calibrator": {
+      "uf2_sha256": "75fd0e523866fba8f7327b2dca0ae0901b1dd59bcb3dd030df5746fb18de8634",
+      "elf_sha256": "9ae7de5acdace007351bddac0a8ee11c8fee028ff5710ab834bef2e854dcb1fd",
+      "ec_object_sha256": "73ea1dc53d1dd4d08df62b53456c1175ceccdbac6ad12a774a16110455858656",
+      "config_sha256": "3abe6c4e2581e36c18769cad6ace927c194acae6fd3197aae8448082896192a0",
+      "dts_sha256": "e5a5861da830cad6de3097a6c6b85fabce3be726ee02a5cd4a40e396ed2a553e"
+    }
+  },
+  "driver_sha256": "5a805e4d79a07f8ccf2bfc4511f8c6935e2cb8f7608509a3274d30bd6615ed89"
+}

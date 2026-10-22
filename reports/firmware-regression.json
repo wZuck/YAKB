@@ -1,0 +1,16 @@
+{
+  "result": "960 first-key phase/frame scenarios; transient idle recovery; 60-key mask/NKRO/release; invalid calibration: PASS",
+  "phase_frame_cases": 960,
+  "constant_adc_calibration_passed": true,
+  "maximum_modelled_first_press_latency_ms": 28,
+  "frame_overhead_range_ms": [
+    0,
+    6
+  ],
+  "cooperative_priority": -1,
+  "assertions_enabled": true,
+  "driver_sha256": "5a805e4d79a07f8ccf2bfc4511f8c6935e2cb8f7608509a3274d30bd6615ed89",
+  "limitations": [
+    "ADC mocked; no physical sampling, BLE timing or current measurement."
+  ]
+}

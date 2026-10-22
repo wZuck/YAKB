@@ -3,14 +3,15 @@
 Run with CadQuery + ezdxf. Assembly retains the PCB-top z=0 datum.
 DXFs use x right / y toward typist, matching the PCB (not mirrored).
 """
-import json, math
+import json, math, hashlib
 import cadquery as cq
 import ezdxf
-from common import ROOT, SPEC, keys, case_screws
+from common import normalize_text, ROOT, SPEC, keys, case_screws
 
 OUT=ROOT/"mechanical"
 W,H=SPEC["pcb"]["width"],SPEC["pcb"]["height"]
 M=SPEC['case']['outer_margin']
+FASTEN=SPEC['case']['fastening']
 SLOPE=(SPEC['case']['floor_front_z']-SPEC['case']['floor_rear_z'])/(H+2*M)
 ANGLE=math.degrees(math.atan(SLOPE))
 FLOOR_INTERCEPT=SPEC['case']['floor_rear_z']+M*SLOPE
@@ -27,7 +28,7 @@ def plane_halfspace(above=True,inside=False,height=0):
 def case_outer():
     # A recessed lower skirt replaces the original straight box sidewall.
     profiles=[]
-    for z,margin,radius in [(-16,3.5,5),(-10.5,4.2,6),(-4.0,M,8),(7.6,M,8)]:
+    for z,margin,radius in [(-16,FASTEN['minimum_skirt_margin_mm'],5),(-10.5,6.2,6),(-4.0,M,8),(7.6,M,8)]:
         shape=rounded_rect(-margin,-margin,W+2*margin,H+2*margin,radius,z,0.01)
         profiles.append(shape.faces('<Z').wires().val())
     return cq.Workplane('XY').newObject([cq.Solid.makeLoft(profiles,ruled=True)])
@@ -60,30 +61,22 @@ def plate(border):
     # Exact brand/latch dimensions are NOT approved; the separate coupon is mandatory.
     for x,y in stabilizers():
         b=b.cut(box(x-3.375,y-6.15,5,6.75,12.3,4)).cut(box(x-1.65,y+6.15,5,3.3,1.2,4))
+    rf=SPEC['plate']['rf_window']
+    b=b.cut(rounded_rect(rf['x'],rf['y'],rf['width'],rf['height'],rf['radius'],5,4))
     if border:
         for x,y in case_screws():
-            b=b.cut(cq.Workplane('XY').center(x,y).circle(1.1).extrude(4).translate((0,0,5)))
+            b=b.cut(cq.Workplane('XY').center(x,y).circle(2.6).extrude(4).translate((0,0,5)))
     return b
 
 def write_dxf(border,name):
-    d=ezdxf.new('R2010');d.units=4;m=d.modelspace()
-    d.layers.new('CUT',dxfattribs={'color':7})
-    d.layers.new('REFERENCE',dxfattribs={'color':3})
-    def rect(x,y,w,h):m.add_lwpolyline([(x,y),(x+w,y),(x+w,y+h),(x,y+h)],close=True,dxfattribs={'layer':'CUT'})
-    def rr(x,y,w,h,r):
-        # DXF bulge is tan(90deg/4), arcs follow the same R0.5/R2 CAD profile.
-        q=math.tan(math.pi/8)
-        m.add_lwpolyline([(x+r,y,0),(x+w-r,y,q),(x+w,y+r,0),(x+w,y+h-r,q),
-                          (x+w-r,y+h,0),(x+r,y+h,q),(x,y+h-r,0),(x,y+r,q)],format='xyb',close=True,dxfattribs={'layer':'CUT'})
-    rr(-border,-border,W+2*border,H+2*border,2)
-    for k in keys():rr(k['x']-7,k['y']-7,14,14,.5)
-    for x,y in stabilizers():
-        m.add_lwpolyline([(x-3.375,y-6.15),(x+3.375,y-6.15),(x+3.375,y+6.15),(x+1.65,y+6.15),
-                          (x+1.65,y+7.35),(x-1.65,y+7.35),(x-1.65,y+6.15),(x-3.375,y+6.15)],close=True,dxfattribs={'layer':'CUT'})
-    if border:
-        for x,y in case_screws():m.add_circle((x,y),1.1,dxfattribs={'layer':'CUT'})
-    m.add_text('YAKB A0 PROTOTYPE - STABILIZER COUPON REQUIRED',dxfattribs={'height':2,'layer':'REFERENCE'}).set_placement((2,H+8))
+    # Export the exact CAD face, so open-edge boss reliefs and DXF cannot diverge.
+    profile=plate(border).faces('<Z').wires().translate((0,0,-6))
+    cq.exporters.export(profile,str(OUT/name))
+    d=ezdxf.readfile(OUT/name)
+    if 'CUT' not in d.layers:d.layers.new('CUT',dxfattribs={'color':7})
+    for e in d.modelspace():e.dxf.layer='CUT'
     d.saveas(OUT/name)
+
 
 def main():
     pcb=rounded_rect(0,0,W,H,2,-1.6,1.6)
@@ -106,8 +99,22 @@ def main():
             post=post.cut(cq.Workplane('XY').center(x,y).circle(1.0).extrude(18).translate((0,0,-17)))
             post=post.cut(cq.Workplane('XY').center(x,y).circle(1.65).extrude(4.5).translate((0,0,-6.1)))
         base=base.union(post)
+    # Real 0805s R33 and C1 occupy the right leg of the lower-left bridge.
+    # Keep its middle support, and relieve both populated ends including solder.
+    bridge=next(m for m in SPEC['mounts'] if m['name']=='lower_left')
+    for y in [78,91]:
+        base=base.cut(box(bridge['x']+3.4,y-2.5,-6,5,5,4.6))
+    fasteners=[]
     for x,y in case_screws():
-        base=base.cut(cq.Workplane('XY').center(x,y).circle(1.65).extrude(5).translate((0,0,1.2)))
+        length=FASTEN['rear_screw_length_mm'] if y<0 else FASTEN['front_screw_length_mm'] if y>H else FASTEN['side_screw_length_mm']
+        seat=FASTEN['screw_tip_z']-length
+        base=base.cut(cq.Workplane('XY').center(x,y).circle(1.15).extrude(30).translate((0,0,-20)))
+        base=base.cut(cq.Workplane('XY').center(x,y).circle(2.1).extrude(seat+20).translate((0,0,-20)))
+        base=base.cut(cq.Workplane('XY').center(x,y).circle(2.45).extrude(5).translate((0,0,4.4)))
+        shank=cq.Workplane('XY').center(x,y).circle(1).extrude(length).translate((0,0,seat))
+        head=cq.Workplane('XY').center(x,y).circle(1.9).extrude(2).translate((0,0,seat-2))
+        fasteners.append(shank.union(head))
+
     cx=SPEC['case']['usb_center_x']
     base=base.cut(box(cx-6,-9,-8.5,12,10,7))
     # Access window: switch is a replaceable harness, not a guessed footprint.
@@ -127,23 +134,41 @@ def main():
     bezel=bezel.union(box(238.0,75.9,7.6,47.7,19.4,3))
     bezel=bezel.edges('>Z').fillet(.7)
     for x,y in case_screws():
-        bezel=bezel.cut(cq.Workplane('XY').center(x,y).circle(1.2).extrude(4).translate((0,0,7.4)))
-        bezel=bezel.cut(cq.Workplane('XY').center(x,y).circle(2.1).extrude(1.9).translate((0,0,8.8)))
+        boss=cq.Workplane('XY').center(x,y).circle(2.25).extrude(3.05).translate((0,0,4.6))
+        bezel=bezel.union(boss)
+        bezel=bezel.cut(cq.Workplane('XY').center(x,y).circle(1.5).extrude(3.1).translate((0,0,4.5)))
+        bezel=bezel.cut(cq.Workplane('XY').center(x,y).circle(1.15).extrude(4.6).translate((0,0,4.5)))
+    screws=cq.Workplane('XY').newObject([cq.Compound.makeCompound([f.val() for f in fasteners])])
+
     maxb=SPEC['battery']['max_envelope']
     battery=box(bx-maxb[0]/2,by-maxb[1]/2,bz-maxb[2]/2,*maxb).rotate((bx,by,bz),(bx+1,by,bz),ANGLE)
     mx,my=SPEC['module']['center'];mw,mh,mt=SPEC['module']['envelope']
     module=box(mx-mw/2,my-mh/2,-8.1,mw,mh,mt)
-    usbplug=box(224,81,-8.1,20,8,5.5)
+    plug=SPEC['module']['usb_plug']
+    usbplug=box(*plug['origin'],*plug['size'])
+    component_report=json.loads((ROOT/'reports/component-geometry.json').read_text())
+    assert component_report['pcb_sha256']==hashlib.sha256((ROOT/'hardware/YAKB.kicad_pcb').read_bytes()).hexdigest(), 'Export current native component geometry first'
+    actual_components=cq.importers.importStep(str(OUT/'components.step'))
     coupon=box(0,0,0,80,32,1.6)
     for i,sz in enumerate([13.9,14.0,14.1]):
         coupon=coupon.cut(rounded_rect(4+20*i,4,sz,sz,.5,-1,4))
     # One latch opening for a real stabilizer fit check.
     coupon=coupon.cut(box(68,4,-1,6.75,12.3,4)).cut(box(69.725,16.3,-1,3.3,1.2,4))
     parts={'pcb_envelope':pcb,'plate_case':p_custom,'plate_tray':p_tray,'case_base':base,'case_bezel':bezel,'niz_fit_coupon':coupon}
+    # Explicit CAD envelopes: renders must never invent a vendor switch or cap.
+    caps=[]
+    for k in keys():
+        width=k['width']*SPEC['pitch']-.8
+        lower=rounded_rect(k['x']-width/2,k['y']-9.125,width,18.25,1.1,10.8,.01).faces('<Z').wires().val()
+        upper=rounded_rect(k['x']-(width-3.2)/2,k['y']-7.25,width-3.2,14.5,1.2,20.5,.01).faces('<Z').wires().val()
+        caps.append(cq.Solid.makeLoft([lower,upper],ruled=True))
+    parts.update(case_screw_envelopes=screws,keycap_envelopes=cq.Workplane('XY').newObject([cq.Compound.makeCompound(caps)]),
+                 battery_envelope=battery,module_envelope=module,usb_plug_envelope=usbplug)
     reports={}
     for name,part in parts.items():
         assert part.val().isValid(),name
         cq.exporters.export(part,str(OUT/(name+'.step')))
+        normalize_text(OUT/(name+'.step'))
         if name in ['case_base','case_bezel','niz_fit_coupon']:
             printable=part
             if name=='case_base':
@@ -153,14 +178,20 @@ def main():
     a=cq.Assembly(name='YAKB_A0_design')
     for name,s,color in [('base',base,(.18,.22,.25)),('pcb',pcb,(.12,.35,.21)),('plate',p_custom,(.65,.66,.68)),('bezel',bezel,(.18,.22,.25)),('battery_envelope',battery,(.6,.6,.6)),('module_envelope',module,(.2,.3,.5)),('usb_plug_envelope',usbplug,(.1,.1,.1))]:
         a.add(s,name=name,color=cq.Color(*color))
+    a.add(screws,name='bottom_screw_envelopes',color=cq.Color(.3,.3,.3))
+    a.add(actual_components,name='native_components',color=cq.Color(.3,.3,.28))
     a.export(str(OUT/'assembly.step'))
+    normalize_text(OUT/'assembly.step')
     for border,name in [(0,'plate_tray.dxf'),(border,'plate_case.dxf')]:write_dxf(border,name)
     # Positive-volume intersections are a real error for these defined envelopes.
-    pairs=[('base_battery',base,battery),('pcb_battery',pcb,battery),('plate_bezel',p_custom,bezel),('pcb_module',pcb,module),('base_module',base,module),('base_usbplug',base,usbplug)]
+    pairs=[('base_battery',base,battery),('pcb_battery',pcb,battery),('plate_bezel',p_custom,bezel),('pcb_module',pcb,module),('base_module',base,module),('base_usbplug',base,usbplug),
+           ('base_populated_components',base,actual_components),('base_pcb',base,pcb),('module_components',module,actual_components),('usbplug_components',usbplug,actual_components),('base_bezel',base,bezel),('screws_base',screws,base),('screws_bezel',screws,bezel),('screws_plate',screws,p_custom),('screws_pcb',screws,pcb),('screws_components',screws,actual_components)]
     checks={name:round(one.intersect(two).val().Volume(),6) if one.intersect(two).vals() else 0 for name,one,two in pairs}
     reports['envelope_intersections_mm3']=checks
     reports['minimum_clearance_mm']={name:round(one.val().distance(two.val()),4) for name,one,two in pairs if name in ['base_battery','pcb_battery','base_module','base_usbplug']}
-    reports['case_profile']={'outer_plan_mm':[W+2*M,H+2*M],'corner_radius_mm':8,'typing_angle_deg':round(ANGLE,3),'front_wall_height_mm':21.4,'rear_wall_height_mm':25.1,'lower_skirt_inset_mm':3.5,'floor_thickness_mm':2.4,'base_stl_orientation':'bottom plane on z=0; STEP retains PCB datum'}
+    reports['case_profile']={'outer_plan_mm':[W+2*M,H+2*M],'corner_radius_mm':8,'typing_angle_deg':round(ANGLE,3),'front_wall_height_mm':21.4,'rear_wall_height_mm':25.1,'lower_skirt_inset_mm':round(M-FASTEN['minimum_skirt_margin_mm'],2),'floor_thickness_mm':2.4,'base_stl_orientation':'bottom plane on z=0; STEP retains PCB datum'}
+    reports['hidden_fasteners']=[dict(x=x,y=y,length_mm=(FASTEN['rear_screw_length_mm'] if y<0 else FASTEN['front_screw_length_mm'] if y>H else FASTEN['side_screw_length_mm']),engagement_mm=3.0,top_skin_mm=1.5,head_recess_mm=round(FASTEN['screw_tip_z']-(FASTEN['rear_screw_length_mm'] if y<0 else FASTEN['front_screw_length_mm'] if y>H else FASTEN['side_screw_length_mm'])-2-floor_z(y),3)) for x,y in case_screws()]
+    assert all(f['head_recess_mm']>=0.2 for f in reports['hidden_fasteners'])
     bb=battery.val().BoundingBox();reports['battery_world_bounds']=[round(a,4) for a in [bb.xmin,bb.ymin,bb.zmin,bb.xmax,bb.ymax,bb.zmax]]
     reports['limitations']=['No real NiZ housing, dome, keycap, stabilizer, USB extension or RF model; physical fit remains open.','Plate R0.5/14mm and 6mm stack are reference starting dimensions, not measured vendor tolerances.','Tray plate needs case-specific retention; it is not a universal drop-in assembly.']
     (ROOT/'reports/mechanical.json').write_text(json.dumps(reports,indent=2)+'\n')

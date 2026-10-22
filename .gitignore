@@ -10,3 +10,5 @@ hardware/router-proxy.*
 hardware/*.dsn
 hardware/*.ses
 hardware/router-full.*
+
+.render-cache/

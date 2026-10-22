@@ -9,7 +9,9 @@ OUT=ROOT/"hardware"
 LIB="/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints"
 def v(x,y): return p.VECTOR2I(round(x*1e6),round(y*1e6))
 def hole_layers():
-    ls=p.LSET.AllCuMask();ls.AddLayer(p.F_Mask);ls.AddLayer(p.B_Mask);return ls
+    # AllCuMask() is a reference to KiCad's shared static mask. Mutating it
+    # corrupts serialization of *.Cu and silently loses soldermask on reload.
+    ls=p.LSET(p.LSET.AllCuMask());ls.AddLayer(p.F_Mask);ls.AddLayer(p.B_Mask);return ls
 
 def simple_footprint(name, pins):
     f=p.FOOTPRINT(None);f.SetFPID(p.LIB_ID("YAKB",name))
@@ -35,11 +37,25 @@ def main():
         if c["ref"]=="U1":f.SetAttributes(f.GetAttributes() & ~p.FP_EXCLUDE_FROM_BOM)
         f.SetReference(c["ref"]);f.SetValue(c["value"])
         # Remove inaccurate upstream Pro Micro models; the mechanical model is explicit.
-        f.Models().clear()
+        if c['kind'] in ['EC','MODULE']: f.Models().clear()
         f.SetPosition(v(c["x"],c["y"]))
         b.Add(f)
         if c["side"]=="B": f.Flip(f.GetPosition(),False)
-        if c['ref']=='U1': f.SetOrientationDegrees(180)
+        if 'rotation' in c: f.SetOrientationDegrees(c['rotation'])
+        if c['ref'].startswith('SW'):
+            f.Reference().SetPosition(v(c['x'],c['y']-2.5))
+            f.Reference().SetTextSize(v(.8,.8))
+            f.Reference().SetTextThickness(p.FromMM(.12))
+        labels={'C3':(224,88),'R31':(215,91)}
+        if c['ref'] in labels:
+            f.Reference().SetPosition(v(*labels[c['ref']]))
+            f.Reference().SetTextSize(v(.8,.8))
+            f.Reference().SetTextThickness(p.FromMM(.12))
+        # PTH soldering requires exposed annuli on both sides, independently of
+        # the upstream library's copper layer selection.
+        for a in f.Pads():
+            if a.GetAttribute()==p.PAD_ATTRIB_PTH:
+                layers=a.GetLayerSet();layers.AddLayer(p.F_Mask);layers.AddLayer(p.B_Mask);a.SetLayerSet(layers)
         for a in f.Pads():
             name=c["pins"].get(a.GetNumber(),"")
             if name:a.SetNet(nets[name])
@@ -97,7 +113,7 @@ def main():
     p.SaveBoard(str(OUT/"YAKB.kicad_pcb"),b)
     (OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "YAKB")(type "KiCad")(uri "${KIPRJMOD}/YAKB.pretty")(options "")(descr "YAKB local footprints")))\n')
     with (OUT/"BOM.csv").open('w') as f:
-        out=csv.writer(f);out.writerow(['Reference','Value','Footprint','Side','X_mm','Y_mm','Status'])
+        out=csv.writer(f,lineterminator='\n');out.writerow(['Reference','Value','Footprint','Side','X_mm','Y_mm','Status'])
         for c in cs:out.writerow([c['ref'],c['value'],c['footprint'],c['side'],c['x'],c['y'],'EC electrode' if c['kind']=='EC' else 'selection; verify procurement'])
     (ROOT/"design/circuit.json").write_text(json.dumps(cs,indent=2)+"\n")
     print(f"Generated {len(cs)} components, {len(nets)} nets, zero tracks (intentional design stage)")

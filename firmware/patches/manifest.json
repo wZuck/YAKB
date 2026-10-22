@@ -1,0 +1,7 @@
+{
+  "revision": "bcb61bdee0a548976bea8f376f8cdec6b4ffd5fe",
+  "path": "drivers/kscan/zmk_kscan_ec_matrix.c",
+  "before_sha256": "6ab559d892892475a134530897e6337c4ce8f345d576cd856c51ee2fd48b3aae",
+  "after_sha256": "5a805e4d79a07f8ccf2bfc4511f8c6935e2cb8f7608509a3274d30bd6615ed89",
+  "patch_sha256": "793d324718eedcb2b7f2a8e8e56ed5d4b2e982e6cbde77388f8b83b2f895bf42"
+}

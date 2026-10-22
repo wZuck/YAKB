@@ -17,7 +17,7 @@ Date / 日期: 2026-10-22. Revisions below identify the inspected source snapsho
 
 - [nice!nano documentation](https://nicekeyboards.com/docs/nice-nano/): power, charging, VCC and assembly. [Pinout and schematic](https://nicekeyboards.com/docs/nice-nano/pinout-schematic/): D19 is P0.02/AIN0; D18 is not the ADC used here.
 - [TI OPA350](https://www.ti.com/product/OPA350): operating supply and typical quiescent current. SOIC-8 `OPA350UA` pin map is explicit in the schematic.
-- [TI SN74HC4051](https://www.ti.com/product/SN74HC4051): channel addressing, inhibit and analog supply limits; select SOIC-16 `SN74HC4051D`.
+- [TI CD74HC4051](https://www.ti.com/product/CD74HC4051): channel addressing, inhibit and analog supply limits; select SOIC-16 `CD74HC4051M96`.
 - [Alpha & Omega AO3401A](https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3401a): SOT-23 P-channel gate/source/drain identity.
 - [NiZ](https://www.nizkeyboard.com/): official EC mechanism/switch pack descriptions. Do not assume a housing/slider/ring pack includes domes or sensing conical springs. Verify exact generation, contents and current availability before buying.
 - [ZMK external modules](https://zmk.dev/docs/development/module-creation) and the pinned EC module source describe build integration. This project records actual builds rather than assuming upstream native EC support.

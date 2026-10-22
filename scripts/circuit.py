@@ -2,7 +2,7 @@
 
 No routed-board or electrically-tested claim is made by this file.
 """
-from common import keys
+from common import keys, SPEC
 
 PM_TO_PAD = {1:1,0:2,2:5,3:6,4:7,5:8,6:9,7:10,8:11,9:12,
              10:13,16:14,14:15,15:16,18:17,19:18,20:19,21:20}
@@ -21,13 +21,14 @@ def components():
                       x=x,y=y,kind=kind,side=side))
     p = {i:ASSIGN.get(pm,"") for pm,i in PM_TO_PAD.items()}
     p.update({3:"GND",4:"GND",21:"VCC",22:"RESET",23:"GND",24:"BAT_SW"})
-    add("U1","nice!nano_v2","YAKB:nice_nano",p,260,85,"MODULE")
-    channel_pin = [13,14,15,12,1,5,2,4]  # X0..X7, TI SN74HC4051D
+    add("U1","nice!nano_v2","YAKB:nice_nano",p,*SPEC['module']['footprint_center'],"MODULE")
+    c[-1]['rotation'] = SPEC['module']['pcb_rotation_deg']
+    channel_pin = [13,14,15,12,1,5,2,4]  # X0..X7, TI CD74HC4051M96
     for bank,x in [(0,105),(1,170)]:
         p={3:"SENSE",6:f"MUX{bank}_INH",7:"GND",8:"GND",9:"MUX_C",10:"MUX_B",11:"MUX_A",16:"VCC"}
         p.update({pin:(f"COL{8*bank+i}" if 8*bank+i<15 else "GND") for i,pin in enumerate(channel_pin)})
-        add(f"U{bank+2}","SN74HC4051D","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",p,x,84)
-    add("U4","OPA350UA","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",{1:"",2:"FB",3:"SENSE",4:"GND",5:"",6:"ADC",7:"AFE_3V3",8:""},223,84)
+        add(f"U{bank+2}","CD74HC4051M96","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",p,x,84)
+    add("U4","OPA350UA","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",{1:"",2:"FB",3:"SENSE",4:"GND",5:"",6:"ADC",7:"AFE_3V3",8:""},217,84)
     add("Q1","AO3401A","Package_TO_SOT_SMD:SOT-23",{1:"AFE_GATE",2:"VCC",3:"AFE_3V3"},207,84)
     rfp="Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
     cfp="Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -45,10 +46,10 @@ def components():
         ("R36","1k",{1:"AFE_ON_N",2:"AFE_GATE"},207,78)]:
         add(ref,v,rfp,pins,x,y,"R")
     for ref,v,net,x,y in [("C1","100n","VCC",99,91),("C2","100n","VCC",164,91),
-                          ("C3","100n","AFE_3V3",232,91),("C4","220p_C0G","SENSE",239,78),
+                          ("C3","100n","AFE_3V3",220,88),("C4","220p_C0G","SENSE",239,78),
                           ("C5","1u","VCC",193,78)]:
         add(ref,v,cfp,{1:net,2:"GND"},x,y,"C")
-    add("J1","Battery_PH2.0","YAKB:Battery_PH2",{1:"BAT_RAW",2:"GND"},20,84,"CONN")
+    add("J1","JST_S2B-PH-K","YAKB:Battery_PH2",{1:"BAT_RAW",2:"GND"},20,84,"CONN")
     # Two large solder holes for an external SPST switch harness, not a made-up
     # manufacturer's slide-switch footprint. The case has a bottom access hatch.
     add("SW1","Battery_switch_pigtail","YAKB:SPST_PIGTAIL_2.54",{1:"BAT_RAW",2:"BAT_SW"},10,85,"SW")
