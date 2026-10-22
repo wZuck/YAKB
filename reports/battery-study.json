@@ -106,8 +106,8 @@
     "RF/EC noise and cell temperature need retesting with multiple conductive pouches."
   ],
   "sources": {
-    "mechanical/case_base.step": "923f3e9779712f0aabec9d1d7a1ae8474aa9d53c3be771739f42ed6ba3b86bc1",
-    "mechanical/components.step": "9682225b2ff453b71d7316dac05a08c0063b3757a756eb16d946bd227b527ad7",
+    "mechanical/case_base.step": "96a180b74c4c106233e5a785b5d421007374c6e56d2f34d7f90487b9b8e9910d",
+    "mechanical/components.step": "f7516010aac843616723b74f5bc06c52522d2fed7da39f4f0a3364709fc04711",
     "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076"
   }
 }

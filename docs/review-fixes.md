@@ -14,7 +14,7 @@ This review covers the saved PCB, native component solids, mechanical envelopes,
 | Plate covered the antenna projection | Add a 21×16 mm metal-free window; prefer copper-free FR4/G10. Metal-case RF behavior remains unverified |
 | Slow polling could delay first press/release; zero-noise calibration could divide by zero | Raw transitions resume fast polling; release resets idle timer; reject invalid calibration; clamp the SNR divisor to 1 while retaining measured zero noise |
 | Packaged firmware could diverge from the current driver/config | Rebuild both UF2s; verify driver, object chronology, DTS and allocated ELF section bytes against UF2; record input hashes |
-| Washed-out renders and geometry drift | Controlled Cycles lighting/exposure; saved STEP/native GLB for 3D and actual DXF/copper for 2D; input/output hashes for all 27 rendered outputs |
+| Washed-out renders and geometry drift | Controlled Cycles lighting/exposure; saved STEP/native GLB for 3D and actual DXF/copper for 2D; input/output hashes for all 28 rendered outputs |
 
 ![Assembly with continuous bezel](../assets/assembly-render.png)
 ![Bottom-up screws](../assets/case-bottom-render.png)
@@ -33,3 +33,9 @@ This review covers the saved PCB, native component solids, mechanical envelopes,
 High-impedance SENSE routing totals approximately 162.1 mm across branches; ADC totals 58.7 mm. Passing DRC does not prove analog margin. Measure pressed/released signals, charging noise, USB-cable coupling, BLE/Wi-Fi coexistence and cell current. Insufficient margin requires tighter MUX/amplifier/feedback placement and rerouting, rather than hiding the defect with thresholds.
 
 NiZ clips, dome preload, centered 6u stabilizers, third-party GH60 supports and the selected battery model still need coupons or samples. Runtime is modeled. Multiple pouches require a factory-matched, fully protected 1S pack. See the electrical and compatibility documents for acceptance conditions.
+
+## Assembly audit, 2026-10-23
+
+Fixed the Y reflection discrepancy between native CAD and renders. Delivered STEP/STL/DXF now use X right/Y rear/Z up, with saved-solid orientation probes and a true top view.
+
+Closed-case USB remains incomplete: the rear-left opening does not align with the front-right module, and the previous local plug check did not include the complete extension or receptacle retention. See [interface status](assembly-interface.md).

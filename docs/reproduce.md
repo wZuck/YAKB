@@ -68,3 +68,5 @@ Rendering also requires Blender 4.5 LTS (tested 4.5.3), Cycles 96 samples, 3200 
 ```
 
 After PCB changes, refresh native exports and manufacturing files, rerun the model/render sequence at the top, then verify. Three render manifests hash inputs and outputs; changed sources fail validation, including edits during rendering. UF2 packaging checks actual driver/DTS, object chronology and allocated ELF section bytes; resource use comes directly from ELF. Omit the macOS-only ApplePersistenceIgnoreState argument on other systems.
+
+Coordinate correction, 2026-10-23: design JSON and construction/collision reports retain KiCad screen coordinates (x right, y toward the typist). Delivered STEP/STL/DXF use a right-handed frame (X right, Y rear, Z above the PCB): CAD Y is negative construction y. Rendering reads those saved solids without reflecting Y. Printable base STL adds a floor-plane rotation only.

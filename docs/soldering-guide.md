@@ -102,3 +102,7 @@ Check BLE with and without the bezel, route the USB extension without side-loadi
 ## Hidden case fasteners
 
 Install eight M2 inserts (nominal OD 3.2 × L3 mm, test in the supplied 3.0 mm bores) from the underside of the bezel. Keep the top surface intact. Use M2 socket heads no larger than Ø3.8 × 2 mm: three M2×20 at the rear, two M2×18 at the sides, and three M2×16 at the front. Insert all screws from below. The model gives 3 mm engagement and at least 0.94 mm head recession; do not substitute longer screws. The plate edge notches clear the bezel bosses. PCB support insert holes remain a separate 3.3 mm system. Keep cables, foil and metal tape out of the antenna window.
+
+## Closed-case USB limitation
+
+The USB bring-up steps currently apply to the bare board. Complete extension routing and receptacle retention remain unvalidated; the intended assembly steps do not establish a completed harness. See [interface status](assembly-interface.md).

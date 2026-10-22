@@ -13,7 +13,7 @@ from render_provenance import hashes, record
 from render_plan import draw_board,PAPER,INK
 
 def project_section(ax,name,x,color):
-    shape=cq.importers.importStep(str(ROOT/'mechanical'/(name+'.step'))).val()
+    shape=cq.importers.importStep(str(ROOT/'mechanical'/(name+'.step'))).val().mirror('XZ')
     slab=cq.Workplane('XY').box(.1,180,100).translate((x,45,0)).val();cut=shape.intersect(slab)
     if cut.isNull():return
     vv,ff=cut.tessellate(.03,.07)
@@ -31,7 +31,7 @@ def main():
     fig.text(.055,.913,'GEOMETRY ATLAS  /  NiZ electrocapacitive  /  fixed 60-key HHKB  /  dimensions in mm',fontsize=11,color='#647368')
     ax=fig.add_subplot(gs[0]);ax.set_aspect('equal');ax.axis('off');ax.set_xlim(-12,297);ax.set_ylim(108,-16)
     d=ezdxf.readfile(ROOT/'mechanical/plate_case.dxf')
-    segments=[[(v.x,v.y) for v in make_path(e).flattening(.01)] for e in d.modelspace() if e.dxf.layer=='CUT']
+    segments=[[(v.x,-v.y) for v in make_path(e).flattening(.01)] for e in d.modelspace() if e.dxf.layer=='CUT']
     loops=[]
     near=lambda a,b:sum((x-y)**2 for x,y in zip(a,b))<1e-8
     while segments:

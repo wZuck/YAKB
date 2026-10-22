@@ -1,13 +1,13 @@
 {
   "pcb_sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
-  "components_sha256": "9682225b2ff453b71d7316dac05a08c0063b3757a756eb16d946bd227b527ad7",
+  "components_sha256": "f7516010aac843616723b74f5bc06c52522d2fed7da39f4f0a3364709fc04711",
   "bounds_mm": [
     16.049999999999997,
-    77.37499999999999,
+    -91.625,
     -6.535000000000001,
-    240.00000000000003,
-    91.62500000000001,
-    1.7150000000003327
+    240.0,
+    -77.375,
+    1.7150000000003325
   ],
   "limitations": [
     "Native library component models; no NiZ internals, cable flex, solder fillets or socket vendor geometry."

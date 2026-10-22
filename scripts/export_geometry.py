@@ -11,7 +11,7 @@ def main():
     native=cache/'components-native.step'
     subprocess.run([args.kicad_cli,'pcb','export','step','--force','--no-board-body','-o',str(native),str(board)],check=True)
     # KiCad uses PCB bottom z=0 and negative y. YAKB's top datum is z=0.
-    shape=cq.importers.importStep(str(native)).val().mirror('XZ').translate((0,0,-1.6))
+    shape=cq.importers.importStep(str(native)).val().translate((0,0,-1.6))
     cq.exporters.export(shape,str(ROOT/'mechanical/components.step'))
     normalize_text(ROOT/'mechanical/components.step')
     bb=shape.BoundingBox()

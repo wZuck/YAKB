@@ -7,8 +7,8 @@ import math
 
 
 def main():
-    folder=ROOT/'mechanical';base=cq.importers.importStep(str(folder/'case_base.step'))
-    parts={n:cq.importers.importStep(str(folder/(n+'.step'))) for n in ['pcb_envelope','components','module_envelope','usb_plug_envelope','case_screw_envelopes']}
+    folder=ROOT/'mechanical';base=cq.importers.importStep(str(folder/'case_base.step')).mirror('XZ')
+    parts={n:cq.importers.importStep(str(folder/(n+'.step'))).mirror('XZ') for n in ['pcb_envelope','components','module_envelope','usb_plug_envelope','case_screw_envelopes']}
     w,h,t=SPEC['battery']['max_envelope'];bays=[];pouches=[];variant=base
     for x in [62,144,226]:
         y,z=23,-7.8
@@ -30,9 +30,9 @@ def main():
     pack=cq.Workplane('XY').newObject([cq.Compound.makeCompound([c.val() for c in pouches]+[pcm.val()])])
     assert variant.val().isValid() and variant.intersect(pack).val().Volume()<.001
     for name,part in [('case_base_three_bay',variant),('battery_pack_envelopes',pack)]:
-        cq.exporters.export(part,str(folder/(name+'.step')));normalize_text(folder/(name+'.step'))
+        cq.exporters.export(part.mirror('XZ'),str(folder/(name+'.step')));normalize_text(folder/(name+'.step'))
     printable=variant.rotate((0,0,0),(1,0,0),-ANGLE).translate((0,0,-FLOOR_INTERCEPT*math.cos(math.radians(ANGLE))))
-    cq.exporters.export(printable,str(folder/'case_base_three_bay.stl'),tolerance=.05,angularTolerance=.15)
+    cq.exporters.export(printable.mirror('XZ'),str(folder/'case_base_three_bay.stl'),tolerance=.05,angularTolerance=.15)
     current=json.loads((ROOT/'reports/electrical-analysis.json').read_text());daily=current['mixed_8h_active_16h_idle_nominal_days']
     report=dict(bays=bays,shared_pcm_envelope_mm=[25,12,3],shared_pcm_origin_mm=[49.5,46,-8.5],chemistry='Factory assembled protected 1S2P or 1S3P, 3.7 V nominal / 4.2 V full; one output to J1',
       options=[dict(pouches=n,nominal_capacity_mAh=n*1000,nominal_mixed_runtime_days=round(daily*n,1),ideal_100mA_charge_lower_bound_hours=n*10) for n in [1,2,3]],

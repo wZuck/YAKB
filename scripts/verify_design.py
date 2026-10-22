@@ -6,6 +6,9 @@ from circuit import components, ASSIGN, PM_TO_NRF
 
 def main():
     ks=keys();cs=components();assert len(ks)==60
+    bom=list(csv.DictReader((ROOT/'hardware/BOM.csv').open()))
+    assert len(bom)==len(cs)
+    assert {r['Reference']:(r['Value'],r['Footprint']) for r in bom}=={c['ref']:(c['value'],c['footprint']) for c in cs},'BOM values/footprints differ from circuit source'
     assert [sum(k['row']==r for k in ks) for r in range(5)]==[15,14,13,13,5]
     assert len({(k['row'],k['col']) for k in ks})==60
     assert next(k for k in ks if k['label']=='Space')['width']==6
@@ -31,6 +34,7 @@ def main():
     positions=[tuple(map(int,m)) for m in re.findall(r'RC\((\d+),(\d+)\)',overlay)]
     assert positions==[(k['row'],k['col']) for k in ks]
     assert 'NRF_SAADC_AIN0' in overlay and ASSIGN[19]=='ADC' and PM_TO_NRF[19]=='P0.02/AIN0'
+    assert 'io-channels = <&adc 1>' in overlay and 'channel@1' in overlay and 'reg = <1>' in overlay
     assert 'GPIO_ACTIVE_LOW' in overlay
     assert 'CONFIG_ZMK_SLEEP=n' in (ROOT/'firmware/config/boards/shields/yakb/yakb.conf').read_text()
     m=json.loads((ROOT/'reports/mechanical.json').read_text())
@@ -49,6 +53,7 @@ def main():
          'pcb_pins_match_schematic':True,'copper_layers':4,'drc_errors_warnings':0,'unconnected':0,'erc_errors_warnings':0,
          'pcb_sha256':hashlib.sha256((ROOT/'hardware/YAKB.kicad_pcb').read_bytes()).hexdigest(),
          'firmware_transform_matches_layout':True,'mechanical_envelopes_clear':True,
+         'bom_matches_circuit':True,'ec_adc_logical_channel':1,
          'electrode_mount_gaps':disk_clearance,
          'limitations':['No physical NiZ/plate/stabilizer/case fit verified.','Continuity and noise require a built PCB.','Cross-file checks do not prove analog performance.']}
     (ROOT/'reports/design-checks.json').write_text(json.dumps(out,indent=2)+'\n')

@@ -29,12 +29,12 @@ materials={'case_base':shell,'case_bezel':shell,'plate_case':plate,'plate_tray':
 objects={}
 with gzip.open(CACHE/'cad-meshes.json.gz','rt') as f:meshes=json.load(f)
 for data in meshes:
-    mesh=bpy.data.meshes.new(data['name']);mesh.from_pydata([(v[0]/1000,-v[1]/1000,v[2]/1000) for v in data['vertices']],[],data['faces']);mesh.flip_normals();mesh.update()
+    mesh=bpy.data.meshes.new(data['name']);mesh.from_pydata([(v[0]/1000,v[1]/1000,v[2]/1000) for v in data['vertices']],[],data['faces']);mesh.update()
     ob=bpy.data.objects.new(data['name'],mesh);scene.collection.objects.link(ob);ob.data.materials.append(materials[data['name']]);objects[data['name']]=[ob]
     bpy.context.view_layer.objects.active=ob;ob.select_set(True)
     bpy.ops.object.shade_smooth_by_angle(angle=math.radians(28));ob.select_set(False)
 # KiCad GLB is in meters, y points away from the typist, and PCB top is +1.6mm.
-# CAD uses y toward the typist: reflect its y for the studio view.
+# Delivered CAD and native KiCad use the same right-handed frame; no mirroring.
 # KiCad already exports negative y; translate its z datum only.
 before=set(scene.objects);bpy.ops.import_scene.gltf(filepath=str(ROOT/'mechanical/YAKB-populated.glb'))
 board=[]
@@ -80,6 +80,7 @@ def render(name,visible,position,target=(.1425,-.0473,.005),explode=None,floor_z
     scene.render.filepath=str(CACHE/(name+'.png'));bpy.ops.render.render(write_still=True)
 
 views=[
+('case-top-render',['case_bezel','keycap_envelopes'],(.1425,-.0473,.5),(.1425,-.0473,0),None,-.016),
 ('assembly-render',['case_base','case_bezel','plate_case','pcb','keycap_envelopes'],(.41,-.33,.28),(.1425,-.0473,.005),None,-.016),
 ('exploded-render',['case_base','case_bezel','plate_case','pcb','module_envelope','battery_envelope','usb_plug_envelope'],(.41,-.32,.31),(.1425,-.0473,.035),{'pcb':.026,'module_envelope':.026,'usb_plug_envelope':.026,'plate_case':.055,'case_bezel':.077},-.016),
 ('case-interior-render',['case_base'],(.36,-.28,.34),(.1425,-.0473,-.005),None,-.016),

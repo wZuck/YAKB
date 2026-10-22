@@ -1,6 +1,9 @@
 # YAKB — Yet Another KeyBoard
 
 
+> **外壳 USB 尚未完成装配验证：** 左后开口与右前主控不直接对齐，内部延长线与固定结构仍待接口改版，详见[接口状态](docs/assembly-interface.zh-CN.md)。
+
+
 [打开离线交互焊接工作台](hardware/soldering/index.html)：18 步高亮定位图、元件筛选、完成度保存、图片放大与打印。
 
 [English](README.md) · [中文设计说明](docs/design.zh-CN.md) · [焊接与装配顺序](docs/soldering-guide.zh-CN.md) · [兼容性](docs/compatibility.zh-CN.md)
@@ -49,3 +52,5 @@ NiZ 静电容机构、60 键 HHKB 配列、6u 空格、蓝牙 / USB、内置电�
 [多电池选型与实际三仓底壳](docs/battery-options.zh-CN.md).
 
 [库存对照与采购建议](docs/inventory-review.zh-CN.md)。
+
+[外壳方向与 USB 装配状态](docs/assembly-interface.zh-CN.md)。

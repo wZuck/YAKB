@@ -11,7 +11,7 @@ def main():
     # Conservative rectangular projection of the actual all-layer RF keepout.
     x,y,x2,y2=SPEC['module']['antenna_keepout'];w,h=x2-x,y2-y
     rf=cq.Workplane('XY').box(w,h,3,centered=(False,False,False)).translate((x,y,5)).val()
-    plate=cq.importers.importStep(str(ROOT/'mechanical/plate_case.step')).val()
+    plate=cq.importers.importStep(str(ROOT/'mechanical/plate_case.step')).val().mirror('XZ')
     overlap=plate.intersect(rf).Volume();assert overlap<.001
     scenarios={}
     for label,wait in [('active',4),('idle',8),('long_idle',12)]:

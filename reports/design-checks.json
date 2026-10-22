@@ -20,6 +20,8 @@
   "pcb_sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
   "firmware_transform_matches_layout": true,
   "mechanical_envelopes_clear": true,
+  "bom_matches_circuit": true,
+  "ec_adc_logical_channel": 1,
   "electrode_mount_gaps": [
     {
       "mount": "left",

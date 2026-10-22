@@ -49,24 +49,24 @@
   },
   "case_bezel": {
     "bounds": [
-      -7.0061,
-      -7.0061,
-      4.5984,
-      292.0061,
-      101.6061,
-      10.6061
+      -7.0,
+      -7.0,
+      4.6,
+      292.0,
+      101.6,
+      10.6
     ],
     "volume_mm3": 19192.967,
     "valid": true
   },
   "niz_fit_coupon": {
     "bounds": [
-      -0.0,
-      -0.0,
-      -0.0003,
+      0.0,
+      0.0,
+      0.0,
       80.0,
       32.0,
-      1.6003
+      1.6
     ],
     "volume_mm3": 3017.022,
     "valid": true
@@ -130,6 +130,16 @@
     ],
     "volume_mm3": 880.0,
     "valid": true
+  },
+  "coordinate_frames": {
+    "construction_reports": "KiCad screen: x right, y toward typist, z above PCB",
+    "delivered_STEP_STL_DXF": "right handed: X right, Y rear, Z above PCB; CAD Y = -construction y"
+  },
+  "hhkb_blockers": {
+    "left_u": 1.5,
+    "right_u": 2.5,
+    "left_solid_width_mm": 28.4,
+    "right_solid_width_mm": 47.7
   },
   "envelope_intersections_mm3": {
     "base_battery": 0.0,

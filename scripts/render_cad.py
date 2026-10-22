@@ -33,6 +33,7 @@ def main():
     from matplotlib.font_manager import findfont, FontProperties
     fontfile=findfont(FontProperties(family='DejaVu Sans'));boldfile=findfont(FontProperties(family='DejaVu Sans',weight='bold'))
     descriptions={
+      'case-top-render':('00 / TRUE TOP VIEW','Left blocker 1.5u / right blocker 2.5u / front at bottom','Saved STEP geometry, no reflection or mirrored camera; same handedness as native KiCad.'),
       'assembly-render':('01 / YAKB','NiZ EC / 60 keys / 6u HHKB','Saved CAD with keycap clearance envelopes; cap shape and finish are illustrative.'),
       'exploded-render':('02 / ASSEMBLY','Base / populated PCB / plate / bezel','Parts separated vertically for inspection; NiZ internals and fasteners omitted.'),
       'case-interior-render':('03 / CASE INTERIOR','R8 corners / hidden bottom screws / relieved PCB bridge','Exact case_base.step geometry, including component reliefs and battery fence.'),

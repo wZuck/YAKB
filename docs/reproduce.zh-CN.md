@@ -103,3 +103,5 @@ SDK 0.16.9 / GCC 12.2；本次正常版 Flash 231056 B、RAM 48048 B；校准版
 ```
 
 修改 PCB 后，先更新原生导出和 Gerber，再重新执行本页开头的模型/图像流程，最后执行验证。三个 render-manifest 文件保存输入与输出 SHA256，来源变化会拒绝验证；渲染途中改变源文件会失败。UF2 包装核对实际驱动、DTS、对象文件时序和 ELF 有效段字节，资源用量直接读 ELF。macOS 的 ApplePersistenceIgnoreState 参数仅抑制原生 Python 的恢复窗口对话框，其他系统省略。
+
+2026-10-23 坐标修正：设计JSON与构造/碰撞报告沿用KiCad屏幕坐标（x向右、y向使用者）；交付STEP/STL/DXF采用右手坐标（X向右、Y向键盘后方、Z向PCB上方），即CAD的Y为构造y的负值。渲染直接读取交付模型，不再镜像Y。STL底壳另做打印平面旋转，但不镜像。

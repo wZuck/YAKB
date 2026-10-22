@@ -1,6 +1,9 @@
 # YAKB — Yet Another KeyBoard
 
 
+> **Case USB assembly is not yet validated:** the rear-left opening does not align with the front-right controller; a complete extension and retention design remain pending. See [interface status](docs/assembly-interface.md).
+
+
 [Open the offline soldering workbench](hardware/soldering/index.html): 18 illustrated steps, searchable references, saved progress, zoom and print.
 
 [简体中文](README.zh-CN.md) · [Design](docs/design.md) · [Soldering order](docs/soldering-guide.md) · [Compatibility](docs/compatibility.md)
@@ -45,3 +48,5 @@ The case now fastens from below with no visible top screw holes. Drawings use th
 [Battery options and actual three-bay case](docs/battery-options.md).
 
 [Inventory review and purchasing](docs/inventory-review.md).
+
+[Case orientation and USB assembly status](docs/assembly-interface.md).

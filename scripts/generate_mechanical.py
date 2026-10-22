@@ -1,7 +1,7 @@
 """Original parametric prototype case and NiZ plates; all dimensions in mm.
 
 Run with CadQuery + ezdxf. Assembly retains the PCB-top z=0 datum.
-DXFs use x right / y toward typist, matching the PCB (not mirrored).
+Construction uses KiCad screen coordinates; delivered CAD uses x right / y rear / z up.
 """
 import json, math, hashlib
 import cadquery as cq
@@ -70,7 +70,7 @@ def plate(border):
 
 def write_dxf(border,name):
     # Export the exact CAD face, so open-edge boss reliefs and DXF cannot diverge.
-    profile=plate(border).faces('<Z').wires().translate((0,0,-6))
+    profile=plate(border).faces('<Z').wires().translate((0,0,-6)).mirror('XZ')
     cq.exporters.export(profile,str(OUT/name))
     d=ezdxf.readfile(OUT/name)
     if 'CUT' not in d.layers:d.layers.new('CUT',dxfattribs={'color':7})
@@ -148,7 +148,7 @@ def main():
     usbplug=box(*plug['origin'],*plug['size'])
     component_report=json.loads((ROOT/'reports/component-geometry.json').read_text())
     assert component_report['pcb_sha256']==hashlib.sha256((ROOT/'hardware/YAKB.kicad_pcb').read_bytes()).hexdigest(), 'Export current native component geometry first'
-    actual_components=cq.importers.importStep(str(OUT/'components.step'))
+    actual_components=cq.importers.importStep(str(OUT/'components.step')).mirror('XZ')
     coupon=box(0,0,0,80,32,1.6)
     for i,sz in enumerate([13.9,14.0,14.1]):
         coupon=coupon.cut(rounded_rect(4+20*i,4,sz,sz,.5,-1,4))
@@ -167,19 +167,19 @@ def main():
     reports={}
     for name,part in parts.items():
         assert part.val().isValid(),name
-        cq.exporters.export(part,str(OUT/(name+'.step')))
+        cq.exporters.export(part.mirror('XZ'),str(OUT/(name+'.step')))
         normalize_text(OUT/(name+'.step'))
         if name in ['case_base','case_bezel','niz_fit_coupon']:
             printable=part
             if name=='case_base':
                 printable=part.rotate((0,0,0),(1,0,0),-ANGLE).translate((0,0,-FLOOR_INTERCEPT*math.cos(math.radians(ANGLE))))
-            cq.exporters.export(printable,str(OUT/(name+'.stl')),tolerance=.05,angularTolerance=.15)
+            cq.exporters.export(printable.mirror('XZ'),str(OUT/(name+'.stl')),tolerance=.05,angularTolerance=.15)
         bb=part.val().BoundingBox();reports[name]={'bounds':[round(a,4) for a in [bb.xmin,bb.ymin,bb.zmin,bb.xmax,bb.ymax,bb.zmax]],'volume_mm3':round(part.val().Volume(),3),'valid':True}
     a=cq.Assembly(name='YAKB_A0_design')
     for name,s,color in [('base',base,(.18,.22,.25)),('pcb',pcb,(.12,.35,.21)),('plate',p_custom,(.65,.66,.68)),('bezel',bezel,(.18,.22,.25)),('battery_envelope',battery,(.6,.6,.6)),('module_envelope',module,(.2,.3,.5)),('usb_plug_envelope',usbplug,(.1,.1,.1))]:
-        a.add(s,name=name,color=cq.Color(*color))
-    a.add(screws,name='bottom_screw_envelopes',color=cq.Color(.3,.3,.3))
-    a.add(actual_components,name='native_components',color=cq.Color(.3,.3,.28))
+        a.add(s.mirror('XZ'),name=name,color=cq.Color(*color))
+    a.add(screws.mirror('XZ'),name='bottom_screw_envelopes',color=cq.Color(.3,.3,.3))
+    a.add(actual_components.mirror('XZ'),name='native_components',color=cq.Color(.3,.3,.28))
     a.export(str(OUT/'assembly.step'))
     normalize_text(OUT/'assembly.step')
     for border,name in [(0,'plate_tray.dxf'),(border,'plate_case.dxf')]:write_dxf(border,name)
@@ -187,6 +187,8 @@ def main():
     pairs=[('base_battery',base,battery),('pcb_battery',pcb,battery),('plate_bezel',p_custom,bezel),('pcb_module',pcb,module),('base_module',base,module),('base_usbplug',base,usbplug),
            ('base_populated_components',base,actual_components),('base_pcb',base,pcb),('module_components',module,actual_components),('usbplug_components',usbplug,actual_components),('base_bezel',base,bezel),('screws_base',screws,base),('screws_bezel',screws,bezel),('screws_plate',screws,p_custom),('screws_pcb',screws,pcb),('screws_components',screws,actual_components)]
     checks={name:round(one.intersect(two).val().Volume(),6) if one.intersect(two).vals() else 0 for name,one,two in pairs}
+    reports['coordinate_frames']={'construction_reports':'KiCad screen: x right, y toward typist, z above PCB','delivered_STEP_STL_DXF':'right handed: X right, Y rear, Z above PCB; CAD Y = -construction y'}
+    reports['hhkb_blockers']={'left_u':1.5,'right_u':2.5,'left_solid_width_mm':28.4,'right_solid_width_mm':47.7}
     reports['envelope_intersections_mm3']=checks
     reports['minimum_clearance_mm']={name:round(one.val().distance(two.val()),4) for name,one,two in pairs if name in ['base_battery','pcb_battery','base_module','base_usbplug']}
     reports['case_profile']={'outer_plan_mm':[W+2*M,H+2*M],'corner_radius_mm':8,'typing_angle_deg':round(ANGLE,3),'front_wall_height_mm':21.4,'rear_wall_height_mm':25.1,'lower_skirt_inset_mm':round(M-FASTEN['minimum_skirt_margin_mm'],2),'floor_thickness_mm':2.4,'base_stl_orientation':'bottom plane on z=0; STEP retains PCB datum'}

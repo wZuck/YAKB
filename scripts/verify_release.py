@@ -9,6 +9,8 @@ def digest(path):return hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
 
 
 def main():
+    from verify_mechanical_frame import main as check_frame
+    check_frame()
     pcb=digest('hardware/YAKB.kicad_pcb')
     for path in ['design/pcb-scene.json','reports/design-checks.json','reports/hardware-checks.json','reports/component-geometry.json','reports/electrical-analysis.json']:
         assert json.loads((ROOT/path).read_text())['pcb_sha256']==pcb,path
@@ -16,7 +18,7 @@ def main():
     for name,value in battery['sources'].items():assert digest(name)==value,name
     component=json.loads((ROOT/'reports/component-geometry.json').read_text())
     assert component['components_sha256']==digest('mechanical/components.step')
-    manifests={'assets/render-manifest.json':9,'assets/plan-render-manifest.json':2,'hardware/soldering/render-manifest.json':16}
+    manifests={'assets/render-manifest.json':10,'assets/plan-render-manifest.json':2,'hardware/soldering/render-manifest.json':16}
     for path,count in manifests.items():
         data=json.loads((ROOT/path).read_text());assert len(data['images'])==count,path
         for name,value in data['sources'].items():assert digest(name)==(value['sha256'] if isinstance(value,dict) else value),name
@@ -35,7 +37,7 @@ def main():
     build=json.loads((ROOT/'reports/firmware.json').read_text());test=json.loads((ROOT/'reports/firmware-regression.json').read_text())
     assert build['driver_sha256']==test['driver_sha256']==patch['after_sha256']
     assert build['patch_sha256']==patch['patch_sha256']
-    print('PASS: 27 rendered outputs match current sources; PCB reports, Gerber ZIP and firmware hashes agree.')
+    print('PASS: 28 rendered outputs match current sources; PCB reports, Gerber ZIP and firmware hashes agree.')
 
 
 if __name__=='__main__':main()
