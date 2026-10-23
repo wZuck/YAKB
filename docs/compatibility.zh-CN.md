@@ -1,6 +1,6 @@
 # YAKB A0 兼容性与采购边界
 
-> **B1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
+> **B1.1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
 
 [English](compatibility.md) · [设计尺寸](design.zh-CN.md) · [装配指南](soldering-guide.zh-CN.md)
 

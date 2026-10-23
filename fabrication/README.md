@@ -1,5 +1,7 @@
 # YAKB A0 fabrication notes
 
+B1.1 reuses this mainboard fabrication set with no MCU at U1, and additionally requires the two rigid boards and custom FPC in the [modular file set](../docs/modular/README.md). Do not apply the A0 case USB extension arrangement to B1.1.
+
 [简体中文](README.zh-CN.md) · [Checks](../reports/design-checks.json)
 
 The complete Gerber and separate PTH/NPTH files come from the checked native board. This is an unfabricated engineering prototype: build and measure a first article and fit coupons before larger production.

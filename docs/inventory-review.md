@@ -1,5 +1,7 @@
 # Inventory review and purchasing
 
+> **Scope: A0 baseline / historical record.** The current assembly is B1.1; use the [B1.1 notes](modular/README.md) and [file/revision map](file-map.md) for the separate controller, direct USB, dedicated base and FPC. Do not populate the mainboard U1 MCU.
+
 [简体中文](inventory-review.zh-CN.md) · [BOM](../hardware/BOM.csv) · [Electrical analysis](electrical-analysis.md)
 
 Reviewed on 2026-10-23 using the supplied workbook's inventory-detail sheet. Quantities are derived from purchase records, not a physical stocktake or qualification. Only relevant specifications and decisions are recorded here; the workbook and order data are not committed.

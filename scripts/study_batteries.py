@@ -3,10 +3,23 @@ import json,hashlib
 import cadquery as cq
 from common import ROOT,SPEC,normalize_text
 from generate_mechanical import box,plane_halfspace,floor_z,ANGLE,FLOOR_INTERCEPT
-import math
+import math,sys
+
+
+def refresh_power(report):
+    current=json.loads((ROOT/'reports/electrical-analysis.json').read_text())
+    daily=800/current['mixed_nominal_current_mA']/24
+    report['options']=[dict(pouches=n,nominal_capacity_mAh=n*1000,nominal_mixed_runtime_days=round(daily*n,1),ideal_100mA_charge_lower_bound_hours=n*10) for n in [1,2,3]]
+    report['sources'].update({f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in ['reports/electrical-analysis.json','scripts/study_batteries.py']})
+    (ROOT/'reports/battery-study.json').write_text(json.dumps(report,indent=2)+'\n')
 
 
 def main():
+    if '--power-only' in sys.argv:
+        report=json.loads((ROOT/'reports/battery-study.json').read_text())
+        for f,value in report['sources'].items():
+            if f not in ['reports/electrical-analysis.json','scripts/study_batteries.py']:assert hashlib.sha256((ROOT/f).read_bytes()).hexdigest()==value,f
+        refresh_power(report);print('Refreshed power scenarios; existing geometry hashes verified.');return
     folder=ROOT/'mechanical';base=cq.importers.importStep(str(folder/'case_base.step')).mirror('XZ')
     parts={n:cq.importers.importStep(str(folder/(n+'.step'))).mirror('XZ') for n in ['pcb_envelope','components','module_envelope','usb_plug_envelope','case_screw_envelopes']}
     w,h,t=SPEC['battery']['max_envelope'];bays=[];pouches=[];variant=base
@@ -38,7 +51,7 @@ def main():
       options=[dict(pouches=n,nominal_capacity_mAh=n*1000,nominal_mixed_runtime_days=round(daily*n,1),ideal_100mA_charge_lower_bound_hours=n*10) for n in [1,2,3]],
       assumptions=['1000 mAh per pouch is a capacity target, not a verified cell model. Entire pouch including seams/wrapping/leads must fit the envelope.','Pack manufacturer must provide matched cells, protection and suitable branch fault protection; no parallel JST headers or DIY cell splicing.','Keep existing 100 mA charging setting; real charging exceeds the ideal bound because of load and CV taper.','Shared protection board and wiring envelopes require the selected pack drawing. Adhesive insulation must fit the measured remaining gap.','RF/EC noise and cell temperature need retesting with multiple conductive pouches.'],
       sources={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [folder/'case_base.step',folder/'components.step',ROOT/'design/yakb.json']})
-    (ROOT/'reports/battery-study.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
+    refresh_power(report);print(json.dumps(report,indent=2))
 
 
 if __name__=='__main__':main()

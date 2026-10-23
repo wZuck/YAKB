@@ -22,45 +22,49 @@
   "scenarios": {
     "active": {
       "wait_ms": 4,
+      "nominal_current_mA": 3.918571428571428,
       "current_mA": [
-        2.888,
-        4.026,
-        8.733
+        2.855,
+        3.919,
+        8.373
       ],
       "runtime_1000mAh_80pct_hours": [
-        91.6,
-        198.7,
-        277.0
+        95.5,
+        204.2,
+        280.2
       ]
     },
     "idle": {
       "wait_ms": 8,
+      "nominal_current_mA": 2.584545454545454,
       "current_mA": [
-        1.773,
-        2.653,
-        6.409
+        1.753,
+        2.585,
+        6.152
       ],
       "runtime_1000mAh_80pct_hours": [
-        124.8,
-        301.6,
-        451.2
+        130.0,
+        309.5,
+        456.4
       ]
     },
     "long_idle": {
       "wait_ms": 12,
+      "nominal_current_mA": 1.9619999999999997,
       "current_mA": [
-        1.295,
-        2.012,
-        5.118
+        1.281,
+        1.962,
+        4.918
       ],
       "runtime_1000mAh_80pct_hours": [
-        156.3,
-        397.6,
-        617.8
+        162.7,
+        407.7,
+        624.7
       ]
     }
   },
-  "mixed_8h_active_16h_idle_nominal_days": 12.4,
+  "mixed_8h_active_16h_idle_nominal_days": 12.8,
+  "mixed_nominal_current_mA": 2.6141904761904757,
   "model": {
     "scan_frame_ms": [
       2,
@@ -80,7 +84,7 @@
     "switched_cap_uF": 0.1,
     "battery_capacity_mAh": 1000,
     "usable_fraction": 0.8,
-    "equation": "I = Ibackground + Iactive*tframe/(tframe+twait) + Cswitched[uF]*3.3/(tframe+twait)[ms]",
+    "equation": "I = (Ibackground*twait + Iscan_total*tframe + Cswitched[uF]*3.3)/(tframe+twait)[ms]",
     "limitations": [
       "First-order battery-current budget, assuming approximate unity input/output current for gated VCC; regulator losses and radio duty require measurement.",
       "The 2..6 ms frame and current ranges are scenarios, not guaranteed bounds.",
@@ -92,5 +96,11 @@
     "Sparse ground routing instead of continuous planes: return impedance and charging noise need oscilloscope tests.",
     "GPIO/ADC critical sections may delay BLE servicing; test under radio traffic.",
     "RF window removes metal directly over antenna only; metal cases, cables, cell foil and hands can still detune it."
-  ]
+  ],
+  "sources": {
+    "design/routing.json": "e447f8c40292607d0f98e9469869c960758da7c51aab4a6c43e5acf9ccc4d21a",
+    "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
+    "scripts/analyze_electrical.py": "7bf59df3c4cc1a0944c7b8be5f2c226cfd51a39d183c88443b8d60e364215ae7",
+    "mechanical/plate_case.step": "33859cd73515e34a3e761039bda95c8387dbbf2b40f8353ce7a6f2187f90cf26"
+  }
 }

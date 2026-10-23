@@ -1,5 +1,7 @@
 # 库存对照与采购建议
 
+> **版本范围：A0 基础设计 / 历史记录。** 当前整机为 B1.1；独立主控、直接 USB、专用底壳与 FPC 以 [B1.1 说明](modular/README.zh-CN.md) 和[文件版本表](file-map.zh-CN.md)为准。主板 U1 不装主控。
+
 [English](inventory-review.md) · [正式 BOM](../hardware/BOM.csv) · [电气分析](electrical-analysis.zh-CN.md)
 
 2026-10-23 按用户提供的元件库存工作簿“库存明细”表核对。表中数量源于订单汇总，不代表实物已盘点、未使用或完成型号验证。这里仅保留与 YAKB 有关的规格和判断；原始工作簿及订单数据不纳入仓库。

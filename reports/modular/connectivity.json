@@ -135,7 +135,7 @@
     "scripts/generate_modular_flex.py": "013f751f5e4caf6fb99213e440f91e756dfd4bceada3d3f47151539145aa218c",
     "hardware/modular/YAKB-shaped-FPC-B1.kicad_dru": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
     "hardware/modular/YAKB-FPC-coupon-B1.kicad_dru": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
-    "scripts/verify_modular.py": "a208986907a065dd639b40592ee1b66a4df9b130b07825364b38a31ff6420c65",
+    "scripts/verify_modular.py": "c727db5b0badf383254596a8a685ef8c46a9872f44fa04b8fb795d2a3f7b3a2b",
     "scripts/export_modular.py": "23cf4218746e2fc5b6b38208f5efc7c0a1dd3c9fbb70901afe1d9a4aea98de13",
     "scripts/modular_common.py": "db918de737e0cd947728a7371586df9c7ea5e359b96a08833077b7c3dc308d3c",
     "hardware/modular/YAKB_B1.kicad_sym": "e79b1bd23269ff50d8820bb96ae74a25740082f9fc7a9f9e27d7270faf438021",
@@ -219,6 +219,10 @@
     "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Cu.gtl": "e5797fdf53f59a8f288b0ba21e16aa0a2c32fd8de917ea174b9225946617fe71",
     "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Silkscreen.gbo": "74971cca637744fab30143eccdaf54aa08eebf809af1114c19b95bd89a07aaaf",
     "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-NPTH.drl": "db5db4d72a8085c2abf694a68cab68f2e52b7397b4409d0dd5c13eaf6cc713bb",
-    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Silkscreen.gto": "00b1aa14c43fdbc77dbf9c1d35b441d390850c1e41036c6dfe7ac87cd03f7a5f"
+    "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Silkscreen.gto": "00b1aa14c43fdbc77dbf9c1d35b441d390850c1e41036c6dfe7ac87cd03f7a5f",
+    "hardware/modular/YAKB-FPC-coupon-B1-netlist.csv": "5a255adff91a64d31e165d0e9fd0bdf3a9c35b1317314be7a89f741928beeeb5",
+    "hardware/modular/YAKB-shaped-FPC-B1-netlist.csv": "c21818c9f2569a26de579b3566da30a9822723ebf12fbd3b7ba2a958f1b1c0a1",
+    "hardware/modular/YAKB-interposer-B1-netlist.csv": "b8aed3b48d2064fbefd39463c04649b0f37da0f443d157f6e718f2077cd29146",
+    "hardware/modular/YAKB-controller-B1-netlist.csv": "8b653796773facf0a3697282bd0c6ec66508854ee407ab743bcb4ebbcda98dc6"
   }
 }

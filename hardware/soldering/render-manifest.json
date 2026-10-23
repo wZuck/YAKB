@@ -6,7 +6,7 @@
     "design/pcb-scene.json": "c1afb5bdf31864a3ad5e76b3bd33d24082b6f9286f43d0d8845d1a2d3d2b925a",
     "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
     "scripts/circuit.py": "fb963c831e63353a6a6355126d415951b3d60b9d7b5cddbbf92bfd251749df5b",
-    "scripts/generate_soldering.py": "8bbda7168008d4538e15ce903e7c4d92ba8b62023ae04278a54ae8019294bb72",
+    "scripts/generate_soldering.py": "facd259f5160d8b7040919b17b8ad2aa9948977e076cae33c734b51a6ede4241",
     "scripts/render_plan.py": "fa3e184f7d31c85776230c541453837cec2ce6a3a3facc3fd9fbf07c18124043"
   },
   "images": {

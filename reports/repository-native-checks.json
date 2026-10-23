@@ -1,0 +1,117 @@
+{
+  "result": "PASS",
+  "mode": "Read-only native ERC and DRC with schematic parity",
+  "boards": [
+    {
+      "board": "hardware/YAKB",
+      "checks": {
+        "erc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        },
+        "drc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        }
+      }
+    },
+    {
+      "board": "hardware/modular/YAKB-controller-B1",
+      "checks": {
+        "erc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        },
+        "drc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        }
+      }
+    },
+    {
+      "board": "hardware/modular/YAKB-interposer-B1",
+      "checks": {
+        "erc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        },
+        "drc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        }
+      }
+    },
+    {
+      "board": "hardware/modular/YAKB-shaped-FPC-B1",
+      "checks": {
+        "erc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        },
+        "drc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        }
+      }
+    },
+    {
+      "board": "hardware/modular/YAKB-FPC-coupon-B1",
+      "checks": {
+        "erc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        },
+        "drc": {
+          "violations": 0,
+          "schematic_parity": 0,
+          "unconnected": 0,
+          "kicad_version": "10.0.7"
+        }
+      }
+    }
+  ],
+  "sources": {
+    "scripts/verify_repository.py": "bd29323b2d0d89d1338647e37eecf55b7fe472888fb93b07d9c6570b4aef21e1",
+    "hardware/fp-lib-table": "e59622a39aa8af9013f234edb3de4954c6b9d173c71c3d822785cbefe9a6bad9",
+    "hardware/sym-lib-table": "c4c8e7643bea40af51bca3c4bcc494dd340c65e80e96fc98049796a94eda8aee",
+    "hardware/YAKB.kicad_sym": "a29277aa15a1e201895b2b118349c4fde7a08d71a813354586339fe2d060aac7",
+    "hardware/modular/fp-lib-table": "ea74af2436cbb38d1f4f3973952c5ab9d5fcb7c2eca857fbe920b04291f69d41",
+    "hardware/modular/sym-lib-table": "6556c03f1ecbee5003df2e44f03b0a7e438948b7ab88620f7312e032bba6b13e",
+    "hardware/modular/YAKB_B1.kicad_sym": "e79b1bd23269ff50d8820bb96ae74a25740082f9fc7a9f9e27d7270faf438021",
+    "hardware/modular/YAKB-FPC-coupon-B1.kicad_dru": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_dru": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
+    "hardware/YAKB.kicad_pcb": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+    "hardware/YAKB.kicad_sch": "bb9c58f60810c9631bded37730d2748a949fad0fc8a581e4b19814aa9de6a4d0",
+    "hardware/YAKB.kicad_pro": "c5e2761e8f56099142b16283b98aeed3c7ace72bd47dc19ab0dd5b1287062c01",
+    "hardware/modular/YAKB-controller-B1.kicad_pcb": "f6ee8fc0bfd107fa05ba717c50611d65bd777d96301d1d6726248cfa821e5bdf",
+    "hardware/modular/YAKB-controller-B1.kicad_sch": "9d9f6e393bef1c21a60ba5a2ce652969a902779379c0d76f80edb219dab3c600",
+    "hardware/modular/YAKB-controller-B1.kicad_pro": "203de6a8b16ac4674eedbe9e89c20344aa9c95792f3bdf962411e5c7477ea929",
+    "hardware/modular/YAKB-interposer-B1.kicad_pcb": "67a6c8224abb854e965f181f5ad877f8ade4cc903ee3ab281a82dbb301a0882b",
+    "hardware/modular/YAKB-interposer-B1.kicad_sch": "99131433dd1601ffe4bdebf661731d282f701926e349b7541c48ae82d2619055",
+    "hardware/modular/YAKB-interposer-B1.kicad_pro": "032e8abb1bb6d15621b742a6224fd6d95f37a802961e5b11b18a785117d24e31",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "861c26b3fa9c757e2c6a40ff3c21dd8372c81aaf3071f7847bc646b66926fedd",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_sch": "1e2cde47768854082cf96c6c93b6e69a8c5c3b308b05c777bb822190af98d73e",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pro": "f6268cb054b2be716678ab87d2b525b953944c7a34ad5121428bff241aac873e",
+    "hardware/modular/YAKB-FPC-coupon-B1.kicad_pcb": "dd4cee264c428253be346ecc7324d85e0b7b84281d53f7832d284a0e8e13b0b6",
+    "hardware/modular/YAKB-FPC-coupon-B1.kicad_sch": "8b4c817edddd6b206752278f06ddc96f29690f1db9a3e02803b1238fb67908a4",
+    "hardware/modular/YAKB-FPC-coupon-B1.kicad_pro": "050c5cf04c461c8127eea28d122896c84a9ad71f9d513177a1950a431d3489a4"
+  }
+}

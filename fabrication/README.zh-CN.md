@@ -1,5 +1,7 @@
 # YAKB A0 PCB 加工说明
 
+B1.1 沿用本页主板加工文件，但主板 U1 不装主控；还需 [B1 模块化文件](../docs/modular/README.zh-CN.md)中的两张刚性板和定制 FPC。此目录的 A0 壳体 USB 延长方案不能用于 B1.1 装配。
+
 [English](README.md) · [检查结果](../reports/design-checks.json) · [焊接工作台](../hardware/soldering/index.html)
 
 本目录包含完整 Gerber 和 PTH/NPTH 钻孔文件，来自通过原生检查的 `hardware/YAKB.kicad_pcb`。这是尚未打板的工程原型，先做小批首板与机构试片，完成电气和装配测量后再扩大制造。

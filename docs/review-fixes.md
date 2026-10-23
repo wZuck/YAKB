@@ -1,5 +1,7 @@
 # YAKB A0 review and corrections
 
+> **Scope: A0 baseline / historical record.** The current assembly is B1.1; use the [B1.1 notes](modular/README.md) and [file/revision map](file-map.md) for the separate controller, direct USB, dedicated base and FPC. Do not populate the mainboard U1 MCU.
+
 [简体中文](review-fixes.zh-CN.md) · [Electrical analysis](electrical-analysis.md) · [Battery options](battery-options.md) · [Soldering workbench](../hardware/soldering/index.html)
 
 This review covers the saved PCB, native component solids, mechanical envelopes, EC driver and delivered outputs. A0 remains a prototype awaiting physical validation.

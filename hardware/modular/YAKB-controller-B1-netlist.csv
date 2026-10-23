@@ -1,12 +1,12 @@
 Reference,Value,Pad,Net,X_mm,Y_mm
-H4,,,,79.0,18.0
-H3,,,,48.0,21.0
-H2,,,,79.0,2.0
-H1,,,,48.0,2.0
-C2,100nF,1,VCC,50.9625,4.0
-C2,100nF,2,GND,53.0375,4.0
 C1,1nF_C0G,1,ADC_FLEX,36.9625,22.0
 C1,1nF_C0G,2,GND,39.0375,22.0
+C2,100nF,1,VCC,50.9625,4.0
+C2,100nF,2,GND,53.0375,4.0
+H1,,,,48.0,2.0
+H2,,,,79.0,2.0
+H3,,,,48.0,21.0
+H4,,,,79.0,18.0
 JF1,Molex 200528-0240,1,GND,49.5,11.59
 JF1,Molex 200528-0240,2,VCC,50.5,11.59
 JF1,Molex 200528-0240,3,GND,51.5,11.59
@@ -46,13 +46,13 @@ U1,nice!nano_v2,10,MUX_C,27.16,20.12
 U1,nice!nano_v2,11,MUX0_INH,29.7,20.12
 U1,nice!nano_v2,12,MUX1_INH,32.24,20.12
 U1,nice!nano_v2,13,DRAIN,32.24,4.88
-U1,nice!nano_v2,14,,29.7,4.88
-U1,nice!nano_v2,15,,27.16,4.88
+U1,nice!nano_v2,14,unconnected-(U1-NC-Pad14),29.7,4.88
+U1,nice!nano_v2,15,unconnected-(U1-NC-Pad15),27.16,4.88
 U1,nice!nano_v2,16,AFE_ON_N,24.62,4.88
-U1,nice!nano_v2,17,,22.08,4.88
+U1,nice!nano_v2,17,unconnected-(U1-NC-Pad17),22.08,4.88
 U1,nice!nano_v2,18,ADC_FLEX,19.54,4.88
-U1,nice!nano_v2,19,,17.0,4.88
-U1,nice!nano_v2,20,,14.46,4.88
+U1,nice!nano_v2,19,unconnected-(U1-NC-Pad19),17.0,4.88
+U1,nice!nano_v2,20,unconnected-(U1-NC-Pad20),14.46,4.88
 U1,nice!nano_v2,21,VCC,11.92,4.88
 U1,nice!nano_v2,22,RESET,9.38,4.88
 U1,nice!nano_v2,23,GND,6.84,4.88

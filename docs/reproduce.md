@@ -1,5 +1,7 @@
 # Reproduction and firmware
 
+> **Scope: A0 baseline / historical record.** The current assembly is B1.1; use the [B1.1 notes](modular/README.md) and [file/revision map](file-map.md) for the separate controller, direct USB, dedicated base and FPC. Do not populate the mainboard U1 MCU.
+
 [简体中文](reproduce.zh-CN.md). `hardware/YAKB.kicad_pcb` is the routed native source. `design/yakb.json` holds shared dimensions and layout; `scripts/circuit.py` holds physical pins and nets. **Regenerating the PCB overwrites routing.** Work on a copy or branch.
 
 Use KiCad 10, its bundled Python/pcbnew/wx, Python 3.13 with `requirements-cad.txt` (CadQuery 2.8, ezdxf, Matplotlib and VTK), and FreeRouting 2.5.0/Java 25 for routing interchange.

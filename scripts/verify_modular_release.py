@@ -26,7 +26,7 @@ def main():
  for name in ['controller','interposer','shaped-FPC','FPC-coupon']:
   stem='YAKB-'+name+'-B1'
   for kind in ['erc','drc']:
-   d=json.loads((ROOT/'reports/modular'/(stem+'-'+kind+'.json')).read_text());assert not d.get('violations') and not d.get('schematic_parity') and not d.get('unconnected_items')
+   d=json.loads((ROOT/'reports/modular'/(stem+'-'+kind+'.json')).read_text());assert not d.get('violations') and not any(s.get('violations') for s in d.get('sheets',[])) and not d.get('schematic_parity') and not d.get('unconnected_items')
   folder=ROOT/'fabrication/modular'/stem
   with zipfile.ZipFile(folder.with_suffix('.zip')) as z:
    expected={p.name for p in folder.iterdir() if p.is_file()};assert set(z.namelist())==expected
@@ -35,7 +35,7 @@ def main():
    assert not list(folder.glob('*.gbrjob')) and not list(folder.glob('*F_Cu*'))
    assert json.loads((folder/'FLEX-STACKUP.json').read_text())['physical_copper_layers']==1
    assert list(folder.glob('*-Stiffener_Top.gbr')) and not list(folder.glob('*.gta'))
- raw=(ROOT/'hardware/soldering/b1/data.js').read_text();d=json.loads(raw[raw.index('{'):raw.rfind(';')]);assert len(d['steps'])==21 and len(d['inventory'])==107 and d['storageKey']=='yakb-b1-1-soldering-v1'
+ raw=(ROOT/'hardware/soldering/b1/data.js').read_text();d=json.loads(raw[raw.index('{'):raw.rfind(';')]);assert len(d['steps'])==21 and len(d['inventory'])==108 and d['storageKey']=='yakb-b1-1-soldering-v2'
  assert len({s['id'] for s in d['steps']})==21
  for s in d['steps']:assert (ROOT/'hardware/soldering/b1'/s['image']).exists(),s['image']
  for file in ['hardware/soldering/b1/index.html','hardware/soldering/index.html']:links(file)

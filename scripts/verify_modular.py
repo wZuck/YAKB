@@ -50,11 +50,17 @@ def main():
  r=pads(fps['interposer']['R1']);assert [r[str(i)].GetNetname() for i in [1,2]]==['ADC','ADC_FLEX']
  for name in names:
   for kind in ['erc','drc']:
-   d=json.loads((OUT/('YAKB-'+name+'-B1-'+kind+'.json')).read_text());assert not d.get('violations') and not d.get('schematic_parity') and not d.get('unconnected_items'),(name,kind)
+   d=json.loads((OUT/('YAKB-'+name+'-B1-'+kind+'.json')).read_text());assert not d.get('violations') and not any(s.get('violations') for s in d.get('sheets',[])) and not d.get('schematic_parity') and not d.get('unconnected_items'),(name,kind)
  # Persist native geometry for 2D drawings; never recreate routed lines from a conceptual diagram.
  geometry={}
  for name,board in boards.items():
   geometry[name]={'pads':[dict(ref=f.GetReference(),number=a.GetNumber(),net=a.GetNetname(),x=p.ToMM(a.GetPosition().x),y=p.ToMM(a.GetPosition().y),w=p.ToMM(a.GetSize().x),h=p.ToMM(a.GetSize().y),drill=p.ToMM(a.GetDrillSize().x),circle=a.GetShape()==p.PAD_SHAPE_CIRCLE,radius=p.ToMM(a.GetRoundRectCornerRadius()) if a.GetShape()==p.PAD_SHAPE_ROUNDRECT else 0,angle=a.GetOrientationDegrees()) for f in board.GetFootprints() for a in f.Pads()], 'tracks':[dict(x1=p.ToMM(t.GetStart().x),y1=p.ToMM(t.GetStart().y),x2=p.ToMM(t.GetEnd().x),y2=p.ToMM(t.GetEnd().y),width=p.ToMM(t.GetWidth(p.F_Cu) if isinstance(t,p.PCB_VIA) else t.GetWidth()),layer=t.GetLayerName(),net=t.GetNetname(),drill=p.ToMM(t.GetDrillValue()) if isinstance(t,p.PCB_VIA) else 0) for t in board.GetTracks()]}
+  geometry[name]['footprints']=[dict(ref=f.GetReference(),value=f.GetValue(),footprint=str(f.GetFPID().GetLibItemName()),x=p.ToMM(f.GetPosition().x),y=p.ToMM(f.GetPosition().y),side=f.GetLayerName()) for f in board.GetFootprints()]
+  # These CSVs used to retain the pre-routing generator's empty NC net names.
+  with (ROOT/'hardware/modular'/('YAKB-'+name+'-B1-netlist.csv')).open('w',newline='') as file:
+   w=csv.writer(file,lineterminator='\n');w.writerow(['Reference','Value','Pad','Net','X_mm','Y_mm'])
+   for f in sorted(board.GetFootprints(),key=lambda f:f.GetReference()):
+    for a in f.Pads():w.writerow([f.GetReference(),f.GetValue(),a.GetNumber(),a.GetNetname(),p.ToMM(a.GetPosition().x),p.ToMM(a.GetPosition().y)])
  (ROOT/'.render-cache/modular-native-geometry.json').write_text(json.dumps(geometry))
  sources={f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in ['hardware/YAKB.kicad_pcb','design/modular.json']+[str(Path('hardware/modular')/('YAKB-'+n+'-B1.kicad_pcb')) for n in names]}
  report={'native_pad_paths':checks,'FPC_contacts_verified':24,'coupon_contacts_verified':24,'derived_insertion_depths_mm':depths,'mapping':'A:n -> B:25-n','native_DRC_ERC_parity_unconnected':0,'sources':sources,'limits':['Electrical rule checks do not model RF, charging transients or ADC noise.','All modular schematics use passive physical-pin symbols; they check connectivity, not internal nice!nano circuitry.']}
@@ -62,6 +68,7 @@ def main():
  report['sources'].update({f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in extra})
  artifacts=list(OUT.glob('*-erc.json'))+list(OUT.glob('*-drc.json'))+list(OUT.glob('*-net.xml'))+list((ROOT/'hardware/modular').glob('*.pdf'))+list((ROOT/'mechanical/modular').glob('*.glb'))+list((ROOT/'mechanical/modular').glob('*-native.step'))+[f for f in (ROOT/'fabrication/modular').rglob('*') if f.is_file()]
  report['outputs']={str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in artifacts}
+ report['outputs'].update({str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in (ROOT/'hardware/modular').glob('*-netlist.csv')})
  (OUT/'connectivity.json').write_text(json.dumps(report,indent=2)+'\n')
  print('Verified 24 cable contacts, %d used module pads, exact A0 header coordinates and all native reports.'%len(checks))
 if __name__=='__main__':main()

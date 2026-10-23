@@ -1,6 +1,6 @@
 # YAKB A0 soldering and assembly order
 
-> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+> **B1.1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
 
 
 [Open the offline soldering workbench](../hardware/soldering/index.html): 18 illustrated steps, searchable references, saved progress, zoom and print.

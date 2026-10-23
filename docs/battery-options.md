@@ -1,8 +1,12 @@
 # Multi-pouch battery fit study
 
+> **Scope: A0 baseline / historical record.** The current assembly is B1.1; use the [B1.1 notes](modular/README.md) and [file/revision map](file-map.md) for the separate controller, direct USB, dedicated base and FPC. Do not populate the mainboard U1 MCU.
+
 [简体中文](battery-options.zh-CN.md) · [CAD results](../reports/battery-study.json) · [Power model](electrical-analysis.md)
 
-The present case accommodates **three 60×35×5.5 mm pouch envelopes** at `(62,23,-7.8)`, `(144,23,-7.8)` and `(226,23,-7.8)`, tilted with the floor. All clear the actual base, PCB, 37 component models, module, USB and hidden screws. Each has about 0.526 mm minimum base clearance and 2.856 mm PCB clearance. Insulation/retention must fit inside the remaining gap without compression.
+The present case accommodates **three 60×35×5.5 mm pouch envelopes** in construction coordinates (negate Y for delivered CAD) at `(62,23,-7.8)`, `(144,23,-7.8)` and `(226,23,-7.8)`, tilted with the floor. All clear the actual base, PCB, 37 component models, module, USB and hidden screws. Each has about 0.526 mm minimum base clearance and 2.856 mm PCB clearance. Insulation/retention must fit inside the remaining gap without compression.
+
+B1.1 uses its [dedicated three-bay base](../mechanical/modular/case_base_B1_three_bay.stl) and [pod lid](../mechanical/modular/pod_lid_B1.stl), sharing the A0 bezel and plate. The 12.8/25.5/38.3-day figures below are A0 mixed-use scenarios, not B1.1 measurements. The [modular analysis](modular/README.md) separately estimates continuous activity with FPC/ADC capacitive loads.
 
 ![Optional three-bay base and pack envelopes](../assets/battery-study-render.png)
 
@@ -10,9 +14,9 @@ An optional [three-bay STEP](../mechanical/case_base_three_bay.step) / [STL](../
 
 | Pack | Target capacity, assuming 1000 mAh/pouch | Central mixed-use estimate | Ideal 100 mA charge lower bound |
 | --- | --- | --- | --- |
-| 1S single pouch | 1000 mAh | 12.4 days | 10 h |
-| Factory 1S2P | 2000 mAh | 24.8 days | 20 h |
-| Factory 1S3P | 3000 mAh | 37.2 days | 30 h |
+| 1S single pouch | 1000 mAh | 12.8 days | 10 h |
+| Factory 1S2P | 2000 mAh | 25.5 days | 20 h |
+| Factory 1S3P | 3000 mAh | 38.3 days | 30 h |
 
 Two pouches are a reasonable capacity/weight compromise; three use the designed bay count, not a proven maximum of every possible packing arrangement. The capacity is a target, not a qualified cell SKU. Measure complete seams, wrapping, lead exits and insulation; a size code alone is insufficient.
 

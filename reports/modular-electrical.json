@@ -50,16 +50,17 @@
   ],
   "assumed_ADC_filter_full_swing_current_A": 2.8285714285714284e-05,
   "assumed_activity_current_A": [
-    0.004060265714285714,
-    0.004078085714285714
+    0.003948837142857143,
+    0.003966657142857143
   ],
   "assumed_1000mAh_80pct_activity_hours": [
-    197.03143988465217,
-    196.17047214028992
+    202.59128727227474,
+    201.68115649737456
   ],
   "sources": {
     "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "861c26b3fa9c757e2c6a40ff3c21dd8372c81aaf3071f7847bc646b66926fedd",
     "design/modular.json": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
-    "scripts/analyze_modular.py": "312bab31912d55daadd698ae76324c0d5ec0fbe896e22a466bd4805c29126ae7"
+    "scripts/analyze_modular.py": "b4be91631af7b7734417c6ab32d1f9bf53cedeeb42039b5c7b02368feb07631a",
+    "reports/electrical-analysis.json": "76b0b7e4b3a5961596bb3b76d9913dac4a5b30c5f2a3f08af32bf08d7115551f"
   }
 }

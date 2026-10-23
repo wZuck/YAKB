@@ -1,0 +1,3114 @@
+{
+  "result": "PASS",
+  "scope": "Saved-file integrity and cross-file contracts; no physical certification",
+  "audited_files": 355,
+  "local_links_checked": 343,
+  "inventory_counts": {
+    "dnp": 1,
+    "populate": 46,
+    "electrode": 60,
+    "cable": 1
+  },
+  "native_report_formats_checked": 10,
+  "native_report_negative_cases": 4,
+  "pending_physical_measurements": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 142,
+      "sha256": "80cf91293073799dddf4fcac7115f1a748bb588d8d9dce55af9f19a02d6e66fb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": ".github/workflows/firmware.yml",
+      "bytes": 2069,
+      "sha256": "27da29acbd50c88e6b35aee3514d32059ee0b5fc3919712af981e7207ca7197a",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 209,
+      "sha256": "e3d3ba33f8fcd27423aef6ef8e88c9b54acba467320928b21c0a95e36fb54640",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "9e3ab7500a4b62296d397bdfb60a16d0e1f50313cfa5ad118dd97cf75cab17b9",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 4798,
+      "sha256": "5bcf313d111cd882c3bbd74c8fa5189eb7f76a4f7e171c5d107f99e1534e1737",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 4459,
+      "sha256": "6250a718b1f1e11241fb0adffae8bfc7ff86e596e35536fc8551a6e7852453b8",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "assets/assembly-render.png",
+      "bytes": 2918660,
+      "sha256": "29bbba8fea8b9d2ac6e5c03603eeb448959dfd35eea8b765b2f3f4e3c7cff89a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/battery-study-render.png",
+      "bytes": 2931803,
+      "sha256": "88276bf90daf24617c9ad1dda5774cc0460b67642e27647c94d1fa8dce6a61f0",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/case-bottom-render.png",
+      "bytes": 2668707,
+      "sha256": "9b499144d3216b448063ec67c4a730922af18751578fae8d4c712bbdf9cf7b25",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/case-interior-render.png",
+      "bytes": 2835062,
+      "sha256": "1745b66867d33fbb199682c4450f9b8a0726fe9e234013870eb87ad158076970",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/case-side-render.png",
+      "bytes": 2676580,
+      "sha256": "0b214cac40d5d898e9981158289262855c9b3675215ff1ed414510d91deb11ad",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/case-top-render.png",
+      "bytes": 2955197,
+      "sha256": "f92cbf16d852433e97a14b7a35e7f16547e689ed938f996205f8d287702c5058",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/design-overview.png",
+      "bytes": 260125,
+      "sha256": "0b6d1e11979dab751ed899163bee571f077fb9846db99f5f6fa541011d33d693",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/design-overview.svg",
+      "bytes": 945868,
+      "sha256": "45e87f1cd8bd2b303289c4b83fac06215eb2c5ec56f52737e99bf7b57ca2e5a5",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "assets/exploded-render.png",
+      "bytes": 3056088,
+      "sha256": "63432deb512865f72370203d84f4a8da4850d8cfb5ba39f6cd3e5c5d4f837844",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-FPC-coupon-plan.png",
+      "bytes": 61504,
+      "sha256": "74f25a966a2cd91b0b12643eea51b25cf1d652a9af03e6a015eaa6cffdef7c8f",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-closed.png",
+      "bytes": 1978241,
+      "sha256": "16faa5e3289bfde4df028b9859e9b3bec5ea0d80b5a79e8fd6c8d639f7bb0cf2",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-controller-plan.png",
+      "bytes": 115724,
+      "sha256": "194e637ce133dffca131da78ceb87dde6983204f480924039826f3875157ddbb",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-fit-coupon.png",
+      "bytes": 1822782,
+      "sha256": "380fc67748ee9c3dff6695778bc108a9569f55a099b9f44210a931c9afd7eb83",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-interposer-plan.png",
+      "bytes": 108403,
+      "sha256": "b6419b18eb22d012bf8166bb851d2b863b773c9f7e873f0010ef9db347a0cf5d",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-open.png",
+      "bytes": 1939402,
+      "sha256": "018b489597e58562d602ca7260fac0910db7a1d377e5ccf7dee04e1626238792",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-shaped-FPC-plan.png",
+      "bytes": 269367,
+      "sha256": "6f23916fd28f21d590bf283d736c8006384d7a642954b6737b4b27b615c99f3b",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/B1-top.png",
+      "bytes": 2007110,
+      "sha256": "9ab54cf7b64c73f88697ec314c5676df5b574a8e905de45fed71ad72289fa43f",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/modular/render-manifest.json",
+      "bytes": 2305,
+      "sha256": "7ad67f2657157eeac5a86386427b252afdc8f83b49217c3fe2025833077ed85c",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "assets/pcb-bottom.png",
+      "bytes": 2911501,
+      "sha256": "0b677a9668905c1cc3d7bb18f07170d0819b1d43c4c512b61253f91a706afd3a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/pcb-top.png",
+      "bytes": 2850117,
+      "sha256": "388f02b2ea4d519d9759b4fcc0084fb978c8cc69c29442d54f6854b3dbda9889",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/plan-render-manifest.json",
+      "bytes": 1517,
+      "sha256": "8413f4f7fb01c5c5ce9c1943b023a5fbc0dfc44a09ab6ef240f0ae7ef7aa5620",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "assets/plate-render.png",
+      "bytes": 2950935,
+      "sha256": "2c0020594a7d781ce4c81252482a8537d765d3fa7c8b6afee9b914b89a7ed8f9",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "assets/render-manifest.json",
+      "bytes": 5296,
+      "sha256": "eb175d5c4debd93fc5accdc926b3632d418062949de507bca6a17cf9229b94c5",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "assets/schematic/YAKB.svg",
+      "bytes": 2645837,
+      "sha256": "8ea7d756827c9a66a72bb872af10c3fb14be5cd977884ca6d16204780a484c37",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "assets/soldering-workbench.png",
+      "bytes": 46252,
+      "sha256": "e76cc26ec7190425a766156734dabdc2e274b3c8f1e910157d2a7586391512c2",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "design/circuit.json",
+      "bytes": 25178,
+      "sha256": "71050a2f795668babf904161ed81b0e1b5ccf2b6c2289681558ba7ebf85fb677",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/fpc-interface.json",
+      "bytes": 1388,
+      "sha256": "9d22774d7174c28b19023448e96c30686a690a8cf09dfdc717378130671ad494",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/key-map.csv",
+      "bytes": 2344,
+      "sha256": "b2844e34a6b12775a22939759055808c29affd7dadd926cd306bdb1125347a49",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "design/modular.json",
+      "bytes": 3192,
+      "sha256": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/pad-map.json",
+      "bytes": 2031674,
+      "sha256": "38cd6bd43b9b3be3cb247895d681c3ddccc67ee40125035f55d98637a65c6b5b",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/pcb-scene.json",
+      "bytes": 410846,
+      "sha256": "c1afb5bdf31864a3ad5e76b3bd33d24082b6f9286f43d0d8845d1a2d3d2b925a",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/pin-map.csv",
+      "bytes": 283,
+      "sha256": "d6fd2f692c97d0e7fba5e79d487480009cc574cbbc8037528e94a5ace79f51dd",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "design/routing.json",
+      "bytes": 448494,
+      "sha256": "e447f8c40292607d0f98e9469869c960758da7c51aab4a6c43e5acf9ccc4d21a",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "design/yakb.json",
+      "bytes": 7498,
+      "sha256": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "docs/assembly-interface.md",
+      "bytes": 2692,
+      "sha256": "650c7f1584a3ce2fbcc6cd9d858c05baea6c01680022602ec3d0b9baf5700d9e",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/assembly-interface.zh-CN.md",
+      "bytes": 2608,
+      "sha256": "c6355a47eec864f8d6ce5a48abbe2576af334861295369f6ead98f5e64fd81f4",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/battery-options.md",
+      "bytes": 3074,
+      "sha256": "dc5c1140c82f9ef029d2879b2c16687b639419faeb7536f4fe101addb3f27b44",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/battery-options.zh-CN.md",
+      "bytes": 3172,
+      "sha256": "f01c94eeeaf47a80f3a99b45dabed3a8191121bdd34fca141a2cf01dd5d8249a",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/case-design.md",
+      "bytes": 3794,
+      "sha256": "52a67433c535bfed972bebc1413aa804e4a714feee2ebe95ca12cbb78e2e782e",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/case-design.zh-CN.md",
+      "bytes": 4176,
+      "sha256": "1095a2dde670c0515fdb8a8fc10586c2e76c54697b3dc7e83d95c70b675e1b18",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/compatibility.md",
+      "bytes": 3193,
+      "sha256": "fb26dc53a13475f935b40671da357c53a94688fd900cff2759cac0a89a4f1864",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/compatibility.zh-CN.md",
+      "bytes": 4147,
+      "sha256": "8d7487e2c34bb66fd5c0c89162ed1bce87a7a5068bf09514933716924893b4f7",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/consistency-review.md",
+      "bytes": 4205,
+      "sha256": "f4c91674cab84199ff374e245801f3e7b057a0097beaa00d49eed520410e8495",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/consistency-review.zh-CN.md",
+      "bytes": 4158,
+      "sha256": "cc40fe939c9a75f6190dff456913b250f86dfbfa7e16e397b4938cfee8feef85",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/design.md",
+      "bytes": 10208,
+      "sha256": "ef8bf641506577d5d1a0181ca876f3ff43819f7d94c300bd9cd518496752ce5e",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/design.zh-CN.md",
+      "bytes": 13272,
+      "sha256": "e6981cbb19d358d0b12c5f460f9e8c95261c9e69fac8dae2ec3fd5554c8d2ab6",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/electrical-analysis.md",
+      "bytes": 7995,
+      "sha256": "30724529cf1cd9922198a254f4217837c61678fbc69b7869d9ae19fe43648d3b",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/electrical-analysis.zh-CN.md",
+      "bytes": 8129,
+      "sha256": "eddd40e52cf1c4ad8acef36349571f2be8ec780949d91d2148f8b9ebe2720cf0",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/file-map.md",
+      "bytes": 4533,
+      "sha256": "c3da5e9683826d8ef86017acc1b40931f2bb2c406f1eaefb691cfd770a777847",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/file-map.zh-CN.md",
+      "bytes": 4190,
+      "sha256": "494fcea0c37d93fd9db082d9f92aa9c3acd148c749160c6dd32e8a873ac6c321",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/inventory-review.md",
+      "bytes": 5483,
+      "sha256": "61959862a94c1eff7d68e6b1d95b70b45c58fc80d31c59062efff96f44037d60",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/inventory-review.zh-CN.md",
+      "bytes": 5568,
+      "sha256": "26d3474f0e71ad117b543d6dd34339fcb8e03dedc16a42a320bbc5d3b2d86494",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/modular/README.md",
+      "bytes": 13070,
+      "sha256": "1d051e53c2aa845774ef611d3461175cef707e716a5c76bf3c7835db72968fc6",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/modular/README.zh-CN.md",
+      "bytes": 12191,
+      "sha256": "6538ace06b85b2839928e6a9e0a51f454523f35279ae152699ae677c7fbd0047",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/modular/interface-review.md",
+      "bytes": 4884,
+      "sha256": "4536af3ed667ece5c7c591459cc2f5f2ab6f0d55641d5557282419450886ef38",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/modular/interface-review.zh-CN.md",
+      "bytes": 4573,
+      "sha256": "fd1634ca3653ee1727c313be8c331e6d5ae218d1acdecb3cbff6c8cbff6516cd",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/modular/qualification-checklist.csv",
+      "bytes": 1065,
+      "sha256": "4674011b415a8b6ce3862845f60a3781b83d18b9fd046e9cd483e783cc8a155f",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "docs/reproduce.md",
+      "bytes": 7049,
+      "sha256": "0eebd35d7750ed6fc55d87688dbc30cc3fa1d83503f7d9426ff3acd7d22f0def",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/reproduce.zh-CN.md",
+      "bytes": 8534,
+      "sha256": "00becd2141046359a39d6d9605646f43e50c2e442a6cfc5a9078bdda5910eef7",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/review-fixes.md",
+      "bytes": 4568,
+      "sha256": "1bc94893237ce6d4d02211a9446673e4a3643ff61d31f641e6db306e7d00cd73",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/review-fixes.zh-CN.md",
+      "bytes": 4396,
+      "sha256": "155fbfe4f6d47933672a5930590c113f4c4d2e395a4ca9dfa1c5a59490136875",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/soldering-guide.md",
+      "bytes": 9289,
+      "sha256": "e91366bb1426561b393a686c4353d60acf53ebeadb276466422602e9f5c252cb",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/soldering-guide.zh-CN.md",
+      "bytes": 11190,
+      "sha256": "9c95015c756f9fe5c3620ea7f0d064a174f1525fda3e4e1a4f0d0c3b6c32121b",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 4702,
+      "sha256": "3f15e89d2894a67e3b35b6ee4b02abfc62d7c8b83085cfe45a0165e0541c3ad3",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "fabrication/README.md",
+      "bytes": 2142,
+      "sha256": "cbdfbca2e681b4ca27ba8dd9aa344308b68863d2503eba018b2bfca4755d2292",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "fabrication/README.zh-CN.md",
+      "bytes": 2486,
+      "sha256": "020b3b7620971cb6112ae114482f6facd9cfe290005bdd660dcbf784a76d5346",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "fabrication/YAKB-A0-gerbers.zip",
+      "bytes": 65044,
+      "sha256": "ff66c961c9efae1f11c62a8d13bdd705137e3616ac31cf03210ecad832fec548",
+      "checks": [
+        "sha256",
+        "ZIP CRC"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-B_Cu.gbl",
+      "bytes": 72230,
+      "sha256": "29e94b43f772bf1cf6748e6c643c7443b3d80392ee9bf0461891b41a3e0dc071",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-B_Mask.gbs",
+      "bytes": 6041,
+      "sha256": "9b483fd0016c90e5a0a8f3444776d94e27b6faef1c88d3da9e74ca758b1a71b5",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-B_Paste.gbp",
+      "bytes": 4796,
+      "sha256": "2b12a831376ec215d28e47a195fd31dceed9b331324b4316fbf16e1af866d324",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-B_Silkscreen.gbo",
+      "bytes": 113010,
+      "sha256": "7a8f0ca435e6955ffa44347272916109f4d2bee378571d007898837ef8ac7432",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-Edge_Cuts.gm1",
+      "bytes": 5503,
+      "sha256": "e23815921adf7c459a7a6ef88a21d4937bbee5114e5ce5640f48cb24658baacb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-F_Cu.gtl",
+      "bytes": 54581,
+      "sha256": "fcf2fa1931b11a17fb7ab64518b565ef6a772583f4dc06702d2a111007dfc18f",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-F_Mask.gts",
+      "bytes": 2229,
+      "sha256": "4c7313faee50e76161ee041e39860964f4424fef47892e3b393eff5fcc803f00",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-F_Paste.gtp",
+      "bytes": 449,
+      "sha256": "271b465d3e277cbcd970ba10da9cfb2aeeccfda14b950094f808839a6f40cd33",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-F_Silkscreen.gto",
+      "bytes": 39565,
+      "sha256": "f8851b5b6f1cdf8c7318806d1c6b1900b62e1ba743d45ac33d1d6a596c6e2a32",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-In1_Cu.g1",
+      "bytes": 19559,
+      "sha256": "d89863b6162d4311e05e8dc55ca1616a3a9a055c2bddeca8dc867348869f3d81",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-In2_Cu.g2",
+      "bytes": 18471,
+      "sha256": "f901f564536e18e5c7107d8e0abaa7a272858c6eda6f8f078b5a87fbb1b159fd",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-NPTH.drl",
+      "bytes": 479,
+      "sha256": "60c5e878d1fef4d47a9d8698a5dd244fd4094dcd454acbcdaa24268002a751cc",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-PTH.drl",
+      "bytes": 4530,
+      "sha256": "fcb7e9b113a9c61579fffa5b505a8412830db4188f9611a3c3fb12b0ae0515a0",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/gerbers/YAKB-job.gbrjob",
+      "bytes": 3571,
+      "sha256": "9f227639fb7aab336800e355acec8ac0d2618b1784ccb81a8d5efa346c3a7725",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1.zip",
+      "bytes": 7994,
+      "sha256": "dbb1e32afd04293c8d1830234e90de1535460e9c3f184d4641ca71c837349302",
+      "checks": [
+        "sha256",
+        "ZIP CRC"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/FABRICATION-NOTES.txt",
+      "bytes": 665,
+      "sha256": "f1b471d9915310b97b70c69d8602a03e23ccfdc368ee8a15aa1be7c6a1c289eb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/FLEX-STACKUP.json",
+      "bytes": 2296,
+      "sha256": "840dcbc8749e3fe68dea77bff1d20b74c9b28c48cd52a46ec7ea67857ae20392",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/YAKB-FPC-coupon-B1-B_Cu.gbl",
+      "bytes": 7300,
+      "sha256": "086f298a9092222050c783d95a3de68a9856001c0b9154416257f3e318dae7b0",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/YAKB-FPC-coupon-B1-B_Mask.gbs",
+      "bytes": 748,
+      "sha256": "519aacf6225d2a3af5b55699b9f433faa83736db385ca8e6aeeaeaab0714cc35",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/YAKB-FPC-coupon-B1-Edge_Cuts.gm1",
+      "bytes": 12853,
+      "sha256": "6d044000ca317cd1fe963688969a84a22cbfaa2662877e6f653121b07c4c9f26",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-FPC-coupon-B1/YAKB-FPC-coupon-B1-Stiffener_Top.gbr",
+      "bytes": 6654,
+      "sha256": "d17dceaa9bb912b9781c6db83410a3eba55aff4a797fc4b53af3d706f1a94713",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1.zip",
+      "bytes": 21947,
+      "sha256": "ebb89b37f17c75edb77ab7cbe170cdc81ab29df1087a24010ca251e39a4350eb",
+      "checks": [
+        "sha256",
+        "ZIP CRC"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Cu.gbl",
+      "bytes": 9179,
+      "sha256": "78613b7a439d56972cd57db011d7b36b0b59c1edddc99b5697e16feaea310f32",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Mask.gbs",
+      "bytes": 1258,
+      "sha256": "5a32682fc2adc2fc4bb6a2959c10a15457f97ee76e34eac31a848f98af643473",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Paste.gbp",
+      "bytes": 463,
+      "sha256": "5323359032d8489cd8bdeef4a1901889da41d3a8b2b1539f81f032fc7fd3a23b",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-B_Silkscreen.gbo",
+      "bytes": 36797,
+      "sha256": "da44f2c7089ee70963e8a58a1c28488a5a9f3ad6fb8b7d0a18e844eb9158f556",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-Edge_Cuts.gm1",
+      "bytes": 625,
+      "sha256": "1da35d2d37c298e021ac6e88902f7b8d2d2f1b9dbd6d8f18e5d694c3730e54e8",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Cu.gtl",
+      "bytes": 10878,
+      "sha256": "aa6b7e19cc333b096ec3aea34834f3551a17b6b811d0e298293c0f6ffe2bf924",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Mask.gts",
+      "bytes": 2759,
+      "sha256": "9dd0e3d5c73fc75030cd5c196dbe85d6e71cb63175cfa4dfdf90e38d6d28b757",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Paste.gtp",
+      "bytes": 1959,
+      "sha256": "840ca7ee727ea76b0b279bc17e69ad14f5088a14d5c1759e67d25267ba32980d",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-F_Silkscreen.gto",
+      "bytes": 34468,
+      "sha256": "b67cc650237e777059739b7ff32efaa4348ad3c984dcbf4729826d8a8fc9dde5",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-NPTH.drl",
+      "bytes": 374,
+      "sha256": "fde130dcc87a7b0ddd42f03ddf9e8621d90ec86084fa4cac7f2291cd806274d7",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-PTH.drl",
+      "bytes": 1010,
+      "sha256": "e57f2970bb0de9426c0b1038db4d7664bdb7a9788dfde1bda6278fa0e7e72b47",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-controller-B1/YAKB-controller-B1-job.gbrjob",
+      "bytes": 2732,
+      "sha256": "934cc60d7dfcbd12202b797119e80a2671ce92ecd3708ba24d2966d091cfb6a9",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1.zip",
+      "bytes": 10103,
+      "sha256": "d7f3848d105ee54e87c80c38cf360154904988e539a1491ec5650b2c3a8a571f",
+      "checks": [
+        "sha256",
+        "ZIP CRC"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Cu.gbl",
+      "bytes": 5940,
+      "sha256": "5036f84f14654f8cabbfc837c60eb0a2164c0b60183271964d947395cb167cfe",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Mask.gbs",
+      "bytes": 1072,
+      "sha256": "40878cfe75b015db26341dbb8ed177cbb21e8bcfc5c69a46cc5e1f370711fcae",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Paste.gbp",
+      "bytes": 463,
+      "sha256": "b78259ad782f519fb647783ba03949c6c6cd88d155c8e7216223cadebe0bd4fa",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-B_Silkscreen.gbo",
+      "bytes": 464,
+      "sha256": "74971cca637744fab30143eccdaf54aa08eebf809af1114c19b95bd89a07aaaf",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-Edge_Cuts.gm1",
+      "bytes": 625,
+      "sha256": "e3aa29f4fa7cf6bee578a9a18d29107a970a8424454fc74e1b1d8ace130b151a",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Cu.gtl",
+      "bytes": 8306,
+      "sha256": "e5797fdf53f59a8f288b0ba21e16aa0a2c32fd8de917ea174b9225946617fe71",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Mask.gts",
+      "bytes": 2471,
+      "sha256": "83eb39482a20b21ca3dca5ecd9b777e9591ec0d6807fc418c0777fe66371f9e6",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Paste.gtp",
+      "bytes": 1862,
+      "sha256": "12f8b07f20cf14e8fb3223e313f1f56e64775e6a02da59b1423e0cc956dcf5bd",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-F_Silkscreen.gto",
+      "bytes": 1334,
+      "sha256": "00b1aa14c43fdbc77dbf9c1d35b441d390850c1e41036c6dfe7ac87cd03f7a5f",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-NPTH.drl",
+      "bytes": 264,
+      "sha256": "db5db4d72a8085c2abf694a68cab68f2e52b7397b4409d0dd5c13eaf6cc713bb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-PTH.drl",
+      "bytes": 935,
+      "sha256": "ffb7d7e2cf80a205d98b722eff16dcbcadf5f2db493be086ecfeadc2180a4e07",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-interposer-B1/YAKB-interposer-B1-job.gbrjob",
+      "bytes": 2732,
+      "sha256": "d7955e7d37dc6536f169654df9867bfb45db0a4c7214ba5797b347a0867ecfe5",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1.zip",
+      "bytes": 28673,
+      "sha256": "cd0fe5cc5a96e1fbe1df29d10491c0304ab24a12b33936fd0961530e8c303bf3",
+      "checks": [
+        "sha256",
+        "ZIP CRC"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/FABRICATION-NOTES.txt",
+      "bytes": 665,
+      "sha256": "f1b471d9915310b97b70c69d8602a03e23ccfdc368ee8a15aa1be7c6a1c289eb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/FLEX-STACKUP.json",
+      "bytes": 2296,
+      "sha256": "6c5856f1393473321e56aedc2fec909839cc31817e574384952f38a5265ebcc4",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-B_Cu.gbl",
+      "bytes": 123578,
+      "sha256": "4117fe78230ff841f069e5818d841648d028207702414a67480c7cd67ff536b8",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-B_Mask.gbs",
+      "bytes": 768,
+      "sha256": "08f914c8b4667b5d3eb41747bfd82efde3bc42ee49fe61cddf9fb1e1898ba388",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-Edge_Cuts.gm1",
+      "bytes": 22647,
+      "sha256": "f315f924f6af035d9228f59fa84e118a3ecf13e2abb4ecf817330e67a52bb98b",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "fabrication/modular/YAKB-shaped-FPC-B1/YAKB-shaped-FPC-B1-Stiffener_Top.gbr",
+      "bytes": 6718,
+      "sha256": "3e359276b5f0988da7319e5b2513c4e296479dafb44ffe29e03f8b6a1619e033",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/README.md",
+      "bytes": 3321,
+      "sha256": "1f060cc2bb076a061ca861a9e851f8e4dcb605ba69b25eed85301843180dd4fb",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "firmware/README.zh-CN.md",
+      "bytes": 3415,
+      "sha256": "13241e7ea754c1a484b3f5b1b754c65dcecd6e6dd7243cab880010420d2359b2",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "firmware/build.yaml",
+      "bytes": 203,
+      "sha256": "2105ec03aa9d4932b88f4d196bc5a31e5c7635699efc17ee4c1185f36f41ea85",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/boards/shields/yakb/Kconfig.defconfig",
+      "bytes": 65,
+      "sha256": "922ed2bce3a85e0e36d0d9fe1d7f13e952f4ca6d6dc70adb6a590667072c2b87",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/boards/shields/yakb/Kconfig.shield",
+      "bytes": 62,
+      "sha256": "0e609a97891b939a4a841e44d1fa939b7fce2cef2af6dc14d353ef8038a0601c",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/boards/shields/yakb/yakb.conf",
+      "bytes": 464,
+      "sha256": "ee7310af507406f2b2c362cecddac90dfeb7a15bd5e459736d51fd4dacff54ed",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/boards/shields/yakb/yakb.keymap",
+      "bytes": 1275,
+      "sha256": "32b1ff78c61ad5b827850d103274621b23c5243a359f1ae8645fbf85efaf361a",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/boards/shields/yakb/yakb.overlay",
+      "bytes": 3500,
+      "sha256": "48ff86a936e92a9b34711e02c3df0aeeeeb38ead13c47df061a566202a42463b",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/config/west.yml",
+      "bytes": 349,
+      "sha256": "a337b554815ef61e4261d357f3d0632eaeba5db06eb6c2db5b1111f38393bbe4",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/patches/0001-ec-wake-on-raw-transition.patch",
+      "bytes": 2999,
+      "sha256": "793d324718eedcb2b7f2a8e8e56ed5d4b2e982e6cbde77388f8b83b2f895bf42",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/patches/README.md",
+      "bytes": 1618,
+      "sha256": "ba845d7e104061e8f68c6210aa84527dd66fd7e8fa4be921c0fb6b35084630ba",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "firmware/patches/README.zh-CN.md",
+      "bytes": 1388,
+      "sha256": "7e90a20ded8fbd7e59c16eea277517c4bd1784d1985bc5e43e7759fb28e388ad",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "firmware/patches/manifest.json",
+      "bytes": 369,
+      "sha256": "232459b77a8d5968458a1a6b414df5654cdb08559b996a0c8fcdfa6f72775069",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "firmware/prebuilt/SHA256SUMS",
+      "bytes": 167,
+      "sha256": "bc97fa356e42e89f51e9b82655adcefa0939ebee5d738ef6a668b09c4a257ecb",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "firmware/prebuilt/build-manifest.json",
+      "bytes": 2048,
+      "sha256": "c4ddd52b22aff67b194c0131c9c52b571b6dde11eed958a20213bff9a3344f57",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "firmware/prebuilt/yakb-a0-calibrator.uf2",
+      "bytes": 525824,
+      "sha256": "8f50848503caf1e074bb0de389b4e4333eec7cff5bfe69f75e3cec50beae9dae",
+      "checks": [
+        "sha256",
+        "UF2 block framing"
+      ]
+    },
+    {
+      "path": "firmware/prebuilt/yakb-a0.uf2",
+      "bytes": 462336,
+      "sha256": "250fc9e7e405d6d28cdbf48f39d3a63d0365def198dae8018f30ba019e25c3ca",
+      "checks": [
+        "sha256",
+        "UF2 block framing"
+      ]
+    },
+    {
+      "path": "firmware/west-lock.yml",
+      "bytes": 10377,
+      "sha256": "76f4c0ff032f00e58da392822c3497a1809fd747424d651609f9516fa1025045",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/BOM.csv",
+      "bytes": 8055,
+      "sha256": "d5932bd441c29d898041ea9d4a36d3597539b8e2690984a14e950af9bd7679cd",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/YAKB-schematic.pdf",
+      "bytes": 335327,
+      "sha256": "bbfd4fd634360e80ee90d6cdf8095a50e452b11249f213f2c3457ffd9bee711a",
+      "checks": [
+        "sha256",
+        "PDF framing"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.kicad_pcb",
+      "bytes": 1900531,
+      "sha256": "2811f0cbc36dfbcff65790f1e365ba34eaeeadce4624437f63d9e65e6c6aaa03",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.kicad_pro",
+      "bytes": 9845,
+      "sha256": "c5e2761e8f56099142b16283b98aeed3c7ace72bd47dc19ab0dd5b1287062c01",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.kicad_sch",
+      "bytes": 247841,
+      "sha256": "bb9c58f60810c9631bded37730d2748a949fad0fc8a581e4b19814aa9de6a4d0",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.kicad_sym",
+      "bytes": 81972,
+      "sha256": "a29277aa15a1e201895b2b118349c4fde7a08d71a813354586339fe2d060aac7",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/Battery_PH2.kicad_mod",
+      "bytes": 5125,
+      "sha256": "f35fb844885f171b7223cb071d406343530bf56b1f1f7c78097c71c7462ed03d",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/RESET_2.54_TH.kicad_mod",
+      "bytes": 1187,
+      "sha256": "1d1c998e84e1395f93eedf0ffa9927eab2dfe9404e68a3dff5b50761035bbc50",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/SPST_PIGTAIL_2.54.kicad_mod",
+      "bytes": 1191,
+      "sha256": "07ac91015d847fe78b38e3590ef15d06fe7fd24ae68e78397dabda6e75495485",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/ecs_pad_1U_no_ring.kicad_mod",
+      "bytes": 19358,
+      "sha256": "04b6ba45ec4ee5cccf06c475d8d20730f3804fee964216e4cbb62585a06032af",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/nice_nano.kicad_mod",
+      "bytes": 15813,
+      "sha256": "5b784fcb561095c4395b79b472ffa17323e9796114473b4771472be9a8e381b1",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/YAKB.pretty/plate_cut_ecs_pad_NIZ.kicad_mod",
+      "bytes": 2515,
+      "sha256": "3c5388af9c1b5753c458826de074e1ad9a0a0188fe57302bbebfa9f26d43e327",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/fp-lib-table",
+      "bytes": 135,
+      "sha256": "e59622a39aa8af9013f234edb3de4954c6b9d173c71c3d822785cbefe9a6bad9",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/BOM-B1-complete.csv",
+      "bytes": 13846,
+      "sha256": "253c165a300dabdada8470e0a8c1918f078552fe263bc58436664c7c3a64c91c",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/BOM-B1.csv",
+      "bytes": 1725,
+      "sha256": "54b8108a5277d38775bd31140e05e64d160ae2b59dcf05656ab43232ff97d00b",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/FPC-pinout.csv",
+      "bytes": 1734,
+      "sha256": "b940af128864d11522807350e912b5163197d5200b2dfc71a45b217e4a6aa0f0",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1-netlist.csv",
+      "bytes": 2642,
+      "sha256": "5a255adff91a64d31e165d0e9fd0bdf3a9c35b1317314be7a89f741928beeeb5",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1.kicad_dru",
+      "bytes": 124,
+      "sha256": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1.kicad_pcb",
+      "bytes": 79079,
+      "sha256": "dd4cee264c428253be346ecc7324d85e0b7b84281d53f7832d284a0e8e13b0b6",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1.kicad_pro",
+      "bytes": 9858,
+      "sha256": "050c5cf04c461c8127eea28d122896c84a9ad71f9d513177a1950a431d3489a4",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1.kicad_sch",
+      "bytes": 24961,
+      "sha256": "8b4c817edddd6b206752278f06ddc96f29690f1db9a3e02803b1238fb67908a4",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-FPC-coupon-B1.pdf",
+      "bytes": 76359,
+      "sha256": "f4c5c49ec7afe6f20ca4a2e642efad08de10a018a3bfa055eaaf7c995fed5a1a",
+      "checks": [
+        "sha256",
+        "PDF framing"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-controller-B1-netlist.csv",
+      "bytes": 2282,
+      "sha256": "8b653796773facf0a3697282bd0c6ec66508854ee407ab743bcb4ebbcda98dc6",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-controller-B1.kicad_pcb",
+      "bytes": 85938,
+      "sha256": "f6ee8fc0bfd107fa05ba717c50611d65bd777d96301d1d6726248cfa821e5bdf",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-controller-B1.kicad_pro",
+      "bytes": 9859,
+      "sha256": "203de6a8b16ac4674eedbe9e89c20344aa9c95792f3bdf962411e5c7477ea929",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-controller-B1.kicad_sch",
+      "bytes": 26969,
+      "sha256": "9d9f6e393bef1c21a60ba5a2ce652969a902779379c0d76f80edb219dab3c600",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-controller-B1.pdf",
+      "bytes": 78791,
+      "sha256": "d3775aa45bc4c695cefe8547d55b956e9129a434daab5d98dce802ec0fe687e0",
+      "checks": [
+        "sha256",
+        "PDF framing"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-interposer-B1-netlist.csv",
+      "bytes": 2379,
+      "sha256": "b8aed3b48d2064fbefd39463c04649b0f37da0f443d157f6e718f2077cd29146",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-interposer-B1.kicad_pcb",
+      "bytes": 45999,
+      "sha256": "67a6c8224abb854e965f181f5ad877f8ade4cc903ee3ab281a82dbb301a0882b",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-interposer-B1.kicad_pro",
+      "bytes": 9859,
+      "sha256": "032e8abb1bb6d15621b742a6224fd6d95f37a802961e5b11b18a785117d24e31",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-interposer-B1.kicad_sch",
+      "bytes": 24967,
+      "sha256": "99131433dd1601ffe4bdebf661731d282f701926e349b7541c48ae82d2619055",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-interposer-B1.pdf",
+      "bytes": 77070,
+      "sha256": "1cb2b54f4181d0e1039711abe8544bf65fdece991e68e4c99afaaf0bbbd7a994",
+      "checks": [
+        "sha256",
+        "PDF framing"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1-netlist.csv",
+      "bytes": 2730,
+      "sha256": "c21818c9f2569a26de579b3566da30a9822723ebf12fbd3b7ba2a958f1b1c0a1",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1.kicad_dru",
+      "bytes": 124,
+      "sha256": "7f0ecb6fdcc3542b31bfbde0689f7669970d17669fa512e1b03b056093452c89",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb",
+      "bytes": 533777,
+      "sha256": "861c26b3fa9c757e2c6a40ff3c21dd8372c81aaf3071f7847bc646b66926fedd",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1.kicad_pro",
+      "bytes": 9858,
+      "sha256": "f6268cb054b2be716678ab87d2b525b953944c7a34ad5121428bff241aac873e",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1.kicad_sch",
+      "bytes": 24961,
+      "sha256": "1e2cde47768854082cf96c6c93b6e69a8c5c3b308b05c777bb822190af98d73e",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB-shaped-FPC-B1.pdf",
+      "bytes": 75444,
+      "sha256": "e8192e1552a44c4685f6100d954a32e763d5f2a652c5ba1168eef8aed6257262",
+      "checks": [
+        "sha256",
+        "PDF framing"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB_B1.kicad_sym",
+      "bytes": 34295,
+      "sha256": "e79b1bd23269ff50d8820bb96ae74a25740082f9fc7a9f9e27d7270faf438021",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/YAKB_MOD.pretty/A0_U1_socket_adapter.kicad_mod",
+      "bytes": 6107,
+      "sha256": "b26841ba182aa78c0ed20304f04917dc06a828e5ea2df6f1a8250242fd2941ae",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/fp-lib-table",
+      "bytes": 252,
+      "sha256": "ea74af2436cbb38d1f4f3973952c5ab9d5fcb7c2eca857fbe920b04291f69d41",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/modular/sym-lib-table",
+      "bytes": 138,
+      "sha256": "6556c03f1ecbee5003df2e44f03b0a7e438948b7ab88620f7312e032bba6b13e",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/soldering/app.js",
+      "bytes": 4772,
+      "sha256": "fff366e26fb80b6b1f51bcde01b93c0912cd0e14a06cf61126f0e4100cde075f",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/data.js",
+      "bytes": 56967,
+      "sha256": "9fb3ecfe99f968e467cc16407daff1cf88e0e1dc0100d3e918cad125b554431a",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/index.html",
+      "bytes": 6751,
+      "sha256": "4448b0ee534126738cea608444c046ee9851a3d462ead2c8ae05d16d9cea3d4a",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/placement-checklist.csv",
+      "bytes": 15737,
+      "sha256": "f55ca816c6be042270dae2a6acf7f8334f7aa85ac506e9b938e75101241ba52f",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/render-manifest.json",
+      "bytes": 4438,
+      "sha256": "e5b647bd04739dd7f5b249a2a6063bdf900210e029a08c544c3911e7edfccdca",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-01.png",
+      "bytes": 108481,
+      "sha256": "d9a84a9d7f6ad85ec934522bfe767742ddfacf328fe7a570278f982863437013",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-02.png",
+      "bytes": 185619,
+      "sha256": "ccce0b86443d2bccd2fd3f304665134ddacb44ae6f4b96f9506b283f2ed8ed71",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-03.png",
+      "bytes": 137428,
+      "sha256": "ba57073cd15a848fdad97261386cf8440a3b2d827168fadbdd958c634711dd7a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-04.png",
+      "bytes": 124427,
+      "sha256": "385db496cd9ea80485d5e6d78268d1ce4aadab466ec5fcacb42810e751f53754",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-05.png",
+      "bytes": 116572,
+      "sha256": "da3168a4b0146c55b0fe4149a2d4fa6bef47aa5a1e8918fe5946fb29728249c7",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-06.png",
+      "bytes": 103346,
+      "sha256": "849edc045b9d61ada09c0db9e9e23ac5148c27758a302455059bc12b4631b49a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-07.png",
+      "bytes": 147555,
+      "sha256": "5f685bd3af77417acdb5b82b730bdc6169404c965b20b2b1a517535c218b191f",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-08.png",
+      "bytes": 122512,
+      "sha256": "c2a22c8f11890ab647cea6b5c25a8d64b05c72b8ab584fc6d6d4af6d3ec6e5ba",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-09.png",
+      "bytes": 109950,
+      "sha256": "c4ab57e5dbb5343d647b8e760faf76711f5c0e1112cbb9766367e132b4146877",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-10.png",
+      "bytes": 88130,
+      "sha256": "bbd75c508d0bcb64b5e7202b629cb705a3ff5b05633bbc1eaed7399501581b9a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-11.png",
+      "bytes": 85416,
+      "sha256": "411acc1bc09d76b750cd52987be135056d5718fae80425a4feb6c427d489dbf2",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-12.png",
+      "bytes": 101400,
+      "sha256": "0dfc0c43e64cd9aa7f3454ca6e807fb6cc0a1b4ad3376d6dbef19a7a12327b01",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-17.png",
+      "bytes": 141423,
+      "sha256": "c8f794b4b772ce542c4cc0aac6abfa15b7f2e4342db62c0310417239be73fc5c",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-18.png",
+      "bytes": 151411,
+      "sha256": "c8a1706869bf82eae76bfa0da0b99867ebba1111fcce9fc4f6df85448ece6bd1",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/b1/step-19.png",
+      "bytes": 112301,
+      "sha256": "b5f864d614ff2b56f858271cb7c4affcb865a3f700b76281794a745d64967c93",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/data.js",
+      "bytes": 48785,
+      "sha256": "72cb81501b1577974b9451a0463334bee08e3a05dcd009449a55bcef96111d73",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/soldering/index.html",
+      "bytes": 6492,
+      "sha256": "a298c5f2c4df9467ae7bf79f0cdfcd9664e90084043bc44303e10eebe1e9c3cc",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "hardware/soldering/placement-checklist.csv",
+      "bytes": 13426,
+      "sha256": "f6b7016258efde1e43e35f088400042db9661902e5f7aa30dfb673eb35060737",
+      "checks": [
+        "sha256",
+        "CSV column integrity"
+      ]
+    },
+    {
+      "path": "hardware/soldering/render-manifest.json",
+      "bytes": 2482,
+      "sha256": "199570b62a7aeae8dbbcfc6c930db32f708fd2821fb962d82d9df1372f94e81d",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-01.png",
+      "bytes": 108995,
+      "sha256": "c4a44681b749355e3f1afc5190fdbd749876731528ef4d421a43877120a0cfbf",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-02.png",
+      "bytes": 186812,
+      "sha256": "e5b7ee71a85fc4efa4a9be036a70721683459613710b41c8506c6ca67bb17d66",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-03.png",
+      "bytes": 137999,
+      "sha256": "e6f3388240a7b791a0824f97a56ac00b0cc0fd5d5c16bd0a546bfc9c3a788164",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-04.png",
+      "bytes": 124958,
+      "sha256": "a5410663c829da4d30f2c56b4d5f821e3e0cdeb67477ad5d137117ef2ce682d0",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-05.png",
+      "bytes": 117126,
+      "sha256": "39054bb9834cc70310118c0d6e0dcc0eb0f65dac349c33ac6e72c3f96f5d5134",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-06.png",
+      "bytes": 103855,
+      "sha256": "82be9368446ad4f33451f56fcb5cb94811d090b4161b46a5787888c157fc965a",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-07.png",
+      "bytes": 148072,
+      "sha256": "889588a212a6b51890618a225b523d6f58a20cd443b7c34966d54638174b998b",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-08.png",
+      "bytes": 121897,
+      "sha256": "4471b10e651b5aea73c727dc484806dafed1a0131bb1cb874a4c73247a32b631",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-09.png",
+      "bytes": 110450,
+      "sha256": "663c12b5952a1a88eb2c4db45acb27aae786304571b81af0ccc1c1df47a57252",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-10.png",
+      "bytes": 88611,
+      "sha256": "aa91fbcb87ca4c94bdbb11594dae486ad0efdae5dbfa0cab7365f1209e75aa76",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-11.png",
+      "bytes": 85898,
+      "sha256": "dd0585fd7bed5d3ea688a560949112ad4e07a2c217e87c45443a01e689b01d46",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-12.png",
+      "bytes": 102556,
+      "sha256": "3f14cf23e106f55061cd14afe57911031dd947f49d197cfaf1092c5c59d34663",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-13.png",
+      "bytes": 126920,
+      "sha256": "63e17c29dd656827d90bda63f40dd81c8a8872c150c819a6e444f61529306320",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-14.png",
+      "bytes": 142020,
+      "sha256": "30e9ba35ebd6a56e90c119c4e182986f7961dbf5e3415e4a59374bc404f59483",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-15.png",
+      "bytes": 151314,
+      "sha256": "368bd32022cf638dec0524d240fdfc08f58978ad7fb5336eed98a8b8e6b82098",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/step-16.png",
+      "bytes": 112820,
+      "sha256": "bd14cd7f2d5cc06b2a30d2263d58800a9cf45e020b5ac4e9ecfdca2be50cd1f4",
+      "checks": [
+        "sha256",
+        "PNG decode"
+      ]
+    },
+    {
+      "path": "hardware/soldering/styles.css",
+      "bytes": 11258,
+      "sha256": "c0476229b1434d6bae625838f1756acfc97251434787c81616dfe23fb3f080e0",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "hardware/sym-lib-table",
+      "bytes": 137,
+      "sha256": "c4c8e7643bea40af51bca3c4bcc494dd340c65e80e96fc98049796a94eda8aee",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "licenses/KiCad-LICENSE.md",
+      "bytes": 2105,
+      "sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "licenses/KiCad-library-notice.md",
+      "bytes": 1375,
+      "sha256": "cbd374ed8d0784ccaa01a973a957ed8fc541b410490c9720cb1d626031dc1769",
+      "checks": [
+        "sha256",
+        "Local links"
+      ]
+    },
+    {
+      "path": "licenses/tako-MIT.txt",
+      "bytes": 1061,
+      "sha256": "0127ee4b4b344e83f0e008575a8c6ac232039237087b2c26c261b9982fbf9be6",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "mechanical/YAKB-populated.glb",
+      "bytes": 15516220,
+      "sha256": "b19fa19405c300021cf79a113ef85af412200a2ff461bb1242948e7e360f6ed5",
+      "checks": [
+        "sha256",
+        "GLB chunks/JSON"
+      ]
+    },
+    {
+      "path": "mechanical/assembly.step",
+      "bytes": 10157333,
+      "sha256": "25ba836049cf7bf772be81e0ff0beea89a4c6b3bcbb70543bc7c7d5ffdd6ae85",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/battery_envelope.step",
+      "bytes": 16794,
+      "sha256": "168b64f93172f0b53f34330662db8607aa64df2381a7a7b96fce2d5e26521cb7",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/battery_pack_envelopes.step",
+      "bytes": 68884,
+      "sha256": "70f23967344b33520e28d5d13867b152b0037c89b9707ca29fb4c857995e6b9a",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/case_base.step",
+      "bytes": 653806,
+      "sha256": "96a180b74c4c106233e5a785b5d421007374c6e56d2f34d7f90487b9b8e9910d",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/case_base.stl",
+      "bytes": 710984,
+      "sha256": "d5c613a13b159dd4f5515d904ca1cd13d9d99268f842f81ce2e4b29114f2e78a",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/case_base_three_bay.step",
+      "bytes": 750034,
+      "sha256": "e298c6a0497cc491182651563ab0a21c58033cbf40a2bb5b1680a6b84cb4dd39",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/case_base_three_bay.stl",
+      "bytes": 715784,
+      "sha256": "791ad37c9ccc6a64d04fbbb162c4217c7d7a080af50e3f585af77ea083f6e719",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/case_bezel.step",
+      "bytes": 274577,
+      "sha256": "d12760974b766eeda939ca4f305dc80d16da015ab81160251c03602c02ec4759",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/case_bezel.stl",
+      "bytes": 628384,
+      "sha256": "7759b29d5d3364c93d671d33ba5a72d19b7086216b24a7286c0b26e7e23b5702",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/case_screw_envelopes.step",
+      "bytes": 98551,
+      "sha256": "bc6da669520266977b37757119caa07516bc89d564a204e418709d4dc7997355",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/components.step",
+      "bytes": 6400611,
+      "sha256": "f7516010aac843616723b74f5bc06c52522d2fed7da39f4f0a3364709fc04711",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/keycap_envelopes.step",
+      "bytes": 2607430,
+      "sha256": "47d1c72c43f093b614ed286d128985fc250ba6841569a55b4a111762f0cec217",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-FPC-coupon-B1-native.step",
+      "bytes": 375225,
+      "sha256": "9e9f9b2767440002927f850849781184d667c8b53d892c07af7bd1302e677c93",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-FPC-coupon-B1.glb",
+      "bytes": 470612,
+      "sha256": "d200f30a4586f2e739ae9adcdd146df843556dcd348452c6a41d7308fbd2fb21",
+      "checks": [
+        "sha256",
+        "GLB chunks/JSON"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-controller-B1-native.step",
+      "bytes": 98782,
+      "sha256": "1b977ffcdea7c8a561d5782d3d52ea37b58e7798ecbd28cc446924bc943f9e4d",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-controller-B1.glb",
+      "bytes": 2166360,
+      "sha256": "9bd60875a7d3b2fea56d45ece4b5bb8c8a3ea5b709602f2042624a4eab1d4a1b",
+      "checks": [
+        "sha256",
+        "GLB chunks/JSON"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-interposer-B1-native.step",
+      "bytes": 88228,
+      "sha256": "47485ec5633cfeb4b6483d78343c81338af575e256b160fd34147bf0b89bdb40",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-interposer-B1.glb",
+      "bytes": 1538036,
+      "sha256": "168ed38e48d1cf32709340b50eb18b42cf3dbb5c6c3f1d8122046e2b64da9087",
+      "checks": [
+        "sha256",
+        "GLB chunks/JSON"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-shaped-FPC-B1-native.step",
+      "bytes": 674361,
+      "sha256": "f5a673ad7a9a27a24c0118ca8dfe5778392c051d6365bec97f55ee0700fa245a",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/YAKB-shaped-FPC-B1.glb",
+      "bytes": 3168972,
+      "sha256": "884caded8ba5d952c0b583df064a6ef7759b6479e5f7145f6d13b4083bb13c79",
+      "checks": [
+        "sha256",
+        "GLB chunks/JSON"
+      ]
+    },
+    {
+      "path": "mechanical/modular/assembly_B1.step",
+      "bytes": 15854900,
+      "sha256": "1321157d61b7f47ce4fefe49bd6284e78ec270a50dbbf40483156418826f806e",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/case_base_B1.step",
+      "bytes": 1076119,
+      "sha256": "d654f26525901e7080cc51dd5f9a681c89e515d3e11e3df8cb82459d16f66a64",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/case_base_B1.stl",
+      "bytes": 964584,
+      "sha256": "b3639af035a10ea383435dbf202c4f4af3bc92a2b9d669bad9503180519d7af3",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/modular/case_base_B1_three_bay.step",
+      "bytes": 1170050,
+      "sha256": "fbbc3a07192c0ad7a4a282e231311fb156ef4839dc98870530765e76e53b47f0",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/case_base_B1_three_bay.stl",
+      "bytes": 969384,
+      "sha256": "d9df30e51142358d7cd2204ba6bfaa0b1b6b3119b3335303f061ebbd99068255",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/modular/controller_module_envelope.step",
+      "bytes": 15573,
+      "sha256": "8f0b03ff6959102326c1f17c2e279005bb660d27d19723ced0eb606431224841",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/controller_pcb.step",
+      "bytes": 30161,
+      "sha256": "d24e2fce191d7b8416ac2b932f4be88531289c0d2b1d8bc67f095230221745de",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/controller_populated.step",
+      "bytes": 351640,
+      "sha256": "69e004454dad9ab6606a098a922ddc6d1f85013068367a1f218a2c546cec2207",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/external_usb_plug_envelope.step",
+      "bytes": 15590,
+      "sha256": "2ad9ca7649ca5a5eed072b948351df9dcf11697f61eb49de4bf6ffb74f9eca67",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/fpc_mating_coupon_envelope.step",
+      "bytes": 1003967,
+      "sha256": "ac1d3759095d97261b69c8497582fbc7674e776aef53a605ec5f3d574ca824b3",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/interposer_pcb.step",
+      "bytes": 15600,
+      "sha256": "03c23f0c13744189947d7776f75c332886073573d9a4efd5334671441cb16d8d",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/interposer_populated.step",
+      "bytes": 225832,
+      "sha256": "7dceb6c5a42a1b9c118d1e07307d22fc96d2905e44568554101d16b4df752d44",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/pod_lid_B1.step",
+      "bytes": 73714,
+      "sha256": "e9ec096655b2736f14fa18fb8d7ec9fa6c65a094a276fb10ccbbe21a015bf92e",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/pod_lid_B1.stl",
+      "bytes": 102284,
+      "sha256": "f131a952b8e80c24d8122a73476c747ea11b87242d90739690c06322ccbc441c",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/modular/pod_screw_envelopes.step",
+      "bytes": 85236,
+      "sha256": "8823db59b27936b5e463e3adf3de05de73755fe8c13e3a1aa331a730ae1cb2ff",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/rear_pod_fit_coupon.step",
+      "bytes": 493655,
+      "sha256": "d420f8dab1ef7fc1e287d26ffef07bc573aef631fa4bf04b1884a18834446fae",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/modular/rear_pod_fit_coupon.stl",
+      "bytes": 313884,
+      "sha256": "ce84b0664b126b6eae976b7e719685ddbc9a0ea2a451634834c483e2938e5570",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/modular/shaped_fpc_envelope.step",
+      "bytes": 1815287,
+      "sha256": "957c87c32e284a8aede2defbfe584dd55b54d7c20e5fa129bbe7f6d0946706a2",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/module_envelope.step",
+      "bytes": 15636,
+      "sha256": "93a793dc6719463a5157ebe37a4bfb8515405f74b64f7d721f7e9a3b7cb9844b",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/niz_fit_coupon.step",
+      "bytes": 130014,
+      "sha256": "d3101f80fcccfdb52583aa303c03fc622976858c58c4938f3f904b56c31c0d2a",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/niz_fit_coupon.stl",
+      "bytes": 55884,
+      "sha256": "bc4a8db5c4af69b1cff405c24831f6c826d3c87be845cbc660e7943832668eec",
+      "checks": [
+        "sha256",
+        "Binary STL record integrity"
+      ]
+    },
+    {
+      "path": "mechanical/pcb_envelope.step",
+      "bytes": 111294,
+      "sha256": "0a65316167a8fab9f57341342540ffe29209bc79bd257d52f88e04382002f848",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/plate_case.dxf",
+      "bytes": 93139,
+      "sha256": "fc1321268ec9226437a0b074175916ba84abc20779e3b3bebc4f2b865d7fab64",
+      "checks": [
+        "sha256",
+        "DXF parse/audit"
+      ]
+    },
+    {
+      "path": "mechanical/plate_case.step",
+      "bytes": 2139847,
+      "sha256": "33859cd73515e34a3e761039bda95c8387dbbf2b40f8353ce7a6f2187f90cf26",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/plate_tray.dxf",
+      "bytes": 90406,
+      "sha256": "6f704fd211f7d613a89d66508924b0a3c85e0cffd0d04b75e7365034af6d23d3",
+      "checks": [
+        "sha256",
+        "DXF parse/audit"
+      ]
+    },
+    {
+      "path": "mechanical/plate_tray.step",
+      "bytes": 2061031,
+      "sha256": "5a478942a072bc9442715b1161022b31205d51848993784355d0de4fbbbb6cc4",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "mechanical/usb_plug_envelope.step",
+      "bytes": 15602,
+      "sha256": "d2b832abdc7daed2fa626382fe980f437049cfca898240f29b995bba751bea48",
+      "checks": [
+        "sha256",
+        "STEP exchange framing"
+      ]
+    },
+    {
+      "path": "reports/battery-study.json",
+      "bytes": 3249,
+      "sha256": "6a12964e8fdcfbadcac5a1cd82355fa9a193ba7fef8fba80d3e7384b3420a747",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/component-geometry.json",
+      "bytes": 443,
+      "sha256": "29496da3ddf37420c07f07aeaa50513f9f6d3429147fc780de98da4b8c08989b",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/design-checks.json",
+      "bytes": 1299,
+      "sha256": "2019bb79b01168ba3b7250c8fed3fc96d18a27647135524f37733bf297b5e4f7",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/drc.json",
+      "bytes": 1061,
+      "sha256": "90f6c6611325906c59043bf0009d80c502dbdc753be4d603d6c8e3ec112a423f",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/drill-report.txt",
+      "bytes": 919,
+      "sha256": "43f3b6f955caae02dea51ad019249e309f6b53d292bae9d183352450845a4403",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "reports/electrical-analysis.json",
+      "bytes": 3143,
+      "sha256": "76b0b7e4b3a5961596bb3b76d9913dac4a5b30c5f2a3f08af32bf08d7115551f",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/erc.json",
+      "bytes": 977,
+      "sha256": "12f13fba24d7a6051f19d10e118e76462c6a8b365f83dae1d94b07b43a8803ba",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/firmware-build.log",
+      "bytes": 30807,
+      "sha256": "380ac5d96a3a5e21f1ccb9494ceed5ec459fb2ae84f13f1b3c723f91ee42bc7d",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "reports/firmware-calibrator-build.log",
+      "bytes": 34197,
+      "sha256": "ddbaefc96ce87358f7df060ab9611dfa9bc6f35583020eeafe84dfe5a8da0280",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "reports/firmware-regression.json",
+      "bytes": 765,
+      "sha256": "2c497cc27896e231a377c475d10dad448bc1486ac396bd691c314147070e0795",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/firmware.json",
+      "bytes": 902,
+      "sha256": "bf7daab256cc16c8d4d80478a3e9d6b6e661ed48952088cddf3362b1f7475d47",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/hardware-checks.json",
+      "bytes": 532,
+      "sha256": "3784909ffd909e790e1e86ffef3ac319347053038aeb1afd7ee2be468af302a7",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/mechanical.json",
+      "bytes": 4825,
+      "sha256": "c9f390c47fe56a489808b42900f5f3a77a7faf8810eec77d3272a810e0092424",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular-electrical.json",
+      "bytes": 2912,
+      "sha256": "9fae0e99d12e746684b0b35a8b81f05cc5799f255f87060ced8cfc7ed5ada715",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular-mechanical.json",
+      "bytes": 5852,
+      "sha256": "e45e886459733e6744283d34a92b5fbeab774398b3c4c9c43caeae4f13387b0e",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-FPC-coupon-B1-drc.json",
+      "bytes": 1075,
+      "sha256": "e1008c77c1862691fe6465c32812e33e2c40661476da9ed6760ce5bfcbaa52c9",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-FPC-coupon-B1-erc.json",
+      "bytes": 991,
+      "sha256": "6a5de5fd22c87fbfd70d290671dc587464c65b39c6fb1d3bc6ed11011be86f7f",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-FPC-coupon-B1-net.xml",
+      "bytes": 12680,
+      "sha256": "0e36c27d8f1ddae4325d5264222f99fd2ecc504ab9db302f665e483cbc33095a",
+      "checks": [
+        "sha256",
+        "XML parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-controller-B1-drc.json",
+      "bytes": 1075,
+      "sha256": "11fdd1b38d3663157dd29a081378dce2a2bf0e3f77dd5741ceb0ec39af676662",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-controller-B1-erc.json",
+      "bytes": 991,
+      "sha256": "1d5d63ba34e0f46d8619619f877643a6d1bca8f3afd5afcdfe103458d0047693",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-controller-B1-net.xml",
+      "bytes": 14942,
+      "sha256": "e6dbc87699c55075450805ad4cb2749e8887c4bd8b2608781a142bbfe7667f2f",
+      "checks": [
+        "sha256",
+        "XML parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-interposer-B1-drc.json",
+      "bytes": 1075,
+      "sha256": "e1b03aeeedcfddc3841e13845b6476f0286f801dca2287d51e21b5d88f743415",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-interposer-B1-erc.json",
+      "bytes": 991,
+      "sha256": "956e542de211f7d9b9d0f198dbefb71da0ee5b2cf5be1f249e0abe33edcec4de",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-interposer-B1-net.xml",
+      "bytes": 13749,
+      "sha256": "8851ea28a550f052de5bc1af2643d63e2c1cab28c3416e6fca96b84cff46070f",
+      "checks": [
+        "sha256",
+        "XML parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-shaped-FPC-B1-drc.json",
+      "bytes": 1075,
+      "sha256": "7e695468ddfe6b7ade92bb95c64c36036eca72a12cf8c2235408a40520bb727e",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-shaped-FPC-B1-erc.json",
+      "bytes": 991,
+      "sha256": "be51ccf9e617296cceeb31ddbfae6b96903510d8ad08d7afabf3444fb62d2b24",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/YAKB-shaped-FPC-B1-net.xml",
+      "bytes": 12680,
+      "sha256": "619fd528ff62029ae981680002cb5ff21a6ca62c614076b47b8bcf9f205f3910",
+      "checks": [
+        "sha256",
+        "XML parse"
+      ]
+    },
+    {
+      "path": "reports/modular/connectivity.json",
+      "bytes": 14953,
+      "sha256": "d37c564d7fa000cf6f665969b3ee31c75ab4508e97a967605e2fee92b453e024",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/modular/sample-checks.json",
+      "bytes": 2856,
+      "sha256": "9ea8c2f9dce42363667d1d6651a62d8fb8997810b3b42e2227cfbc3a760956e3",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/pcb-connectivity.json",
+      "bytes": 22229,
+      "sha256": "a1d81d526e5e2b46569efb58433a445f788d87d148a18e9f8ffd878c4c3942c0",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/repository-native-checks.json",
+      "bytes": 4792,
+      "sha256": "d9c85e9994d36b051b51fde6d30936194b51ac4a2c2899f29fafb1b24ea6d152",
+      "checks": [
+        "sha256",
+        "JSON parse"
+      ]
+    },
+    {
+      "path": "reports/schematic.net.xml",
+      "bytes": 150868,
+      "sha256": "ee83b57246b714bb99d4f06bb7247db44d0a28b29c424afdfefc61dd46a36961",
+      "checks": [
+        "sha256",
+        "XML parse"
+      ]
+    },
+    {
+      "path": "requirements-cad.txt",
+      "bytes": 48,
+      "sha256": "465d5ded4bcc89b6e295e976115f3ceb730583d904bce85587a8f4f9527c111c",
+      "checks": [
+        "sha256"
+      ]
+    },
+    {
+      "path": "scripts/analyze_electrical.py",
+      "bytes": 3408,
+      "sha256": "7bf59df3c4cc1a0944c7b8be5f2c226cfd51a39d183c88443b8d60e364215ae7",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/analyze_modular.py",
+      "bytes": 2498,
+      "sha256": "b4be91631af7b7734417c6ab32d1f9bf53cedeeb42039b5c7b02368feb07631a",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/apply_routing.py",
+      "bytes": 2994,
+      "sha256": "6870eae19efe18902ec5a0ce088b057a0c2952846aabb76440c01046f7f048bc",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/circuit.py",
+      "bytes": 3510,
+      "sha256": "fb963c831e63353a6a6355126d415951b3d60b9d7b5cddbbf92bfd251749df5b",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/common.py",
+      "bytes": 1236,
+      "sha256": "d338e178b107b9476c43c4abe9bf687e41bfcbf29b2ad9063e8bbc33a5fd4ce3",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/export_fabrication.py",
+      "bytes": 1560,
+      "sha256": "c226cb5aff7f9dc05b90583ba25f87d8c99e76ebd0fe430cadfdf04afdb65eed",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/export_geometry.py",
+      "bytes": 1648,
+      "sha256": "4b3f2bccdf869476fcf1313c04fef90ae32d8f77ff069340dfa1b74831900cf5",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/export_modular.py",
+      "bytes": 4676,
+      "sha256": "23cf4218746e2fc5b6b38208f5efc7c0a1dd3c9fbb70901afe1d9a4aea98de13",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/export_pad_map.py",
+      "bytes": 3235,
+      "sha256": "219fa73076e19f0c26d9f2b1e3a12d031cf5e3fd34a98715e5e70a5e6f58c942",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/export_routing.py",
+      "bytes": 1923,
+      "sha256": "7c2eb93cd34cc1e17ee8cd1e5f8f3c04b95789c2f648bf0a5c8c2197f2342672",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/finish_modular_pcbs.py",
+      "bytes": 6472,
+      "sha256": "a20bdbbfdfa85eb81b949d34c280da953589082fb9872cc69c635a348e0a61ae",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_firmware.py",
+      "bytes": 5646,
+      "sha256": "403b6f1989df43e8f2240dabeb66e3ec44011eb38a1f0c19d52b6fefbca2e0a6",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_mechanical.py",
+      "bytes": 13224,
+      "sha256": "2449441228d6dc160086655183ee3c369dd2b1b38033000802b5d1f744999d4f",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_modular_flex.py",
+      "bytes": 3390,
+      "sha256": "013f751f5e4caf6fb99213e440f91e756dfd4bceada3d3f47151539145aa218c",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_modular_guide.py",
+      "bytes": 15042,
+      "sha256": "167024328339764654e82702758e77102d78e29f86f84c6e152a0b208e375894",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_modular_mechanical.py",
+      "bytes": 10899,
+      "sha256": "2cbac054f6aa9d490055fb4012729a0334cd579e515cd44c681cf3b95f8c4533",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_modular_pcbs.py",
+      "bytes": 5759,
+      "sha256": "9257f99d7e6d630664d78d1a0a389eab325fbe0b8097cc9449d9d3d6c7230605",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_pcb.py",
+      "bytes": 7871,
+      "sha256": "083e0ab403ad6979e4a0809789482ab4cbea22cb5a647b51059023ed40428d9f",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "bytes": 6327,
+      "sha256": "418d0e8fdb1337bc6a9f74ec93e5890d039ef622d771267726c7ae43c2587a91",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/generate_soldering.py",
+      "bytes": 11883,
+      "sha256": "facd259f5160d8b7040919b17b8ad2aa9948977e076cae33c734b51a6ede4241",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/modular_common.py",
+      "bytes": 2830,
+      "sha256": "db918de737e0cd947728a7371586df9c7ea5e359b96a08833077b7c3dc308d3c",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/package_firmware.py",
+      "bytes": 4951,
+      "sha256": "38fd9f4c6722634053aa452f1eabd3042c1afbdcfb318d5c3d4dce2385fa205c",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/prepare_firmware.py",
+      "bytes": 1509,
+      "sha256": "041056713686eb4b9ef8dc1efd701b7fa611b4b55e5fac6250241def5f0cae79",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_blender.py",
+      "bytes": 7449,
+      "sha256": "2e6ed43fc0592c7f6e369ba8d3a616947768181a2dc72daa04eec8c9c0695854",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_cad.py",
+      "bytes": 5824,
+      "sha256": "9e5e5bb1cd219f72e9e0533545c6be9f35f01b5725053c2b89ab3479b5cde976",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_design.py",
+      "bytes": 4704,
+      "sha256": "531a70c99286ab1bf4f92e7d17f63cba29aa5de6122dd516a6b972cd020dce65",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_modular.py",
+      "bytes": 3055,
+      "sha256": "2b6b2cc38c21cd52c1ea3850d48274cf2cdc1c031e02fd8e909308b8a86db304",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_modular_blender.py",
+      "bytes": 6686,
+      "sha256": "3c73d6891fe0c22c9a193840cf6ebe07b6fd4d52780ac42f1c444ee421dec981",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_plan.py",
+      "bytes": 4173,
+      "sha256": "fa3e184f7d31c85776230c541453837cec2ce6a3a3facc3fd9fbf07c18124043",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/render_provenance.py",
+      "bytes": 483,
+      "sha256": "f65243fcffa547a8e9a1eafd55a06cd8026948e0fd359498d3043452f4f61600",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/sexpr.py",
+      "bytes": 526,
+      "sha256": "e10661b8e1868998bfe0c08a602d592391f4a240203b4aa7e64bb5e58e56e82c",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/study_batteries.py",
+      "bytes": 4984,
+      "sha256": "8d0f2a2ee393527e27f761de2077175851494abd8cc56afd9e0193707a9a8cf2",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/test_ec_driver.py",
+      "bytes": 11513,
+      "sha256": "1fe2780f7bd53aecdd133b2a218e358d1dd9baf98bf3cfaf4e58f51d129b4e63",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_adc_allocation.py",
+      "bytes": 1356,
+      "sha256": "ce8c1fcab281948f42cec0fee7fe33b3651dfe0a77ae1bb3de8e57fadcf871b1",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_design.py",
+      "bytes": 4213,
+      "sha256": "1512f00fff5af0b3142691c121eda9a5fed7605e25ac41a990df5efaf324974f",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_hardware.py",
+      "bytes": 3456,
+      "sha256": "e700f2765ca4fcf2839a3c140eecc7ed94d7cc3157d7f0d472fd16ae36783659",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_interface_samples.py",
+      "bytes": 3687,
+      "sha256": "c573d69ce0b08aa6773ce774dff959fb21da458e256735195c8b488155fc1b44",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_mechanical_frame.py",
+      "bytes": 854,
+      "sha256": "73656105b82ed24da62e6ea07a32a50c5eab18f3bf142515115b39021ec3b0e6",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_modular.py",
+      "bytes": 8135,
+      "sha256": "c727db5b0badf383254596a8a685ef8c46a9872f44fa04b8fb795d2a3f7b3a2b",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_modular_release.py",
+      "bytes": 3706,
+      "sha256": "44cede5279e2bde835f8349e058945d38c50e8998a60c0289901352dd8427a26",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 2805,
+      "sha256": "d5d6a774dcc9b70b3b444a2d6a1786436f5f31bc5834b780d2e6bf2bdc07fc42",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "bytes": 14873,
+      "sha256": "bd29323b2d0d89d1338647e37eecf55b7fe472888fb93b07d9c6570b4aef21e1",
+      "checks": [
+        "sha256",
+        "Python AST parse"
+      ]
+    }
+  ]
+}

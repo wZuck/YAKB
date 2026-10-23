@@ -1,6 +1,6 @@
 # YAKB A0 design
 
-> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+> **B1.1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
 
 [简体中文完整说明](design.zh-CN.md). Date: 2026-10-22. **YAKB — Yet Another KeyBoard** is an engineering prototype with editable electrical and mechanical sources. The reports distinguish file-level checks from physical validation.
 
@@ -22,13 +22,13 @@ Columns are the integer 1u bins containing the key centers, leaving gaps in some
 
 Each key needs a housing, slider, silencing ring, dome and sensing conical spring. The official NiZ switch pack does not establish that domes or conical springs are included. Pressure-boost springs are not sensing springs. Use individually positioned domes or a deliberately adapted sheet matching this layout.
 
-The initial NiZ plate is 1.6 mm thick with 14.0 mm R0.5 openings, based on Tako. Check 13.9/14.0/14.1 mm coupons in the final material and process. FDM coupons only establish rough fit. Stainless steel or FR4 is preferred for a full functional plate. The proposed Cherry-style plate-stabilizer cutouts are not approved for every vendor; test the latch, wire and NiZ housing interaction before cutting a complete plate.
+The initial NiZ plate is 1.6 mm thick with 14.0 mm R0.5 openings, based on Tako. Check 13.9/14.0/14.1 mm coupons in the final material and process. FDM coupons only establish rough fit. Copper-free 1.6 mm FR4/G10 is preferred for a functional plate. Metal plates require the antenna window and renewed RF qualification. The proposed Cherry-style plate-stabilizer cutouts are not approved for every vendor; test the latch, wire and NiZ housing interaction before cutting a complete plate.
 
 ![Generated plate geometry](../assets/plate-render.png)
 
 ## Shared dimensions and assembly
 
-The PCB rear-left frame corner is (0,0), x points right, y toward the typist, and PCB top is z=0. CAD and DXF preserve the same coordinates without mirroring. DXF's conventional screen orientation may look inverted; identify Esc and Fn before changing orientation.
+The PCB rear-left frame corner is (0,0), x points right, y toward the typist, and PCB top is z=0. These are the JSON, PCB and construction-report coordinates. Delivered STEP/STL/DXF use X right, Y rear, Z up, applying CAD Y=-construction y once. Rendering reads the delivered solids without another reflection; printable base STL additionally rotates the floor onto the bed. The table below retains construction coordinates; negate y when locating features in delivered CAD.
 
 | Item | Design envelope |
 | --- | --- |
@@ -36,7 +36,7 @@ The PCB rear-left frame corner is (0,0), x points right, y toward the typist, an
 | Pitch / first 1u center | 19.05 mm / (9.15,9.20) |
 | Plate | bottom z=6.0, top z=7.6; tray envelope 285 × 94.6; own-case version 295 × 104.6 |
 | Controller/socket | ~33.5 × 18 mm, 6.5 mm downward protrusion; bottom z=-8.1 |
-| Complete protected cell | ≤60 × 35 × 5.5 mm; z=-11.144…-4.456 |
+| Complete protected cell | ≤60 × 35 × 5.5 mm; z=-11.144…-4.456; minimum base gap about 0.526 mm including any insulation/retention |
 | Cell bay | 64 × 39 × 7 mm |
 | Case | 299 × 108.6 mm; 2.4 mm sloped floor, rear outside z=-14.5 / front outside z=-10.8 |
 | Bezel | z=7.6…10.6; nominal shell front 21.4 / rear 25.1 mm excluding feet/keycaps |
@@ -61,13 +61,13 @@ OPA350 typically draws about 5.2 mA; choosing ZMK alone does not make EC consump
 
 Initial waits are 4/8/12 ms for active/idle/long-idle operation, with 200µs amplifier warm-up, 10µs discharge settling and 5µs pre-ADC settling. These intervals do not guarantee a 250 Hz frame rate or a particular BLE latency. Measure complete frames under radio activity. The reviewed patch restores fast polling on the first raw transition while retaining the two-frame press filter; pulses shorter than a frame interval can still be missed. Deep sleep is disabled until a separate reliable wake path exists.
 
-At an assumed 80% usable capacity, a 1000 mAh pack gives 100/800/5333 hours for **assumed average currents** of 8/1/0.15 mA. These are mathematical scenarios, not measured typing/standby runtime. Measure at the cell under USB, charging, BLE, typing, idle and slow-scan conditions.
+At 80% usable capacity, the A0 midpoint scenarios are about 3.92 mA / 204 hours active and 1.96 mA / 408 hours long idle, or 12.8 days at 8 active plus 16 long-idle hours daily. B1 separately adds FPC/ADC filter loads. These are unmeasured estimates; see the [power model](electrical-analysis.md) and [B1 analysis](modular/README.md), then recalculate using measured cell-side current.
 
 ZMK and the EC module are pinned; see the frozen west manifest, prebuilt UF2 files and build reports. Build success does not prove on-board analog performance. Use the calibrator to record empty/full values, noise, thresholds and hysteresis for the 60 valid positions, save explicitly and verify cold-start restoration. Test startup with a held key, short taps, slow release, chords, long holds and USB/BLE transitions. Fn+1/2/3 select BLE profiles, Fn+4 clears the current profile, Fn+H/J/K/L are arrows, and Fn+Esc enters the bootloader.
 
 See the [soldering workbench](../hardware/soldering/index.html), [soldering order](soldering-guide.md), [compatibility](compatibility.md) and [reproduction](reproduce.md). No physical fit, RF, thermal or battery-life pass is claimed without a first-article record.
 
-The revised original case uses R8 corners, a recessed lower skirt and a 1.95° wedge floor. Nominal shell front height falls from 25.1 to 21.0 mm; rear remains 25.1 mm. The cell follows the floor slope. The base STL is rotated flat for printing; STEP retains the shared PCB datum. See [case design](case-design.md).
+The revised original case uses R8 corners, a recessed lower skirt and a 1.95° wedge floor. Nominal shell front height falls from 25.1 to 21.4 mm; rear remains 25.1 mm. The cell follows the floor slope. The base STL is rotated flat for printing; STEP retains the shared PCB datum. See [case design](case-design.md).
 
 The PCB uses four copper layers to retain 40 hand-solder positions and generous component spacing. Ordinary traces are 0.2 mm with 0.15 mm minimum necks and 0.2 mm clearance. Inner routing and pours are excluded within a 6 mm radius of each sensing center; existing through vias are permitted. The RF keepout covers every copper layer. No solid inner power/ground planes are added. Thickness stays 1.6 mm; noise and dynamic range require hardware measurements.
 

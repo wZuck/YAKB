@@ -1,12 +1,15 @@
 # YAKB B1.1：独立主控载板 + 异形 FPC
 
-[English](README.md) · [接口逐针表](../../hardware/modular/FPC-pinout.csv) · [B1 焊接工作台](../../hardware/soldering/b1/index.html) · [增量 BOM](../../hardware/modular/BOM-B1.csv)
+[English](README.md) · [接口逐针表](../../hardware/modular/FPC-pinout.csv) · [B1 焊接工作台](../../hardware/soldering/b1/index.html) · [合并电子 BOM](../../hardware/modular/BOM-B1-complete.csv) · [增量 BOM](../../hardware/modular/BOM-B1.csv)
 
 B1 将 nice!nano 从主板右前方移到后左侧独立载板。USB-C 从后左角的**左侧面**直接插入模块，不再依赖内部 USB 延长线。主板只保留静电容扫描前端；原 U1 位置安装无源转接板，**不能再安装第二块主控**。现有 A0 主板、HHKB 上框和定位板可继续使用，B1 使用专用底壳与后舱盖。
 
 这是可审查的工程原型文件，尚未实物验证。特别是连接器插接尺寸、FPC 补强、模块安装高度和 USB 插头实配，必须在制造整机前完成核对。Gerber 可用于询价和工程样件，不能当成已经量产验证。
 
 ![B1 实际 CAD 总装](../../assets/modular/B1-closed.png)
+
+
+采购与装配使用[合并电子 BOM](../../hardware/modular/BOM-B1-complete.csv)，另配[模块 / 外壳增量 BOM](../../hardware/modular/BOM-B1.csv)。46 个实装板位 / 接线位置之外另有 1 条 FPC，主板 U1 禁装、60 个电极免焊；数量按装配位置计，JMAIN 一组包含 24 根针。各小板 CSV 坐标取原生封装原点，不取焊盘平均值；JMAIN 原点为 (0,0)，引脚组中心为 (20,9.5)。完整版本关系见[文件版本表](../file-map.zh-CN.md)。
 
 ## 文件与结构
 
@@ -63,7 +66,7 @@ A 端功能顺序：`GND, VCC, GND, ROW0…ROW4, GND, MUX_A, MUX_B, MUX_C, MUX0_
 
 以铜电阻率 0.01724 Ω·mm²/m、0.23 m、0.15×0.035 mm² 截面估算，每根约 0.76 Ω；两根 BAT_SW 和七根均匀分流 GND 的理想回路约 0.49 Ω，100 mA 时约 49 mV / 4.9 mW，另加接插件、刚性板走线和插针。实际回流不一定均分。仅按七根地线均分，100 mA 充电也可能在两板地之间产生约 11 mV 的直流差，ADC 可能看到基线偏移；必须比较充电、纯 USB、纯电池三种状态的空载/按下分布，不能只测静态连通。正极压降也会影响电芯端恒压尾段和电量读数，应在电芯端测量。默认充电仍为约 **100 mA，BOOST 不桥接**；不可按触点 1 A 的额定值提高充电电流。
 
-新增电阻/电容不引入明显直流静态负载；软板电容及 RF 重试会增加动态功耗。以 12 根数字线、每根 10–100 pF、5 kHz 有效充放电频率和 3.3 V 作假设，额外平均电流约 2–20 µA，不能当成实测上限。另外，按 7 ms 帧周期、每帧 60 次完整 3.3 V 充放电的保守假设，1 nF ADC 滤波电容另计约 28 µA；实际摆幅通常更小，这也不是实测上限。加到 A0 的约 4.03 mA 活动中间估计后，1000 mAh / 80% 可用容量约为 196–197 小时连续活动；B1 未实测，不承诺续航改善。大电池包继续只用工厂成组、单保护板的 1S2P/1S3P，禁止自行并联独立电芯。
+新增电阻/电容不引入明显直流静态负载；软板电容及 RF 重试会增加动态功耗。以 12 根数字线、每根 10–100 pF、5 kHz 有效充放电频率和 3.3 V 作假设，额外平均电流约 2–20 µA，不能当成实测上限。另外，按 7 ms 帧周期、每帧 60 次完整 3.3 V 充放电的保守假设，1 nF ADC 滤波电容另计约 28 µA；实际摆幅通常更小，这也不是实测上限。加到 A0 的约 3.92 mA 活动中间估计后，1000 mAh / 80% 可用容量约为 202–203 小时连续活动；B1 未实测，不承诺续航改善。大电池包继续只用工厂成组、单保护板的 1S2P/1S3P，禁止自行并联独立电芯。
 
 原生检查覆盖连接、24 路跨板映射、原 U1 孔位、布线和所选 CAD 净空，见 [电气报告](../../reports/modular/) 与 [机械报告](../../reports/modular-mechanical.json)。ERC 使用物理管脚的 passive 符号，并不重新审核 nice!nano 内部电路。未仿真阻抗/EMC，也未完成 NiZ、充电、无线、插接与打印公差实测。
 
@@ -75,4 +78,4 @@ A 端功能顺序：`GND, VCC, GND, ROW0…ROW4, GND, MUX_A, MUX_B, MUX_C, MUX0_
 1. KiCad Python 运行 `scripts/generate_modular_pcbs.py`，生成未布线源与 DSN；用 FreeRouting 路由两个 DSN，生成同名 SES（需要人工保留安装孔和天线禁布区）。
 2. KiCad Python 依次运行 `scripts/finish_modular_pcbs.py`、`scripts/generate_modular_flex.py`（同时生成短试片）；前者从 `.render-cache/*-unrouted.kicad_pcb` 导入 SES，不会叠加旧走线。
 3. 项目 `.venv/bin/python scripts/export_modular.py` 进行原生检查、导出加工及 GLB/STEP；KiCad Python 运行 `scripts/verify_modular.py` 检查逐针连接并提取原生图形。
-4. 项目 Python 依次运行 `scripts/generate_modular_mechanical.py`、`scripts/render_modular.py`、`scripts/generate_modular_guide.py`。Blender 路径位于渲染脚本，其他运行时要求同 [复现说明](../reproduce.zh-CN.md)。
+4. 项目 Python 依次运行 `scripts/generate_modular_mechanical.py`、`scripts/verify_interface_samples.py`、`scripts/render_modular.py`，再运行 `scripts/generate_soldering.py` 和 `scripts/generate_modular_guide.py`，分别刷新基础及 B1 指南。KiCad Python 另运行 `scripts/analyze_modular.py`；最后运行项目 Python 的 `scripts/verify_release.py`、`scripts/verify_modular_release.py` 与 `scripts/verify_repository.py --native`。Blender 路径位于渲染脚本，其他运行时要求同 [复现说明](../reproduce.zh-CN.md)。

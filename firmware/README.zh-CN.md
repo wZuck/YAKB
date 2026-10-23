@@ -1,5 +1,7 @@
 # YAKB ZMK 固件
 
+本固件同时用于 A0 与 B1.1：GPIO 和矩阵未变，`yakb-a0` 文件名保留 shield / 构建标识。B1.1 只在独立载板装一个 nice!nano，主板 U1 禁装主控；新增模拟滤波后重新校准。
+
 [English](README.md) · [完整复现记录](../docs/reproduce.zh-CN.md)
 
 主控固定为 **nice!nano v2 / nRF52840**。`prebuilt/yakb-a0.uf2` 为键盘版，`prebuilt/yakb-a0-calibrator.uf2` 为 USB CDC 校准版；SHA256 见 `prebuilt/SHA256SUMS`。两者均已编译，尚未上板测试。

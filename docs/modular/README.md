@@ -1,12 +1,15 @@
 # YAKB B1.1: separate controller carrier and shaped FPC
 
-[中文](README.zh-CN.md) · [Pin table](../../hardware/modular/FPC-pinout.csv) · [B1 soldering workbench](../../hardware/soldering/b1/index.html) · [Incremental BOM](../../hardware/modular/BOM-B1.csv)
+[中文](README.zh-CN.md) · [Pin table](../../hardware/modular/FPC-pinout.csv) · [B1 soldering workbench](../../hardware/soldering/b1/index.html) · [Module/case delta BOM](../../hardware/modular/BOM-B1.csv)
 
 B1 moves the nice!nano from underneath the front-right of the sensor PCB to a separate rear-left carrier. USB-C plugs directly into the module through the **left side at the rear corner**, removing the internal USB extension. A passive interposer occupies the original U1 holes; **do not install another MCU on the mainboard**. Keep the A0 sensor PCB, HHKB bezel and plate, and use the B1 base and pod lid.
 
 These are reviewable engineering prototype files. Connector mating dimensions, FPC stiffeners, module mounting height and USB plug fit still require qualification before making a complete keyboard. Gerbers support quotation and engineering samples; they are not a production approval.
 
 ![B1 saved CAD assembly](../../assets/modular/B1-closed.png)
+
+
+Use the [consolidated electronics BOM](../../hardware/modular/BOM-B1-complete.csv) plus the [module/case delta BOM](../../hardware/modular/BOM-B1.csv). There are 46 populated board/harness positions plus one FPC, one mainboard-U1 DNP and 60 unsoldered electrodes. Quantities count assemblies; JMAIN is one group of 24 pins. Small-board CSV coordinates are native footprint origins, not pad centroids; JMAIN origin is (0,0), with pin-group centre (20,9.5). See the [file/revision map](../file-map.md).
 
 ## Parts and files
 
@@ -63,7 +66,7 @@ About 0.23 m of flex places digital controls beside the buffered analog output. 
 
 With copper resistivity 0.01724 Ω·mm²/m, length 0.23 m and section 0.15×0.035 mm², each conductor is about 0.76 Ω. Ideal equal current sharing gives about 0.49 Ω through two BAT_SW and seven GND conductors: approximately 49 mV/4.9 mW at 100 mA, plus connectors, pins and rigid traces. Actual return currents need not share equally. Even ideal sharing through seven ground conductors gives about 11 mV between board grounds at 100 mA charging, potentially shifting ADC baselines. Compare unloaded/pressed distributions during charging, USB-only and battery-only operation; continuity alone is insufficient. Positive-wire drop also affects the cell-side CV tail and battery readings, so measure at the cell. Keep charging at approximately **100 mA, BOOST open**; a contact's 1 A rating does not authorize a higher charge current.
 
-The new passives add no substantial DC load. Flex capacitance and RF retries add dynamic consumption. Assuming twelve digital conductors, 10–100 pF each, 5 kHz effective charging frequency and 3.3 V gives roughly 2–20 µA extra average current; this is not a measured upper bound. A conservative assumption of sixty full 3.3 V charge/discharge cycles per 7 ms frame adds about 28 µA for the 1 nF ADC filter; actual swings are usually smaller, and this is not a measured bound. Adding these terms to the A0 activity midpoint of 4.03 mA gives about 196–197 continuous hours from 1000 mAh at 80% usable capacity. B1 has no measured runtime improvement. Optional multi-cell packs must remain factory-built protected 1S2P/1S3P assemblies; do not parallel loose cells.
+The new passives add no substantial DC load. Flex capacitance and RF retries add dynamic consumption. Assuming twelve digital conductors, 10–100 pF each, 5 kHz effective charging frequency and 3.3 V gives roughly 2–20 µA extra average current; this is not a measured upper bound. A conservative assumption of sixty full 3.3 V charge/discharge cycles per 7 ms frame adds about 28 µA for the 1 nF ADC filter; actual swings are usually smaller, and this is not a measured bound. Adding these terms to the A0 activity midpoint of 3.92 mA gives about 202–203 continuous hours from 1000 mAh at 80% usable capacity. B1 has no measured runtime improvement. Optional multi-cell packs must remain factory-built protected 1S2P/1S3P assemblies; do not parallel loose cells.
 
 [Native reports](../../reports/modular/) verify connections, all 24 cable paths, original U1 hole alignment and layout. [Mechanical checks](../../reports/modular-mechanical.json) cover the selected solids. Passive physical-pin schematic symbols check connectivity, not nice!nano's internal circuitry. No impedance/EMC simulation or physical NiZ, charging, RF, mating or print-tolerance qualification has been completed.
 
@@ -75,4 +78,4 @@ The [B1 electrical calculation](../../reports/modular-electrical.json) uses save
 1. Run `scripts/generate_modular_pcbs.py` with KiCad Python; route its two DSNs using FreeRouting to matching SES files, respecting hole and RF keepouts.
 2. Run `scripts/finish_modular_pcbs.py`, then `scripts/generate_modular_flex.py` (also generates the short coupon) with KiCad Python. Route import reads `.render-cache/*-unrouted.kicad_pcb`, avoiding duplicate tracks.
 3. Run `.venv/bin/python scripts/export_modular.py` for native checks/manufacturing/GLB/STEP, then KiCad Python `scripts/verify_modular.py` for pad-chain verification and native drawing extraction.
-4. Run project Python scripts `generate_modular_mechanical.py`, `render_modular.py`, then `generate_modular_guide.py` in order. The Blender path is in the renderer; see [runtime instructions](../reproduce.md).
+4. Run project Python `generate_modular_mechanical.py`, `verify_interface_samples.py`, `render_modular.py`, `generate_soldering.py` and `generate_modular_guide.py` in order. Run KiCad Python `analyze_modular.py` after refreshing the baseline power analysis. Final project-Python checks: `verify_release.py`, `verify_modular_release.py` and `verify_repository.py --native`. The Blender path is in the renderer; see [runtime instructions](../reproduce.md).

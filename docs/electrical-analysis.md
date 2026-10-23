@@ -1,6 +1,6 @@
 # Electrical integrity, interference and power budget
 
-> **B1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
+> **B1.1 update:** This document describes the A0 baseline. Use the [B1 notes](modular/README.md) for the separate controller, direct USB, new base, FPC and assembly differences. Do not populate the A0 U1 MCU in B1.
 
 [简体中文](electrical-analysis.zh-CN.md) · [Calculated data](../reports/electrical-analysis.json) · [Battery options](battery-options.md)
 
@@ -38,15 +38,17 @@ Scenarios use 2/3/6 ms frames, 8.2/8.7/13.5 mA during scanning and 0.1/0.25/0.6 
 
 The first-order battery-current budget approximates VCC input/output current as equal; actual regulation efficiency, temperature and radio duty require measurement. It includes conservative full charging of the switched 100 nF capacitor each frame:
 
-`Iavg = Ibackground + Iactive*tframe/(tframe+twait) + 0.1µF*3.3V/(tframe+twait)`
+Scan current is the total during a frame; background current is weighted only over the wait interval to avoid counting it twice.
+
+`Iavg = (Ibackground × twait + Iscan_total × tframe + 0.1µF × 3.3V)/(tframe+twait)`
 
 | State | Wait | Scenario range | Central estimate | Central runtime, 1000 mAh / 80% usable |
 | --- | --- | --- | --- | --- |
-| Active | 4 ms | 2.89–8.73 mA | 4.03 mA | 199 h / 8.3 days continuous |
-| Idle | 8 ms | 1.77–6.41 mA | 2.65 mA | 302 h / 12.6 days |
-| Long idle | 12 ms | 1.30–5.12 mA | 2.01 mA | 398 h / 16.6 days |
+| Active | 4 ms | 2.85–8.37 mA | 3.92 mA | 204 h / 8.5 days |
+| Idle | 8 ms | 1.75–6.15 mA | 2.58 mA | 310 h / 12.9 days |
+| Long idle | 12 ms | 1.28–4.92 mA | 1.96 mA | 408 h / 17.0 days |
 
-Eight active hours and sixteen long-idle hours per day gives about **12.4 days per 1000 mAh** centrally. 500 mAh halves it; 2000/3000 mAh doubles/triples it only if current is unchanged. These are scenarios, not guaranteed bounds; frames above 6 ms or frequent retries can exceed them. Deep sleep remains disabled, so months of standby are not claimed.
+Eight active hours and sixteen long-idle hours per day gives about **12.8 days per 1000 mAh** centrally. 500 mAh halves it; 2000/3000 mAh doubles/triples it only if current is unchanged. These are scenarios, not guaranteed bounds; frames above 6 ms or frequent retries can exceed them. Deep sleep remains disabled, so months of standby are not claimed.
 
 At the default approximately 100 mA charge current, ideal constant-current lower bounds for 1000/2000/3000 mAh are 10/20/30 hours. Real charging takes longer due to taper and operating load. Increasing charge current requires cell, protection, wiring and temperature review. [nice!nano FAQ](https://nicekeyboards.com/docs/nice-nano/faq/)
 

@@ -1,5 +1,7 @@
 # Revised case: a lower front and softer side profile
 
+> **Scope: A0 baseline / historical record.** The current assembly is B1.1; use the [B1.1 notes](modular/README.md) and [file/revision map](file-map.md) for the separate controller, direct USB, dedicated base and FPC. Do not populate the mainboard U1 MCU.
+
 [简体中文](case-design.zh-CN.md) · [Compatibility](compatibility.md)
 
 The first case was a straight-sided, 25.1 mm constant-height box. The actual CAD now uses **R8 corners, a recessed lower skirt and a shallow wedge floor**.
@@ -9,7 +11,7 @@ The first case was a straight-sided, 25.1 mm constant-height box. The actual CAD
 | Item | First design | Current design |
 | --- | --- | --- |
 | Plan envelope | 301×110.6 mm | 299×108.6 mm |
-| Nominal shell front height, no feet/caps | 25.1 mm | 21.0 mm, 3.7 mm / about 15% lower |
+| Nominal shell front height, no feet/caps | 25.1 mm | 21.4 mm, 3.7 mm / about 15% lower |
 | Nominal rear height | 25.1 mm | 25.1 mm |
 | Floor | Flat | 1.95° slope |
 | Plan corners | R5 | R8 |
@@ -20,7 +22,7 @@ The first case was a straight-sided, 25.1 mm constant-height box. The actual CAD
 
 ![CAD side profile](../assets/case-side-render.png)
 
-The nominal heights use the top surface and extended floor plane in the shared PCB-top z=0 frame. Rounded corners and the skirt remove lower-edge material. Floor thickness is 2.4 mm; outside floor z=-10.8 at front and -14.5 at rear. The front-right socketable controller still needs roughly 0.5 mm model clearance. Further reduction requires changing controller/socket packaging or internal layout.
+Coordinate values below use construction y; negate y in delivered CAD. The nominal heights use the top surface and extended floor plane in the shared PCB-top z=0 frame. Rounded corners and the skirt remove lower-edge material. Floor thickness is 2.4 mm; outside floor z=-10.8 at front and -14.5 at rear. The front-right socketable controller still needs roughly 0.5 mm model clearance. Further reduction requires changing controller/socket packaging or internal layout.
 
 The complete protected cell remains ≤60×35×5.5 mm. It is tilted as a rigid pack with the floor, never bent. Its transformed bounding box is approximately x=114…174, y=5.417…40.584, z=-11.144…-4.456. Match retention thickness to the actual pack without compressing it.
 

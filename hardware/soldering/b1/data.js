@@ -51,8 +51,8 @@ window.YAKB_GUIDE = {
         "R4",
         "R5"
       ],
-      "image": "../step-01.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-01.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-02",
@@ -111,8 +111,8 @@ window.YAKB_GUIDE = {
         "R34",
         "R35"
       ],
-      "image": "../step-02.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-02.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-03",
@@ -139,8 +139,8 @@ window.YAKB_GUIDE = {
         "R32",
         "R36"
       ],
-      "image": "../step-03.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-03.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-04",
@@ -167,8 +167,8 @@ window.YAKB_GUIDE = {
         "C2",
         "C3"
       ],
-      "image": "../step-04.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-04.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-05",
@@ -191,8 +191,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "C4"
       ],
-      "image": "../step-05.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-05.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-06",
@@ -215,8 +215,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "C5"
       ],
-      "image": "../step-06.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-06.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-07",
@@ -242,8 +242,8 @@ window.YAKB_GUIDE = {
         "U2",
         "U3"
       ],
-      "image": "../step-07.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-07.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-08",
@@ -267,8 +267,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "U4"
       ],
-      "image": "../step-08.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-08.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-09",
@@ -292,8 +292,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "Q1"
       ],
-      "image": "../step-09.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-09.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-10",
@@ -316,8 +316,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "J1"
       ],
-      "image": "../step-10.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-10.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-11",
@@ -341,8 +341,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "SW1"
       ],
-      "image": "../step-11.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-11.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-12",
@@ -365,8 +365,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "SW2"
       ],
-      "image": "../step-12.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-12.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-13",
@@ -388,7 +388,7 @@ window.YAKB_GUIDE = {
         "用绝缘夹具保持主板底面到转接板顶面2.6mm净距，焊24根直针后剪齐。",
         "转接板JF1与47Ω朝主板，按原生孔位安装，不翻转焊盘顺序。"
       ],
-      "checkpoint": "未取得连接器插接图或小样实配前，停止软板采购。",
+      "checkpoint": "厂家端部图已录入；先加工短FPC试片，实配通过后才加工整条软板。",
       "count": "3 类 / 位置",
       "parts": [
         "I.R1",
@@ -500,8 +500,8 @@ window.YAKB_GUIDE = {
       "parts": [
         "断电操作"
       ],
-      "image": "../step-14.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-17.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-18",
@@ -534,8 +534,8 @@ window.YAKB_GUIDE = {
         "U4",
         "Q1"
       ],
-      "image": "../step-15.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-18.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / BACK VIEW / ALREADY MIRRORED"
     },
     {
       "id": "b1-step-19",
@@ -543,7 +543,7 @@ window.YAKB_GUIDE = {
       "phase": "P4",
       "phaseTitle": "通电与装配",
       "color": "#8c5e21",
-      "title": "小组静电容试装与校准",
+      "title": "小组静电容波形检查",
       "subtitle": "4-KEY BRING-UP",
       "refs": [
         "EC1",
@@ -554,10 +554,10 @@ window.YAKB_GUIDE = {
       "summary": "先验证少量真实NiZ机构，减少故障定位变量。",
       "instructions": [
         "装配高度固定在设计值，锥簧自然落在电极中心。",
-        "测试mask必须对应实际已装位置。",
-        "启用EC校准器，用ec命令补全查设备名，再start/save/load。"
+        "预编译固件保留60个有效键；少量试装先观察波形和噪声，不对未装位置执行完整校准。",
+        "装齐60键后再运行ec kscan0 calibration start/export/save，断电重启核对恢复；少键校准须另做有效位置匹配的测试固件。"
       ],
-      "checkpoint": "通过按下、释放、噪声和冷启动检查后才扩展到全部60键。",
+      "checkpoint": "通过按下/释放波形与噪声检查后才扩展到全部60键。",
       "count": "检查 / 装配",
       "parts": [
         "EC1",
@@ -565,8 +565,8 @@ window.YAKB_GUIDE = {
         "EC3",
         "EC4"
       ],
-      "image": "../step-16.png",
-      "imageNote": "ACTUAL PCB PAD POSITIONS · white ring = pad 1"
+      "image": "step-19.png",
+      "imageNote": "MAINBOARD NATIVE GEOMETRY / TOP VIEW"
     },
     {
       "id": "b1-step-20",
@@ -580,7 +580,7 @@ window.YAKB_GUIDE = {
       "summary": "确认极性、外包络和充电路径。",
       "instructions": [
         "断开USB，实体开关关闭，测插头与J1-1相配的端子为正。",
-        "整个电芯包络≤60×35×5.5mm，包含保护板及出线。",
+        "单芯完整包络≤60×35×5.5mm；多芯包按每个电芯仓及独立保护板空间核对，包含封边、绝缘与出线。",
         "打开开关测电流并验证BLE，再接USB检查充电温升。",
         "分别记录充电、纯USB、纯电池时ADC空载和按下分布；FPC地线压降可能使基线偏移。"
       ],
@@ -607,7 +607,7 @@ window.YAKB_GUIDE = {
         "后舱盖用底部2颗M2×16和2颗3mm嵌件锁入，螺丝头≤Ø3.8×2mm。",
         "保留A0上框8颗底部隐藏螺丝：后3颗M2×20、两侧2颗M2×18、前3颗M2×16。",
         "主板转接处必须绝缘定高，FPC不受拉、不压电池，不侵入载板天线禁布区。",
-        "只使用工厂成组并带单保护板的1S2P/1S3P包；单路接J1。",
+        "单芯使用带保护1S包；多芯只使用工厂成组并带单保护板的1S2P/1S3P包；单路接J1。",
         "左挡块1.5u、右挡块2.5u；最后安装全部NiZ机构并校准60键。",
         "先用rear_pod_fit_coupon.stl和现有后舱盖验证：插头塑料包络≤12×8mm，壳孔14×10mm；量实物USB口中心和凹入深度，不能只看模型。",
         "USB从后左角左侧直接接入主控；闭壳检查插拔、充电温升和BLE输入。"
@@ -628,11 +628,11 @@ window.YAKB_GUIDE = {
       "phase": "P3",
       "value": "DNP — install interposer only",
       "footprint": "nice_nano",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 通孔",
       "x": 260.0,
       "y": 85.0,
       "note": "B1不装主控；此处接I.JMAIN",
-      "type": "populate",
+      "type": "dnp",
       "nets": "ROW_DRV1 ROW_DRV0 ROW_DRV2 ROW_DRV3 ROW_DRV4 MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N ADC GND GND VCC RESET GND BAT_SW"
     },
     {
@@ -641,7 +641,7 @@ window.YAKB_GUIDE = {
       "phase": "P2",
       "value": "CD74HC4051M96",
       "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 105,
       "y": 84,
       "note": "核对1脚和型号",
@@ -654,7 +654,7 @@ window.YAKB_GUIDE = {
       "phase": "P2",
       "value": "CD74HC4051M96",
       "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 170,
       "y": 84,
       "note": "核对1脚和型号",
@@ -667,7 +667,7 @@ window.YAKB_GUIDE = {
       "phase": "P2",
       "value": "OPA350UA",
       "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 217,
       "y": 84,
       "note": "核对1脚和型号",
@@ -680,7 +680,7 @@ window.YAKB_GUIDE = {
       "phase": "P2",
       "value": "AO3401A",
       "footprint": "SOT-23",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 207,
       "y": 84,
       "note": "1=G，2=S/VCC，3=D/AFE",
@@ -693,7 +693,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 40,
       "y": 78,
       "note": "无极性；核对数值",
@@ -706,7 +706,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 46,
       "y": 78,
       "note": "无极性；核对数值",
@@ -719,7 +719,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 52,
       "y": 78,
       "note": "无极性；核对数值",
@@ -732,7 +732,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 58,
       "y": 78,
       "note": "无极性；核对数值",
@@ -745,7 +745,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 64,
       "y": 78,
       "note": "无极性；核对数值",
@@ -758,7 +758,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 119,
       "y": 78,
       "note": "无极性；核对数值",
@@ -771,7 +771,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 126,
       "y": 78,
       "note": "无极性；核对数值",
@@ -784,7 +784,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 133,
       "y": 78,
       "note": "无极性；核对数值",
@@ -797,7 +797,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 140,
       "y": 78,
       "note": "无极性；核对数值",
@@ -810,7 +810,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 147,
       "y": 78,
       "note": "无极性；核对数值",
@@ -823,7 +823,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 119,
       "y": 84,
       "note": "无极性；核对数值",
@@ -836,7 +836,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 126,
       "y": 84,
       "note": "无极性；核对数值",
@@ -849,7 +849,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 133,
       "y": 84,
       "note": "无极性；核对数值",
@@ -862,7 +862,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 140,
       "y": 84,
       "note": "无极性；核对数值",
@@ -875,7 +875,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 147,
       "y": 84,
       "note": "无极性；核对数值",
@@ -888,7 +888,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 119,
       "y": 90,
       "note": "无极性；核对数值",
@@ -901,7 +901,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 126,
       "y": 90,
       "note": "无极性；核对数值",
@@ -914,7 +914,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 133,
       "y": 90,
       "note": "无极性；核对数值",
@@ -927,7 +927,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 140,
       "y": 90,
       "note": "无极性；核对数值",
@@ -940,7 +940,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 147,
       "y": 90,
       "note": "无极性；核对数值",
@@ -953,7 +953,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 219,
       "y": 78,
       "note": "无极性；核对数值",
@@ -966,7 +966,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "1k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 219,
       "y": 91,
       "note": "无极性；核对数值",
@@ -979,7 +979,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "1k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 232,
       "y": 78,
       "note": "无极性；核对数值",
@@ -992,7 +992,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 99,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1005,7 +1005,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 164,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1018,7 +1018,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 200,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1031,7 +1031,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "1k",
       "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 207,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1044,7 +1044,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100n",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 99,
       "y": 91,
       "note": "无极性；核对数值",
@@ -1057,7 +1057,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100n",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 164,
       "y": 91,
       "note": "无极性；核对数值",
@@ -1070,7 +1070,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "100n",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 220,
       "y": 88,
       "note": "无极性；核对数值",
@@ -1083,7 +1083,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "220p_C0G",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 239,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1096,7 +1096,7 @@ window.YAKB_GUIDE = {
       "phase": "P1",
       "value": "1u",
       "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 贴片",
       "x": 193,
       "y": 78,
       "note": "无极性；核对数值",
@@ -1109,7 +1109,7 @@ window.YAKB_GUIDE = {
       "phase": "P3",
       "value": "JST_S2B-PH-K",
       "footprint": "Battery_PH2",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 通孔",
       "x": 20,
       "y": 84,
       "note": "水平S2B-PH-K；1=电池正极，2=GND；先测线序",
@@ -1122,10 +1122,10 @@ window.YAKB_GUIDE = {
       "phase": "P3",
       "value": "Battery_switch_pigtail",
       "footprint": "SPST_PIGTAIL_2.54",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 通孔",
       "x": 10,
       "y": 85,
-      "note": "两孔线位，外接开关 / 常开按钮",
+      "note": "两孔接线位，外接保持式SPST电池开关；不是瞬时按钮",
       "type": "populate",
       "nets": "BAT_RAW BAT_SW"
     },
@@ -1135,10 +1135,10 @@ window.YAKB_GUIDE = {
       "phase": "P3",
       "value": "Reset_NO",
       "footprint": "RESET_2.54_TH",
-      "side": "背面 / 通孔",
+      "side": "背面安装 / 通孔",
       "x": 238,
       "y": 91,
-      "note": "两孔线位，外接开关 / 常开按钮",
+      "note": "两孔接线位，外接常开瞬时复位按钮",
       "type": "populate",
       "nets": "RESET GND"
     },
@@ -1926,12 +1926,12 @@ window.YAKB_GUIDE = {
       "ref": "C.C1",
       "step": "14",
       "phase": "P3",
-      "value": "1nF C0G",
-      "footprint": "native B1 PCB",
-      "side": "controller TOP",
+      "value": "1nF_C0G",
+      "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "side": "controller / F.Cu",
       "x": 38.0,
       "y": 22.0,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "ADC_FLEX GND"
     },
@@ -1940,11 +1940,11 @@ window.YAKB_GUIDE = {
       "step": "14",
       "phase": "P3",
       "value": "100nF",
-      "footprint": "native B1 PCB",
-      "side": "controller TOP",
+      "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "side": "controller / F.Cu",
       "x": 52.0,
       "y": 4.0,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "GND VCC"
     },
@@ -1953,11 +1953,11 @@ window.YAKB_GUIDE = {
       "step": "15",
       "phase": "P3",
       "value": "Molex 200528-0240",
-      "footprint": "native B1 PCB",
-      "side": "controller TOP",
+      "footprint": "Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal",
+      "side": "controller / F.Cu",
       "x": 61.0,
-      "y": 11.797692307692309,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "y": 12.5,
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC"
     },
@@ -1965,12 +1965,12 @@ window.YAKB_GUIDE = {
       "ref": "C.U1",
       "step": "15",
       "phase": "P3",
-      "value": "nice!nano v2",
-      "footprint": "native B1 PCB",
-      "side": "controller TOP",
+      "value": "nice!nano_v2",
+      "footprint": "nice_nano",
+      "side": "controller / F.Cu",
       "x": 18.27,
       "y": 12.5,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(U1-NC-Pad14) unconnected-(U1-NC-Pad15) unconnected-(U1-NC-Pad17) unconnected-(U1-NC-Pad19) unconnected-(U1-NC-Pad20)"
     },
@@ -1979,11 +1979,11 @@ window.YAKB_GUIDE = {
       "step": "13",
       "phase": "P3",
       "value": "Molex 200528-0240",
-      "footprint": "native B1 PCB",
-      "side": "interposer TOP",
+      "footprint": "Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal",
+      "side": "interposer / F.Cu",
       "x": 20.0,
-      "y": 8.702307692307691,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "y": 8.0,
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC"
     },
@@ -1991,12 +1991,12 @@ window.YAKB_GUIDE = {
       "ref": "I.JMAIN",
       "step": "13",
       "phase": "P3",
-      "value": "24 pins / main U1 DNP",
-      "footprint": "native B1 PCB",
-      "side": "interposer TOP",
-      "x": 20.0,
-      "y": 9.5,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "value": "A0_U1_socket_NO_MCU",
+      "footprint": "A0_U1_socket_adapter",
+      "side": "interposer / F.Cu",
+      "x": 0.0,
+      "y": 0.0,
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚；JMAIN引脚组中心(20,9.5)，原点(0,0)，共24根针",
       "type": "populate",
       "nets": "ADC AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(JMAIN-NC-Pad14) unconnected-(JMAIN-NC-Pad15) unconnected-(JMAIN-NC-Pad17) unconnected-(JMAIN-NC-Pad19) unconnected-(JMAIN-NC-Pad20)"
     },
@@ -2004,15 +2004,28 @@ window.YAKB_GUIDE = {
       "ref": "I.R1",
       "step": "13",
       "phase": "P3",
-      "value": "47Ω",
-      "footprint": "native B1 PCB",
-      "side": "interposer TOP",
+      "value": "47",
+      "footprint": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "side": "interposer / F.Cu",
       "x": 37.5,
       "y": 13.0,
-      "note": "坐标为该小板本地坐标；核对1脚",
+      "note": "该小板原生封装原点；不是焊盘平均值；核对1脚",
       "type": "populate",
       "nets": "ADC ADC_FLEX"
+    },
+    {
+      "ref": "FPC1",
+      "step": "16",
+      "phase": "P3",
+      "value": "YAKB-shaped-FPC-B1",
+      "footprint": "custom single-sided FPC",
+      "side": "B.Cu contact face",
+      "x": "",
+      "y": "",
+      "note": "独立线缆，无板上坐标；先验短试片，再验整条24路；不以通用FFC替代",
+      "type": "cable",
+      "nets": "GND VCC GND ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 GND MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N GND ADC_FLEX GND RESET GND BAT_SW BAT_SW GND"
     }
   ],
-  "storageKey": "yakb-b1-1-soldering-v1"
+  "storageKey": "yakb-b1-1-soldering-v2"
 };

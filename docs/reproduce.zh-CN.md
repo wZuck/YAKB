@@ -1,5 +1,7 @@
 # 复现、检查和固件
 
+> **版本范围：A0 基础设计 / 历史记录。** 当前整机为 B1.1；独立主控、直接 USB、专用底壳与 FPC 以 [B1.1 说明](modular/README.zh-CN.md) 和[文件版本表](file-map.zh-CN.md)为准。主板 U1 不装主控。
+
 [English](reproduce.md) · [设计](design.zh-CN.md) · [焊接工作台](../hardware/soldering/index.html)
 
 原生 `hardware/YAKB.kicad_pcb` 是已保存布线的交付源文件。机械源数据在 `design/yakb.json`，电路元件与网络在 `scripts/circuit.py`。生成器用于修改设计；**重新执行 PCB 生成器会覆盖现有布线**，先复制工作目录或建立 Git 分支。

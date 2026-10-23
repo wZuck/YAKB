@@ -1,5 +1,7 @@
 # YAKB A0 设计复查与修复记录
 
+> **版本范围：A0 基础设计 / 历史记录。** 当前整机为 B1.1；独立主控、直接 USB、专用底壳与 FPC 以 [B1.1 说明](modular/README.zh-CN.md) 和[文件版本表](file-map.zh-CN.md)为准。主板 U1 不装主控。
+
 [English](review-fixes.md) · [电气分析](electrical-analysis.zh-CN.md) · [多电池](battery-options.zh-CN.md) · [焊接工作台](../hardware/soldering/index.html)
 
 本次复查覆盖保存的 PCB、真实器件模型、机械包络、EC 驱动和发布产物。以下是已修复并检查的缺陷；A0 仍是待实物验证的原型。

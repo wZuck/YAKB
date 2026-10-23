@@ -1,5 +1,7 @@
 # YAKB ZMK firmware
 
+The same firmware serves A0 and B1.1: GPIO and matrix mapping are unchanged; `yakb-a0` filenames retain the shield/build identifier. B1.1 has one nice!nano on its carrier, with no MCU at mainboard U1. Recalibrate after the added analog filter.
+
 [简体中文](README.zh-CN.md) · [Build reproduction](../docs/reproduce.md)
 
 The target is **nice!nano v2 / nRF52840**. `prebuilt/yakb-a0.uf2` is the normal keyboard image; `yakb-a0-calibrator.uf2` enables the USB CDC calibration shell. Both compiled successfully and remain untested on hardware. Hashes are in `prebuilt/SHA256SUMS`.

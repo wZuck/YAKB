@@ -22,7 +22,8 @@
     const term=$('search').value.trim().toLowerCase(), p=$('phaseFilter').value, type=$('typeFilter').value;
     let rows=data.inventory.filter(r=>(!p||r.phase===p)&&(!type||r.type===type)&&(!term||Object.values(r).join(' ').toLowerCase().includes(term)));
     rows.sort((a,b)=>(ascending?1:-1)*a.ref.localeCompare(b.ref,'en',{numeric:true}));
-    $('rows').innerHTML=rows.map(r=>`<tr><td>${esc(r.ref)}</td><td>${esc(r.step)}</td><td>${esc(r.value)}</td><td>${esc(r.footprint)}</td><td>${esc(r.side)}</td><td>${Number(r.x).toFixed(3)}</td><td>${Number(r.y).toFixed(3)}</td><td>${esc(r.note)}</td></tr>`).join('');
+    const coordinate = n => n === '' || n == null ? '—' : Number(n).toFixed(3);
+    $('rows').innerHTML=rows.map(r=>`<tr><td>${esc(r.ref)}</td><td>${esc(r.step)}</td><td>${esc(r.value)}</td><td>${esc(r.footprint)}</td><td>${esc(r.side)}</td><td>${coordinate(r.x)}</td><td>${coordinate(r.y)}</td><td>${esc(r.note)}</td></tr>`).join('');
     $('rowCount').textContent=`${rows.length} / ${data.inventory.length} 条`;$('empty').hidden=rows.length!==0;
   }
   $('phaseFilter').insertAdjacentHTML('beforeend',data.phases.map(p=>`<option value="${p.id}">${esc(p.title)}</option>`).join(''));

@@ -1,6 +1,6 @@
 # YAKB A0 焊接与装配顺序
 
-> **B1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
+> **B1.1 更新：** 以下内容描述 A0 基础板。独立主控、直接 USB、新底壳、FPC 和焊接差异以 [B1 说明](modular/README.zh-CN.md) 为准；B1 主板 U1 不再安装主控。
 
 
 [打开离线交互焊接工作台](../hardware/soldering/index.html)：18 步高亮定位图、元件筛选、完成度保存、图片放大与打印。

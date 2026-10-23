@@ -1,0 +1,109 @@
+﻿Board,Reference,Quantity,Value,Footprint,Side,X_mm,Y_mm,Status,Assembly_note
+Mainboard,U1,0,DNP — install interposer only,nice_nano,背面安装 / 通孔,260.0,85.0,dnp,B1不装主控；此处接I.JMAIN
+Mainboard,U2,1,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面安装 / 贴片,105,84,populate,核对1脚和型号
+Mainboard,U3,1,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面安装 / 贴片,170,84,populate,核对1脚和型号
+Mainboard,U4,1,OPA350UA,SOIC-8_3.9x4.9mm_P1.27mm,背面安装 / 贴片,217,84,populate,核对1脚和型号
+Mainboard,Q1,1,AO3401A,SOT-23,背面安装 / 贴片,207,84,populate,1=G，2=S/VCC，3=D/AFE
+Mainboard,R1,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,40,78,populate,无极性；核对数值
+Mainboard,R2,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,46,78,populate,无极性；核对数值
+Mainboard,R3,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,52,78,populate,无极性；核对数值
+Mainboard,R4,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,58,78,populate,无极性；核对数值
+Mainboard,R5,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,64,78,populate,无极性；核对数值
+Mainboard,R10,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,78,populate,无极性；核对数值
+Mainboard,R11,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,78,populate,无极性；核对数值
+Mainboard,R12,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,78,populate,无极性；核对数值
+Mainboard,R13,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,78,populate,无极性；核对数值
+Mainboard,R14,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,78,populate,无极性；核对数值
+Mainboard,R15,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,84,populate,无极性；核对数值
+Mainboard,R16,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,84,populate,无极性；核对数值
+Mainboard,R17,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,84,populate,无极性；核对数值
+Mainboard,R18,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,84,populate,无极性；核对数值
+Mainboard,R19,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,84,populate,无极性；核对数值
+Mainboard,R20,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,90,populate,无极性；核对数值
+Mainboard,R21,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,90,populate,无极性；核对数值
+Mainboard,R22,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,90,populate,无极性；核对数值
+Mainboard,R23,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,90,populate,无极性；核对数值
+Mainboard,R24,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,90,populate,无极性；核对数值
+Mainboard,R30,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,219,78,populate,无极性；核对数值
+Mainboard,R31,1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,219,91,populate,无极性；核对数值
+Mainboard,R32,1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,232,78,populate,无极性；核对数值
+Mainboard,R33,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,99,78,populate,无极性；核对数值
+Mainboard,R34,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,164,78,populate,无极性；核对数值
+Mainboard,R35,1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,200,78,populate,无极性；核对数值
+Mainboard,R36,1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,207,78,populate,无极性；核对数值
+Mainboard,C1,1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,99,91,populate,无极性；核对数值
+Mainboard,C2,1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,164,91,populate,无极性；核对数值
+Mainboard,C3,1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,220,88,populate,无极性；核对数值
+Mainboard,C4,1,220p_C0G,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,239,78,populate,无极性；核对数值
+Mainboard,C5,1,1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,193,78,populate,无极性；核对数值
+Mainboard,J1,1,JST_S2B-PH-K,Battery_PH2,背面安装 / 通孔,20,84,populate,水平S2B-PH-K；1=电池正极，2=GND；先测线序
+Mainboard,SW1,1,Battery_switch_pigtail,SPST_PIGTAIL_2.54,背面安装 / 通孔,10,85,populate,两孔接线位，外接保持式SPST电池开关；不是瞬时按钮
+Mainboard,SW2,1,Reset_NO,RESET_2.54_TH,背面安装 / 通孔,238,91,populate,两孔接线位，外接常开瞬时复位按钮
+Mainboard,EC1,0,Esc,ecs_pad_1U_no_ring,顶面免焊,9.15,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC2,0,1,ecs_pad_1U_no_ring,顶面免焊,28.200000000000003,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC3,0,2,ecs_pad_1U_no_ring,顶面免焊,47.25,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC4,0,3,ecs_pad_1U_no_ring,顶面免焊,66.30000000000001,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC5,0,4,ecs_pad_1U_no_ring,顶面免焊,85.35000000000001,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC6,0,5,ecs_pad_1U_no_ring,顶面免焊,104.4,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC7,0,6,ecs_pad_1U_no_ring,顶面免焊,123.45000000000002,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC8,0,7,ecs_pad_1U_no_ring,顶面免焊,142.5,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC9,0,8,ecs_pad_1U_no_ring,顶面免焊,161.55,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC10,0,9,ecs_pad_1U_no_ring,顶面免焊,180.60000000000002,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC11,0,0,ecs_pad_1U_no_ring,顶面免焊,199.65,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC12,0,-,ecs_pad_1U_no_ring,顶面免焊,218.70000000000002,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC13,0,=,ecs_pad_1U_no_ring,顶面免焊,237.75000000000003,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC14,0,\,ecs_pad_1U_no_ring,顶面免焊,256.8,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC15,0,`,ecs_pad_1U_no_ring,顶面免焊,275.84999999999997,9.2,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC16,0,Tab,ecs_pad_1U_no_ring,顶面免焊,13.912500000000001,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC17,0,Q,ecs_pad_1U_no_ring,顶面免焊,37.725,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC18,0,W,ecs_pad_1U_no_ring,顶面免焊,56.775,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC19,0,E,ecs_pad_1U_no_ring,顶面免焊,75.825,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC20,0,R,ecs_pad_1U_no_ring,顶面免焊,94.87500000000001,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC21,0,T,ecs_pad_1U_no_ring,顶面免焊,113.92500000000001,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC22,0,Y,ecs_pad_1U_no_ring,顶面免焊,132.975,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC23,0,U,ecs_pad_1U_no_ring,顶面免焊,152.025,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC24,0,I,ecs_pad_1U_no_ring,顶面免焊,171.07500000000002,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC25,0,O,ecs_pad_1U_no_ring,顶面免焊,190.125,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC26,0,P,ecs_pad_1U_no_ring,顶面免焊,209.175,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC27,0,[,ecs_pad_1U_no_ring,顶面免焊,228.22500000000002,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC28,0,],ecs_pad_1U_no_ring,顶面免焊,247.275,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC29,0,Backspace,ecs_pad_1U_no_ring,顶面免焊,271.0875,28.25,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC30,0,Control,ecs_pad_1U_no_ring,顶面免焊,16.293750000000003,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC31,0,A,ecs_pad_1U_no_ring,顶面免焊,42.4875,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC32,0,S,ecs_pad_1U_no_ring,顶面免焊,61.5375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC33,0,D,ecs_pad_1U_no_ring,顶面免焊,80.5875,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC34,0,F,ecs_pad_1U_no_ring,顶面免焊,99.6375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC35,0,G,ecs_pad_1U_no_ring,顶面免焊,118.68750000000001,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC36,0,H,ecs_pad_1U_no_ring,顶面免焊,137.7375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC37,0,J,ecs_pad_1U_no_ring,顶面免焊,156.78750000000002,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC38,0,K,ecs_pad_1U_no_ring,顶面免焊,175.8375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC39,0,L,ecs_pad_1U_no_ring,顶面免焊,194.88750000000002,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC40,0,;,ecs_pad_1U_no_ring,顶面免焊,213.9375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC41,0,',ecs_pad_1U_no_ring,顶面免焊,232.9875,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC42,0,Enter,ecs_pad_1U_no_ring,顶面免焊,263.94375,47.3,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC43,0,Shift,ecs_pad_1U_no_ring,顶面免焊,21.05625,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC44,0,Z,ecs_pad_1U_no_ring,顶面免焊,52.0125,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC45,0,X,ecs_pad_1U_no_ring,顶面免焊,71.0625,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC46,0,C,ecs_pad_1U_no_ring,顶面免焊,90.11250000000001,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC47,0,V,ecs_pad_1U_no_ring,顶面免焊,109.16250000000001,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC48,0,B,ecs_pad_1U_no_ring,顶面免焊,128.2125,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC49,0,N,ecs_pad_1U_no_ring,顶面免焊,147.26250000000002,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC50,0,M,ecs_pad_1U_no_ring,顶面免焊,166.3125,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC51,0,",",ecs_pad_1U_no_ring,顶面免焊,185.3625,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC52,0,.,ecs_pad_1U_no_ring,顶面免焊,204.41250000000002,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC53,0,/,ecs_pad_1U_no_ring,顶面免焊,223.4625,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC54,0,RShift,ecs_pad_1U_no_ring,顶面免焊,249.65625000000003,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC55,0,Fn,ecs_pad_1U_no_ring,顶面免焊,275.84999999999997,66.35000000000001,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC56,0,LGUI,ecs_pad_1U_no_ring,顶面免焊,37.725,85.4,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC57,0,LAlt,ecs_pad_1U_no_ring,顶面免焊,61.5375,85.4,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC58,0,Space,ecs_pad_1U_no_ring,顶面免焊,132.975,85.4,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC59,0,RAlt,ecs_pad_1U_no_ring,顶面免焊,204.41250000000002,85.4,electrode,PCB感应铜，不焊锡、不焊弹簧
+Mainboard,EC60,0,RGUI,ecs_pad_1U_no_ring,顶面免焊,228.22500000000002,85.4,electrode,PCB感应铜，不焊锡、不焊弹簧
+Controller,C1,1,1nF_C0G,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,controller / F.Cu,38.0,22.0,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Controller,C2,1,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,controller / F.Cu,52.0,4.0,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Controller,JF1,1,Molex 200528-0240,Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal,controller / F.Cu,61.0,12.5,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Controller,U1,1,nice!nano_v2,nice_nano,controller / F.Cu,18.27,12.5,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Interposer,JF1,1,Molex 200528-0240,Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal,interposer / F.Cu,20.0,8.0,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Interposer,JMAIN,1,A0_U1_socket_NO_MCU,A0_U1_socket_adapter,interposer / F.Cu,0.0,0.0,populate,"该小板原生封装原点；不是焊盘平均值；核对1脚；JMAIN引脚组中心(20,9.5)，原点(0,0)，共24根针"
+Interposer,R1,1,47,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,interposer / F.Cu,37.5,13.0,populate,该小板原生封装原点；不是焊盘平均值；核对1脚
+Cable,FPC1,1,YAKB-shaped-FPC-B1,custom single-sided FPC,B.Cu contact face,,,cable,独立线缆，无板上坐标；先验短试片，再验整条24路；不以通用FFC替代

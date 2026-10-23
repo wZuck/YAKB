@@ -1,44 +1,44 @@
 ﻿ref,step,phase,value,footprint,side,x,y,note,type,nets
-U1,13,P3,DNP — install interposer only,nice_nano,背面 / 通孔,260.0,85.0,B1不装主控；此处接I.JMAIN,populate,ROW_DRV1 ROW_DRV0 ROW_DRV2 ROW_DRV3 ROW_DRV4 MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N ADC GND GND VCC RESET GND BAT_SW
-U2,07,P2,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面 / 通孔,105,84,核对1脚和型号,populate,SENSE MUX0_INH GND GND MUX_C MUX_B MUX_A VCC COL0 COL1 COL2 COL3 COL4 COL5 COL6 COL7
-U3,07,P2,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面 / 通孔,170,84,核对1脚和型号,populate,SENSE MUX1_INH GND GND MUX_C MUX_B MUX_A VCC COL8 COL9 COL10 COL11 COL12 COL13 COL14 GND
-U4,08,P2,OPA350UA,SOIC-8_3.9x4.9mm_P1.27mm,背面 / 通孔,217,84,核对1脚和型号,populate,FB SENSE GND ADC AFE_3V3
-Q1,09,P2,AO3401A,SOT-23,背面 / 通孔,207,84,1=G，2=S/VCC，3=D/AFE,populate,AFE_GATE VCC AFE_3V3
-R1,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,40,78,无极性；核对数值,populate,ROW_DRV0 ROW0
-R2,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,46,78,无极性；核对数值,populate,ROW_DRV1 ROW1
-R3,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,52,78,无极性；核对数值,populate,ROW_DRV2 ROW2
-R4,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,58,78,无极性；核对数值,populate,ROW_DRV3 ROW3
-R5,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,64,78,无极性；核对数值,populate,ROW_DRV4 ROW4
-R10,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,119,78,无极性；核对数值,populate,COL0 GND
-R11,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,126,78,无极性；核对数值,populate,COL1 GND
-R12,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,133,78,无极性；核对数值,populate,COL2 GND
-R13,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,140,78,无极性；核对数值,populate,COL3 GND
-R14,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,147,78,无极性；核对数值,populate,COL4 GND
-R15,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,119,84,无极性；核对数值,populate,COL5 GND
-R16,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,126,84,无极性；核对数值,populate,COL6 GND
-R17,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,133,84,无极性；核对数值,populate,COL7 GND
-R18,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,140,84,无极性；核对数值,populate,COL8 GND
-R19,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,147,84,无极性；核对数值,populate,COL9 GND
-R20,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,119,90,无极性；核对数值,populate,COL10 GND
-R21,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,126,90,无极性；核对数值,populate,COL11 GND
-R22,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,133,90,无极性；核对数值,populate,COL12 GND
-R23,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,140,90,无极性；核对数值,populate,COL13 GND
-R24,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,147,90,无极性；核对数值,populate,COL14 GND
-R30,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,219,78,无极性；核对数值,populate,ADC FB
-R31,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,219,91,无极性；核对数值,populate,FB GND
-R32,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,232,78,无极性；核对数值,populate,DRAIN SENSE
-R33,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,99,78,无极性；核对数值,populate,MUX0_INH VCC
-R34,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,164,78,无极性；核对数值,populate,MUX1_INH VCC
-R35,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,200,78,无极性；核对数值,populate,AFE_GATE VCC
-R36,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面 / 通孔,207,78,无极性；核对数值,populate,AFE_ON_N AFE_GATE
-C1,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面 / 通孔,99,91,无极性；核对数值,populate,VCC GND
-C2,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面 / 通孔,164,91,无极性；核对数值,populate,VCC GND
-C3,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面 / 通孔,220,88,无极性；核对数值,populate,AFE_3V3 GND
-C4,05,P1,220p_C0G,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面 / 通孔,239,78,无极性；核对数值,populate,SENSE GND
-C5,06,P1,1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面 / 通孔,193,78,无极性；核对数值,populate,VCC GND
-J1,10,P3,JST_S2B-PH-K,Battery_PH2,背面 / 通孔,20,84,水平S2B-PH-K；1=电池正极，2=GND；先测线序,populate,BAT_RAW GND
-SW1,11,P3,Battery_switch_pigtail,SPST_PIGTAIL_2.54,背面 / 通孔,10,85,两孔线位，外接开关 / 常开按钮,populate,BAT_RAW BAT_SW
-SW2,12,P3,Reset_NO,RESET_2.54_TH,背面 / 通孔,238,91,两孔线位，外接开关 / 常开按钮,populate,RESET GND
+U1,13,P3,DNP — install interposer only,nice_nano,背面安装 / 通孔,260.0,85.0,B1不装主控；此处接I.JMAIN,dnp,ROW_DRV1 ROW_DRV0 ROW_DRV2 ROW_DRV3 ROW_DRV4 MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N ADC GND GND VCC RESET GND BAT_SW
+U2,07,P2,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面安装 / 贴片,105,84,核对1脚和型号,populate,SENSE MUX0_INH GND GND MUX_C MUX_B MUX_A VCC COL0 COL1 COL2 COL3 COL4 COL5 COL6 COL7
+U3,07,P2,CD74HC4051M96,SOIC-16_3.9x9.9mm_P1.27mm,背面安装 / 贴片,170,84,核对1脚和型号,populate,SENSE MUX1_INH GND GND MUX_C MUX_B MUX_A VCC COL8 COL9 COL10 COL11 COL12 COL13 COL14 GND
+U4,08,P2,OPA350UA,SOIC-8_3.9x4.9mm_P1.27mm,背面安装 / 贴片,217,84,核对1脚和型号,populate,FB SENSE GND ADC AFE_3V3
+Q1,09,P2,AO3401A,SOT-23,背面安装 / 贴片,207,84,1=G，2=S/VCC，3=D/AFE,populate,AFE_GATE VCC AFE_3V3
+R1,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,40,78,无极性；核对数值,populate,ROW_DRV0 ROW0
+R2,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,46,78,无极性；核对数值,populate,ROW_DRV1 ROW1
+R3,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,52,78,无极性；核对数值,populate,ROW_DRV2 ROW2
+R4,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,58,78,无极性；核对数值,populate,ROW_DRV3 ROW3
+R5,01,P1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,64,78,无极性；核对数值,populate,ROW_DRV4 ROW4
+R10,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,78,无极性；核对数值,populate,COL0 GND
+R11,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,78,无极性；核对数值,populate,COL1 GND
+R12,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,78,无极性；核对数值,populate,COL2 GND
+R13,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,78,无极性；核对数值,populate,COL3 GND
+R14,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,78,无极性；核对数值,populate,COL4 GND
+R15,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,84,无极性；核对数值,populate,COL5 GND
+R16,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,84,无极性；核对数值,populate,COL6 GND
+R17,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,84,无极性；核对数值,populate,COL7 GND
+R18,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,84,无极性；核对数值,populate,COL8 GND
+R19,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,84,无极性；核对数值,populate,COL9 GND
+R20,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,119,90,无极性；核对数值,populate,COL10 GND
+R21,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,126,90,无极性；核对数值,populate,COL11 GND
+R22,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,133,90,无极性；核对数值,populate,COL12 GND
+R23,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,140,90,无极性；核对数值,populate,COL13 GND
+R24,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,147,90,无极性；核对数值,populate,COL14 GND
+R30,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,219,78,无极性；核对数值,populate,ADC FB
+R31,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,219,91,无极性；核对数值,populate,FB GND
+R32,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,232,78,无极性；核对数值,populate,DRAIN SENSE
+R33,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,99,78,无极性；核对数值,populate,MUX0_INH VCC
+R34,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,164,78,无极性；核对数值,populate,MUX1_INH VCC
+R35,02,P1,100k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,200,78,无极性；核对数值,populate,AFE_GATE VCC
+R36,03,P1,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,背面安装 / 贴片,207,78,无极性；核对数值,populate,AFE_ON_N AFE_GATE
+C1,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,99,91,无极性；核对数值,populate,VCC GND
+C2,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,164,91,无极性；核对数值,populate,VCC GND
+C3,04,P1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,220,88,无极性；核对数值,populate,AFE_3V3 GND
+C4,05,P1,220p_C0G,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,239,78,无极性；核对数值,populate,SENSE GND
+C5,06,P1,1u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,背面安装 / 贴片,193,78,无极性；核对数值,populate,VCC GND
+J1,10,P3,JST_S2B-PH-K,Battery_PH2,背面安装 / 通孔,20,84,水平S2B-PH-K；1=电池正极，2=GND；先测线序,populate,BAT_RAW GND
+SW1,11,P3,Battery_switch_pigtail,SPST_PIGTAIL_2.54,背面安装 / 通孔,10,85,两孔接线位，外接保持式SPST电池开关；不是瞬时按钮,populate,BAT_RAW BAT_SW
+SW2,12,P3,Reset_NO,RESET_2.54_TH,背面安装 / 通孔,238,91,两孔接线位，外接常开瞬时复位按钮,populate,RESET GND
 EC1,21,P4,Esc,ecs_pad_1U_no_ring,顶面免焊,9.15,9.2,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW0 COL0 GND
 EC2,21,P4,1,ecs_pad_1U_no_ring,顶面免焊,28.200000000000003,9.2,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW0 COL1 GND
 EC3,21,P4,2,ecs_pad_1U_no_ring,顶面免焊,47.25,9.2,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW0 COL2 GND
@@ -99,10 +99,11 @@ EC57,21,P4,LAlt,ecs_pad_1U_no_ring,顶面免焊,61.5375,85.4,PCB感应铜，不�
 EC58,21,P4,Space,ecs_pad_1U_no_ring,顶面免焊,132.975,85.4,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW4 COL7 GND
 EC59,21,P4,RAlt,ecs_pad_1U_no_ring,顶面免焊,204.41250000000002,85.4,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW4 COL10 GND
 EC60,21,P4,RGUI,ecs_pad_1U_no_ring,顶面免焊,228.22500000000002,85.4,PCB感应铜，不焊锡、不焊弹簧,electrode,ROW4 COL12 GND
-C.C1,14,P3,1nF C0G,native B1 PCB,controller TOP,38.0,22.0,坐标为该小板本地坐标；核对1脚,populate,ADC_FLEX GND
-C.C2,14,P3,100nF,native B1 PCB,controller TOP,52.0,4.0,坐标为该小板本地坐标；核对1脚,populate,GND VCC
-C.JF1,15,P3,Molex 200528-0240,native B1 PCB,controller TOP,61.0,11.797692307692309,坐标为该小板本地坐标；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC
-C.U1,15,P3,nice!nano v2,native B1 PCB,controller TOP,18.27,12.5,坐标为该小板本地坐标；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(U1-NC-Pad14) unconnected-(U1-NC-Pad15) unconnected-(U1-NC-Pad17) unconnected-(U1-NC-Pad19) unconnected-(U1-NC-Pad20)
-I.JF1,13,P3,Molex 200528-0240,native B1 PCB,interposer TOP,20.0,8.702307692307691,坐标为该小板本地坐标；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC
-I.JMAIN,13,P3,24 pins / main U1 DNP,native B1 PCB,interposer TOP,20.0,9.5,坐标为该小板本地坐标；核对1脚,populate,ADC AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(JMAIN-NC-Pad14) unconnected-(JMAIN-NC-Pad15) unconnected-(JMAIN-NC-Pad17) unconnected-(JMAIN-NC-Pad19) unconnected-(JMAIN-NC-Pad20)
-I.R1,13,P3,47Ω,native B1 PCB,interposer TOP,37.5,13.0,坐标为该小板本地坐标；核对1脚,populate,ADC ADC_FLEX
+C.C1,14,P3,1nF_C0G,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,controller / F.Cu,38.0,22.0,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,ADC_FLEX GND
+C.C2,14,P3,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,controller / F.Cu,52.0,4.0,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,GND VCC
+C.JF1,15,P3,Molex 200528-0240,Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal,controller / F.Cu,61.0,12.5,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC
+C.U1,15,P3,nice!nano_v2,nice_nano,controller / F.Cu,18.27,12.5,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(U1-NC-Pad14) unconnected-(U1-NC-Pad15) unconnected-(U1-NC-Pad17) unconnected-(U1-NC-Pad19) unconnected-(U1-NC-Pad20)
+I.JF1,13,P3,Molex 200528-0240,Molex_200528-0240_1x24-1MP_P1.00mm_Horizontal,interposer / F.Cu,20.0,8.0,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,ADC_FLEX AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC
+I.JMAIN,13,P3,A0_U1_socket_NO_MCU,A0_U1_socket_adapter,interposer / F.Cu,0.0,0.0,"该小板原生封装原点；不是焊盘平均值；核对1脚；JMAIN引脚组中心(20,9.5)，原点(0,0)，共24根针",populate,ADC AFE_ON_N BAT_SW DRAIN GND MUX0_INH MUX1_INH MUX_A MUX_B MUX_C RESET ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 VCC unconnected-(JMAIN-NC-Pad14) unconnected-(JMAIN-NC-Pad15) unconnected-(JMAIN-NC-Pad17) unconnected-(JMAIN-NC-Pad19) unconnected-(JMAIN-NC-Pad20)
+I.R1,13,P3,47,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,interposer / F.Cu,37.5,13.0,该小板原生封装原点；不是焊盘平均值；核对1脚,populate,ADC ADC_FLEX
+FPC1,16,P3,YAKB-shaped-FPC-B1,custom single-sided FPC,B.Cu contact face,,,独立线缆，无板上坐标；先验短试片，再验整条24路；不以通用FFC替代,cable,GND VCC GND ROW_DRV0 ROW_DRV1 ROW_DRV2 ROW_DRV3 ROW_DRV4 GND MUX_A MUX_B MUX_C MUX0_INH MUX1_INH DRAIN AFE_ON_N GND ADC_FLEX GND RESET GND BAT_SW BAT_SW GND
