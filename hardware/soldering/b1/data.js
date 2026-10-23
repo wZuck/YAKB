@@ -463,15 +463,16 @@ window.YAKB_GUIDE = {
       "refs": [
         "FPC1"
       ],
-      "summary": "电池和USB均断开；用原生逐针CSV逐项测A1→B24至A24→B1。",
+      "summary": "先加工YAKB-FPC-coupon-B1短试片，验证两端锁止、接触和线序；再加工整条异形FPC。",
       "instructions": [
+        "先加工YAKB-FPC-coupon-B1短试片，验证两端锁止、接触和线序；再加工整条异形FPC。",
         "电池和USB均断开；用原生逐针CSV逐项测A1→B24至A24→B1。",
         "载板为A，转接板为B；两端底接触，确认露铜面朝触点，再锁止ZIF。",
         "两根BAT_SW及七根GND在刚性板并联，软板自身各导体独立；检查正极未接地。",
         "FPC平面曲线为定制外形，不用通用直排线强折；装入实际CAD通道，不压在螺丝帽和电池上。",
         "禁止带电插拔，禁止按商品同面/反面名称猜线序。"
       ],
-      "checkpoint": "0.30mm端子补强和插深尚待厂家图纸/样件确认。",
+      "checkpoint": "端部25mm、铜指0.7×3.5mm、定位耳、0.30±0.05mm成品厚度按厂家图；先用短FPC试片验配。",
       "count": "1 类 / 位置",
       "parts": [
         "FPC1"
@@ -608,6 +609,7 @@ window.YAKB_GUIDE = {
         "主板转接处必须绝缘定高，FPC不受拉、不压电池，不侵入载板天线禁布区。",
         "只使用工厂成组并带单保护板的1S2P/1S3P包；单路接J1。",
         "左挡块1.5u、右挡块2.5u；最后安装全部NiZ机构并校准60键。",
+        "先用rear_pod_fit_coupon.stl和现有后舱盖验证：插头塑料包络≤12×8mm，壳孔14×10mm；量实物USB口中心和凹入深度，不能只看模型。",
         "USB从后左角左侧直接接入主控；闭壳检查插拔、充电温升和BLE输入。"
       ],
       "checkpoint": "原生检查不代替连接器配合、轴体、充电温升、无线和续航实测。",
@@ -2012,5 +2014,5 @@ window.YAKB_GUIDE = {
       "nets": "ADC ADC_FLEX"
     }
   ],
-  "storageKey": "yakb-b1-soldering-v1"
+  "storageKey": "yakb-b1-1-soldering-v1"
 };

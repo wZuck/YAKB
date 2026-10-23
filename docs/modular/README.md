@@ -1,4 +1,4 @@
-# YAKB B1: separate controller carrier and shaped FPC
+# YAKB B1.1: separate controller carrier and shaped FPC
 
 [中文](README.zh-CN.md) · [Pin table](../../hardware/modular/FPC-pinout.csv) · [B1 soldering workbench](../../hardware/soldering/b1/index.html) · [Incremental BOM](../../hardware/modular/BOM-B1.csv)
 
@@ -15,12 +15,12 @@ These are reviewable engineering prototype files. Connector mating dimensions, F
 | Sensor PCB | [A0 PCB](../../hardware/YAKB.kicad_pcb), 285 × 94.6 × 1.6 mm, four layers | Populate other parts normally; U1 takes the interposer |
 | Controller carrier | [B1 PCB](../../hardware/modular/YAKB-controller-B1.kicad_pcb), 82 × 24 × 1 mm, two layers | nice!nano on top, USB left, antenna right; JF1, 1 nF and 100 nF |
 | Mainboard interposer | [B1 PCB](../../hardware/modular/YAKB-interposer-B1.kicad_pcb), 40 × 19 × 1 mm, two layers | 24 straight pins into A0 U1; connector and 47 Ω face the mainboard; 2.6 mm surface gap |
-| Custom flex | [FPC PCB](../../hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb) | 24 independent conductors, 1 mm terminal pitch; 24 mm tabs, body X-direction sections up to 26 mm; not generic straight FFC |
+| Custom flex | [FPC PCB](../../hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb) | 24 independent conductors, 1 mm terminal pitch; 25 mm tabs, body X-direction sections up to 26 mm; 26.1 mm across the locating ears; not generic straight FFC |
 | Base | [Single-bay STL](../../mechanical/modular/case_base_B1.stl), [three-bay STL](../../mechanical/modular/case_base_B1_three_bay.stl) | Overall bounding rectangle 299 × 136.6 mm; only the left rear extends 28 mm; front height unchanged |
 | Pod lid | [STL](../../mechanical/modular/pod_lid_B1.stl) | Two bottom-up M2×16 screws in blind inserts; four internal M2×4 carrier screws; no exposed top screws |
 | Assembly | [STEP](../../mechanical/modular/assembly_B1.step) | Delivered X right, Y rear, Z up; mainboard top z=0 |
 
-Both rigid boards and the flex include native schematics, PDF, KiCad project and separate fabrication ZIP in [hardware/modular](../../hardware/modular/) and [fabrication/modular](../../fabrication/modular/). Mainboard/plate fabrication remains A0. The rear pod requires the custom B1 enclosure; this assembly is not a drop-in fit for arbitrary GH60 cases.
+Both rigid boards, the installed flex and the short FPC coupon include native schematics, PDF, KiCad project and separate fabrication ZIP in [hardware/modular](../../hardware/modular/) and [fabrication/modular](../../fabrication/modular/). Mainboard/plate fabrication remains A0. The rear pod requires the custom B1 enclosure; this assembly is not a drop-in fit for arbitrary GH60 cases.
 
 ![B1 open view](../../assets/modular/B1-open.png)
 
@@ -29,6 +29,8 @@ The main PCB is raised 25 mm and the lid 60 mm for inspection in this image. The
 Plastic supports under the USB end, a front edge lip and a lid stop limit vertical motion with 0.30 mm nominal play, avoiding a roughly 48 mm unsupported FR4 cantilever. Insert the left-front board edge under the lip, lower the carrier, fasten it and close the lid. Qualify the printed clip and actual plug forces.
 
 Printable STLs are oriented separately: base slope on the bed, pod lid outer face down with stops facing up. Assembly STEP retains the installed frame.
+
+The accepted plug shroud envelope is **12 × 8 mm**, with a **14 × 10 mm** opening cut through both base and lid; remaining lid roof is 1.85 mm. Port centre and recess remain assembly datums for measurement. First print the [96 × 34.4 mm rear-pod fit coupon](../../mechanical/modular/rear_pod_fit_coupon.stl) and use the existing lid, real carrier/module and cable. It is cropped from the actual base and has an open front; it does not replace the complete enclosure.
 
 ## Contacts and power
 
@@ -47,9 +49,9 @@ Use the existing `firmware/prebuilt/yakb-a0.uf2` and `yakb-a0-calibrator.uf2`; t
 
 ## Flex fabrication and outstanding fit checks
 
-Quote **single-sided B.Cu, 35 µm copper, nominal finished flex thickness 0.20 mm**. KiCad retains two logical copper layers; F.Cu is empty and is not exported in the flex fabrication ZIP. Use flexible coverlay outside the contact windows: B.Mask describes exposed terminal windows, not ordinary FR4 soldermask. Trace width is 0.15 mm, clearance rule 0.10 mm and copper-to-edge rule 0.20 mm. Exposed fingers are 0.6 × 4 mm. The proposed **0.30 mm stiffened terminal thickness is unqualified**, not a confirmed connector requirement.
+Quote **single-sided B.Cu, 35 µm copper, nominal finished flex thickness 0.20 mm**. KiCad retains two logical copper layers; F.Cu is empty and is not exported in the flex fabrication ZIP. Use flexible coverlay outside the contact windows: B.Mask uses one continuous region at each end for the exposed contacts, not ordinary FR4 soldermask. Trace width is 0.15 mm, clearance rule 0.10 mm and copper-to-edge rule 0.20 mm. Fingers are now 0.7 × 3.5 mm and reach the insertion edge. The 25 mm terminal has locating ears and a continuous coverlay opening. Non-contact-side stiffeners extend at least 5 mm; finished terminal thickness is 0.30 ± 0.05 mm. Gold must be at least 0.1 µm over 1–5 µm nickel; an unspecified default finish is insufficient. These nominal dimensions follow the manufacturer drawing with the exact part table verified, and still require physical mating qualification. See the [interface correction and coupons](interface-review.md).
 
-Do not order this flex with a default rigid FR4 stack. Obtain the 200528-0240 mating drawing or samples to confirm contact elevation, insertion depth, finger length/width, terminal outline tolerance, stiffener face/thickness/length and finish. Make connector coupons first if these are unresolved. This is a static-installation flex with its curved plan outline manufactured directly; it does not require folding straight FFC into a curve. Provide slight vertical compliance during assembly and do not use the thin cable as a structural tie.
+Do not order this flex with a default rigid FR4 stack. The manufacturer drawing including 2005280240 now defines the nominal terminal geometry and 4 mm insertion depth. Un-dimensioned slot elevation, manufactured tolerances, retention and contact still require samples. Qualify the new [25 mm short coupon](../../hardware/modular/YAKB-FPC-coupon-B1.kicad_pcb) before making the installed flex. This is a static-installation flex with its curved plan outline manufactured directly; it does not require folding straight FFC into a curve. Provide slight vertical compliance during assembly and do not use the thin cable as a structural tie.
 
 The interposer surface gap is 2.6 mm. Solder straight pins with an insulating height fixture, trim and inspect bottom clearance. Removing the mainboard is necessary to operate the interposer latch; never hot-plug. The nice!nano and USB socket are conservative envelopes. Qualify the purchased module's pin installation, actual port centre and plug shell first; adjust pod opening/carrier height and rerun clearance checks if necessary.
 
@@ -71,6 +73,6 @@ The [B1 electrical calculation](../../reports/modular-electrical.json) uses save
 ## Reproduction
 
 1. Run `scripts/generate_modular_pcbs.py` with KiCad Python; route its two DSNs using FreeRouting to matching SES files, respecting hole and RF keepouts.
-2. Run `scripts/finish_modular_pcbs.py`, then `scripts/generate_modular_flex.py` with KiCad Python. Route import reads `.render-cache/*-unrouted.kicad_pcb`, avoiding duplicate tracks.
+2. Run `scripts/finish_modular_pcbs.py`, then `scripts/generate_modular_flex.py` (also generates the short coupon) with KiCad Python. Route import reads `.render-cache/*-unrouted.kicad_pcb`, avoiding duplicate tracks.
 3. Run `.venv/bin/python scripts/export_modular.py` for native checks/manufacturing/GLB/STEP, then KiCad Python `scripts/verify_modular.py` for pad-chain verification and native drawing extraction.
 4. Run project Python scripts `generate_modular_mechanical.py`, `render_modular.py`, then `generate_modular_guide.py` in order. The Blender path is in the renderer; see [runtime instructions](../reproduce.md).

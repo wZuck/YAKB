@@ -3,25 +3,27 @@
   "samples": 72,
   "width": 2600,
   "sources": {
-    "mechanical/modular/case_base_B1.step": "c9c8aee7050202babbcb590f44d8e6e8e0a2251999353feaca204a9ae3e9b9f1",
-    "mechanical/modular/pod_lid_B1.step": "619fafd3470ad31fa0b4175123ffdd2e1660798d836a77692f0bf809bdb0438a",
-    "mechanical/modular/controller_module_envelope.step": "1e9bcebb2b448606e493639213d768464050168b19595ec602427c62d45ea4fd",
-    "mechanical/modular/shaped_fpc_envelope.step": "71c8d54c4016290cdfb5707c02721e85d8da237f293d0fce2f1dddc67f2c745a",
-    "mechanical/modular/external_usb_plug_envelope.step": "4db233fe1649c053978b1502f32e7c3b2ed23a604a441ba8db99bddfc7fbfef3",
+    "mechanical/modular/rear_pod_fit_coupon.step": "d420f8dab1ef7fc1e287d26ffef07bc573aef631fa4bf04b1884a18834446fae",
+    "mechanical/modular/case_base_B1.step": "d654f26525901e7080cc51dd5f9a681c89e515d3e11e3df8cb82459d16f66a64",
+    "mechanical/modular/pod_lid_B1.step": "e9ec096655b2736f14fa18fb8d7ec9fa6c65a094a276fb10ccbbe21a015bf92e",
+    "mechanical/modular/controller_module_envelope.step": "8f0b03ff6959102326c1f17c2e279005bb660d27d19723ced0eb606431224841",
+    "mechanical/modular/shaped_fpc_envelope.step": "957c87c32e284a8aede2defbfe584dd55b54d7c20e5fa129bbe7f6d0946706a2",
+    "mechanical/modular/external_usb_plug_envelope.step": "2ad9ca7649ca5a5eed072b948351df9dcf11697f61eb49de4bf6ffb74f9eca67",
     "mechanical/case_bezel.step": "d12760974b766eeda939ca4f305dc80d16da015ab81160251c03602c02ec4759",
     "mechanical/plate_case.step": "33859cd73515e34a3e761039bda95c8387dbbf2b40f8353ce7a6f2187f90cf26",
     "mechanical/keycap_envelopes.step": "47d1c72c43f093b614ed286d128985fc250ba6841569a55b4a111762f0cec217",
     "mechanical/battery_envelope.step": "168b64f93172f0b53f34330662db8607aa64df2381a7a7b96fce2d5e26521cb7",
     "mechanical/YAKB-populated.glb": "b19fa19405c300021cf79a113ef85af412200a2ff461bb1242948e7e360f6ed5",
-    "mechanical/modular/YAKB-controller-B1.glb": "050cda1df23402c0d63dcfb901de6041d41835014939486416ecd74e44cb5af3",
-    "mechanical/modular/YAKB-interposer-B1.glb": "d35ef3db0b07fe6a678ca09433ea53b57239084d356970c4ce4acfc13826af00",
-    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
-    "scripts/render_modular.py": "29532bf341d450a20dd72bc4c8ffb35096b51fc5fe047c6670a99b72e2202b4e",
-    "scripts/render_modular_blender.py": "96f4850747916bb17cfefb2e92e65e11c65951f4f1e61e770fa93b1643613048"
+    "mechanical/modular/YAKB-controller-B1.glb": "9bd60875a7d3b2fea56d45ece4b5bb8c8a3ea5b709602f2042624a4eab1d4a1b",
+    "mechanical/modular/YAKB-interposer-B1.glb": "168ed38e48d1cf32709340b50eb18b42cf3dbb5c6c3f1d8122046e2b64da9087",
+    "design/modular.json": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
+    "scripts/render_modular.py": "2b6b2cc38c21cd52c1ea3850d48274cf2cdc1c031e02fd8e909308b8a86db304",
+    "scripts/render_modular_blender.py": "3c73d6891fe0c22c9a193840cf6ebe07b6fd4d52780ac42f1c444ee421dec981"
   },
   "images": {
-    "assets/modular/B1-closed.png": "a17d72c5bffdcd7b652ac8c1ad4a5fcf9fb0f37c21ad666ab380001bf416ea86",
-    "assets/modular/B1-open.png": "07bb2232a077382de7becf2b6b159c108e3298bf0cd25d90514c4e3dba6e59e1",
-    "assets/modular/B1-top.png": "28d27046af1e198c9b80f6bf038676f5851ee0361dc6b511e0629975be7dc534"
+    "assets/modular/B1-fit-coupon.png": "380fc67748ee9c3dff6695778bc108a9569f55a099b9f44210a931c9afd7eb83",
+    "assets/modular/B1-closed.png": "16faa5e3289bfde4df028b9859e9b3bec5ea0d80b5a79e8fd6c8d639f7bb0cf2",
+    "assets/modular/B1-open.png": "018b489597e58562d602ca7260fac0910db7a1d377e5ccf7dee04e1626238792",
+    "assets/modular/B1-top.png": "9ab54cf7b64c73f88697ec314c5676df5b574a8e905de45fed71ad72289fa43f"
   }
 }

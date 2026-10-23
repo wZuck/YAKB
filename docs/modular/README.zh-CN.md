@@ -1,4 +1,4 @@
-# YAKB B1：独立主控载板 + 异形 FPC
+# YAKB B1.1：独立主控载板 + 异形 FPC
 
 [English](README.md) · [接口逐针表](../../hardware/modular/FPC-pinout.csv) · [B1 焊接工作台](../../hardware/soldering/b1/index.html) · [增量 BOM](../../hardware/modular/BOM-B1.csv)
 
@@ -15,12 +15,12 @@ B1 将 nice!nano 从主板右前方移到后左侧独立载板。USB-C 从后左
 | 感应主板 | [A0 PCB](../../hardware/YAKB.kicad_pcb)，285 × 94.6 × 1.6 mm，4 层 | 其余元件照常实装，U1 不装主控 |
 | 主控载板 | [B1 PCB](../../hardware/modular/YAKB-controller-B1.kicad_pcb)，82 × 24 × 1 mm，2 层 | U1 nice!nano 在顶面，USB 朝左，天线朝右；JF1、1 nF、100 nF |
 | 主板转接板 | [B1 PCB](../../hardware/modular/YAKB-interposer-B1.kicad_pcb)，40 × 19 × 1 mm，2 层 | 24 根直针连接原 U1 孔；JF1 与 47 Ω 均朝主板侧；板间净距 2.6 mm |
-| 定制软板 | [FPC PCB](../../hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb) | 24 路独立导体，1 mm 端子间距，端宽 24 mm、中段 X 方向截面最大 26 mm；不是通用直条排线 |
+| 定制软板 | [FPC PCB](../../hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb) | 24 路独立导体，1 mm 端子间距，端宽 25 mm、中段 X 方向截面最大 26 mm，定位耳处 26.1 mm；不是通用直条排线 |
 | 底壳 | [单仓 STL](../../mechanical/modular/case_base_B1.stl)、[三仓 STL](../../mechanical/modular/case_base_B1_three_bay.stl) | 最大平面外包络 299 × 136.6 mm，只有左后部增加 28 mm 深度；前部高度与 A0 一致 |
 | 后舱盖 | [STL](../../mechanical/modular/pod_lid_B1.stl) | 底部 2 颗 M2×16 锁入盲孔嵌件，正面无螺丝；另用 4 颗 M2×4 固定载板 |
 | 总装 | [STEP](../../mechanical/modular/assembly_B1.step) | 交付坐标 X 向右、Y 向后、Z 向上；主板顶面 z=0 |
 
-两张刚性小板均附同名原生原理图、PDF、KiCad 工程及独立加工 ZIP，见 [hardware/modular](../../hardware/modular/) 和 [fabrication/modular](../../fabrication/modular/)。主板和定位板加工文件仍取 A0。装配转换时只保留一个 nice!nano。
+两张刚性小板、整条 FPC 和短 FPC 试片均附同名原生原理图、PDF、KiCad 工程及独立加工 ZIP，见 [hardware/modular](../../hardware/modular/) 和 [fabrication/modular](../../fabrication/modular/)。主板和定位板加工文件仍取 A0。装配转换时只保留一个 nice!nano。
 
 ![B1 实际开舱结构](../../assets/modular/B1-open.png)
 
@@ -29,6 +29,8 @@ B1 将 nice!nano 从主板右前方移到后左侧独立载板。USB-C 从后左
 USB 端下方增加塑料边缘支承，前侧卡唇与后舱盖压柱限制抬起，名义竖向间隙 0.30 mm，避免主控一侧成为约 48 mm 的悬臂。安装时先将左前板边插入卡唇，再落下载板、锁内部螺丝并合盖；须用实际打印件检查卡唇与插拔力。
 
 打印 STL 已单独定向：底壳以斜底平面落床，后舱盖外表面朝床、压柱朝上；装配 STEP 保持整机坐标。
+
+USB 插头的塑料外壳验收包络为 **12 × 8 mm**，壳孔为 **14 × 10 mm**，底壳与后舱盖共同避让，盖板剩余厚度 1.85 mm。当前插口中心与凹入深度属于待实测装配基准；先打印 [96 × 34.4 mm 后舱试件](../../mechanical/modular/rear_pod_fit_coupon.stl)，配合原后舱盖、实际载板/模块及线缆检验。试件从当前底壳裁出，前侧开口，不是可替代完整底壳的独立产品。
 
 ## 电源、引脚与接触面
 
@@ -47,9 +49,9 @@ A 端功能顺序：`GND, VCC, GND, ROW0…ROW4, GND, MUX_A, MUX_B, MUX_C, MUX0_
 
 ## FPC 制造约束与待确认项目
 
-软板按**单面 B.Cu、35 µm 铜、0.20 mm 名义成品厚度**询价；KiCad 至少保留两个逻辑铜层，但 F.Cu 无铜且加工包不输出 F.Cu。非插接区采用柔性覆盖膜；B.Mask 只表示端子露铜窗口，不是要求做普通 FR4 绿油。线宽 0.15 mm、最小间距规则 0.10 mm、铜到板边规则 0.20 mm。端子为 0.6 × 4 mm 露铜指，补强后的 0.30 mm 是**待确认假设**，不是连接器厂家已确认的配合尺寸。
+软板按**单面 B.Cu、35 µm 铜、0.20 mm 名义成品厚度**询价；KiCad 至少保留两个逻辑铜层，但 F.Cu 无铜且加工包不输出 F.Cu。非插接区采用柔性覆盖膜；B.Mask 用每端一片连续区域表示露铜窗口，不是要求做普通 FR4 绿油。线宽 0.15 mm、最小间距规则 0.10 mm、铜到板边规则 0.20 mm。端子改为 0.7 × 3.5 mm 露铜指，铜指到插入端边缘；25 mm 端部带定位耳，采用整片覆盖膜开窗。补强在非接触面，长度至少 5 mm，端部成品厚度 0.30 ± 0.05 mm。金层至少 0.1 µm、镍底层 1–5 µm，不能只填写未保证厚度的默认表面处理。这些名义值来自已核实料号表的厂家图，并不表示实物已通过验配。见[接口修正与试片](interface-review.zh-CN.md)。
 
-不能直接用普通双面 FR4 板厂默认堆叠下单这张软板。必须拿 200528-0240 正式配合图或实物确认：接触高度、有效插深、端子长度与宽度、24 mm 外宽容差、补强面/厚度/长度及表面处理。未取得确认时先做连接器小样，不加工整条软板；询价时明确这是静态安装 FPC。成品沿平面弯曲外形制造，安装时不需要把直排线强折成曲线。预留轻微竖向装配顺应性，不能把 0.20 mm 模型当成可承受拉力的结构件。
+不能直接用普通双面 FR4 板厂默认堆叠下单这张软板。已取得包含 2005280240 的厂家系列图，端部名义几何和 4 mm 插深已经录入；未标注的槽高、制造公差、锁止与接触仍须实配。先用新增的 [25 mm 长短试片](../../hardware/modular/YAKB-FPC-coupon-B1.kicad_pcb) 验证，不直接制造整条软板；询价时明确这是静态安装 FPC。成品沿平面弯曲外形制造，安装时不需要把直排线强折成曲线。预留轻微竖向装配顺应性，不能把 0.20 mm 模型当成可承受拉力的结构件。
 
 转接板净距 2.6 mm 来自当前堆叠；插针需用绝缘定高夹具焊接、剪齐并检查与底壳的净空。插座开盖需要先拆主板，不支持带电插拔。nice!nano 本体及 USB 口目前用保守包络表达，采购批次的插针安装方式、实际 USB 口中心与插头外壳需先实配，必要时只调整后舱孔和载板高度后重跑净空检查。
 
@@ -71,6 +73,6 @@ A 端功能顺序：`GND, VCC, GND, ROW0…ROW4, GND, MUX_A, MUX_B, MUX_C, MUX0_
 ## 复现
 
 1. KiCad Python 运行 `scripts/generate_modular_pcbs.py`，生成未布线源与 DSN；用 FreeRouting 路由两个 DSN，生成同名 SES（需要人工保留安装孔和天线禁布区）。
-2. KiCad Python 依次运行 `scripts/finish_modular_pcbs.py`、`scripts/generate_modular_flex.py`；前者从 `.render-cache/*-unrouted.kicad_pcb` 导入 SES，不会叠加旧走线。
+2. KiCad Python 依次运行 `scripts/finish_modular_pcbs.py`、`scripts/generate_modular_flex.py`（同时生成短试片）；前者从 `.render-cache/*-unrouted.kicad_pcb` 导入 SES，不会叠加旧走线。
 3. 项目 `.venv/bin/python scripts/export_modular.py` 进行原生检查、导出加工及 GLB/STEP；KiCad Python 运行 `scripts/verify_modular.py` 检查逐针连接并提取原生图形。
 4. 项目 Python 依次运行 `scripts/generate_modular_mechanical.py`、`scripts/render_modular.py`、`scripts/generate_modular_guide.py`。Blender 路径位于渲染脚本，其他运行时要求同 [复现说明](../reproduce.zh-CN.md)。

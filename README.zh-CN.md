@@ -1,7 +1,7 @@
 # YAKB — Yet Another KeyBoard
 
 
-> **当前推荐：B1 独立主控方案。** 主控移到后左独立载板，USB 从左侧直接插入；原主板 U1 只装无源转接板。请先看 [B1 结构、PCB、FPC 与验证边界](docs/modular/README.zh-CN.md) 和 [B1 焊接工作台](hardware/soldering/b1/index.html)。下方 A0 图表保留作基础设计参考。
+> **当前推荐：B1.1 独立主控方案。** 主控移到后左独立载板，USB 从左侧直接插入；原主板 U1 只装无源转接板。请先看 [B1 结构、PCB、FPC 与验证边界](docs/modular/README.zh-CN.md) 和 [B1 焊接工作台](hardware/soldering/b1/index.html)。下方 A0 图表保留作基础设计参考。
 
 ![YAKB B1](assets/modular/B1-closed.png)
 

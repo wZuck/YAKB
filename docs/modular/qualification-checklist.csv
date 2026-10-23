@@ -1,0 +1,12 @@
+﻿Item / 检查项,Target / 基准,Measured / 实测,Result / 结论
+Part / 料号,Molex 200528-0240 + lot,,PENDING / 待测
+Terminal thickness / 端厚,0.30 +/-0.05 mm including stiffener,,PENDING / 待测
+Insertion / 插深,4 mm nominal; check latch and no lifting,,PENDING / 待测
+Continuity / 导通,A1-B24 through A24-B1; no adjacent shorts; POWER OFF,,PENDING / 待测
+Port centre / USB口高度,Measure actual carrier-top to socket centre; not inferred from 3.2mm module thickness,,PENDING / 待测
+USB recess / 凹入深度,Measure socket mouth relative to outer wall; confirm full insertion,,PENDING / 待测
+Plug shroud / 插头塑料,<=12 x 8 mm; opening14 x 10 mm,,PENDING / 待测
+Clip / 卡唇,1mm PCB; 0.30mm nominal vertical play; no component pressure,,PENDING / 待测
+Plug force / 插拔受力,No visible PCB flex; port and enclosure aligned,,PENDING / 待测
+ADC / 噪声,USB only / battery only / charging+BLE; save distributions,,PENDING / 待测
+Power / 电流,Record activity / idle / charge temperature on real assembly,,PENDING / 待测

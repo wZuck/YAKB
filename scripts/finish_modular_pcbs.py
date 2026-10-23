@@ -27,7 +27,8 @@ def schematic(b,stem):
    ax=x+px;ay=y-py;net=pins[num]
    if not net:items.append(f'(no_connect (at {ax} {ay}) (uuid {uid(stem+ref+num+"nc")}))');continue
    end=ax+(-5.08 if px<0 else 5.08);items.append(f'(wire (pts (xy {ax} {ay}) (xy {end} {ay})) (stroke (width 0) (type default)) (uuid {uid(stem+ref+num+"w")}))');items.append(f'(global_label {q(net)} (shape bidirectional) (at {end} {ay} {0 if px<0 else 180}) (effects (font (size 1 1)) (justify {"right" if px<0 else "left"} bottom)) (uuid {uid(stem+ref+num+"l")}))')
- sch=f'(kicad_sch (version 20250114) (generator "yakb") (uuid {uid(stem)}) (paper "A4") (title_block (title {q(stem+" ENGINEERING PROTOTYPE")}) (rev "B1")) (lib_symbols {"".join(libs)}) {"".join(items)})\n';(OUT/(stem+'.kicad_sch')).write_text(sch)
+ rev=b.GetTitleBlock().GetRevision() or 'B1'
+ sch=f'(kicad_sch (version 20250114) (generator "yakb") (uuid {uid(stem)}) (paper "A4") (title_block (title {q(stem+" ENGINEERING PROTOTYPE")}) (rev {q(rev)})) (lib_symbols {"".join(libs)}) {"".join(items)})\n';(OUT/(stem+'.kicad_sch')).write_text(sch)
  return mapping,symbol_lib
 
 def import_routes(b,path):

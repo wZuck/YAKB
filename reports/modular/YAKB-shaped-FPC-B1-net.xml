@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>/Users/wzy/workspace/YAKB/hardware/modular/YAKB-shaped-FPC-B1.kicad_sch</source>
-    <date>2026-10-23T03:16:56</date>
+    <date>2026-10-23T11:50:32</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>YAKB-shaped-FPC-B1 ENGINEERING PROTOTYPE</title>
         <company/>
-        <rev>B1</rev>
+        <rev>B1.1</rev>
         <date/>
         <source>YAKB-shaped-FPC-B1.kicad_sch</source>
         <comment number="1" value=""/>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="J_A">
-      <value>FPC_BOTTOM_CONTACT_1mm</value>
+      <value>MOLEX_200528_1mm_BOTTOM</value>
       <fields>
         <field name="Footprint"/>
         <field name="Datasheet"/>
@@ -68,7 +68,7 @@
       </units>
     </comp>
     <comp ref="J_B">
-      <value>FPC_BOTTOM_CONTACT_1mm</value>
+      <value>MOLEX_200528_1mm_BOTTOM</value>
       <fields>
         <field name="Footprint"/>
         <field name="Datasheet"/>
@@ -115,7 +115,7 @@
     <libpart lib="YAKB_B1" part="YAKB-shaped-FPC-B1_J_A">
       <fields>
         <field name="Reference">J_A</field>
-        <field name="Value">FPC_BOTTOM_CONTACT_1mm</field>
+        <field name="Value">MOLEX_200528_1mm_BOTTOM</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -150,7 +150,7 @@
     <libpart lib="YAKB_B1" part="YAKB-shaped-FPC-B1_J_B">
       <fields>
         <field name="Reference">J_B</field>
-        <field name="Value">FPC_BOTTOM_CONTACT_1mm</field>
+        <field name="Value">MOLEX_200528_1mm_BOTTOM</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>

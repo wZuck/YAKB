@@ -1,0 +1,44 @@
+{
+  "revision": "B1.1 / 2005281000-SD-C",
+  "source": {
+    "author": "Molex",
+    "document": "2005281000-SD",
+    "revision": "C",
+    "release_date": "2019-08-14",
+    "url": "https://www.micro-processor.com/parts-file/c2-2005280050.pdf",
+    "sha256": "0eda8830da18046913d8be687a56cc467b87b1c303995ac77e73ece611737469",
+    "part_table_pdf_page": 5,
+    "terminal_pdf_page": 6,
+    "part_number": "2005280240",
+    "redistributed_pdf": false
+  },
+  "pin_count": 24,
+  "pitch_mm": 1,
+  "terminal_width_mm": 25,
+  "terminal_width_tolerance_mm": [
+    -0.05,
+    0.1
+  ],
+  "finger_width_mm": 0.7,
+  "finger_length_mm": 3.5,
+  "finger_span_mm": 23,
+  "ear_projection_mm": 0.55,
+  "ear_start_mm": 1.1,
+  "ear_full_start_mm": 1.5,
+  "ear_end_mm": 2.2,
+  "tip_radius_mm": 0.3,
+  "ear_corner_radius_mm": 0.1,
+  "stiffener_length_mm": 5,
+  "finished_terminal_thickness_mm": 0.3,
+  "finished_terminal_thickness_tolerance_mm": 0.05,
+  "contact_gold_min_um": 0.1,
+  "contact_nickel_um": [
+    1,
+    5
+  ],
+  "insertion_depth_mm": 4,
+  "mouth_y_from_footprint_mm": 4.19,
+  "coupon_tip_distance_mm": 25,
+  "qualification": "Nominal terminal geometry transcribed from manufacturer drawing; sample fit, manufacturing tolerances and un-dimensioned slot height remain unqualified.",
+  "selected_terminal_profile": "Manufacturer drawing tabbed option; the drawing also permits an untabbed profile."
+}

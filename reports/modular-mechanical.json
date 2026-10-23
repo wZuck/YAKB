@@ -1,4 +1,15 @@
 {
+  "flex_to_pod_screw_distance_mm": 0.7710993643036587,
+  "usb_lid_roof_thickness_mm": 1.8500000000000005,
+  "usb_roof_probe_missing_material_mm3": 0.0,
+  "usb_opening_yz_mm": [
+    14,
+    10
+  ],
+  "usb_accepted_plug_envelope_yz_mm": [
+    12,
+    8
+  ],
   "lid_head_seat_missing_material_mm3": {
     "1": 0.0,
     "2": 0.0
@@ -29,7 +40,10 @@
     "screws_main": 0.0,
     "screws_base": 0.0,
     "screws_lid": 0.0,
-    "flex_three_bay_base": 0.0
+    "flex_three_bay_base": 0.0,
+    "plug_lid": 0.0,
+    "plug_screws": 0.0,
+    "flex_lid": 0.0
   },
   "usb_direction": "left side, rear pod; direct module connection; no USB extension",
   "outer_plan_bounds_mm": [
@@ -40,17 +54,18 @@
   ],
   "mainboard_population": "U1 omitted; interposer takes its place",
   "pin_map": "A:n -> B:25-n",
-  "fpc_centerline_length_mm": 228.95838769825846,
+  "fpc_centerline_length_mm": 230.1331757991538,
   "limitations": [
-    "Connector contact height, insertion depth and terminal stiffener require samples/vendor drawing qualification.",
+    "Terminal nominal geometry and stiffeners follow the manufacturer drawing; un-dimensioned slot elevation and actual fit still require samples.",
     "nice!nano is a clearance envelope; USB socket face and module standoff height must be measured before fabrication.",
     "Flex-to-connector mating and header engagement are intentional interfaces, not covered by zero-intersection assertions."
   ],
   "sources": {
-    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
+    "design/fpc-interface.json": "9d22774d7174c28b19023448e96c30686a690a8cf09dfdc717378130671ad494",
+    "design/modular.json": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
     "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
-    "scripts/generate_modular_mechanical.py": "d31f32ec93b694788d637318ba2af6a992f5d0e0ee80e1197bcdcf28a338bc1a",
-    "scripts/modular_common.py": "6fea64d6b61cf6831db15bc70d8710dc0b1e4083831ac9e8b4f52d9a1f19eb2f",
+    "scripts/generate_modular_mechanical.py": "2cbac054f6aa9d490055fb4012729a0334cd579e515cd44c681cf3b95f8c4533",
+    "scripts/modular_common.py": "db918de737e0cd947728a7371586df9c7ea5e359b96a08833077b7c3dc308d3c",
     "scripts/generate_mechanical.py": "2449441228d6dc160086655183ee3c369dd2b1b38033000802b5d1f744999d4f",
     "mechanical/case_base.step": "96a180b74c4c106233e5a785b5d421007374c6e56d2f34d7f90487b9b8e9910d",
     "mechanical/case_base_three_bay.step": "e298c6a0497cc491182651563ab0a21c58033cbf40a2bb5b1680a6b84cb4dd39",
@@ -62,24 +77,26 @@
     "mechanical/battery_envelope.step": "168b64f93172f0b53f34330662db8607aa64df2381a7a7b96fce2d5e26521cb7",
     "mechanical/battery_pack_envelopes.step": "70f23967344b33520e28d5d13867b152b0037c89b9707ca29fb4c857995e6b9a",
     "mechanical/case_screw_envelopes.step": "bc6da669520266977b37757119caa07516bc89d564a204e418709d4dc7997355",
-    "mechanical/modular/YAKB-controller-B1-native.step": "86b8498bb9cceda3de0d8164a33f455c27008b8e5faab4f5e5b5872da0aa450c",
-    "mechanical/modular/YAKB-interposer-B1-native.step": "ccc66677513b6c8288baf49d900c13c9e7d026302076232a66e0d9c27b4d8d92"
+    "mechanical/modular/YAKB-controller-B1-native.step": "1b977ffcdea7c8a561d5782d3d52ea37b58e7798ecbd28cc446924bc943f9e4d",
+    "mechanical/modular/YAKB-interposer-B1-native.step": "47485ec5633cfeb4b6483d78343c81338af575e256b160fd34147bf0b89bdb40"
   },
   "outputs": {
-    "mechanical/modular/case_base_B1.step": "c9c8aee7050202babbcb590f44d8e6e8e0a2251999353feaca204a9ae3e9b9f1",
-    "mechanical/modular/pod_lid_B1.step": "619fafd3470ad31fa0b4175123ffdd2e1660798d836a77692f0bf809bdb0438a",
-    "mechanical/modular/controller_pcb.step": "da6c2aa1b10d7bf0e391af80c53c9c8b8a2eae2023cad3bfde9ca4fa2a448728",
-    "mechanical/modular/interposer_pcb.step": "d9804b7d8285248343c667373a769de35464f871213f6344c4ed3a72e42e9cef",
-    "mechanical/modular/controller_module_envelope.step": "1e9bcebb2b448606e493639213d768464050168b19595ec602427c62d45ea4fd",
-    "mechanical/modular/external_usb_plug_envelope.step": "4db233fe1649c053978b1502f32e7c3b2ed23a604a441ba8db99bddfc7fbfef3",
-    "mechanical/modular/shaped_fpc_envelope.step": "71c8d54c4016290cdfb5707c02721e85d8da237f293d0fce2f1dddc67f2c745a",
-    "mechanical/modular/pod_screw_envelopes.step": "8fd4b3476d4f91439ce0b647fbbcc6a263eda68b6e47fd71302e30434c3ace01",
-    "mechanical/modular/controller_populated.step": "797745e827c1d15218b1281b5af78356773e1672b3fd15a6cbe29e82f51640c4",
-    "mechanical/modular/interposer_populated.step": "148a47898556f87260dbaa06dbe6b53c09c30e52f60b46bd5595c5b53c964bfe",
-    "mechanical/modular/case_base_B1_three_bay.step": "4f52a714a5a1c2dc77ab7c69efccc1c2a04b7d36a8adadca319db49ad72039b2",
-    "mechanical/modular/assembly_B1.step": "44022a6215addb505e9a017150db465983ad5b25796c847ce1ece9ccdb4c791f",
-    "mechanical/modular/case_base_B1.stl": "2999afb9ba8121e95e7549badddaf38b05880c0fae17dd4aaa386a838e84ff6b",
-    "mechanical/modular/case_base_B1_three_bay.stl": "60106766b56bef94d7cd49c1f290fe5e8a6f66a9dacae3965fed3dc019d996e9",
-    "mechanical/modular/pod_lid_B1.stl": "d88e57e924f9b6b29d23484316d361880e95715cbc78b5abeda3d2b7d9df234d"
+    "mechanical/modular/case_base_B1.step": "d654f26525901e7080cc51dd5f9a681c89e515d3e11e3df8cb82459d16f66a64",
+    "mechanical/modular/pod_lid_B1.step": "e9ec096655b2736f14fa18fb8d7ec9fa6c65a094a276fb10ccbbe21a015bf92e",
+    "mechanical/modular/controller_pcb.step": "d24e2fce191d7b8416ac2b932f4be88531289c0d2b1d8bc67f095230221745de",
+    "mechanical/modular/interposer_pcb.step": "03c23f0c13744189947d7776f75c332886073573d9a4efd5334671441cb16d8d",
+    "mechanical/modular/controller_module_envelope.step": "8f0b03ff6959102326c1f17c2e279005bb660d27d19723ced0eb606431224841",
+    "mechanical/modular/external_usb_plug_envelope.step": "2ad9ca7649ca5a5eed072b948351df9dcf11697f61eb49de4bf6ffb74f9eca67",
+    "mechanical/modular/shaped_fpc_envelope.step": "957c87c32e284a8aede2defbfe584dd55b54d7c20e5fa129bbe7f6d0946706a2",
+    "mechanical/modular/pod_screw_envelopes.step": "8823db59b27936b5e463e3adf3de05de73755fe8c13e3a1aa331a730ae1cb2ff",
+    "mechanical/modular/controller_populated.step": "69e004454dad9ab6606a098a922ddc6d1f85013068367a1f218a2c546cec2207",
+    "mechanical/modular/interposer_populated.step": "7dceb6c5a42a1b9c118d1e07307d22fc96d2905e44568554101d16b4df752d44",
+    "mechanical/modular/case_base_B1_three_bay.step": "fbbc3a07192c0ad7a4a282e231311fb156ef4839dc98870530765e76e53b47f0",
+    "mechanical/modular/rear_pod_fit_coupon.step": "d420f8dab1ef7fc1e287d26ffef07bc573aef631fa4bf04b1884a18834446fae",
+    "mechanical/modular/assembly_B1.step": "1321157d61b7f47ce4fefe49bd6284e78ec270a50dbbf40483156418826f806e",
+    "mechanical/modular/case_base_B1.stl": "b3639af035a10ea383435dbf202c4f4af3bc92a2b9d669bad9503180519d7af3",
+    "mechanical/modular/case_base_B1_three_bay.stl": "d9df30e51142358d7cd2204ba6bfaa0b1b6b3119b3335303f061ebbd99068255",
+    "mechanical/modular/pod_lid_B1.stl": "f131a952b8e80c24d8122a73476c747ea11b87242d90739690c06322ccbc441c",
+    "mechanical/modular/rear_pod_fit_coupon.stl": "ce84b0664b126b6eae976b7e719685ddbc9a0ea2a451634834c483e2938e5570"
   }
 }

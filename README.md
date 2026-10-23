@@ -1,7 +1,7 @@
 # YAKB — Yet Another KeyBoard
 
 
-> **Current variant: B1 modular controller.** The rear-left carrier accepts USB directly from the left side; the original U1 position takes a passive interposer. Start with the [B1 PCB, FPC, case and qualification notes](docs/modular/README.md) and [B1 soldering workbench](hardware/soldering/b1/index.html). A0 drawings below remain the baseline reference.
+> **Current variant: B1.1 modular controller.** The rear-left carrier accepts USB directly from the left side; the original U1 position takes a passive interposer. Start with the [B1 PCB, FPC, case and qualification notes](docs/modular/README.md) and [B1 soldering workbench](hardware/soldering/b1/index.html). A0 drawings below remain the baseline reference.
 
 ![YAKB B1](assets/modular/B1-closed.png)
 

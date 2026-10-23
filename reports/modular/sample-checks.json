@@ -1,0 +1,77 @@
+{
+  "print_solid_counts": {
+    "case_base_B1": 1,
+    "case_base_B1_three_bay": 1,
+    "pod_lid_B1": 1,
+    "rear_pod_fit_coupon": 1
+  },
+  "short_fpc_envelope_size_mm": [
+    26.1,
+    25.0,
+    0.30000000000000004
+  ],
+  "coupon_crop_difference_mm3": 0.0,
+  "installed_flex_outside_case_envelope_mm3": 0.0,
+  "installed_flex_constructed_bounds_mm": [
+    47.95,
+    -15.310000000000027,
+    -3.35,
+    273.05,
+    83.31,
+    -3.05
+  ],
+  "print_STL_bounds_mm": {
+    "case_base_B1": [
+      -7.0,
+      -101.79986572265625,
+      -5.5067062021407764e-14,
+      292.0,
+      35.505916595458984,
+      22.08718490600586
+    ],
+    "case_base_B1_three_bay": [
+      -7.0,
+      -101.79986572265625,
+      -5.5067062021407764e-14,
+      292.0,
+      35.505916595458984,
+      22.08718490600586
+    ],
+    "pod_lid_B1": [
+      -7.0,
+      -35.0,
+      -4.529691644558978e-15,
+      89.0,
+      -7.300000190734863,
+      9.800000190734863
+    ],
+    "rear_pod_fit_coupon": [
+      -7.0,
+      0.34087035059928894,
+      -1.7763568394002505e-15,
+      89.0,
+      35.505916595458984,
+      22.08718490600586
+    ]
+  },
+  "sample_measurements": "NONE - drawings and file geometry only",
+  "sources": {
+    "design/yakb.json": "8ce4a80abae78a299250e5adf07297a6f22788cd928b565e17954727a38fa076",
+    "scripts/common.py": "d338e178b107b9476c43c4abe9bf687e41bfcbf29b2ad9063e8bbc33a5fd4ce3",
+    "design/modular.json": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
+    "design/fpc-interface.json": "9d22774d7174c28b19023448e96c30686a690a8cf09dfdc717378130671ad494",
+    "scripts/modular_common.py": "db918de737e0cd947728a7371586df9c7ea5e359b96a08833077b7c3dc308d3c",
+    "scripts/verify_interface_samples.py": "c573d69ce0b08aa6773ce774dff959fb21da458e256735195c8b488155fc1b44",
+    "scripts/generate_mechanical.py": "2449441228d6dc160086655183ee3c369dd2b1b38033000802b5d1f744999d4f",
+    "mechanical/modular/case_base_B1.step": "d654f26525901e7080cc51dd5f9a681c89e515d3e11e3df8cb82459d16f66a64",
+    "mechanical/modular/rear_pod_fit_coupon.step": "d420f8dab1ef7fc1e287d26ffef07bc573aef631fa4bf04b1884a18834446fae",
+    "mechanical/modular/shaped_fpc_envelope.step": "957c87c32e284a8aede2defbfe584dd55b54d7c20e5fa129bbe7f6d0946706a2",
+    "mechanical/modular/case_base_B1.stl": "b3639af035a10ea383435dbf202c4f4af3bc92a2b9d669bad9503180519d7af3",
+    "mechanical/modular/case_base_B1_three_bay.stl": "d9df30e51142358d7cd2204ba6bfaa0b1b6b3119b3335303f061ebbd99068255",
+    "mechanical/modular/pod_lid_B1.stl": "f131a952b8e80c24d8122a73476c747ea11b87242d90739690c06322ccbc441c",
+    "mechanical/modular/rear_pod_fit_coupon.stl": "ce84b0664b126b6eae976b7e719685ddbc9a0ea2a451634834c483e2938e5570"
+  },
+  "outputs": {
+    "mechanical/modular/fpc_mating_coupon_envelope.step": "ac1d3759095d97261b69c8497582fbc7674e776aef53a605ec5f3d574ca824b3"
+  }
+}

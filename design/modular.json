@@ -1,5 +1,5 @@
 {
-  "revision": "B1-modular-prototype",
+  "revision": "B1.1-interface-prototype",
   "status": "engineering prototype; sample fit, EMC and charging measurements required",
   "mainboard": "hardware/YAKB.kicad_pcb; U1 not populated in B1",
   "connector": "Molex 200528-0240",
@@ -106,10 +106,10 @@
     "controls": [
       [
         61,
-        -10.5
+        -9.81
       ],
       [
-        66,
+        110,
         20
       ],
       [
@@ -122,15 +122,15 @@
       ]
     ],
     "ends_stiffened_thickness_mm": 0.3,
-    "terminal_width_mm": 24,
+    "terminal_width_mm": 25,
     "contacts": [
       [
         61,
-        -13
+        -13.56
       ],
       [
         260,
-        80.3
+        81.56
       ]
     ]
   },
@@ -142,19 +142,25 @@
       -0.95
     ],
     "opening_size_yz": [
-      12,
-      8
+      14,
+      10
     ],
     "insertion_envelope_origin": [
       -28,
-      -19.5,
-      -3.7
+      -21.5,
+      -4.95
     ],
     "insertion_envelope_size": [
-      28,
-      8,
-      5.5
-    ]
+      28.25,
+      12,
+      8
+    ],
+    "maximum_shroud_yz_mm": [
+      12,
+      8
+    ],
+    "nominal_socket_face_x_mm": 0.25,
+    "pose_status": "Port face and centre are assembly datums for sample qualification, not manufacturer-confirmed module dimensions."
   },
   "pod": {
     "outer": [

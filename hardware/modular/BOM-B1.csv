@@ -7,9 +7,11 @@ Controller,C2,1,100nF X7R >=6.3V,0805 hand solder,VCC to GND
 Interposer,JF1,1,Molex 200528-0240,24 pin 1mm bottom contact,Rotated 180deg relative to carrier
 Interposer,R1,1,47ohm 1%,0805 hand solder,Main ADC to ADC_FLEX
 Interposer,JMAIN,24,1mm-hole compatible straight solder pins,2.54mm pitch,Cut to fit; 2.6mm board surface gap; no tall sockets
-Custom FPC,FPC1,1,YAKB-shaped-FPC-B1,35um B copper 0.20mm nominal flex,24mm tabs / 26mm body; 0.30mm stiffened ends UNQUALIFIED
+Custom FPC,FPC1,1,YAKB-shaped-FPC-B1,35um B copper 0.20mm nominal flex,25mm tabs / 26.1mm ears; 0.30+/-0.05mm stiffened ends; sample fit required
 Case,Carrier screws,4,M2x4,Head diameter <=3.8mm height <=1.8mm,Internal top down; use printed support and blind insert
 Case,Carrier inserts,4,M2 heat-set insert,OD3mm length3mm,Install from support top; coupon required
 Case,Pod lid screws,2,M2x16,Head diameter <=3.8mm height <=2mm,Bottom up; recessed seat z=-13mm
 Case,Pod lid inserts,2,M2 heat-set insert,OD3mm length3mm,Blind lid bosses; top skin 2.4mm
 Case,Base lid and plate,1,B1 base + pod lid + existing A0 bezel and plate,3D print + 1.6mm plate,Retain original 8 bezel fasteners; same HHKB blockers
+Qualification,FPC coupon,1,YAKB-FPC-coupon-B1,Single-sided flex,25mm tip distance; qualify before full flex manufacture
+Qualification,Pod fit coupon,1,rear_pod_fit_coupon.stl,3D print,Use existing pod lid; real USB shroud <=12x8mm

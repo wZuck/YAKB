@@ -25,7 +25,7 @@ cap=material('Keycap clearance envelope / ivory',(.81,.80,.72),0,.31)
 cell=material('Battery clearance envelope',(.34,.40,.38),.35,.4)
 module=material('Module clearance envelope',(.11,.28,.24),0,.45)
 plug=material('USB plug clearance envelope',(.12,.14,.13),0,.42)
-materials={'base':shell,'lid':shell,'module':module,'flex':material('Illustrative polyimide coverlay',(.48,.22,.035),0,.45),'plug':plug,'bezel':shell,'plate':plate,'caps':cap,'battery':cell}
+materials={'fit_coupon':shell,'base':shell,'lid':shell,'module':module,'flex':material('Illustrative polyimide coverlay',(.48,.22,.035),0,.45),'plug':plug,'bezel':shell,'plate':plate,'caps':cap,'battery':cell}
 objects={}
 with gzip.open(CACHE/'b1-meshes.json.gz','rt') as f:meshes=json.load(f)
 for data in meshes:
@@ -76,6 +76,7 @@ def render(name,visible,position,target=(.1425,-.0473,.005),explode=None,floor_z
     scene.render.filepath=str(CACHE/(name+'.png'));bpy.ops.render.render(write_still=True)
 
 views=[
+('B1-fit-coupon',['fit_coupon','lid','controller','module','plug'],(-.09,.18,.13),(.041,.018,.006),{'lid':.035},-.016),
 ('B1-closed',['base','lid','bezel','plate','caps','module','controller','plug'],(-.15,.30,.24),(.125,-.025,.003),None,-.016),
 ('B1-open',['base','lid','pcb','controller','interposer','module','flex','battery'],(-.10,.30,.30),(.13,-.025,.012),{'pcb':.025,'lid':.060},-.016),
 ('B1-top',['base','lid','bezel','caps','plug'],(.1425,-.0333,.5),(.1425,-.0333,0),None,-.016)]

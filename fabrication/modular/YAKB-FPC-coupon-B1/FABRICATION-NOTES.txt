@@ -1,0 +1,7 @@
+YAKB B1 CUSTOM SINGLE-SIDED FLEX - ENGINEERING PROTOTYPE
+Do not use the default rigid FR4 / two-layer stack. B.Cu is the only physical copper layer.
+Read FLEX-STACKUP.json and docs/modular/README.md before quoting.
+STOP full-flex manufacture until the connector mating coupon is qualified.
+25mm tabs, 0.7x3.5mm fingers, ears and 5mm stiffener: see embedded Molex interface contract.
+Finished terminal thickness 0.30+/-0.05mm; exposed edge fingers intentionally reach the cut edge.
+Use one continuous coverlay window at each end; Stiffener_Top.gbr defines the non-contact-side stiffener extent, not SMT glue. Slot elevation and actual sample fit remain unqualified.

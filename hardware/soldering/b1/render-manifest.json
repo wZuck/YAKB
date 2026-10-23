@@ -3,22 +3,25 @@
   "sources": {
     "hardware/modular/YAKB-controller-B1.kicad_pcb": "f6ee8fc0bfd107fa05ba717c50611d65bd777d96301d1d6726248cfa821e5bdf",
     "hardware/modular/YAKB-interposer-B1.kicad_pcb": "67a6c8224abb854e965f181f5ad877f8ade4cc903ee3ab281a82dbb301a0882b",
-    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "e4793718e7b85eb553804b6853e27962e97755742ff9664c37500449c7fec9cd",
-    "design/modular.json": "fd6a86fe0d42b564fa34f8488f26e3e70a40ea7a526d8112904b2e8af044dd60",
-    "scripts/generate_modular_guide.py": "7b6e72e90ab81bfc1bc4f6c8971d726f52d3eda91d9acd06606d8775d550d3bb",
-    "scripts/modular_common.py": "6fea64d6b61cf6831db15bc70d8710dc0b1e4083831ac9e8b4f52d9a1f19eb2f",
+    "hardware/modular/YAKB-shaped-FPC-B1.kicad_pcb": "861c26b3fa9c757e2c6a40ff3c21dd8372c81aaf3071f7847bc646b66926fedd",
+    "hardware/modular/YAKB-FPC-coupon-B1.kicad_pcb": "dd4cee264c428253be346ecc7324d85e0b7b84281d53f7832d284a0e8e13b0b6",
+    "design/fpc-interface.json": "9d22774d7174c28b19023448e96c30686a690a8cf09dfdc717378130671ad494",
+    "design/modular.json": "d55c0efa50c2487d840e667ce84844b635bf7d2a5168a06b7dfead3fc5ad980d",
+    "scripts/generate_modular_guide.py": "c45e430666807458674bfab229a5d8e37bf39644ab92903e0d2ceed90d1c1684",
+    "scripts/modular_common.py": "db918de737e0cd947728a7371586df9c7ea5e359b96a08833077b7c3dc308d3c",
     "hardware/soldering/data.js": "e6a77d9b32696fa7adef050e61f08da5b052d8b73513cc68c035cf66ee6f766f",
-    "hardware/soldering/index.html": "61ac4b0776a5bd3bd0035611487e66b2833ecd9ec3a0df4ff8b5e7dbf31150a1",
+    "hardware/soldering/index.html": "a298c5f2c4df9467ae7bf79f0cdfcd9664e90084043bc44303e10eebe1e9c3cc",
     "hardware/soldering/app.js": "d990c8ae5effd450a189f2adccf29f45a9c5ce060e7605ef6034eb06c82ce7fa",
     "hardware/soldering/styles.css": "c0476229b1434d6bae625838f1756acfc97251434787c81616dfe23fb3f080e0",
-    "scripts/verify_modular.py": "0195e256ed1f52942792e31eff0580cb79cc0c807de4e7d0d9223fc39ee516ce"
+    "scripts/verify_modular.py": "a208986907a065dd639b40592ee1b66a4df9b130b07825364b38a31ff6420c65"
   },
   "images": {
-    "hardware/soldering/b1/index.html": "b5af7d213c776840c79be88f9179712ebd7a09b1a26b1a7fe630b8bf9c75e1a1",
-    "hardware/soldering/b1/data.js": "7bff5ba5c907c3ef98d4c425558ef3ae48a05cf1c2c20a0ddac3d6b6a0814fe8",
+    "hardware/soldering/b1/index.html": "6886a3b4740e24be9c0f66c34679189895945b6e2161afaf3dfb1b8a0d794054",
+    "hardware/soldering/b1/data.js": "57e65d2b2e10ba101f53d5f1a144fdebc6fe494f7fdf4348fa3db2b589d428e6",
     "hardware/soldering/b1/placement-checklist.csv": "6aad1fbfa1f1f7b0a55e54af3c1c0cdb206e00475f7b4e1c22b34a376f598b22",
-    "assets/modular/B1-shaped-FPC-plan.png": "347301d3e631ef0cc66f1804d91b0f9e546cd6e00e6504fc2b1b56965485b979",
-    "assets/modular/B1-controller-plan.png": "1aad2f36a80d5941b07852ee3e58201429b1073553053e8af4e69f5a6c9f5fb4",
-    "assets/modular/B1-interposer-plan.png": "c406ac425af7a7b7009db84825296bfbc14ba2b9dc540beca0a75f807dd62605"
+    "assets/modular/B1-shaped-FPC-plan.png": "2a79f88ef0b6441beef91f43b770384f72127566fc3686873be9b8d130236fed",
+    "assets/modular/B1-controller-plan.png": "194e637ce133dffca131da78ceb87dde6983204f480924039826f3875157ddbb",
+    "assets/modular/B1-FPC-coupon-plan.png": "0499e6d720799743b322ccc9cc4fa73a0f8ebfa04731bd9a7c6050e72c7a7b28",
+    "assets/modular/B1-interposer-plan.png": "b6419b18eb22d012bf8166bb851d2b863b773c9f7e873f0010ef9db347a0cf5d"
   }
 }

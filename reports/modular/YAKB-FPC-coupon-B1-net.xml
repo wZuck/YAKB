@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/wzy/workspace/YAKB/hardware/modular/YAKB-FPC-coupon-B1.kicad_sch</source>
+    <date>2026-10-23T11:50:38</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>YAKB-FPC-coupon-B1 ENGINEERING PROTOTYPE</title>
+        <company/>
+        <rev>B1.1</rev>
+        <date/>
+        <source>YAKB-FPC-coupon-B1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J_A">
+      <value>MOLEX_200528_1mm_BOTTOM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-FPC-coupon-B1_J_A" description=""/>
+      <property name="Sheetname" value="YAKB-FPC-coupon-B1"/>
+      <property name="Sheetfile" value="YAKB-FPC-coupon-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dcf8712-5880-5daf-a220-477ec8c5a9d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J_B">
+      <value>MOLEX_200528_1mm_BOTTOM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="YAKB_B1" part="YAKB-FPC-coupon-B1_J_B" description=""/>
+      <property name="Sheetname" value="YAKB-FPC-coupon-B1"/>
+      <property name="Sheetfile" value="YAKB-FPC-coupon-B1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8beb2241-f385-5430-b4f1-7903cf81b7d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="YAKB_B1" part="YAKB-FPC-coupon-B1_J_A">
+      <fields>
+        <field name="Reference">J_A</field>
+        <field name="Value">MOLEX_200528_1mm_BOTTOM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE01_GND" type="passive"/>
+        <pin num="2" name="LINE02_VCC" type="passive"/>
+        <pin num="3" name="LINE03_GND" type="passive"/>
+        <pin num="4" name="LINE04_ROW_DRV0" type="passive"/>
+        <pin num="5" name="LINE05_ROW_DRV1" type="passive"/>
+        <pin num="6" name="LINE06_ROW_DRV2" type="passive"/>
+        <pin num="7" name="LINE07_ROW_DRV3" type="passive"/>
+        <pin num="8" name="LINE08_ROW_DRV4" type="passive"/>
+        <pin num="9" name="LINE09_GND" type="passive"/>
+        <pin num="10" name="LINE10_MUX_A" type="passive"/>
+        <pin num="11" name="LINE11_MUX_B" type="passive"/>
+        <pin num="12" name="LINE12_MUX_C" type="passive"/>
+        <pin num="13" name="LINE13_MUX0_INH" type="passive"/>
+        <pin num="14" name="LINE14_MUX1_INH" type="passive"/>
+        <pin num="15" name="LINE15_DRAIN" type="passive"/>
+        <pin num="16" name="LINE16_AFE_ON_N" type="passive"/>
+        <pin num="17" name="LINE17_GND" type="passive"/>
+        <pin num="18" name="LINE18_ADC_FLEX" type="passive"/>
+        <pin num="19" name="LINE19_GND" type="passive"/>
+        <pin num="20" name="LINE20_RESET" type="passive"/>
+        <pin num="21" name="LINE21_GND" type="passive"/>
+        <pin num="22" name="LINE22_BAT_SW" type="passive"/>
+        <pin num="23" name="LINE23_BAT_SW" type="passive"/>
+        <pin num="24" name="LINE24_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAKB_B1" part="YAKB-FPC-coupon-B1_J_B">
+      <fields>
+        <field name="Reference">J_B</field>
+        <field name="Value">MOLEX_200528_1mm_BOTTOM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE24_GND" type="passive"/>
+        <pin num="2" name="LINE23_BAT_SW" type="passive"/>
+        <pin num="3" name="LINE22_BAT_SW" type="passive"/>
+        <pin num="4" name="LINE21_GND" type="passive"/>
+        <pin num="5" name="LINE20_RESET" type="passive"/>
+        <pin num="6" name="LINE19_GND" type="passive"/>
+        <pin num="7" name="LINE18_ADC_FLEX" type="passive"/>
+        <pin num="8" name="LINE17_GND" type="passive"/>
+        <pin num="9" name="LINE16_AFE_ON_N" type="passive"/>
+        <pin num="10" name="LINE15_DRAIN" type="passive"/>
+        <pin num="11" name="LINE14_MUX1_INH" type="passive"/>
+        <pin num="12" name="LINE13_MUX0_INH" type="passive"/>
+        <pin num="13" name="LINE12_MUX_C" type="passive"/>
+        <pin num="14" name="LINE11_MUX_B" type="passive"/>
+        <pin num="15" name="LINE10_MUX_A" type="passive"/>
+        <pin num="16" name="LINE09_GND" type="passive"/>
+        <pin num="17" name="LINE08_ROW_DRV4" type="passive"/>
+        <pin num="18" name="LINE07_ROW_DRV3" type="passive"/>
+        <pin num="19" name="LINE06_ROW_DRV2" type="passive"/>
+        <pin num="20" name="LINE05_ROW_DRV1" type="passive"/>
+        <pin num="21" name="LINE04_ROW_DRV0" type="passive"/>
+        <pin num="22" name="LINE03_GND" type="passive"/>
+        <pin num="23" name="LINE02_VCC" type="passive"/>
+        <pin num="24" name="LINE01_GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="YAKB_B1">
+      <uri>${KIPRJMOD}/YAKB_B1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="LINE01_GND" class="Default">
+      <node ref="J_A" pin="1" pinfunction="LINE01_GND_1" pintype="passive"/>
+      <node ref="J_B" pin="24" pinfunction="LINE01_GND_24" pintype="passive"/>
+    </net>
+    <net code="2" name="LINE02_VCC" class="Default">
+      <node ref="J_A" pin="2" pinfunction="LINE02_VCC_2" pintype="passive"/>
+      <node ref="J_B" pin="23" pinfunction="LINE02_VCC_23" pintype="passive"/>
+    </net>
+    <net code="3" name="LINE03_GND" class="Default">
+      <node ref="J_A" pin="3" pinfunction="LINE03_GND_3" pintype="passive"/>
+      <node ref="J_B" pin="22" pinfunction="LINE03_GND_22" pintype="passive"/>
+    </net>
+    <net code="4" name="LINE04_ROW_DRV0" class="Default">
+      <node ref="J_A" pin="4" pinfunction="LINE04_ROW_DRV0_4" pintype="passive"/>
+      <node ref="J_B" pin="21" pinfunction="LINE04_ROW_DRV0_21" pintype="passive"/>
+    </net>
+    <net code="5" name="LINE05_ROW_DRV1" class="Default">
+      <node ref="J_A" pin="5" pinfunction="LINE05_ROW_DRV1_5" pintype="passive"/>
+      <node ref="J_B" pin="20" pinfunction="LINE05_ROW_DRV1_20" pintype="passive"/>
+    </net>
+    <net code="6" name="LINE06_ROW_DRV2" class="Default">
+      <node ref="J_A" pin="6" pinfunction="LINE06_ROW_DRV2_6" pintype="passive"/>
+      <node ref="J_B" pin="19" pinfunction="LINE06_ROW_DRV2_19" pintype="passive"/>
+    </net>
+    <net code="7" name="LINE07_ROW_DRV3" class="Default">
+      <node ref="J_A" pin="7" pinfunction="LINE07_ROW_DRV3_7" pintype="passive"/>
+      <node ref="J_B" pin="18" pinfunction="LINE07_ROW_DRV3_18" pintype="passive"/>
+    </net>
+    <net code="8" name="LINE08_ROW_DRV4" class="Default">
+      <node ref="J_A" pin="8" pinfunction="LINE08_ROW_DRV4_8" pintype="passive"/>
+      <node ref="J_B" pin="17" pinfunction="LINE08_ROW_DRV4_17" pintype="passive"/>
+    </net>
+    <net code="9" name="LINE09_GND" class="Default">
+      <node ref="J_A" pin="9" pinfunction="LINE09_GND_9" pintype="passive"/>
+      <node ref="J_B" pin="16" pinfunction="LINE09_GND_16" pintype="passive"/>
+    </net>
+    <net code="10" name="LINE10_MUX_A" class="Default">
+      <node ref="J_A" pin="10" pinfunction="LINE10_MUX_A_10" pintype="passive"/>
+      <node ref="J_B" pin="15" pinfunction="LINE10_MUX_A_15" pintype="passive"/>
+    </net>
+    <net code="11" name="LINE11_MUX_B" class="Default">
+      <node ref="J_A" pin="11" pinfunction="LINE11_MUX_B_11" pintype="passive"/>
+      <node ref="J_B" pin="14" pinfunction="LINE11_MUX_B_14" pintype="passive"/>
+    </net>
+    <net code="12" name="LINE12_MUX_C" class="Default">
+      <node ref="J_A" pin="12" pinfunction="LINE12_MUX_C_12" pintype="passive"/>
+      <node ref="J_B" pin="13" pinfunction="LINE12_MUX_C_13" pintype="passive"/>
+    </net>
+    <net code="13" name="LINE13_MUX0_INH" class="Default">
+      <node ref="J_A" pin="13" pinfunction="LINE13_MUX0_INH_13" pintype="passive"/>
+      <node ref="J_B" pin="12" pinfunction="LINE13_MUX0_INH_12" pintype="passive"/>
+    </net>
+    <net code="14" name="LINE14_MUX1_INH" class="Default">
+      <node ref="J_A" pin="14" pinfunction="LINE14_MUX1_INH_14" pintype="passive"/>
+      <node ref="J_B" pin="11" pinfunction="LINE14_MUX1_INH_11" pintype="passive"/>
+    </net>
+    <net code="15" name="LINE15_DRAIN" class="Default">
+      <node ref="J_A" pin="15" pinfunction="LINE15_DRAIN_15" pintype="passive"/>
+      <node ref="J_B" pin="10" pinfunction="LINE15_DRAIN_10" pintype="passive"/>
+    </net>
+    <net code="16" name="LINE16_AFE_ON_N" class="Default">
+      <node ref="J_A" pin="16" pinfunction="LINE16_AFE_ON_N_16" pintype="passive"/>
+      <node ref="J_B" pin="9" pinfunction="LINE16_AFE_ON_N_9" pintype="passive"/>
+    </net>
+    <net code="17" name="LINE17_GND" class="Default">
+      <node ref="J_A" pin="17" pinfunction="LINE17_GND_17" pintype="passive"/>
+      <node ref="J_B" pin="8" pinfunction="LINE17_GND_8" pintype="passive"/>
+    </net>
+    <net code="18" name="LINE18_ADC_FLEX" class="Default">
+      <node ref="J_A" pin="18" pinfunction="LINE18_ADC_FLEX_18" pintype="passive"/>
+      <node ref="J_B" pin="7" pinfunction="LINE18_ADC_FLEX_7" pintype="passive"/>
+    </net>
+    <net code="19" name="LINE19_GND" class="Default">
+      <node ref="J_A" pin="19" pinfunction="LINE19_GND_19" pintype="passive"/>
+      <node ref="J_B" pin="6" pinfunction="LINE19_GND_6" pintype="passive"/>
+    </net>
+    <net code="20" name="LINE20_RESET" class="Default">
+      <node ref="J_A" pin="20" pinfunction="LINE20_RESET_20" pintype="passive"/>
+      <node ref="J_B" pin="5" pinfunction="LINE20_RESET_5" pintype="passive"/>
+    </net>
+    <net code="21" name="LINE21_GND" class="Default">
+      <node ref="J_A" pin="21" pinfunction="LINE21_GND_21" pintype="passive"/>
+      <node ref="J_B" pin="4" pinfunction="LINE21_GND_4" pintype="passive"/>
+    </net>
+    <net code="22" name="LINE22_BAT_SW" class="Default">
+      <node ref="J_A" pin="22" pinfunction="LINE22_BAT_SW_22" pintype="passive"/>
+      <node ref="J_B" pin="3" pinfunction="LINE22_BAT_SW_3" pintype="passive"/>
+    </net>
+    <net code="23" name="LINE23_BAT_SW" class="Default">
+      <node ref="J_A" pin="23" pinfunction="LINE23_BAT_SW_23" pintype="passive"/>
+      <node ref="J_B" pin="2" pinfunction="LINE23_BAT_SW_2" pintype="passive"/>
+    </net>
+    <net code="24" name="LINE24_GND" class="Default">
+      <node ref="J_A" pin="24" pinfunction="LINE24_GND_24" pintype="passive"/>
+      <node ref="J_B" pin="1" pinfunction="LINE24_GND_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
